@@ -1,12 +1,14 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Piggy Intercity Wiki - Codes, Map, Quests & Items",
+  "short_name": "Piggy Intercity",
+  "description": "Piggy Intercity Wiki covers Roblox codes, quests, map locations, items, weapons, base building, NPC choices and beginner survival tips for Evalia.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#e85d98",
   "background_color": "#0a0a0a",
+  "categories": ["games", "entertainment"],
+  "lang": "en",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
