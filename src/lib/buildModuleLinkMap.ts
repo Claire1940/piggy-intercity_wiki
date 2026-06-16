@@ -53,7 +53,10 @@ const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
   lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+// Filler words include both the legacy template game name ('lucid', 'blocks')
+// and the current Piggy Intercity game name ('piggy', 'intercity') so matching
+// keeps working before and after the content modules are migrated to Piggy Intercity.
+const FILLER_WORDS = ['lucid', 'blocks', 'piggy', 'intercity', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,8 +81,11 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
   let score = 0
 
   // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Strip both the legacy 'Lucid Blocks' and the target 'Piggy Intercity' game
+  // name prefix before comparing titles. Each branch is independent, so adding
+  // the piggy branch does not affect matching while modules are still lucid.
+  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*|piggy intercity\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*|piggy intercity\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
