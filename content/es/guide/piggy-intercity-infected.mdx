@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "piggy intercity infected: Guía de Supervivencia y Mecánicas de Mundo Abierto",
+  description: "Domina el ciclo de supervivencia de piggy intercity infected en Evalia. Explora niveles de armas, opciones de misiones, construcción de bases y recompensas exclusivas de la demo para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Survival+In+Evalia",
+  date: "2026-06-17",
+  author: "Equipo Wiki de piggy intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Navega por el mundo abierto de **piggy intercity infected** mientras gestionas los niveles de hambre, sed e infección.
+- **Recompensas de la Demo**: Completar la versión demo otorga **cristales gratis** en el lanzamiento completo, aunque los datos guardados no se transfieren.
+- **Ciclo Principal**: Interactúa con NPCs en Evalia, toma decisiones que alteran la narrativa y busca suministros de supervivencia.
+- **Enfoque de Combate**: Prioriza las armas cuerpo a cuerpo para la supervivencia temprana y guarda la munición a distancia para zonas de infección de alto peligro.
+- **Construcción de Bases**: Reclama parcelas temprano para establecer un centro de fabricación y almacenamiento seguro para tus recursos recolectados.
+</Callout>
+
+<Section icon={Shield} title="Sobreviviendo a la Amenaza de Piggy Intercity Infected">
+
+En el extenso paisaje de **piggy intercity infected**, los jugadores son lanzados a Evalia, un mundo devastado por una misteriosa infección. A diferencia de los mapas de escape tradicionales de Piggy, este RPG de mundo abierto se centra en la supervivencia a largo plazo, las relaciones entre personajes y los peligros ambientales. Cada paso que das en Evalia requiere un equilibrio entre exploración y gestión de recursos, ya que las amenazas infectadas son persistentes y se adaptan a tus movimientos.
+
+La infección no es solo un tema de fondo; es una presión mecánica que dicta cómo interactúas con el mundo. Debes monitorear constantemente tus signos vitales de supervivencia mientras evitas el contacto directo con zonas infectadas de alta concentración. Comprender la jerarquía de las necesidades de supervivencia es el primer paso para dominar el páramo.
+
+| Estadística de Supervivencia | Prioridad | Método de Recuperación Principal | Impacto del Agotamiento |
+| :--- | :--- | :--- | :--- |
+| **Salud** | Alta | Botiquines / Comida / Descanso | Muerte del personaje y pérdida de objetos |
+| **Hambre** | Media | Alimentos enlatados recolectados | Disminución gradual de la salud |
+| **Sed** | Media | Botellas de agua / Fuentes | Reducción de la resistencia y movimiento lento |
+| **Infección** | Crítica | Sueros especializados / Zonas seguras | Debuffs permanentes o transformación |
+
+<Callout type="success" title="Consejo de Supervivencia">
+Lleva siempre al menos dos fuentes de agua limpia. La sed se agota más rápido que el hambre durante el sprint intenso, y la falta de resistencia te convierte en un objetivo fácil para los infectados que merodean por las afueras de Evalia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión Paso a Paso para Principiantes">
+
+Navegar la transición de un jugador nuevo a un superviviente experimentado en **piggy intercity infected** requiere un orden específico de operaciones. Muchos jugadores cometen el error de ignorar la versión demo, pero las recompensas ofrecidas allí son esenciales para un buen comienzo en el juego completo. 
+
+<Steps>
+  <Step num="1" title="Asegura las Recompensas de la Demo">
+    Antes de sumergirte en el juego principal, completa la demo de Piggy Intercity. Aunque tu progreso no se transferirá, terminar la demo proporciona **cristales gratis** en la versión completa, que son vitales para compras tempranas y mejoras de equipo.
+  </Step>
+  <Step num="2" title="Establece Conexiones con NPCs">
+    Una vez en la versión completa, prioriza hablar con cada NPC que encuentres. Las elecciones en los diálogos afectan tu reputación y pueden desbloquear líneas de misiones únicas que proporcionan mejor equipo que el saqueo estándar.
+  </Step>
+  <Step num="3" title="Reclama tu Parcela Base">
+    Encuentra una parcela disponible en una zona de bajo peligro. Establecer una base te permite construir una mesa de fabricación, que es necesaria para convertir materiales brutos en herramientas de supervivencia avanzadas y estructuras defensivas.
+  </Step>
+  <Step num="4" title="Domina el Ciclo de Combate">
+    Aprende el momento de los bloqueos cuerpo a cuerpo y los disparos a la cabeza. La munición a distancia es escasa en Evalia, así que perfeccionar tu combate cuerpo a cuerpo contra infectados solitarios te ahorrará tus valiosas balas para encuentros con jefes o grandes hordas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estrategia de Progresión Pro">
+No te apresures a las "Rutas Peligrosas" al principio. Quédate en las áreas alrededor del centro inicial para recolectar materiales básicos como chatarra y madera antes de intentar cruzar la ciudad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploración y Ubicaciones Clave en Evalia">
+
+Evalia está dividida en varias zonas distintas, cada una con su propio nivel de amenaza y densidad de recursos. Gestionar tu ruta a través de las ubicaciones de **piggy intercity infected** es la diferencia entre un botín exitoso y una pérdida total de inventario.
+
+<CardGrid cols={3}>
+  <Card title="Zonas de Actividad Segura">
+    - **Nivel de Amenaza Bajo**
+    - Alta densidad de NPCs
+    - Ideal para comerciar y recoger misiones
+    - Botín limitado de saqueo
+  </Card>
+  <Card title="Rutas de Peligro de Infección">
+    - **Nivel de Amenaza Alto**
+    - Abundante botín de alto nivel
+    - Requiere preparación para el combate
+    - Frecuentes patrullas de infectados
+  </Card>
+  <Card title="Parcelas de Construcción de Bases">
+    - **Zonas de Propiedad del Jugador**
+    - Defensas personalizables
+    - Almacenamiento seguro para objetos
+    - Requiere materiales de construcción
+  </Card>
+</CardGrid>
+
+El mapa está diseñado para llevar a los jugadores a situaciones de "peso moral" donde las decisiones de diálogo determinan qué áreas permanecen accesibles. Por ejemplo, tomar partido por ciertas facciones podría bloquearte el acceso a áreas comerciales específicas, pero te otorgaría un paso seguro a través de peligrosos sectores industriales.
+
+| Tipo de Ubicación | Recursos Principales | Nivel de Peligro | Equipo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Residencial** | Comida / Agua / Tela | Bajo | Arma cuerpo a cuerpo básica |
+| **Industrial** | Chatarra / Herramientas / Combustible | Medio | Arma cuerpo a cuerpo reforzada |
+| **Médica** | Sueros / Botiquines | Alto | Armamento a distancia |
+| **Militar** | Munición / Armadura / Tecnología | Extremo | Equipo completo |
+
+<Callout type="info" title="Dato del Mundo">
+El "Mundo Abierto de Evalia" es dinámico. Algunas áreas que son seguras durante el día se convierten en puntos críticos para la actividad infectada por la noche, por lo que la gestión del tiempo es una habilidad de supervivencia fundamental.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Niveles de Armas y Equipo de Combate">
+
+El combate en **piggy intercity infected** es deliberado. No puedes simplemente spamear ataques; debes gestionar tu resistencia y usar el entorno a tu favor. Tu elección de armamento debe reflejar tu objetivo actual, ya sea que estés buscando comida o abriendo un camino para una misión.
+
+| Categoría de Arma | Rol | Valor Práctico | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Cuerpo a Cuerpo (Contundente)** | Control de Masas | **Alto** | Aturdir a infectados solitarios |
+| **Cuerpo a Cuerpo (Filosa)** | Alto Daño | **Nivel S** | Muertes rápidas para conservar resistencia |
+| **A Distancia (Pistola)** | Precisión | **Nivel A** | Eliminar amenazas a distancia |
+| **A Distancia (Escopeta)** | Daño de Ráfaga | **Nivel B** | Eliminación de hordas en emergencia |
+
+Las armas no son el único equipo que necesitas rastrear. Los objetos defensivos como chalecos acolchados y máscaras resistentes a la infección son esenciales para sobrevivir en las "Rutas Peligrosas".
+
+<Callout type="warning" title="Advertencia de Combate">
+Las armas tienen durabilidad. Usar un arma filosa de alto nivel en infectados de bajo nivel es un desperdicio de recursos. Siempre ten un arma "basura" para amenazas menores y guarda tu mejor equipo para encuentros críticos de misiones.
+</Callout>
+
+### Clasificación de Utilidad de Objetos
+
+Más allá de las armas, tu inventario estará lleno de varias herramientas y suministros. Clasificarlos te ayuda a decidir qué dejar caer cuando tu mochila esté llena.
+
+1. **Objetos Críticos de Misión**: Nunca los dejes caer. Son la única forma de avanzar en la historia y obtener mejoras de atributos permanentes.
+2. **Suministros Médicos**: Los sueros y botiquines son raros. Si encuentras un alijo médico, priorízalo sobre la comida.
+3. **Materiales de Construcción**: Necesarios para mejoras de la base pero pesados. Solo llévalos si te diriges directamente a tu parcela.
+4. **Chatarra y Basura**: Útiles para fabricar pero fáciles de encontrar. Estos deben ser los primeros objetos que descartes por un mejor botín.
+
+</Section>
+
+<Section icon={Sparkles} title="Construcción de Bases y Sistemas Secundarios">
+
+La versión completa del juego introduce la construcción de bases, un sistema que transforma **piggy intercity infected** de un simple RPG en una verdadera experiencia de supervivencia. Tu base sirve como punto de reaparición, centro de almacenamiento y centro de fabricación.
+
+<Checklist
+  id="base-setup"
+  title="Requisitos Iniciales de la Base:"
+  items={[
+    "Reclama una parcela abierta en Evalia",
+    "Construye un refugio de madera básico",
+    "Coloca una mesa de fabricación para herramientas avanzadas",
+    "Construye una caja de almacenamiento para guardar el inventario",
+    "Instala una valla perimetral para disuadir a los infectados"
+  ]}
+/>
+
+Los minijuegos también juegan un papel importante en la economía de Evalia. Participar en estas actividades secundarias ofrece un respiro de la tensión de la supervivencia al tiempo que ofrece recompensas como moneda para comprar o materiales raros para mejoras de la base.
+
+| Sistema | Propósito | Beneficio del Jugador |
+| :--- | :--- | :--- |
+| **Compras** | Adquisición de Recursos | Compra suministros que no puedes encontrar mediante el saqueo |
+| **Minijuegos** | Rejugabilidad | Gana moneda y recompensas cosméticas únicas |
+| **Atributos** | Crecimiento del Personaje | Sube de nivel estadísticas como velocidad, fuerza y sigilo |
+| **Fabricación** | Autosuficiencia | Crea objetos sin depender de los precios de las tiendas |
+
+<Callout type="success" title="Consejo de Construcción de Bases">
+Concéntrate primero en el almacenamiento. Cuantas más cajas tengas, más recursos podrás acumular para recetas de fabricación de alto nivel más adelante en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Misiones, Elecciones y Preguntas Frecuentes">
+
+La narrativa de **piggy intercity infected** está impulsada por tus interacciones con los supervivientes que quedan en Evalia. A diferencia de la mayoría de los juegos de Roblox, las decisiones de diálogo que tomes tienen "peso moral", lo que significa que pueden cambiar permanentemente cómo reaccionan los NPCs ante ti o incluso alterar los finales disponibles para tu personaje.
+
+### Mecánicas Narrativas
+- **Relaciones con NPCs**: Ayudar a un personaje podría ganarte un aliado leal pero convertirte en enemigo de una facción rival.
+- **Rutas de la Historia**: No hay un único camino "correcto". Tus elecciones moldean el mundo de Evalia a tu alrededor.
+- **Consecuencias Permanentes**: Atacar a NPCs neutrales o fallar misiones específicas puede llevar a la pérdida de centros comerciales.
+
+<Callout type="tip" title="Consejo de Diálogo">
+Lee el contexto de cada misión. Los NPCs a menudo sueltan pistas sobre peligros inminentes o ubicaciones de botín oculto que no están marcadas en tu mapa.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Mi progreso en la demo de Piggy Intercity se transfiere al juego completo?",
+    answer: "No, los datos guardados de la demo no se transfieren. Sin embargo, completar la demo te recompensa con cristales gratis en la versión completa."
+  },
+  {
+    question: "¿Cómo lidio con los altos niveles de infección en piggy intercity infected?",
+    answer: "Debes usar sueros especializados encontrados en zonas médicas o descansar en áreas seguras designadas para reducir tu medidor de infección."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para construir una base?",
+    answer: "Para principiantes, construir cerca del centro inicial es lo mejor debido a la proximidad a los NPCs y a las zonas de saqueo de bajo peligro. Los jugadores avanzados pueden preferir parcelas cerca de áreas industriales para un mejor acceso a los recursos."
+  },
+  {
+    question: "¿Cuál es la forma más efectiva de farmear cristales?",
+    answer: "La forma más consistente es completar misiones diarias y participar en minijuegos. Además, asegúrate de haber reclamado tu recompensa única por completar la demo."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity: Erkundungs- & Überlebensführer für die Innenstadt",
+  description: "Navigieren Sie durch die gefährlichen Innenstadtzonen von Piggy Intercity, meistern Sie Überlebenstaktiken und entdecken Sie versteckte Quests im Herzen Evalias.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Inner+City+Survival",
+  date: "2026-06-17",
+  author: "Piggy Intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity**: Konzentrieren Sie sich auf **Innenstadtzonen** für einzigartige Herausforderungen und Belohnungen.
+- **Überleben**: Priorisieren Sie **Ressourcenmanagement** und Schutzausrüstung in städtischen Umgebungen.
+- **Erkundung**: Achten Sie auf **NPC-Interaktionen** und versteckte Quest-Auslöser in den Stadtblöcken.
+- **Kampf**: Bereiten Sie sich mit geeigneten Waffen und taktischen Bewegungen auf **infizierte Bedrohungen** vor.
+- **Basisbau**: Nutzen Sie Stadtgrundstücke für den strategischen **Basisaufbau** und langfristigen Fortschritt.
+</Callout>
+
+<Section icon={Map} title="Navigation in der Innenstadt von Evalia">
+Die Innenstadt von Evalia in Piggy: Intercity bietet Spielern eine einzigartige Reihe von Herausforderungen und Möglichkeiten. Im Gegensatz zu den offeneren Gebieten sind städtische Umgebungen oft dichter, weisen komplexere Layouts, potenzielle Engpässe und konzentrierte Bedrohungen auf. Zu verstehen, wie man diese Gebiete effektiv navigiert, ist entscheidend für das Überleben und den Questfortschritt.
+
+**Video-Highlights:**
+- Überblick über das Open-World-Design von Piggy Intercity.
+- Einblicke in städtische Umgebungen und Begegnungen mit Infizierten.
+- Einführung in die Erkundung und Charakterinteraktionen.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity – Offizieller Überblick-Trailer" />
+
+Spieler werden verschiedene Zonen innerhalb der Innenstadt antreffen, jede mit ihren eigenen Merkmalen. Von verlassenen Geschäften bis hin zu befestigten Strukturen kann jeder Ort wertvolle Ressourcen oder gefährliche Infizierte beherbergen.
+
+<Callout type="tip">
+Spähen Sie immer voraus, wenn Sie neue Innenstadtblöcke betreten. Nutzen Sie erhöhte Positionen für bessere Sicht und planen Sie Ihre Fluchtwege, bevor Sie Feinde angreifen oder unbekannte Gebäude erkunden.
+</Callout>
+
+Hier ist eine Aufschlüsselung typischer Innenstadtorte:
+
+| Standorttyp     | Beschreibung                                       | Hauptmerkmale                                | Risiken                                    |
+| :-------------- | :------------------------------------------------- | :------------------------------------------- | :----------------------------------------- |
+| **Gewerbe**     | Verlassene Geschäfte, Märkte und Einkaufszentren.  | Plünderbare Container, potenzielle Questgegenstände. | Hohe Dichte an Infizierten, begrenzte Deckung. |
+| **Wohngebiet**  | Verfallene Wohnungen, Häuser und Wohnblöcke.      | Versteckte Depots, sichere Orte, Charakterinteraktionen. | Hinterhaltspunkte, enge Korridore.         |
+| **Industrie**   | Fabriken, Lagerhäuser und Baustellen.              | Rohmaterialien, Handwerksstationen, schwere Maschinen. | Umweltgefahren, starke Infiziertentypen.   |
+| **Öffentlich**  | Parks, Plätze und Stadtzentren.                    | Offene Kampfgebiete, Ressourcenknoten.       | Langstreckenbedrohungen ausgesetzt, weniger Deckung. |
+
+</Section>
+
+<Section icon={Target} title="Wesentliche Überlebensstrategien in der Innenstadt">
+Das Überleben in der Innenstadt von Piggy Intercity erfordert einen anderen Ansatz als in den Außenbezirken von Evalia. Der Nahkampf, die eingeschränkte Sicht und die Fülle an Infizierten erfordern sorgfältige Planung und Ausführung.
+
+<Steps>
+  <Step num="1" title="Priorisieren Sie Tarnung und Ausweichen">
+    In dicht besiedelten städtischen Gebieten kann eine direkte Konfrontation schnell dazu führen, dass man überwältigt wird. Nutzen Sie Deckung, Schatten und Umgebungsablenkungen, um Entdeckung zu vermeiden und große Gruppen von Infizierten zu umgehen.
+  </Step>
+  <Step num="2" title="Meistern Sie das Ressourcenmanagement">
+    Innenstadtbereiche enthalten oft vielfältigere Beute, verbrauchen aber auch Ressourcen schneller aufgrund erhöhter Kampf- und Erkundungsaktivitäten. Behalten Sie Ihre Nahrung, Wasser und Munition im Auge. Handwerk ist unerlässlich.
+  </Step>
+  <Step num="3" title="Nutzen Sie Verteidigungspositionen">
+    Wenn ein Kampf unvermeidlich ist, suchen Sie vorteilhafte Positionen wie Dächer, verbarrikadierte Räume oder erhöhte Plattformen. Diese können Deckung bieten und Feinde kanalisieren, wodurch sie leichter zu handhaben sind.
+  </Step>
+  <Step num="4" title="Verstehen Sie NPC-Interaktionen">
+    Viele Quests und kritische Entscheidungen finden innerhalb der Stadt statt. Interagieren Sie vorsichtig mit NPCs, da Dialogoptionen Ihren Ruf erheblich beeinflussen und neue Wege oder Konsequenzen freischalten können.
+  </Step>
+  <Step num="5" title="Planen Sie Ihre Fluchtstrategie">
+    Bevor Sie eine gefährliche Innenstadtzone betreten, identifizieren Sie potenzielle Fluchtwege. Zu wissen, wohin Sie gehen müssen, wenn es brenzlig wird, kann Ihr Leben retten und den Verlust wertvoller Ausrüstung verhindern.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Vorsicht vor Hinterhaltspunkten">
+Enge Gassen, verlassene Gebäude und dunkle Ecken sind Hauptorte für Hinterhalte von Infizierten. Nähern Sie sich diesen Bereichen immer vorsichtig und halten Sie eine Waffe bereit.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen und Ausrüstung für den Stadtkampf">
+Die Wahl der richtigen Ausrüstung ist entscheidend, um die Bedrohungen in der Innenstadt von Piggy Intercity zu bewältigen. Während alle Waffen ihre Verwendung haben, zeichnen sich bestimmte Typen in den Nahkampf- und hochintensiven Gefechten aus, die in städtischen Umgebungen üblich sind.
+
+| Waffentyp         | Bester Anwendungsfall in der Innenstadt            | Empfohlene Attribute            | Vorteile                                   | Nachteile                                  |
+| :---------------- | :------------------------------------------------ | :------------------------------- | :----------------------------------------- | :----------------------------------------- |
+| **Nahkampfwaffen** | Nahkampf, lautloses Ausschalten, Munition sparen. | Haltbarkeit, Schaden, Schwunggeschwindigkeit. | Leise, keine Munition nötig, gut für einzelne Ziele. | Hohes Risiko, begrenzte Reichweite, kann überwältigt werden. |
+| **Pistolen**      | Schnelle Züge, Kopfschüsse, überschaubare infizierte Gruppen. | Genauigkeit, Nachladegeschwindigkeit, kritische Trefferchance. | Leicht, gängige Munition, ordentlicher Schaden. | Begrenzte Magazinkapazität, weniger effektiv gegen schwere Rüstung. |
+| **Schrotflinten** | Raumreinigung, mehrere Infizierte, Crowd Control.  | Streuung, Schaden, Niederwerfkraft. | Hoher Burst-Schaden, effektiv auf kurze Distanz. | Langsames Nachladen, begrenzte Munition, ineffektiv auf Distanz. |
+| **Sturmgewehre**  | Dauerfeuer, mittlere Reichweite, Bosskämpfe.      | Feuerrate, Stabilität, Magazingröße. | Vielseitig, gut für mehrere Bedrohungen.    | Hoher Munitionsverbrauch, laut, zieht mehr Infizierte an. |
+
+<Callout type="info">
+Defensive Ausrüstung, wie verstärkte Rüstung und medizinische Versorgung, ist gleichermaßen wichtig. Investitionen in Gegenstände, die den Schaden reduzieren oder schnelle Heilung ermöglichen, erhöhen Ihre Überlebensfähigkeit erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basisbau an Innenstadtstandorten">
+Der Basisbau ist ein Kernmerkmal in Piggy: Intercity und bietet Spielern einen persönlichen Zufluchtsort und einen strategischen Dreh- und Angelpunkt für langfristiges Überleben. Der Aufbau einer Basis in der Innenstadt kann einzigartige Vorteile bieten, wie die Nähe zu Ressourcen und Questzielen, birgt aber auch erhöhte Risiken.
+
+<CardGrid cols={2}>
+  <Card title="Vorteile einer Innenstadtbasis">
+    - **Nähe zu Ressourcen**: Oft in der Nähe von Gewerbe- und Industriezonen zum Plündern.
+    - **Strategische Engpässe**: Bestehende Strukturen können befestigt werden, um starke Verteidigungen zu schaffen.
+    - **Zugang zu Quests**: Viele NPC-Interaktionen und Quest-Startpunkte befinden sich in städtischen Gebieten.
+    - **Deckung und Versteck**: Gebäude bieten natürlichen Schutz vor Wetter und einigen Bedrohungen.
+  </Card>
+  <Card title="Herausforderungen einer Innenstadtbasis">
+    - **Hohe Bedrohungsdichte**: Häufigere Angriffe und Patrouillen von Infizierten.
+    - **Begrenzter Platz**: Kann im Vergleich zu Open-World-Grundstücken schwieriger zu erweitern sein.
+    - **Ressourcenkonkurrenz**: Andere Spieler oder Fraktionen könnten um begehrte Standorte konkurrieren.
+    - **Geräuschattraktion**: Bauaktivitäten können unerwünschte Aufmerksamkeit auf sich ziehen.
+  </Card>
+</CardGrid>
+
+Bei der Auswahl eines Grundstücks für Ihre Innenstadtbasis sollten Sie Standorte in Betracht ziehen, die natürliche Verteidigung, mehrere Ein- und Ausstiegspunkte und Zugang zu wesentlichen Versorgungseinrichtungen bieten.
+
+<Checklist
+  id="base-setup"
+  title="Prioritäten für den Aufbau einer Innenstadtbasis:"
+  items={[
+    "Sichern Sie einen verteidigungsfähigen Standort (z.B. Dach, befestigtes Gebäude)",
+    "Richten Sie einen Basteltisch für wichtige Gegenstände ein",
+    "Richten Sie Ressourcensammelpunkte ein (Wasser, Nahrung, Materialien)",
+    "Installieren Sie grundlegende Verteidigungen (Barrikaden, Fallen)",
+    "Planen Sie Notfluchtwege"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Piggy Intercity Innenstadt">
+
+<FAQ items={[
+  {
+    question: "Was unterscheidet die Innenstadt von anderen Gebieten in Piggy Intercity?",
+    answer: "Die Innenstadt zeichnet sich durch dichtere Layouts, konzentriertere Bedrohungen durch Infizierte, einzigartige kommerzielle und Wohnbeute sowie eine höhere Häufigkeit von NPC-Interaktionen und Quests aus. Sie erfordert einen taktischeren und auf Tarnung ausgerichteten Überlebensansatz."
+  },
+  {
+    question: "Gibt es exklusive Gegenstände oder Ressourcen, die nur in der Innenstadt gefunden werden?",
+    answer: "Obwohl spezifische exklusive Gegenstände nicht explizit detailliert sind, neigen kommerzielle und industrielle Zonen der Innenstadt dazu, vielfältigere und spezialisiertere Beute zu liefern, einschließlich Handwerkskomponenten und höherwertiger Waffen, im Vergleich zu ländlichen Gebieten. Diese sind entscheidend für den Fortschritt in Piggy Intercity."
+  },
+  {
+    question: "Wie wirken sich Entscheidungen auf mein Erlebnis in der Innenstadt aus?",
+    answer: "Entscheidungen, die während NPC-Interaktionen in der Innenstadt getroffen werden, können Ihren Ruf bei verschiedenen Fraktionen erheblich beeinflussen, neue Questreihen freischalten oder sogar bestimmte Gebiete feindselig machen. Achten Sie genau auf Dialoge, da diese Entscheidungen integraler Bestandteil des entscheidungsgesteuerten RPG-Erlebnisses von Piggy Intercity sind."
+  },
+  {
+    question: "Kann ich eine dauerhafte Basis in der Innenstadt bauen, oder ist es zu gefährlich?",
+    answer: "Ja, Sie können eine dauerhafte Basis in der Innenstadt bauen. Obwohl es aufgrund der höheren Bedrohungsdichte gefährlicher ist, kann eine strategische Basisplatzierung und -befestigung einen starken, verteidigungsfähigen Knotenpunkt in der Nähe wertvoller Ressourcen und Questorte schaffen. Es ist eine High-Risk-High-Reward-Strategie in Piggy Intercity."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hammer, Home, Box, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity Basisbau: 2026 Einrichtungsleitfaden & Designs",
+  description: "Meistern Sie den Piggy Intercity Basisbau mit unserem 2026-Leitfaden. Lernen Sie, Grundstücke zu beanspruchen, Materialien zu sammeln und die ultimative Überlebensbasis in Evalia zu errichten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Base+Building+Guide",
+  date: "2026-06-17",
+  author: "Piggy Intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Basisbau** ist eine zentrale Überlebensmechanik, die exklusiv in der Vollversion des Spiels verfügbar ist.
+- Zum **Beanspruchen von Grundstücken** müssen Sie ausgewiesene Bereiche innerhalb von Evalia finden und spezifische Ressourcen verwenden.
+- **Werkbänke** sind unerlässlich, um Rohmaterialien in Bauteile zu verarbeiten.
+- **Verteidigungsstrukturen** schützen Ihr Inventar und Ihren Fortschritt vor infizierten Bedrohungen.
+- **Demo-Belohnungen** wie Kristalle können einen erheblichen Vorsprung für Ihre erste Basis bieten.
+</Callout>
+
+<Section icon={Home} title="Beginn Ihrer Piggy Intercity Basisbau-Reise">
+
+In der trostlosen Welt von Evalia geht es beim Überleben nicht nur darum, vor den Infizierten wegzulaufen; es geht darum, einen Fuß zu fassen. Der **Piggy Intercity Basisbau** dient als primäres System für den Spielerfortschritt und bietet einen sicheren Hafen, in dem Sie Gegenstände lagern, Werte wiederherstellen und sich auf Quests vorbereiten können. Im Gegensatz zur Demoversion, die sich auf einführende Mechaniken konzentriert, spiegelt die Vollversion von Piggy Intercity Ihre Basis als dauerhaftes Abbild Ihrer Entscheidungen und Überlebensfähigkeiten wider.
+
+Um mit dem Bau zu beginnen, müssen Sie zuerst die Umgebung von Evalia verstehen. Die Karte ist in verschiedene Zonen unterteilt, von denen einige als bebaubare Grundstücke ausgewiesen sind. Diese Grundstücke sind auf Multiplayer-Servern stark umkämpft, was die Navigation im frühen Spiel und das Beanspruchen von Grundstücken zu einer Top-Priorität für jeden ernsthaften Überlebenden macht.
+
+| Merkmal | Beschreibung | Bedeutung |
+| :--- | :--- | :--- |
+| **Grundstück beanspruchen** | Sicherung eines physischen Standorts auf der Karte für Ihre Strukturen | Hoch (Obligatorisch) |
+| **Materialbeschaffung** | Sammeln von Holz, Metall und Stein aus der Umgebung | Hoch (Kontinuierlich) |
+| **Werkbank** | Die zentrale Anlaufstelle für die Herstellung von Wänden, Böden und Möbeln | Essenziell |
+| **Lagerungseinheiten** | Behälter zum Speichern von Gegenständen über Spielsitzungen hinweg | Mittel (Früh) |
+
+<Callout type="tip" title="Lage ist alles">
+Wenn Sie Ihr **Piggy Intercity Basisbau**-Projekt beginnen, suchen Sie nach Grundstücken in der Nähe von ressourcenreichen Gebieten wie dem Sägewerk oder der Schule. Die Nähe zu Wasser- und Nahrungsquellen wird den Zeitaufwand für die Überlebenserhaltung drastisch reduzieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt für Schritt: Bauen Sie Ihren ersten Unterschlupf">
+
+Der Bau einer Basis in Piggy Intercity ist ein mehrstufiger Prozess, der sorgfältige Planung erfordert. Sie können Wände nicht einfach überall platzieren; das Spiel verwendet ein rasterbasiertes System, das an bestimmte "Claim Stakes" gebunden ist. Ein strukturierter Ansatz stellt sicher, dass Sie keine wertvollen Materialien für ein schlecht verteidigtes oder ineffizientes Layout verschwenden.
+
+<Steps>
+  <Step num="1" title="Suchen Sie ein verfügbares Grundstück">
+    Reisen Sie durch Evalia, um ein freies Grundstück zu finden. Achten Sie auf die weißen Begrenzungslinien oder einen physischen Pfahl im Boden. Wenn ein Grundstück bereits von einem anderen Spieler beansprucht wurde, müssen Sie einen anderen Server oder einen abgelegeneren Ort finden.
+  </Step>
+  <Step num="2" title="Beanspruchen Sie den Pfahl">
+    Interagieren Sie mit dem Grundstückspfahl. Möglicherweise benötigen Sie eine kleine Menge Währung oder ein grundlegendes Werkzeug, um den Anspruch abzuschließen. Sobald beansprucht, gehört dieser Bereich Ihnen zum Bauen, und andere Spieler können keine Strukturen innerhalb Ihrer Grenzen platzieren.
+  </Step>
+  <Step num="3" title="Richten Sie eine Werkbank ein">
+    Bevor Sie Wände platzieren, benötigen Sie eine Werkbank. Dies ist das Herzstück des **Piggy Intercity Basisbaus**. Sie ermöglicht es Ihnen, rohe Baumstämme in Bretter und Altmetall in verstärkte Platten umzuwandeln.
+  </Step>
+  <Step num="4" title="Errichten Sie den Perimeter">
+    Beginnen Sie mit einem Fundament und grundlegenden Wänden. Konzentrieren Sie sich zuerst auf die Schaffung eines einzelnen, sicheren Raumes. Dieser Raum sollte Ihr Bett (zum Wiederbeleben) und Ihre Lagerkisten beherbergen, um Ihre wertvollste Beute zu schützen.
+  </Step>
+  <Step num="5" title="Befestigen und Erweitern">
+    Sobald die Grundlagen gelegt sind, fügen Sie Fenster für Sichtbarkeit und verstärkte Türen hinzu. Wenn Sie Ihre Attribute in der Vollversion aufleveln, werden Sie größere Blaupausen und haltbarere Materialien freischalten.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Speicherdaten-Warnung">
+Denken Sie daran, dass Sie zwar durch das Abschließen der Demo Kristalle für das vollständige Spiel erhalten, Ihr Demo-Fortschritt jedoch nicht übernommen wird. Konzentrieren Sie Ihre dauerhaften Bauanstrengungen ausschließlich auf die offizielle [JETZT VERFÜGBAR]-Version von Piggy Intercity.
+</Callout>
+
+</Section>
+
+<Section icon={Box} title="Wesentliche Materialien und Ressourcenmanagement">
+
+Um im **Piggy Intercity Basisbau** erfolgreich zu sein, müssen Sie ein Experte im Plündern werden. Die Welt von Evalia ist übersät mit Schrott, aber für einen Baumeister ist dieser Schrott Gold wert. Verschiedene Strukturen erfordern unterschiedliche Materialstufen, von einfachem Holz bis hin zu hochwertigen Industrielegierungen, die in gefährlichen Infektionszonen gefunden werden.
+
+<CardGrid cols={3}>
+  <Card title="Holzkomponenten">
+    - **Quelle**: Bäume und Sägewerk
+    - **Verwendung**: Grundlegende Wände und Böden
+    - **Haltbarkeit**: Gering
+  </Card>
+  <Card title="Metallschrott">
+    - **Quelle**: Verlassene Autos und Stadt
+    - **Verwendung**: Verstärkte Türen und Werkzeuge
+    - **Haltbarkeit**: Mittel
+  </Card>
+  <Card title="Industrieteile">
+    - **Quelle**: Questzonen mit hohem Risiko
+    - **Verwendung**: Fortschrittliche Maschinen und Energie
+    - **Haltbarkeit**: Hoch
+  </Card>
+</CardGrid>
+
+Die Verwaltung Ihres Inventars ist entscheidend. Da Ihr Rucksack nur begrenzte Plätze hat, sollten Sie Baumaterialien entsprechend Ihrem aktuellen Ziel priorisieren. Wenn Sie sich in der "Gründungsphase" befinden, ignorieren Sie dekorative Gegenstände und konzentrieren Sie sich ausschließlich auf große Mengen Holz und Stein.
+
+| Material | Hauptstandort | Schwierigkeit zu finden | Handwerksertrag |
+| :--- | :--- | :--- | :--- |
+| **Kieferstämme** | Waldgrenzen | Einfach | Bretter, Stöcke |
+| **Rostiger Schrott** | Stadtstraßen | Mittel | Nägel, Scharniere |
+| **Steinziegel** | Steinbruch/Felsvorsprünge | Mittel | Steinmauern, Fundamente |
+| **Elektronische Komponenten** | Kraftwerk | Schwer | Lichter, Automatisierte Verteidigungen |
+
+<Callout type="info" title="Die Rolle der Kristalle">
+Kristalle, die durch den Abschluss der Demo oder besondere Events verdient wurden, können oft gegen seltene Baukomponenten oder Blaupausen eingetauscht werden. Nutzen Sie sie weise, um den Grind für hochwertige Industrieteile zu umgehen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basisverteidigung und Überlebensstrategie">
+
+Eine Basis ist nur dann nützlich, wenn sie die Infizierten draußen halten kann. Der **Piggy Intercity Basisbau** umfasst eine Vielzahl von Verteidigungsoptionen, von einfachen Barrikaden bis hin zu komplexen Fallen. Da Evalia eine offene Welt ist, können Bedrohungen aus jeder Richtung kommen, besonders nachts, wenn die Aktivität der Infizierten zunimmt.
+
+Berücksichtigen Sie beim Entwurf Ihres Layouts die "Luftschleusen"-Strategie. Indem Sie zwei Türsätze an Ihrem Eingang anbringen, verhindern Sie, dass Infizierte (oder feindliche Spieler) in Ihren Hauptlagerbereich stürmen, wenn Sie nach Hause verfolgt werden.
+
+| Verteidigungstyp | Wirksamkeit | Ressourcenkosten | Am besten geeignet für |
+| :--- | :--- | :--- | :--- |
+| **Holzbarrikaden** | ★★☆☆☆ | Niedrig | Temporäre Fensterabdeckung |
+| **Spike-Fallen** | ★★★☆☆ | Mittel | Wegmanipulation |
+| **Verstärkte Stahlwände** | ★★★★☆ | Hoch | Hauptperimeterverteidigung |
+| **Automatisierte Geschütztürme** | ★★★★★ | Sehr Hoch | Endspiel-Sicherheit |
+
+<Checklist
+  id="base-safety"
+  title="Checkliste für die Überlebensbasis:"
+  items={[
+    "Umfassungsmauern sind vollständig geschlossen und lückenlos",
+    "Primärer Lagerraum befindet sich in der Mitte der Basis",
+    "Ein Bett oder Spawnpunkt ist in einem sicheren Raum eingerichtet",
+    "Mindestens zwei Ausgänge für Notfälle vorhanden",
+    "Lichtquellen sind platziert, um Spawns in dunklen Zonen zu verhindern"
+  ]}
+/>
+
+<Callout type="success" title="Auswirkung der Wahl">
+In Piggy Intercity können Ihre Entscheidungen mit NPCs Ihre Basis beeinflussen. Wenn Sie bestimmten Charakteren helfen, können Sie einzigartige Basisdekorationen oder sogar NPC-Wachen freischalten, die Ihnen bei der Verteidigung Ihres Grundstücks helfen, während Sie unterwegs sind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittener Fortschritt und Anpassung">
+
+Sobald Sie die Grundlagen des **Piggy Intercity Basisbaus** gemeistert haben, können Sie sich auf die ästhetischen und funktionalen Upgrades konzentrieren, die eine Basis zu einem Zuhause machen. Die Vollversion des Spiels führt Minispiele und Einkaufsbereiche ein, in denen Sie Möbel, Farben und fortgeschrittene Gebrauchsgegenstände wie Kühlschränke oder Stromgeneratoren erwerben können.
+
+Die Stromversorgung Ihrer Basis ist ein wichtiger Meilenstein. Elektrizität ermöglicht eine bessere Beleuchtung, automatisierte Verteidigungen und die Nutzung von hochstufigen Werkstätten, die die besten Waffen im Spiel herstellen können. Dieses Fortschrittsniveau erfordert eine stetige Versorgung mit Kraftstoff oder Solarkomponenten, die typischerweise auf den gefährlichsten "Gefahrenrouten" von Evalia zu finden sind.
+
+<CardGrid cols={2}>
+  <Card title="Funktionale Upgrades">
+    - **Wasserreiniger**: Konstante Hydratationsquelle
+    - **Öfen**: Kochen Sie fortgeschrittene Speisen für bessere Buffs
+    - **Werkbänke**: Reparieren Sie beschädigte Waffen und Werkzeuge
+  </Card>
+  <Card title="Soziale Funktionen">
+    - **Gastzugang**: Freunden erlauben, beim Bauen zu helfen
+    - **Handelsposten**: Richten Sie einen Laden für andere Spieler ein
+    - **Trophäenanzeigen**: Zeigen Sie questspezifische Belohnungen an
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gruppenbau">
+Piggy Intercity ist ein Multiplayer-RPG. Das Bauen in einer Gruppe ermöglicht es Ihnen, Ressourcen zu bündeln und größere Grundstücke zu beanspruchen. Ein gut koordiniertes Team kann eine befestigte Anlage in einem Bruchteil der Zeit errichten, die ein Solospieler benötigen würde.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Piggy Intercity Basisbau FAQ">
+
+<FAQ items={[
+  {
+    question: "Können andere Spieler meine Basis in Piggy Intercity zerstören?",
+    answer: "Das Spiel verfügt über spezifische Regeln bezüglich des Basis-Griefings. Auf Standardservern sind Ihre Kernstrukturen geschützt, sobald ein Grundstück beansprucht wurde, aber bestimmte Gegenstände oder äußere Barrikaden können je nach Servereinstellungen anfällig sein."
+  },
+  {
+    question: "Was passiert mit meiner Basis, wenn ich den Server verlasse?",
+    answer: "In der Vollversion von Piggy Intercity wird Ihre Basis auf Ihrem Konto gespeichert. Wenn Sie einem Server wieder beitreten, versucht Ihre Basis, in dem von Ihnen beanspruchten Grundstück geladen zu werden. Sollte dieses Grundstück belegt sein, müssen Sie möglicherweise einen Server finden, auf dem es verfügbar ist."
+  },
+  {
+    question: "Muss ich die Demo für den Piggy Intercity Basisbau abschließen?",
+    answer: "Nein, Sie können sofort in der Vollversion mit dem Bauen beginnen. Das Abschließen der Demo bietet jedoch kostenlose Kristalle, die zum Kauf von Baumaterialien verwendet werden können und Ihren frühen Fortschritt beschleunigen."
+  },
+  {
+    question: "Wo findet man am besten Metall zum Bauen?",
+    answer: "Metall findet man am häufigsten in städtischen Gebieten und Industriezonen. Das Plündern in der Nähe verlassener Fahrzeuge oder in den Bereichen Schule und Fabrik bringt die größte Menge Altmetall ein."
+  }
+]} />
+
+<Callout type="info" title="Letzter Ratschlag">
+Bewahren Sie immer eine "Notfalltasche" in Ihrer Basis auf. Wenn Ihr Perimeter durchbrochen wird oder Sie schnell zu einem neuen Grundstück umziehen müssen, erleichtert ein Rucksack, der mit wichtigen Werkzeugen und Startmaterialien vorbestückt ist, den Übergang erheblich.
+</Callout>
+
+</Section>

@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity: Guía de Exploración y Supervivencia en la Ciudad Interior",
+  description: "Navega por las peligrosas zonas de la ciudad interior de Piggy Intercity, domina las tácticas de supervivencia y descubre misiones ocultas en el corazón de Evalia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Inner+City+Survival",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Piggy Intercity**: Concéntrate en las zonas de la **ciudad interior** para desafíos y recompensas únicas.
+- **Supervivencia**: Prioriza la **gestión de recursos** y el equipo defensivo en entornos urbanos.
+- **Exploración**: Busca **interacciones con NPC** y activadores de misiones ocultas dentro de los bloques de la ciudad.
+- **Combate**: Prepárate para las **amenazas infectadas** con armas apropiadas y movimiento táctico.
+- **Construcción de bases**: Utiliza parcelas urbanas para una **configuración estratégica de la base** y progresión a largo plazo.
+</Callout>
+
+<Section icon={Map} title="Navegando por la Ciudad Interior de Evalia">
+La ciudad interior de Evalia en Piggy: Intercity presenta un conjunto único de desafíos y oportunidades para los jugadores. A diferencia de las áreas más abiertas, los entornos urbanos suelen ser más densos, con diseños más intrincados, posibles puntos de estrangulamiento y amenazas concentradas. Comprender cómo navegar eficazmente por estas áreas es crucial para la supervivencia y la progresión de las misiones.
+
+**Aspectos destacados del vídeo:**
+- Descripción general del diseño de mundo abierto de Piggy Intercity.
+- Vistazos de entornos urbanos y encuentros con infectados.
+- Introducción a la exploración y las interacciones con los personajes.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity - Tráiler oficial de descripción general" />
+
+Los jugadores encontrarán varias zonas dentro de la ciudad interior, cada una con sus propias características. Desde tiendas abandonadas hasta estructuras fortificadas, cada ubicación puede contener recursos valiosos o infectados peligrosos.
+
+<Callout type="tip">
+Siempre explora con antelación al entrar en nuevos bloques de la ciudad interior. Utiliza terrenos elevados para una mejor visibilidad y planifica tus rutas de escape antes de enfrentarte a enemigos o explorar edificios desconocidos.
+</Callout>
+
+Aquí tienes un desglose de las ubicaciones típicas de la ciudad interior:
+
+| Tipo de Ubicación | Descripción                                        | Características Clave                                  | Riesgos                                      |
+| :------------ | :------------------------------------------------- | :-------------------------------------------- | :----------------------------------------- |
+| **Comercial**  | Tiendas abandonadas, mercados y centros comerciales.   | Contenedores con botín, posibles objetos de misión.   | Alta densidad de infectados, cobertura limitada.   |
+| **Residencial** | Apartamentos, casas y bloques de viviendas en ruinas. | Escondites ocultos, puntos seguros, interacciones con personajes. | Puntos de emboscada, pasillos estrechos.            |
+| **Industrial**  | Fábricas, almacenes y obras de construcción.     | Materias primas, estaciones de fabricación, maquinaria pesada. | Peligros ambientales, tipos de infectados fuertes. |
+| **Público**      | Parques, plazas y plazas de la ciudad.                   | Áreas de combate abierto, nodos de recursos.            | Expuesto a amenazas de largo alcance, menos cobertura. |
+
+</Section>
+
+<Section icon={Target} title="Estrategias Esenciales de Supervivencia en la Ciudad Interior">
+La supervivencia en la ciudad interior de Piggy Intercity exige un enfoque diferente en comparación con las afueras de Evalia. El combate cuerpo a cuerpo, la visibilidad limitada y la abundancia de infectados requieren una planificación y ejecución cuidadosas.
+
+<Steps>
+  <Step num="1" title="Prioriza el sigilo y la evasión">
+    En áreas urbanas densamente pobladas, la confrontación directa puede llevar rápidamente a ser abrumado. Utiliza la cobertura, las sombras y las distracciones ambientales para evitar la detección y sortear grandes grupos de infectados.
+  </Step>
+  <Step num="2" title="Domina la gestión de recursos">
+    Las áreas de la ciudad interior a menudo contienen un botín más variado, pero también consumen recursos más rápidamente debido al aumento del combate y la exploración. Controla tu comida, agua y munición. La fabricación es esencial.
+  </Step>
+  <Step num="3" title="Utiliza posiciones defensivas">
+    Cuando el combate sea inevitable, busca posiciones ventajosas como tejados, habitaciones barricadas o plataformas elevadas. Estas pueden proporcionar cobertura y canalizar a los enemigos, haciéndolos más fáciles de manejar.
+  </Step>
+  <Step num="4" title="Comprende las interacciones con los NPC">
+    Muchas misiones y decisiones críticas ocurren dentro de la ciudad. Interactúa con los NPC con cuidado, ya que las opciones de diálogo pueden afectar significativamente tu reputación y desbloquear nuevas vías o consecuencias.
+  </Step>
+  <Step num="5" title="Planifica tu estrategia de escape">
+    Antes de entrar en cualquier zona peligrosa de la ciudad interior, identifica posibles rutas de escape. Saber adónde ir si las cosas van mal puede salvar tu vida y evitar la pérdida de equipo valioso.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cuidado con los puntos de emboscada">
+Los callejones estrechos, los edificios abandonados y los rincones oscuros son lugares propicios para emboscadas de infectados. Siempre acércate a estas áreas con precaución y ten un arma lista.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armas y Equipo para el Combate Urbano">
+Elegir el equipo adecuado es primordial para afrontar las amenazas dentro de la ciudad interior de Piggy Intercity. Si bien todas las armas tienen sus usos, ciertos tipos sobresalen en los enfrentamientos cuerpo a cuerpo y de alta intensidad comunes en entornos urbanos.
+
+| Tipo de Arma     | Mejor Caso de Uso en la Ciudad Interior                       | Atributos Recomendados                 | Ventajas                                     | Desventajas                                     |
+| :-------------- | :------------------------------------------------ | :------------------------------------- | :--------------------------------------- | :--------------------------------------- |
+| **Armas Cuerpo a Cuerpo** | Combate cuerpo a cuerpo, derribos sigilosos, conservación de munición. | Durabilidad, daño, velocidad de golpe.       | Silenciosas, no necesitan munición, buenas para objetivos individuales. | Alto riesgo, alcance limitado, se puede ser abrumado. |
+| **Pistolas**     | Disparos rápidos, disparos a la cabeza, grupos de infectados manejables. | Precisión, velocidad de recarga, probabilidad crítica. | Ligeras, munición común, daño decente. | Capacidad limitada del cargador, menos efectivas contra armaduras pesadas. |
+| **Escopetas**    | Limpieza de habitaciones, múltiples infectados, control de masas.    | Dispersión, daño, poder de derribo.       | Alto daño explosivo, efectivas a corta distancia. | Recarga lenta, munición limitada, ineficaces a distancia. |
+| **Rifles de Asalto**| Fuego sostenido, enfrentamientos de medio alcance, peleas de jefes. | Cadencia de fuego, estabilidad, tamaño del cargador.   | Versátiles, buenas para múltiples amenazas.     | Alto consumo de munición, ruidosas, atraen más infectados. |
+
+<Callout type="info">
+El equipo defensivo, como armaduras reforzadas y suministros médicos, es igualmente importante. Invertir en artículos que reduzcan el daño o proporcionen una curación rápida aumentará significativamente tu capacidad de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Bases en Ubicaciones de la Ciudad Interior">
+La construcción de bases es una característica central en Piggy: Intercity, ofreciendo a los jugadores un refugio personal y un centro estratégico para la supervivencia a largo plazo. Establecer una base dentro de la ciudad interior puede proporcionar ventajas únicas, como la proximidad a los recursos y los objetivos de las misiones, pero también conlleva mayores riesgos.
+
+<CardGrid cols={2}>
+  <Card title="Ventajas de una Base en la Ciudad Interior">
+    - **Proximidad a los recursos**: A menudo cerca de zonas comerciales e industriales para el saqueo.
+    - **Puntos de estrangulamiento estratégicos**: Las estructuras existentes pueden fortificarse para crear defensas sólidas.
+    - **Acceso a misiones**: Muchas interacciones con NPC y puntos de inicio de misiones se encuentran en áreas urbanas.
+    - **Cobertura y ocultamiento**: Los edificios ofrecen protección natural contra el clima y algunas amenazas.
+  </Card>
+  <Card title="Desafíos de una Base en la Ciudad Interior">
+    - **Alta densidad de amenazas**: Ataques y patrullas de infectados más frecuentes.
+    - **Espacio limitado**: Puede ser más difícil de expandir en comparación con parcelas de mundo abierto.
+    - **Disputa de recursos**: Otros jugadores o facciones podrían competir por ubicaciones deseables.
+    - **Atracción de ruido**: Las actividades de construcción pueden atraer atención no deseada.
+  </Card>
+</CardGrid>
+
+Al elegir una parcela para tu base en la ciudad interior, considera ubicaciones que ofrezcan defensas naturales, múltiples puntos de entrada/salida y acceso a servicios esenciales.
+
+<Checklist
+  id="base-setup"
+  title="Prioridades de Configuración de la Base en la Ciudad Interior:"
+  items={[
+    "Asegurar una ubicación defendible (ej., azotea, edificio fortificado)",
+    "Establecer una mesa de fabricación para objetos esenciales",
+    "Configurar puntos de recolección de recursos (agua, comida, materiales)",
+    "Instalar defensas básicas (barricadas, trampas)",
+    "Planificar rutas de escape de emergencia"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Ciudad Interior de Piggy Intercity">
+
+<FAQ items={[
+  {
+    question: "¿Qué diferencia a la ciudad interior de otras áreas en Piggy Intercity?",
+    answer: "La ciudad interior presenta diseños más densos, amenazas de infectados más concentradas, botín comercial y residencial único, y una mayor frecuencia de interacciones con NPC y misiones. Demanda un enfoque de supervivencia más táctico y orientado al sigilo."
+  },
+  {
+    question: "¿Hay algún objeto o recurso exclusivo que solo se encuentre en la ciudad interior?",
+    answer: "Aunque no se detallan explícitamente objetos exclusivos específicos, las zonas comerciales e industriales de la ciudad interior tienden a producir un botín más variado y especializado, incluidos componentes de fabricación y armas de mayor nivel, en comparación con las áreas rurales. Estos son cruciales para la progresión en Piggy Intercity."
+  },
+  {
+    question: "¿Cómo afectan las decisiones a mi experiencia en la ciudad interior?",
+    answer: "Las decisiones tomadas durante las interacciones con NPC en la ciudad interior pueden afectar significativamente tu reputación con varias facciones, desbloquear nuevas líneas de misiones o incluso volver hostiles ciertas áreas. Presta mucha atención a los diálogos, ya que estas decisiones son parte integral de la experiencia RPG basada en elecciones de Piggy Intercity."
+  },
+  {
+    question: "¿Puedo construir una base permanente en la ciudad interior, o es demasiado peligroso?",
+    answer: "Sí, puedes construir una base permanente en la ciudad interior. Aunque es más peligrosa debido a la mayor densidad de amenazas, la ubicación estratégica y la fortificación de la base pueden crear un centro fuerte y defendible cerca de recursos valiosos y ubicaciones de misiones. Es una estrategia de alto riesgo y alta recompensa en Piggy Intercity."
+  }
+]} />
+
+</Section>
