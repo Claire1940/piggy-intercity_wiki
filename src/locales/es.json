@@ -1,1 +1,645 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Piggy Intercity Wiki - Códigos, Mapa, Misiones y Artículos",
+      "description": "Piggy Intercity Wiki cubre códigos de Roblox, misiones, ubicaciones de mapas, artículos, armas, construcción de bases, elecciones de NPC y consejos de supervivencia para principiantes para Evalia.",
+      "keywords": "Piggy Intercity, Roblox, códigos, mapa, misiones, artículos, armas, base",
+      "ogTitle": "Piggy Intercity Wiki - Códigos, Mapa, Misiones y Artículos",
+      "ogDescription": "Piggy Intercity Wiki cubre códigos de Roblox, misiones, ubicaciones de mapas, artículos, armas, construcción de bases, elecciones de NPC y consejos de supervivencia para principiantes para Evalia.",
+      "twitterTitle": "Piggy Intercity Wiki - Códigos, Mapa, Misiones y Artículos",
+      "twitterDescription": "Piggy Intercity Wiki cubre códigos de Roblox, misiones, mapa, artículos, armas, construcción de bases y consejos de supervivencia para principiantes para Evalia."
+    }
+  },
+  "nav": {
+    "release": "Lanzamiento",
+    "demo": "Demo",
+    "guide": "Guía",
+    "map": "Mapa",
+    "quests": "Misiones",
+    "weapons": "Armas"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de mundo abierto impulsado por decisiones",
+    "title": "Piggy Intercity Wiki",
+    "description": "Explora Evalia, completa misiones, conoce personajes, recolecta objetos, construye una base, lucha contra enemigos infectados y toma decisiones que dan forma a tu historia en Piggy Intercity.",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "3.8M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "71K+",
+        "label": "CCU máximo"
+      },
+      "stat3": {
+        "value": "97%",
+        "label": "Calificación del jugador"
+      },
+      "stat4": {
+        "value": "16",
+        "label": "Jugadores máximos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Piggy Intercity",
+    "description": "Explora el mundo abierto de Evalia, completa misiones, conoce personajes, construye una base y sobrevive a la infección en este RPG multijugador impulsado por decisiones en Roblox."
+  },
+  "tools": {
+    "title": "Explorar",
+    "titleHighlight": "Piggy Intercity",
+    "subtitle": "Accede directamente a la guía de Piggy Intercity que necesitas, desde códigos y enlaces de juego hasta misiones, mapas, objetos y construcción de bases.",
+    "cards": [
+      {
+        "title": "Códigos y Recompensas",
+        "description": "Consulta los códigos activos, las recompensas de la demo y los canales oficiales de recompensas.",
+        "icon": "Gift"
+      },
+      {
+        "title": "Lanzamiento y Enlace de Juego",
+        "description": "Encuentra la versión completa oficial, la demo y las páginas del evento de lanzamiento.",
+        "icon": "Rocket"
+      },
+      {
+        "title": "Guía para Principiantes",
+        "description": "Aprende el ciclo principal, los conceptos básicos de supervivencia y los primeros pasos en Evalia.",
+        "icon": "BookOpen"
+      },
+      {
+        "title": "Recompensas de la Demo",
+        "description": "Comprende los datos guardados de la demo y la recompensa de cristales gratis.",
+        "icon": "Gem"
+      },
+      {
+        "title": "Misiones y Elecciones",
+        "description": "Sigue misiones, conoce personajes y da forma a tu camino en la historia.",
+        "icon": "ScrollText"
+      },
+      {
+        "title": "Mapa y Ubicaciones",
+        "description": "Explora las zonas de Evalia, centros de misiones, rutas peligrosas y áreas de base.",
+        "icon": "Map"
+      },
+      {
+        "title": "Objetos y Armas",
+        "description": "Clasifica los mejores objetos, herramientas y equipo para la supervivencia y las misiones.",
+        "icon": "Swords"
+      },
+      {
+        "title": "Base y Minijuegos",
+        "description": "Construye tu base, juega minijuegos, compra y haz crecer a tu personaje.",
+        "icon": "Castle"
+      }
+    ]
+  },
+  "modules": {
+    "piggyCodes": {
+      "title": "Códigos de Piggy Intercity y Recompensas Oficiales",
+      "intro": "Consulta el estado actual de los códigos de Piggy Intercity, la recompensa por completar la demo y los canales oficiales de recompensas en un solo lugar. Esta sección se centra en las recompensas confirmadas a través de Roblox, el Discord oficial de Piggy y las páginas oficiales de Piggy Intercity.",
+      "items": [
+        {
+          "label": "Códigos de Canje Activos",
+          "status": "No hay códigos de canje públicos activos listados",
+          "reward": "Ninguno listado en las páginas oficiales del juego de Roblox",
+          "howToGet": "Usa las páginas oficiales de Piggy Intercity en Roblox y el Discord de Piggy para futuros anuncios de recompensas.",
+          "source": "Páginas oficiales del juego de Roblox y Discord oficial de Piggy"
+        },
+        {
+          "label": "Recompensa por Completar la Demo",
+          "status": "Disponible al completar la demo",
+          "reward": "Cristales gratis en la versión completa",
+          "howToGet": "Completa la versión demo de Piggy Intercity antes de pasar a la versión completa.",
+          "source": "Descripción de la demo de Piggy Intercity en Roblox"
+        },
+        {
+          "label": "Drops de Recompensas de Discord",
+          "status": "Usa solo canales oficiales",
+          "reward": "Noticias de eventos, adelantos y futuros anuncios de recompensas",
+          "howToGet": "Únete al Discord oficial de Piggy y revisa los canales de Piggy Intercity para obtener actualizaciones de recompensas reales.",
+          "source": "Discord oficial de Piggy"
+        },
+        {
+          "label": "Actualizaciones del Grupo Oficial",
+          "status": "Fuente oficial de la comunidad",
+          "reward": "Actualizaciones del juego, avisos de la comunidad y anuncios de Piggy Intercity",
+          "howToGet": "Sigue a la comunidad oficial de Piggy Intercity en Roblox, propiedad de MiniToon.",
+          "source": "Comunidad oficial de Piggy Intercity en Roblox"
+        }
+      ]
+    },
+    "piggyReleasePlay": {
+      "title": "Enlace oficial de juego y páginas de lanzamiento de Piggy Intercity",
+      "intro": "Usa la página oficial de la versión completa de Roblox para la experiencia actual de Piggy Intercity, y usa la página de la demo solo cuando consultes recompensas específicas de la demo o reglas de progreso antiguas de la demo.",
+      "items": [
+        {
+          "page": "Versión completa",
+          "status": "Ya disponible",
+          "officialName": "Piggy: Intercity [YA DISPONIBLE]",
+          "purpose": "Experiencia principal en vivo de Piggy Intercity",
+          "playerAction": "Juega esta versión para disfrutar de la experiencia completa de Piggy Intercity."
+        },
+        {
+          "page": "Versión demo",
+          "status": "Página de la demo",
+          "officialName": "[VERSIÓN DEMO] Piggy: Intercity",
+          "purpose": "Experiencia de demo con contenido limitado y una recompensa por completar la demo",
+          "playerAction": "Usa esta página solo para completar la demo y para el progreso de recompensas de la demo."
+        },
+        {
+          "page": "Evento de lanzamiento",
+          "status": "Página oficial de eventos de Roblox",
+          "officialName": "Piggy: Intercity - Piggy",
+          "purpose": "Página de evento de Roblox conectada al lanzamiento de la versión completa",
+          "playerAction": "Úsala como referencia oficial del evento de lanzamiento, no como la página principal de juego."
+        },
+        {
+          "page": "Short oficial",
+          "status": "Contexto de la fecha de lanzamiento",
+          "officialName": "¿Por qué Piggy: Intercity se lanza el 25 de abril?",
+          "purpose": "Contexto en video oficial de formato corto sobre el cronograma de lanzamiento",
+          "playerAction": "Úsalo para el contexto del cronograma de lanzamiento, luego juega a través de la página oficial de la versión completa."
+        }
+      ]
+    },
+    "piggyBeginnerGuide": {
+      "title": "Guía de Piggy Intercity para nuevos jugadores",
+      "intro": "Aprende qué hacer primero en Piggy Intercity: explora Evalia, sobrevive a la infección, sigue las misiones, conoce a los personajes y evita confundir la demo con la versión completa.",
+      "steps": [
+        {
+          "title": "Comienza en la página oficial de la versión completa",
+          "action": "Abre Piggy: Intercity [YA DISPONIBLE] en Roblox.",
+          "details": "La versión completa es la experiencia principal para el progreso actual. Evita las páginas de demos antiguas y las versiones creadas por fans cuando tu objetivo sea jugar al juego en vivo."
+        },
+        {
+          "title": "Comprende el ciclo principal",
+          "action": "Explora Evalia, conoce a los personajes, completa objetivos y sobrevive a las amenazas de los infectados.",
+          "details": "Piggy Intercity es un RPG de mundo abierto multijugador basado en elecciones donde la exploración, las relaciones, los minijuegos, la construcción de bases y la supervivencia son importantes."
+        },
+        {
+          "title": "Presta atención a las elecciones",
+          "action": "Lee los diálogos y el contexto de las misiones antes de apresurarte en las interacciones.",
+          "details": "Las elecciones afectan las relaciones con los personajes y el mundo que te rodea, por lo que las decisiones iniciales son parte del progreso en lugar de ser texto desechable."
+        },
+        {
+          "title": "Usa la demo para su recompensa, no para el progreso permanente",
+          "action": "Completa la demo para obtener cristales gratis, luego pasa a la versión completa.",
+          "details": "La página de la demo indica que los datos guardados no se transfieren a la versión completa, pero completar la demo otorga cristales gratis en la versión completa."
+        },
+        {
+          "title": "Busca misiones, ubicaciones, personajes y objetos",
+          "action": "Usa el tiempo de juego inicial para aprender el flujo de las misiones, el movimiento por el mapa y el uso de objetos.",
+          "details": "La versión completa incluye más misiones, más ubicaciones, más personajes, más objetos, más atributos de nivel, construcción de bases y minijuegos."
+        },
+        {
+          "title": "Sigue los videos oficiales para el contexto del juego",
+          "action": "Mira el tráiler oficial y el tráiler de presentación antes de avanzar profundamente en el progreso.",
+          "details": "Los videos oficiales presentan a Piggy Intercity como un RPG multijugador de mundo abierto basado en elecciones y muestran la dirección prevista del juego."
+        }
+      ]
+    },
+    "piggyDemoRewards": {
+      "title": "Recompensas y datos guardados de la demo de Piggy Intercity",
+      "intro": "La demo de Piggy Intercity tiene una regla importante: los datos guardados de la demo no se transfieren a la versión completa, pero completar la demo recompensa con cristales gratis en la versión completa.",
+      "faqs": [
+        {
+          "question": "¿Se transfieren los datos guardados de la demo de Piggy Intercity?",
+          "answer": "No. La página oficial de la demo establece que los datos guardados no se transferirán a la versión completa de Piggy Intercity."
+        },
+        {
+          "question": "¿Qué recompensa obtienen los jugadores por completar la demo?",
+          "answer": "Completar la demo de Piggy Intercity recompensa a los jugadores con cristales gratis en la versión completa."
+        },
+        {
+          "question": "¿Deben los nuevos jugadores empezar con la demo o con la versión completa?",
+          "answer": "Los jugadores que quieran la experiencia principal actual deben usar la página de la versión completa. Los jugadores que quieran la recompensa de cristales por completar la demo de Piggy Intercity deben completar la demo primero."
+        },
+        {
+          "question": "¿Qué diferencia hay entre la demo y la versión completa?",
+          "answer": "La demo es limitada. La versión completa de Piggy Intercity incluye más misiones, más ubicaciones, más personajes, más objetos, más atributos de subida de nivel, construcción de bases, minijuegos y más."
+        },
+        {
+          "question": "¿Adónde deben ir los jugadores después de terminar la demo?",
+          "answer": "Después de completar la ruta de recompensa de la demo, los jugadores deben ir a la página oficial de Roblox de la versión completa para la experiencia principal de Piggy Intercity."
+        }
+      ]
+    },
+    "piggyQuestsChoices": {
+      "title": "Misiones y elecciones de la historia de Piggy Intercity",
+      "intro": "Sigue misiones, conoce personajes y da forma a tu ruta a través de Evalia. Piggy Intercity se basa en interacciones con NPC, exploración y elecciones que afectan las relaciones y el mundo que te rodea.",
+      "steps": [
+        {
+          "title": "Comienza con las interacciones con NPC",
+          "description": "Habla con los personajes para iniciar la historia y la actividad de las misiones. El ciclo principal de Piggy Intercity se basa en conocer personajes, elegir respuestas y moverse por el mundo abierto.",
+          "playerTip": "Revisa el diálogo cuidadosamente antes de elegir una respuesta, porque las elecciones son parte del sistema de la historia."
+        },
+        {
+          "title": "Explora Evalia para progresar en las misiones",
+          "description": "Muévete por el mundo abierto para encontrar personajes, objetivos, rutas de supervivencia y puntos de actividad conectados a las misiones.",
+          "playerTip": "Trata cada nueva área como una ubicación de la historia y una zona de supervivencia."
+        },
+        {
+          "title": "Toma decisiones que afecten las relaciones",
+          "description": "Las elecciones de diálogo y de la historia pueden afectar las relaciones con otros personajes y el mundo que rodea al jugador.",
+          "playerTip": "Evita apresurarte en el diálogo cuando aparezca una elección. Piggy Intercity está diseñado en torno a las consecuencias, no solo a hacer clic rápido."
+        },
+        {
+          "title": "Separa el progreso de la demo del progreso de la versión completa",
+          "description": "La demo es una experiencia separada de la versión completa. Los datos guardados de la demo no se transfieren al juego completo.",
+          "playerTip": "Usa la demo para aprender el flujo, no para construir una partida guardada permanente."
+        },
+        {
+          "title": "Completa la ruta de recompensa de la demo",
+          "description": "Terminar la demo recompensa con cristales gratis en la versión completa de Piggy Intercity.",
+          "playerTip": "Termina la demo una vez antes de cambiar completamente a la página de lanzamiento principal."
+        }
+      ]
+    },
+    "piggyMapLocations": {
+      "title": "Mapa y ubicaciones de Piggy Intercity",
+      "intro": "Explora Evalia, rastrea zonas de actividad clave y evita la página de juego incorrecta. Piggy Intercity tiene lugar en un mundo abierto infectado construido para la exploración, misiones, encuentros con personajes, minijuegos y supervivencia de la base.",
+      "items": [
+        {
+          "name": "Mundo Abierto de Evalia",
+          "type": "Región del Mundo",
+          "description": "El escenario principal de Piggy Intercity, descrito como un mundo devastado por la infección. Los jugadores exploran Evalia mientras conocen personajes, sobreviven a amenazas y progresan a través de elecciones.",
+          "bestFor": "Exploración general, rutas de historia y movimiento de supervivencia"
+        },
+        {
+          "name": "Página de Juego de la Versión Completa",
+          "type": "Punto de Entrada Principal",
+          "description": "La experiencia principal de Roblox para Piggy Intercity. Esta es la página que los jugadores deben usar para el lanzamiento completo en lugar de versiones de demostración anteriores.",
+          "bestFor": "Jugar la versión completa actual"
+        },
+        {
+          "name": "Área de la Versión Demo",
+          "type": "Punto de Entrada de la Demo",
+          "description": "Una experiencia de demostración separada utilizada para previsualizar los sistemas de Piggy Intercity. Los datos guardados de la demo no se transfieren, pero completar la demo otorga cristales en la versión completa.",
+          "bestFor": "Aprender lo básico y ganar la recompensa por completar la demo"
+        },
+        {
+          "name": "Zonas de Interacción de Personajes",
+          "type": "Centro de Misiones",
+          "description": "Áreas donde los jugadores conocen personajes y toman decisiones. Estas zonas son fundamentales para la recogida de misiones, los cambios de relación y el movimiento de la historia en Piggy Intercity.",
+          "bestFor": "Encontrar misiones y elecciones de historia"
+        },
+        {
+          "name": "Rutas de Peligro de Infección",
+          "type": "Área de Supervivencia",
+          "description": "Rutas de exploración formadas por la amenaza de infección. La supervivencia, el movimiento y el progreso de las misiones están unidos en el mundo abierto de Piggy Intercity.",
+          "bestFor": "Preparación para el combate y exploración cautelosa"
+        },
+        {
+          "name": "Área Base",
+          "type": "Zona del Sistema del Jugador",
+          "description": "Piggy Intercity incluye la construcción de bases como parte de sus sistemas de supervivencia, dando a los jugadores un lugar personal para construir en torno a la progresión a largo plazo.",
+          "bestFor": "Planificación de la base y configuración de la supervivencia"
+        },
+        {
+          "name": "Puntos de Minijuegos",
+          "type": "Actividad Secundaria",
+          "description": "Piggy Intercity incluye minijuegos como parte de su conjunto de características de la versión completa, dando a los jugadores actividades más allá de la exploración principal y las misiones.",
+          "bestFor": "Contenido secundario y actividad de rejugabilidad"
+        },
+        {
+          "name": "Zonas de Compras",
+          "type": "Punto de Utilidad",
+          "description": "Las compras encajan en el ciclo de objetos, supervivencia y progresión de Piggy Intercity, ayudando a los jugadores a prepararse antes de la exploración y las rutas de peligro.",
+          "bestFor": "Comprar suministros útiles y objetos de progresión"
+        }
+      ]
+    },
+    "piggyItemsWeapons": {
+      "title": "Lista de niveles de objetos y armas de Piggy Intercity",
+      "intro": "Esta lista de niveles clasifica las mejores categorías de objetos de Piggy Intercity según su valor práctico para la supervivencia, el progreso de misiones, la exploración, el crecimiento de la base y la progresión de la versión completa.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Objetos críticos para misiones",
+          "entries": [
+            {
+              "name": "Objetos de uso en misiones",
+              "role": "Progresión",
+              "reason": "Los objetos vinculados a los objetivos de las misiones son de máxima prioridad porque Piggy Intercity está estructurado en torno a las interacciones entre personajes, las elecciones y el movimiento de misiones en un mundo abierto."
+            },
+            {
+              "name": "Objetos de interacción de historia",
+              "role": "Elecciones",
+              "reason": "Los objetos relacionados con las elecciones de los NPC y los resultados de las relaciones importan más que el desorden genérico del inventario porque las elecciones afectan a los personajes y al mundo."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Esenciales de supervivencia",
+          "entries": [
+            {
+              "name": "Suministros básicos de supervivencia",
+              "role": "Supervivencia",
+              "reason": "Cualquier objeto que mantenga vivo al jugador durante la exploración pertenece a la parte superior porque Piggy Intercity está construido en torno a sobrevivir a la infección mientras se avanza por Evalia."
+            },
+            {
+              "name": "Equipo defensivo resistente",
+              "role": "Protección",
+              "reason": "El equipo defensivo tiene un alto valor en rutas de peligro donde la exploración y las amenazas de infección se superponen."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Equipo de combate y exploración",
+          "entries": [
+            {
+              "name": "Armas",
+              "role": "Combate",
+              "reason": "Las armas son valiosas para manejar amenazas de infectados y rutas de viaje peligrosas en Piggy Intercity."
+            },
+            {
+              "name": "Herramientas",
+              "role": "Utilidad",
+              "reason": "Las herramientas son útiles cuando la exploración, los objetivos y las tareas de supervivencia requieren más que el combate directo."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Soporte de base y atributos",
+          "entries": [
+            {
+              "name": "Recursos de construcción de bases",
+              "role": "Crecimiento de la base",
+              "reason": "La construcción de bases es parte del conjunto de características de la versión completa de Piggy Intercity, lo que hace que los recursos relacionados con la base sean valiosos para sesiones más largas."
+            },
+            {
+              "name": "Soporte de atributos de nivel",
+              "role": "Crecimiento del personaje",
+              "reason": "La versión completa incluye más atributos de nivel, por lo que los objetos y sistemas que apoyan el crecimiento del personaje son inversiones sólidas a largo plazo."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Objetos de economía y actividades secundarias",
+          "entries": [
+            {
+              "name": "Compras en tiendas",
+              "role": "Utilidad",
+              "reason": "Las compras apoyan el ciclo de objetos y brindan a los jugadores una forma práctica de prepararse para la exploración, las misiones y la supervivencia en Piggy Intercity."
+            },
+            {
+              "name": "Cristales",
+              "role": "Moneda de recompensa",
+              "reason": "Los cristales están vinculados a las recompensas por completar la demo en la versión completa, lo que les otorga valor fuera de la exploración ordinaria del momento a momento."
+            }
+          ]
+        }
+      ]
+    },
+    "piggyBaseMinigames": {
+      "title": "Piggy Intercity Construcción de Bases y Minijuegos",
+      "intro": "Construye tu base, juega minijuegos, compra y prepárate para los sistemas de la versión completa. Piggy Intercity incluye construcción de bases, minijuegos, compras, objetos, atributos de subida de nivel y cristales de recompensa de la demo que apoyan el juego a largo plazo.",
+      "items": [
+        {
+          "name": "Construcción de Bases",
+          "category": "Sistema Central",
+          "description": "Los jugadores pueden construir su propia base como parte de la supervivencia a la infección en Evalia.",
+          "playerValue": "Útil para la identidad de supervivencia a largo plazo, la progresión personal y el juego repetido."
+        },
+        {
+          "name": "Minijuegos",
+          "category": "Actividad Secundaria",
+          "description": "Los minijuegos se incluyen como parte del conjunto de características de la versión completa de Piggy Intercity.",
+          "playerValue": "Útil para alternar entre misiones y exploración con contenido secundario repetible."
+        },
+        {
+          "name": "Compras",
+          "category": "Sistema de Utilidad",
+          "description": "Las compras apoyan el ciclo de objetos y preparación en Piggy Intercity.",
+          "playerValue": "Útil para prepararse antes de la exploración, misiones y rutas peligrosas."
+        },
+        {
+          "name": "Más Objetos",
+          "category": "Contenido de Progresión",
+          "description": "La versión completa se expande más allá de la demo con más objetos.",
+          "playerValue": "Útil para construir guías sobre equipamientos de supervivencia, objetos de misión, herramientas y suministros de progresión."
+        },
+        {
+          "name": "Más Atributos de Subida de Nivel",
+          "category": "Crecimiento del Personaje",
+          "description": "La versión completa de Piggy Intercity incluye más atributos de subida de nivel que la experiencia de la demo.",
+          "playerValue": "Útil para la planificación de construcciones y la optimización de rutas."
+        },
+        {
+          "name": "Más Misiones",
+          "category": "Contenido de Historia",
+          "description": "La versión completa expande la estructura de misiones de Piggy Intercity más allá de la demo.",
+          "playerValue": "Útil para rutas de historia, guías de elección de NPC y planificación de rejugabilidad."
+        },
+        {
+          "name": "Más Ubicaciones",
+          "category": "Contenido de Exploración",
+          "description": "La versión completa expande el mundo explorable de Piggy Intercity con más ubicaciones.",
+          "playerValue": "Útil para guías de mapas, guías de rutas peligrosas y páginas de puntos de interés."
+        },
+        {
+          "name": "Cristales de Finalización de la Demo",
+          "category": "Recompensa",
+          "description": "Completar la demo recompensa con cristales gratis en la versión completa de Piggy Intercity.",
+          "playerValue": "Útil para los jugadores que deciden si terminar la demo antes de pasar al juego completo."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Piggy Intercity",
+    "titleHighlight": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Piggy Intercity antes de empezar a explorar Evalia.",
+    "questions": [
+      {
+        "question": "¿Es Piggy Intercity un juego multijugador?",
+        "answer": "Sí. Piggy Intercity es un RPG de mundo abierto multijugador, impulsado por decisiones, donde exploras Evalia, conoces personajes y sobrevives a la infección con otros jugadores."
+      },
+      {
+        "question": "¿Dónde puedo jugar Piggy Intercity?",
+        "answer": "Puedes jugar Piggy Intercity en la página oficial del juego completo de Roblox. También existe una página de demo separada para previsualizar sistemas y ganar la recompensa por completar la demo."
+      },
+      {
+        "question": "¿Piggy Intercity tiene códigos de canje activos?",
+        "answer": "Piggy Intercity actualmente no tiene códigos de canje públicos activos listados en las páginas oficiales de Roblox. Consulta el Discord oficial de Piggy y la comunidad de Roblox para futuros anuncios de recompensas."
+      },
+      {
+        "question": "¿Los datos guardados de la demo se transfieren en Piggy Intercity?",
+        "answer": "No. La página oficial de la demo indica que los datos guardados no se transferirán a la versión completa de Piggy Intercity, pero completar la demo recompensa con cristales gratis en la versión completa."
+      },
+      {
+        "question": "¿Qué puedes hacer en Piggy Intercity?",
+        "answer": "En Piggy Intercity puedes explorar Evalia, completar misiones, conocer personajes, tomar decisiones en la historia, recolectar objetos y armas, construir una base, jugar minijuegos y sobrevivir a la infección."
+      },
+      {
+        "question": "¿Quién desarrolla Piggy Intercity?",
+        "answer": "Piggy Intercity es desarrollado por MiniToon. Para actualizaciones oficiales, sigue el Discord de Piggy, la comunidad oficial de Roblox y los canales de YouTube y X de MiniToon."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Piggy Intercity?",
+    "description": "¡Únete a la comunidad Piggy en Discord y sumérgete en el RPG de mundo abierto basado en decisiones en Roblox!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Piggy Intercity",
+    "description": "Tu centro de recursos completo para códigos, misiones, mapa, objetos, armas, construcción de bases y guías de supervivencia de Piggy Intercity.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Derechos de autor",
+    "copyright": "© 2026 Piggy Intercity Wiki. No afiliado a los desarrolladores de Piggy Intercity.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento e información de Piggy Intercity",
+      "description": "Fecha de lanzamiento oficial de Piggy Intercity, hora de lanzamiento, cuenta regresiva, guías de zona horaria y los últimos detalles de actualización y evento de lanzamiento.",
+      "metaTitle": "Fecha de lanzamiento de Piggy Intercity - Hora de lanzamiento, cuenta regresiva y actualizaciones",
+      "metaDescription": "Sigue la fecha de lanzamiento oficial de Piggy Intercity, la hora de lanzamiento en diferentes zonas horarias, la cuenta regresiva, los retrasos, las cancelaciones y las noticias de actualización de MiniToon.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Piggy Intercity?",
+      "whatIsDescription": "Estas guías cubren el lanzamiento oficial de Piggy Intercity: el lanzamiento de la versión completa, la cuenta regresiva y la hora de lanzamiento en diferentes regiones, la relación entre la demo y la versión completa, y las últimas noticias de actualización y eventos de lanzamiento de MiniToon.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "Juega la versión correcta",
+        "step1Description": "Abre la página oficial de la versión completa de Piggy Intercity en lugar de las antiguas versiones de demostración",
+        "step2Title": "Conoce tu hora de lanzamiento local",
+        "step2Description": "Convierte la hora de lanzamiento y la cuenta regresiva a tu propia zona horaria",
+        "step3Title": "Mantente actualizado",
+        "step3Description": "Sigue los anuncios de actualizaciones, retrasos y eventos de lanzamiento a medida que el juego evoluciona"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "demo": {
+      "title": "Guía de la demo de Piggy Intercity",
+      "description": "Todo sobre la demo de Piggy Intercity: reglas de guardado de datos, misiones de la demo, el arma de la demo, el final de la demo y la recompensa de cristal gratis.",
+      "metaTitle": "Guía de la demo de Piggy Intercity - Datos guardados, misiones, arma y final",
+      "metaDescription": "Aprende cómo funciona la demo de Piggy Intercity: reglas de guardado de datos de la demo, cambios de la demo v2, misiones y arma de la demo, el final de la demo y la recompensa de cristal gratis.",
+      "categoryLabel": "VERSIÓN DEMO",
+      "whatIs": "¿Qué es la demo de Piggy Intercity?",
+      "whatIsDescription": "La demo de Piggy Intercity es una vista previa limitada del juego completo. Los datos guardados de la demo no se transfieren a la versión completa, pero completar la demo recompensa cristales gratis que puedes usar en el lanzamiento completo. Estas guías explican las misiones de la demo, el arma de la demo y cómo llegar al final de la demo.",
+      "why": "¿Por qué jugar la demo?",
+      "whySteps": {
+        "step1Title": "Aprende lo básico",
+        "step1Description": "Practica la supervivencia, la exploración y el flujo de misiones antes de la versión completa",
+        "step2Title": "Gana cristales gratis",
+        "step2Description": "Completa la demo para desbloquear la recompensa de cristal gratis en el juego completo",
+        "step3Title": "Termina el camino de la demo",
+        "step3Description": "Completa las misiones de la demo, los encuentros con armas y el final antes de cambiar a la versión completa"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de la demo"
+    },
+    "guide": {
+      "title": "Guías y Códigos de Piggy Intercity",
+      "description": "Guías para principiantes, consejos de supervivencia, tutoriales prácticos y códigos oficiales de Piggy Intercity y canales de recompensa.",
+      "metaTitle": "Guías y Códigos de Piggy Intercity - Consejos para Principiantes y Cómo Hacerlo",
+      "metaDescription": "Guías completas de Piggy Intercity con consejos para principiantes, tutoriales de supervivencia, códigos y canales de recompensa oficiales para jugadores nuevos y avanzados.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las Guías de Piggy Intercity?",
+      "whatIsDescription": "Estas guías cubren el núcleo de Piggy Intercity: tutoriales para principiantes, consejos de supervivencia, tutoriales prácticos para tierra, cristales, guardar y cambiar de ropa, y los códigos oficiales y canales de recompensa de Roblox y el Discord de Piggy.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Empieza Fuerte",
+        "step1Description": "Aprende el ciclo principal, los conceptos básicos de supervivencia y los primeros pasos en Evalia",
+        "step2Title": "Encuentra Códigos y Recompensas",
+        "step2Description": "Consulta los códigos activos y los canales de recompensa oficiales en un solo lugar",
+        "step3Title": "Resuelve Problemas Comunes",
+        "step3Description": "Sigue las guías prácticas para recursos, guardar y configurar personajes"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías"
+    },
+    "map": {
+      "title": "Mapa y Ubicaciones de Piggy Intercity",
+      "description": "Explora Evalia: todas las áreas, ubicaciones clave, torres de vigilancia, ubicaciones de cofres y cajas, y la casa abandonada.",
+      "metaTitle": "Mapa y Ubicaciones de Piggy Intercity - Áreas, Cofres y Torres",
+      "metaDescription": "Explora el mapa de Piggy Intercity de Evalia: todas las áreas, ubicaciones, torres de vigilancia, ubicaciones de cofres y cajas, y la casa abandonada.",
+      "categoryLabel": "MAPA DEL MUNDO",
+      "whatIs": "¿Qué es el Mapa de Piggy Intercity?",
+      "whatIsDescription": "Estas guías de mapas indexan el mundo abierto de Evalia en Piggy Intercity: todas las áreas explorables, ubicaciones clave y puntos de interés, posiciones de torres de vigilancia, ubicaciones de cofres y cajas, y la casa abandonada.",
+      "why": "¿Por qué explorar el mapa?",
+      "whySteps": {
+        "step1Title": "Encuentra Botín",
+        "step1Description": "Localiza cofres, cajas y puntos de recursos en Evalia",
+        "step2Title": "Oriéntate",
+        "step2Description": "Usa torres de vigilancia y puntos de referencia para navegar por todas las áreas",
+        "step3Title": "Planifica Tu Ruta",
+        "step3Description": "Conecta ubicaciones en rutas eficientes de exploración y supervivencia"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías del Mapa"
+    },
+    "quests": {
+      "title": "Misiones y Guías de Piggy Intercity",
+      "description": "Líneas de misiones, misiones secundarias, tareas de NPC y decisiones clave de la historia como Mayor Bailey, el paquete de Axelle, la elección de la escuela y la ruta de los bandidos.",
+      "metaTitle": "Misiones de Piggy Intercity - Misiones de Historia, Tareas de NPC y Elecciones",
+      "metaDescription": "Guías completas de misiones de Piggy Intercity que cubren misiones secundarias, Mayor Bailey, el paquete de Axelle, la elección de la escuela y la ruta de los bandidos.",
+      "categoryLabel": "MISIONES E HISTORIA",
+      "whatIs": "¿Qué son las Misiones de Piggy Intercity?",
+      "whatIsDescription": "Las misiones impulsan la historia de Piggy Intercity a través de interacciones con NPC, exploración y elecciones. Estas guías cubren todas las misiones principales y secundarias, incluyendo Mayor Bailey, el paquete de Axelle, la elección de la escuela y la ruta de los bandidos.",
+      "why": "¿Por qué seguir las guías de misiones?",
+      "whySteps": {
+        "step1Title": "Comprende el Flujo de la Historia",
+        "step1Description": "Ve cómo las misiones se desbloquean y conectan en Evalia",
+        "step2Title": "Toma las Decisiones Correctas",
+        "step2Description": "Aprende cómo la elección de la escuela y las tareas de NPC cambian tu ruta",
+        "step3Title": "Completa Cada Camino",
+        "step3Description": "Completa las misiones principales, las misiones secundarias y la ruta de los bandidos sin quedarte atascado"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Misiones"
+    },
+    "weapons": {
+      "title": "Armas y Pistolas de Piggy Intercity",
+      "description": "Armas y pistolas en Piggy Intercity: opciones cuerpo a cuerpo y a distancia, la pistola de demostración, munición y consejos de combate contra los infectados.",
+      "metaTitle": "Armas y Pistolas de Piggy Intercity - Guía de Combate",
+      "metaDescription": "Domina las armas y pistolas de Piggy Intercity: opciones cuerpo a cuerpo y a distancia, la pistola de demostración, munición, bloqueo y tácticas de combate contra los infectados.",
+      "categoryLabel": "ARMAS Y COMBATE",
+      "whatIs": "¿Qué son las armas de Piggy Intercity?",
+      "whatIsDescription": "Estas guías cubren las armas y pistolas de Piggy Intercity, incluyendo opciones cuerpo a cuerpo y a distancia, la pistola de demostración, munición, bloqueo y cómo usar cada arma contra las amenazas infectadas en Evalia.",
+      "why": "¿Por qué aprender sobre las armas?",
+      "whySteps": {
+        "step1Title": "Elige la herramienta adecuada",
+        "step1Description": "Elige armas cuerpo a cuerpo o a distancia y la pistola de demostración para cada amenaza",
+        "step2Title": "Gestiona la munición",
+        "step2Description": "Comprende el uso de la munición y cuándo confiar en el combate cuerpo a cuerpo o el bloqueo",
+        "step3Title": "Sobrevive al combate",
+        "step3Description": "Aplica tácticas para manejar a los infectados y las rutas peligrosas"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Armas"
+    }
+  }
+}
