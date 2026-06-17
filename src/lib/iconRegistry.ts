@@ -38,6 +38,15 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Piggy Intercity 模块导航图标
+  Gift: LucideIcons.Gift,
+  Rocket: LucideIcons.Rocket,
+  Gem: LucideIcons.Gem,
+  ScrollText: LucideIcons.ScrollText,
+  Map: LucideIcons.Map,
+  Swords: LucideIcons.Swords,
+  Castle: LucideIcons.Castle,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
