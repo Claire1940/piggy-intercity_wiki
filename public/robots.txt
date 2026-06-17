@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block legal/utility pages from indexing
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+Disallow: /copyright
+Disallow: /about
+
+Sitemap: https://www.piggy-intercity.wiki/sitemap.xml
