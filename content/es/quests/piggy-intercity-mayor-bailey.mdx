@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "piggy intercity mayor bailey: Guía de Misiones y Lore",
+  description: "Domina la línea de misiones de piggy intercity mayor bailey. Aprende consejos de supervivencia para Evalia, las consecuencias de las elecciones de los NPC y cómo obtener recompensas de la demo en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/f8fafc?text=Mayor+Bailey+Quest+Guide",
+  date: "2026-06-16",
+  author: "Equipo Wiki de piggy intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **piggy intercity mayor bailey**: Una figura central en la tradición de Lucella cuyo legado da forma a las misiones en Evalia.
+- **RPG Impulsado por Elecciones**: Cada interacción con los NPC puede alterar tu reputación y futuros caminos de la historia.
+- **Mecánicas de Supervivencia**: Gestiona los niveles de hambre, sed e infección mientras exploras el mundo abierto.
+- **Recompensas de la Demo**: Completar la versión demo otorga **Cristales Gratis** en el lanzamiento completo.
+- **Construcción de Bases**: Reclama parcelas temprano para asegurar una zona segura para la gestión de recursos y la fabricación.
+</Callout>
+
+<Section icon={User} title="piggy intercity mayor bailey: Entendiendo la Historia y el Legado">
+
+El misterio que rodea a **piggy intercity mayor bailey** sigue siendo uno de los hilos narrativos más convincentes en el universo de Piggy. A medida que los jugadores transitan de las mecánicas tradicionales de escape de la sala del juego original al expansivo mundo abierto de Intercity, impulsado por las elecciones, la búsqueda del antiguo liderazgo de Lucella se convierte en un motivador principal para la exploración. En el mundo de Evalia, los personajes a menudo hacen referencia a la caída de la ciudad y al papel que desempeñó el Alcalde durante el brote inicial.
+
+Comprender el legado del Alcalde Bailey es esencial para los jugadores que desean sumergirse por completo en los elementos RPG del juego. A diferencia de las entradas anteriores de Piggy, Intercity se centra en las consecuencias a largo plazo de la infección. Tus interacciones con los NPC que recuerdan el "viejo mundo" bajo la administración de Bailey proporcionan un contexto crítico para los objetivos actuales de las misiones.
+
+<Callout type="tip" title="Coherencia del Lore">
+Presta mucha atención a los diálogos de los NPC mayores en el Distrito de Lucella. A menudo dejan pistas sobre las últimas directivas del Alcalde Bailey, lo que puede llevar a escondites ocultos de suministros o elementos de historia únicos.
+</Callout>
+
+| Tipo de Personaje | Relación con el Lore | Valor de Interacción | Información Potencial |
+| :--- | :--- | :--- | :--- |
+| Oficial de la Ciudad | Asociado Directo | Muy Alto | Últimas Órdenes de Bailey |
+| Carroñero | Buscador de Lore | Medio | Ubicaciones/Notas del Mapa |
+| Superviviente | Público General | Bajo | Ambiente/Rumores |
+| Guardia | Equipo de Seguridad | Alto | Acceso con Tarjeta/Seguridad |
+
+</Section>
+
+<Section icon={Map} title="Navegando por Evalia: Ubicaciones Clave y Centros de Misión">
+
+Evalia es un mundo abierto masivo que requiere una navegación cuidadosa para sobrevivir. El mapa está dividido en varias zonas distintas, cada una ofreciendo diferentes recursos y amenazas. Para aquellos que siguen la historia de **piggy intercity mayor bailey**, las ruinas urbanas del Distrito de Lucella son las más significativas. Sin embargo, llegar a estas áreas requiere pasar por peligrosas zonas de infección.
+
+Para progresar de manera eficiente, los jugadores deben identificar zonas seguras donde puedan descansar y comerciar. El sistema de misiones está diseñado para guiarte desde las afueras hasta el corazón de la ciudad, descubriendo gradualmente el destino del Alcalde y su personal.
+
+<CardGrid cols={3}>
+  <Card title="Distrito de Lucella">
+    - **Lore Central**: La ubicación principal de la oficina del Alcalde Bailey y las ruinas del ayuntamiento.
+    - **Peligro Alto**: Densa población infectada y pasillos estrechos.
+    - **Objetos Únicos**: Contiene documentos históricos y llaves críticas para misiones.
+  </Card>
+  <Card title="El Fuerte">
+    - **Zona Segura**: Un área fortificada donde los jugadores pueden encontrar a los principales dadores de misiones.
+    - **Centro Comercial**: El mejor lugar para comprar armas y herramientas de supervivencia.
+    - **Parcelas de Base**: Las áreas cercanas permiten la construcción de bases al principio del juego.
+  </Card>
+  <Card title="Las Afueras">
+    - **Rico en Recursos**: Ideal para recolectar madera, chatarra y alimentos básicos.
+    - **Amenaza Baja**: Menos infectados, lo que lo hace perfecto para nuevos jugadores.
+    - **Área de Tutorial**: La mayoría de las misiones iniciales comienzan aquí.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Peligro de Infección">
+Evita los parques centrales de la ciudad por la noche. La densidad de infección aumenta significativamente después del atardecer, lo que hace casi imposible completar búsquedas relacionadas con la historia sin equipo de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ciclo de Supervivencia: Gestionando el Hambre, la Sed y la Salud">
+
+La supervivencia en Piggy Intercity es más que simplemente evitar a los infectados; es una batalla constante contra las necesidades biológicas. Los sistemas de hambre y sed son persistentes, lo que significa que siempre debes tener un suministro de consumibles en tu inventario. Al buscar pistas sobre **piggy intercity mayor bailey**, a menudo te encontrarás lejos de las zonas seguras, lo que hace que la gestión del inventario sea una prioridad principal.
+
+<Steps>
+  <Step num="1" title="Búsqueda Inicial">
+    Busca en los edificios residenciales de las afueras alimentos enlatados y agua embotellada. Estos son los elementos de supervivencia más fiables al principio del juego.
+  </Step>
+  <Step num="2" title="Fabricación de Elementos Esenciales">
+    Construye una fogata básica en tu base o en puntos seguros designados. Cocinar ingredientes crudos encontrados en el mundo proporciona una nutrición significativamente mayor que los aperitivos encontrados.
+  </Step>
+  <Step num="3" title="Mitigación de la Infección">
+    Mantén un suministro de vendas y supresores de infección. Si un infectado te araña, tu medidor de infección aumentará, agotando lentamente tu salud hasta que sea tratado.
+  </Step>
+  <Step num="4" title="Mejoras de Inventario">
+    Prioriza encontrar o fabricar una mochila. Más ranuras significan que puedes llevar elementos de la historia como los diarios del Alcalde Bailey sin sacrificar alimentos o munición vital.
+  </Step>
+</Steps>
+
+| Objeto de Supervivencia | Efecto | Mejor Caso de Uso | Rareza |
+| :--- | :--- | :--- | :--- |
+| Judías Enlatadas | +20 Hambre | Expediciones largas | Común |
+| Agua Limpia | +35 Sed | Hidratación general | Común |
+| Botiquín de Primeros Auxilios | +50 Salud | Recuperación post-combate | Raro |
+| Supresor | -25% Infección | Cuidado de emergencia por mordedura | Raro |
+
+<Callout type="success" title="Consejo de Eficiencia">
+Bebe agua antes de que tu barra de sed llegue al 25%. Mantenerse hidratado proporciona un pequeño impulso de regeneración de resistencia, lo cual es vital para escapar de infectados rápidos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate y Armas: Defendiendo tu Progreso">
+
+Aunque la historia de **piggy intercity mayor bailey** se centra en la narrativa, el camino hacia la verdad está bloqueado por amenazas hostiles. El combate en Intercity es táctico; precipitarse hacia un grupo de infectados con un arma cuerpo a cuerpo es una forma rápida de reiniciar en tu último punto de guardado. Debes dominar el arte de bloquear y cronometrar tus golpes.
+
+Las armas se clasifican en cuerpo a cuerpo y a distancia. Las armas cuerpo a cuerpo no requieren munición pero te ponen en riesgo de infección. Las armas a distancia son más seguras pero requieren una gestión constante de recursos para mantenerlas cargadas.
+
+| Nombre del Arma | Tipo | Daño de Salida | Alcance/Rango |
+| :--- | :--- | :--- | :--- |
+| Palanca | Cuerpo a Cuerpo | Medio | Corto |
+| Bate de Madera | Cuerpo a Cuerpo | Bajo | Medio |
+| Pistola | A Distancia | Alto | Largo |
+| Rifle de Caza | A Distancia | Muy Alto | Extremo |
+
+<Callout type="warning" title="Escasez de Munición">
+Las armas de fuego son ruidosas y atraen a los infectados cercanos. Úsalas solo como último recurso o al enfrentarte a enemigos de tipo "Jefe" en ubicaciones específicas de misiones como el Ayuntamiento.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Narrativa Impulsada por Elecciones: Impactando el Mundo">
+
+Una de las características destacadas de Piggy Intercity es el sistema de reputación. Tus respuestas a los NPC y tus acciones durante las misiones (como si ayudas a un superviviente o robas sus suministros) tienen un impacto permanente en tu mundo de juego. Esto es particularmente relevante al investigar a **piggy intercity mayor bailey**. Algunos NPC solo compartirán secretos sobre el Alcalde si confían en ti.
+
+<Checklist
+  id="reputation-milestones"
+  title="Acciones que Afectan la Reputación:"
+  items={[
+    "Completar misiones secundarias para supervivientes locales",
+    "Compartir comida o agua con NPC necesitados",
+    "Elegir opciones de diálogo pacíficas durante confrontaciones",
+    "Defender el Fuerte de incursiones de infectados",
+    "Devolver reliquias familiares perdidas a sus dueños"
+  ]}
+/>
+
+<Callout type="info" title="Consecuencias">
+Una reputación baja podría impedirte entrar en ciertas zonas comerciales de alto nivel, mientras que una reputación alta puede desbloquear skins de armas únicas y planos avanzados de construcción de bases.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de la Demo y Transferencia de Datos Guardados">
+
+Muchos jugadores comenzaron su viaje en la Demo de Piggy Intercity. Es importante comprender cómo el progreso de la demo interactúa con la versión completa del juego. Si bien el mundo abierto se expande enormemente en el lanzamiento completo, la demo sirve como un prólogo vital.
+
+<CardGrid cols={2}>
+  <Card title="Progreso de la Demo">
+    - **Datos Guardados**: **NO** se transfieren a la versión completa. Comenzarás un nuevo personaje en el juego principal.
+    - **Propósito**: Aprender las mecánicas básicas y experimentar la historia temprana de Lucella.
+  </Card>
+  <Card title="Recompensa por Completar">
+    - **Cristales Gratis**: Completar los objetivos de la demo te otorga un aumento de moneda en la versión completa.
+    - **Canje**: Las recompensas generalmente se vinculan a tu cuenta de Roblox automáticamente al iniciar el juego completo.
+  </Card>
+</CardGrid>
+
+| Característica | Versión Demo | Versión Completa |
+| :--- | :--- | :--- |
+| Tamaño del Mundo | Sector Limitado | Mapa Completo de Evalia |
+| Construcción de Bases | Solo Básico | Personalización Avanzada |
+| Misiones | Introducción | Historia Completa |
+| Personajes | 3-5 NPC | Más de 20 NPC |
+
+<Callout type="success" title="Consejo Final">
+Aunque estés ansioso por saltar al juego completo, dedica los 30 minutos necesarios para terminar la demo. La recompensa de cristales te proporciona una ventaja significativa para comprar tu primera parcela de base y equipo básico de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar pistas sobre piggy intercity mayor bailey?",
+    answer: "La mayoría de las pistas se encuentran en las ruinas de Lucella, específicamente dentro del edificio del Ayuntamiento y las oficinas administrativas circundantes. Busca íconos de documentos brillantes en los escritorios."
+  },
+  {
+    question: "¿Mis elecciones en la demo afectan la historia del juego completo?",
+    answer: "No. Dado que los datos guardados no se transfieren, tus elecciones en la demo se localizan en esa experiencia. El juego completo ofrece un nuevo comienzo para tus decisiones narrativas."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar cristales en la versión completa?",
+    answer: "Más allá de la recompensa de la demo, los cristales se ganan completando misiones de alta dificultad, participando en eventos comunitarios y encontrando botines raros en zonas de peligro."
+  },
+  {
+    question: "¿Puedo jugar Piggy Intercity solo?",
+    answer: "Sí, el juego es completamente jugable en solitario. Sin embargo, unirse a un grupo facilita mucho la supervivencia, especialmente al defender tu base o explorar el Distrito de Lucella, de alta amenaza."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Casa Abandonada de Piggy Intercity: Explorando as Estruturas Arruinadas de Evalia",
+  description: "Navegue pelas casas abandonadas em Evalia, Piggy Intercity. Encontre itens chave, objetivos de missão e dicas de sobrevivência para esses locais perigosos em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Abandoned+House+Guide",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Localize **casas abandonadas de Piggy Intercity** usando marcadores de mapa e pistas visuais.
+- Priorize o **saque por itens de sobrevivência** como comida, água e ferramentas básicas.
+- Esteja ciente das **ameaças infectadas** e possíveis emboscadas dentro dessas estruturas.
+- Procure por **itens específicos de missões** ou documentos de lore ocultos.
+- Planeje uma **rota de fuga** antes de entrar para evitar ficar preso.
+</Callout>
+
+<Section icon={Map} title="Explorando Casas Abandonadas em Piggy Intercity">
+As casas abandonadas em Evalia, Piggy Intercity, são locais cruciais para a coleta de recursos, progressão de missões e compreensão da lore do mundo infectado. Essas estruturas dilapidadas frequentemente contêm suprimentos valiosos, mas também representam ameaças significativas dos infectados. Navegá-las de forma eficaz requer planejamento cuidadoso e consciência do seu entorno.
+
+**Destaques do Vídeo:**
+- Demonstra layouts típicos de casas abandonadas.
+- Mostra pontos comuns de surgimento de inimigos infectados.
+- Destaca locais para surgimento de itens raros.
+
+<Callout type="tip" title="Esteja Sempre Preparado">
+Antes de entrar em qualquer casa abandonada, certifique-se de ter saúde, estamina e pelo menos uma arma básica suficientes. Essas áreas podem ser imprevisíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Saques Chave e Pontos de Surgimento de Itens">
+Casas abandonadas são locais privilegiados para itens essenciais de sobrevivência. Saber o que procurar e onde encontrar pode melhorar significativamente suas chances de sobrevivência e progressão em Piggy Intercity. Diferentes tipos de casas podem render categorias específicas de saque.
+
+| Categoria de Item | Itens Comuns | Raridade | Locais Típicos |
+| :------------ | :----------- | :----- | :---------------- |
+| **Sobrevivência** | Garrafa de Água, Comida Enlatada, Bandagens | Comum | Cozinhas, banheiros, armários |
+| **Ferramentas** | Chave Inglesa, Martelo, Chave de Fenda | Incomum | Garagens, despensas, oficinas |
+| **Armas** | Taco de Beisebol, Faca Pequena, Munição de Pistola | Incomum | Quartos, salas de estar, compartimentos ocultos |
+| **Itens de Missão** | Diários, Notas, Chaves | Raro | Cômodos específicos, contêineres trancados |
+| **Materiais** | Sucata, Tábuas de Madeira, Pano | Comum | Chão, móveis quebrados, galpões externos |
+
+<Callout type="warning" title="Cuidado com Armadilhas">
+Algumas casas abandonadas podem conter armadilhas colocadas por jogadores ou perigos ambientais. Sempre prossiga com cautela, especialmente em áreas mal iluminadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lidando com Ameaças Infectadas">
+O perigo principal dentro das casas abandonadas de Piggy Intercity vem dos infectados. Esses inimigos podem estar à espreita em cantos, atrás de portas ou mesmo em locais inesperados. Compreender seu comportamento e estratégias de combate eficazes é vital.
+
+| Tipo de Infectado | Nível de Ameaça | Comportamento Comum | Estratégia Recomendada |
+| :------------ | :----------- | :-------------- | :------------------- |
+| **Andarilho** | Baixo | Movimento lento e previsível | Fácil de manobrar ou derrubar com corpo a corpo |
+| **Corredor** | Médio | Carga rápida e agressiva | Use armas de longo alcance ou isca em pontos de estrangulamento |
+| **Gritador** | Alto | Atrai outros infectados | Priorize a eliminação; use furtividade ou dano de explosão rápido |
+| **Bruto** | Muito Alto | Muita saúde, ataques poderosos | Evite o confronto direto; use explosivos ou armadilhas ambientais |
+
+<CardGrid cols={2}>
+  <Card title="Abordagem Furtiva">
+    - **Ande agachado** para reduzir o ruído.
+    - Use **distrações** como arremessar objetos.
+    - Evite a linha de visão direta com infectados.
+  </Card>
+  <Card title="Abordagem de Combate">
+    - **Tiros na cabeça** causam dano crítico.
+    - Use **pontos de estrangulamento** para canalizar inimigos.
+    - Conserve munição para infectados mais fortes.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Entrada e Saída Estratégicas">
+Entrar e sair de casas abandonadas estrategicamente pode minimizar riscos e maximizar sua eficiência de busca. Entrar cegamente é uma receita para o desastre.
+
+<Steps>
+  <Step num="1" title="Vistoriar o Perímetro">
+    Antes de entrar, **observe o exterior** para qualquer infectado visível, janelas abertas ou pontos de entrada alternativos. Ouça quaisquer sons vindos de dentro.
+  </Step>
+  <Step num="2" title="Escolha Seu Ponto de Entrada">
+    Opte por pontos de entrada menos óbvios, como **portas dos fundos ou janelas quebradas**, se disponíveis, para evitar confronto direto na entrada principal.
+  </Step>
+  <Step num="3" title="Limpar Cômodo por Cômodo">
+    Avance lentamente, **verificando cada canto** e atrás de cada porta. Use sua lanterna em áreas escuras.
+  </Step>
+  <Step num="4" title="Garanta uma Rota de Fuga">
+    Esteja sempre ciente da saída mais próxima. Se o combate escalar, ter um **caminho de fuga pré-planejado** é crucial.
+  </Step>
+</Steps>
+
+<Callout type="info">
+A página oficial do jogo Roblox para Piggy: Intercity o descreve como um RPG multijogador de mundo aberto, impulsionado por escolhas, enfatizando a exploração e a sobrevivência. Compreender essas mecânicas centrais é fundamental para navegar em casas abandonadas. [Roblox - Piggy: Intercity](https://www.roblox.com/games/86852362398411/Piggy-Intercity)
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Objetivos de Missão e Lore">
+Muitas missões em Piggy Intercity o levarão a casas abandonadas, exigindo que você encontre itens específicos ou interaja com elementos ambientais. Esses locais também frequentemente escondem documentos de lore que expandem a história de Evalia.
+
+<Checklist
+  id="house-objectives"
+  title="O Que Procurar:"
+  items={[
+    "Itens de missão (marcados com um ícone)",
+    "Diários, cartas ou registros de áudio para lore",
+    "Passagens secretas ou cômodos ocultos",
+    "NPCs em perigo ou precisando de assistência"
+  ]}
+/>
+
+<Callout type="success">
+Completar missões dentro de casas abandonadas frequentemente rende recompensas valiosas, incluindo itens raros, moeda ou reputação com personagens chave.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sobre Casas Abandonadas em Piggy Intercity">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de encontrar casas abandonadas em Piggy Intercity?",
+    answer: "As casas abandonadas estão espalhadas por toda Evalia. Procure-as no seu mapa, frequentemente marcadas como pontos de interesse, ou explore fora das estradas principais."
+  },
+  {
+    question: "As casas abandonadas são sempre perigosas?",
+    answer: "Sim, assuma que todas as casas abandonadas abrigam ameaças infectadas. Sempre se aproxime com cautela e esteja pronto para combate ou furtividade."
+  },
+  {
+    question: "Posso construir uma base em uma casa abandonada?",
+    answer: "Embora algumas casas possam oferecer abrigo temporário, a construção oficial de bases geralmente ocorre em terrenos designados. Casas abandonadas são principalmente para saquear e fazer missões."
+  }
+]} />
+
+</Section>

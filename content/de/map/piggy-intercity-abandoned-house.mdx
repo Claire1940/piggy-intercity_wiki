@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity Verlassenes Haus: Erkundung von Evalias Ruinenstrukturen",
+  description: "Navigieren Sie durch die verlassenen Häuser in Piggy Intercitys Evalia. Finden Sie wichtige Gegenstände, Questziele und Überlebenstipps für diese gefährlichen Orte im Jahr 2026.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Abandoned+House+Guide",
+  date: "2026-06-16",
+  author: "Piggy Intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Lokalisieren Sie **Piggy Intercity verlassene Häuser** mithilfe von Kartenmarkierungen und visuellen Hinweisen.
+- Priorisieren Sie das **Sammeln von Überlebensgegenständen** wie Nahrung, Wasser und grundlegenden Werkzeugen.
+- Seien Sie sich **infizierter Bedrohungen** und potenzieller Hinterhalte in diesen Strukturen bewusst.
+- Suchen Sie nach **quests-spezifischen Gegenständen** oder versteckten Lore-Dokumenten.
+- Planen Sie eine **Fluchtroute**, bevor Sie eintreten, um nicht gefangen zu werden.
+</Callout>
+
+<Section icon={Map} title="Verlassene Häuser in Piggy Intercity erkunden">
+Verlassene Häuser in Piggy Intercitys Evalia sind entscheidende Orte für die Ressourcensammlung, den Questfortschritt und das Verständnis der Geschichte der infizierten Welt. Diese verfallenen Strukturen enthalten oft wertvolle Vorräte, stellen aber auch erhebliche Bedrohungen durch die Infizierten dar. Eine effektive Navigation erfordert sorgfältige Planung und Bewusstsein für Ihre Umgebung.
+
+**Video-Highlights:**
+- Zeigt typische Grundrisse verlassener Häuser.
+- Zeigt häufige Spawnpunkte für infizierte Feinde.
+- Hebt Orte für seltene Gegenstands-Spawns hervor.
+
+<Callout type="tip" title="Immer vorbereitet sein">
+Bevor Sie ein verlassenes Haus betreten, stellen Sie sicher, dass Sie ausreichend Gesundheit, Ausdauer und mindestens eine grundlegende Waffe haben. Diese Bereiche können unberechenbar sein.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wichtige Beute und Gegenstands-Spawns">
+Verlassene Häuser sind erstklassige Orte für essentielle Überlebensgegenstände. Zu wissen, wonach man suchen und wo man es finden muss, kann Ihre Überlebenschancen und Ihren Fortschritt in Piggy Intercity erheblich verbessern. Verschiedene Haustypen können spezifische Beutekategorien enthalten.
+
+| Gegenstandskategorie | Häufige Gegenstände | Seltenheit | Typische Orte |
+| :------------ | :----------- | :----- | :---------------- |
+| **Überleben** | Wasserflasche, Konserven, Bandagen | Häufig | Küchen, Badezimmer, Schränke |
+| **Werkzeuge** | Schraubenschlüssel, Hammer, Schraubendreher | Ungewöhnlich | Garagen, Hauswirtschaftsräume, Werkstätten |
+| **Waffen** | Baseballschläger, Kleines Messer, Pistolenmunition | Ungewöhnlich | Schlafzimmer, Wohnzimmer, versteckte Fächer |
+| **Questgegenstände** | Tagebücher, Notizen, Schlüssel | Selten | Spezifische Räume, verschlossene Behälter |
+| **Materialien** | Schrottmetall, Holzbretter, Stoff | Häufig | Böden, kaputte Möbel, Außenschuppen |
+
+<Callout type="warning" title="Achten Sie auf Fallen">
+Einige verlassene Häuser können von Spielern platzierte Fallen oder Umweltgefahren enthalten. Gehen Sie immer vorsichtig vor, besonders in schlecht beleuchteten Bereichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Umgang mit infizierten Bedrohungen">
+Die größte Gefahr in den verlassenen Häusern von Piggy Intercity geht von den Infizierten aus. Diese Feinde können um Ecken, hinter Türen oder sogar an unerwarteten Orten lauern. Ihr Verhalten und effektive Kampfstrategien zu verstehen, ist entscheidend.
+
+| Infizierter Typ | Bedrohungsstufe | Häufiges Verhalten | Empfohlene Strategie |
+| :------------ | :----------- | :-------------- | :------------------- |
+| **Walker** | Niedrig | Langsame, vorhersehbare Bewegung | Leicht zu überlisten oder mit Nahkampf auszuschalten |
+| **Runner** | Mittel | Schneller, aggressiver Angriff | Verwenden Sie Fernkampfwaffen oder locken Sie sie in Engpässe |
+| **Screamer** | Hoch | Zieht andere Infizierte an | Priorisieren Sie die Eliminierung; verwenden Sie Tarnung oder schnellen Burst-Schaden |
+| **Brute** | Sehr hoch | Hohe Gesundheit, starke Angriffe | Direkte Konfrontation vermeiden; Sprengstoffe oder Umweltfallen verwenden |
+
+<CardGrid cols={2}>
+  <Card title="Heimlicher Ansatz">
+    - **Geduckt gehen**, um Geräusche zu reduzieren.
+    - Verwenden Sie **Ablenkungen** wie das Werfen von Gegenständen.
+    - Vermeiden Sie direkten Sichtkontakt mit Infizierten.
+  </Card>
+  <Card title="Kampfansatz">
+    - **Kopfschüsse** verursachen kritischen Schaden.
+    - Nutzen Sie **Engpässe**, um Feinde zu kanalisieren.
+    - Sparen Sie Munition für stärkere Infizierte.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Strategischer Ein- und Ausgang">
+Das strategische Betreten und Verlassen verlassener Häuser kann Risiken minimieren und Ihre Plünderungseffizienz maximieren. Blindlings hineinzustürmen ist ein Rezept für eine Katastrophe.
+
+<Steps>
+  <Step num="1" title="Perimeter erkunden">
+    Bevor Sie eintreten, **beobachten Sie das Äußere** auf sichtbare Infizierte, offene Fenster oder alternative Eingänge. Hören Sie auf Geräusche aus dem Inneren.
+  </Step>
+  <Step num="2" title="Wählen Sie Ihren Eintrittspunkt">
+    Entscheiden Sie sich für weniger offensichtliche Eintrittspunkte wie **Hintertüren oder zerbrochene Fenster**, falls verfügbar, um eine direkte Konfrontation am Haupteingang zu vermeiden.
+  </Step>
+  <Step num="3" title="Raum für Raum räumen">
+    Gehen Sie langsam vor und **überprüfen Sie jede Ecke** und hinter jeder Tür. Verwenden Sie Ihre Taschenlampe in dunklen Bereichen.
+  </Step>
+  <Step num="4" title="Eine Fluchtroute sichern">
+    Seien Sie sich immer des nächsten Ausgangs bewusst. Wenn der Kampf eskaliert, ist ein **vorgeplanter Fluchtweg** entscheidend.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Die offizielle Roblox-Spielseite für Piggy: Intercity beschreibt es als ein Multiplayer-, entscheidungsbasiertes Open-World-Rollenspiel, das die Erkundung und das Überleben betont. Das Verständnis dieser Kernmechaniken ist der Schlüssel zur Navigation in verlassenen Häusern. [Roblox - Piggy: Intercity](https://www.roblox.com/games/86852362398411/Piggy-Intercity)
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Questziele und Lore">
+Viele Quests in Piggy Intercity führen Sie zu verlassenen Häusern, wo Sie bestimmte Gegenstände finden oder mit Umgebungselementen interagieren müssen. Diese Orte verbergen auch häufig Lore-Dokumente, die Evalias Geschichte erweitern.
+
+<Checklist
+  id="house-objectives"
+  title="Worauf zu achten ist:"
+  items={[
+    "Questgegenstände (mit einem Symbol markiert)",
+    "Tagebücher, Briefe oder Audio-Logs für die Geschichte",
+    "Versteckte Gänge oder Geheime Räume",
+    "NPCs in Not oder die Hilfe benötigen"
+  ]}
+/>
+
+<Callout type="success">
+Das Abschließen von Quests in verlassenen Häusern bringt oft wertvolle Belohnungen, darunter seltene Gegenstände, Währung oder Ansehen bei wichtigen Charakteren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ zu Piggy Intercity Verlassene Häuser">
+
+<FAQ items={[
+  {
+    question: "Wie findet man am besten verlassene Häuser in Piggy Intercity?",
+    answer: "Verlassene Häuser sind überall in Evalia verstreut. Suchen Sie sie auf Ihrer Karte, oft als interessante Punkte markiert, oder erkunden Sie abseits der Hauptstraßen."
+  },
+  {
+    question: "Sind verlassene Häuser immer gefährlich?",
+    answer: "Ja, gehen Sie davon aus, dass alle verlassenen Häuser infizierte Bedrohungen bergen. Gehen Sie immer vorsichtig vor und seien Sie bereit für Kampf oder Tarnung."
+  },
+  {
+    question: "Kann ich eine Basis in einem verlassenen Haus bauen?",
+    answer: "Während einige Häuser vorübergehenden Schutz bieten könnten, erfolgt der offizielle Basisbau typischerweise auf dafür vorgesehenen Grundstücken. Verlassene Häuser dienen hauptsächlich dem Plündern und Questen."
+  }
+]} />
+
+</Section>

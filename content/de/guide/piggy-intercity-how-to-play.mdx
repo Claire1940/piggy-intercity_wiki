@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity Spielanleitung: Überlebenshandbuch für Anfänger",
+  description: "Lerne in diesem Leitfaden für Anfänger, wie man Piggy Intercity spielt. Er deckt Kernmechaniken, Quests, Überlebenstipps und den Basisbau in Evalia ab.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Piggy+Intercity+How+to+Play",
+  date: "2026-06-16",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Spielanleitung**: Starte auf der offiziellen Roblox-Seite der Vollversion für das Haupterlebnis.
+- **Kernschleife**: Erkunde Evalia, schließe Quests ab, triff Charaktere und überlebe die Bedrohung durch Infizierte.
+- **Entscheidungen zählen**: Achte genau auf Dialogentscheidungen, da diese die Beziehungen zu Charakteren und die Welt beeinflussen.
+- **Demo-Belohnungen**: Schließe die Demo-Version für kostenlose Kristalle ab, beachte jedoch, dass Speicherdaten nicht übertragen werden.
+- **Früher Fortschritt**: Konzentriere dich auf Quests, Kartenbewegung, die Nutzung von Gegenständen und das Verständnis der Überlebensmechaniken.
+</Callout>
+
+<Section icon={Target} title="Deine Reise in Piggy Intercity beginnen">
+Piggy Intercity ist ein entscheidungsbasiertes Open-World-RPG auf Roblox, in dem Spieler die infizierte Welt von Evalia erkunden. Um Piggy Intercity effektiv zu spielen, sollten neue Spieler vorrangig die offizielle Spielversion, die Kern-Überlebensschleifen und die Auswirkungen ihrer Entscheidungen verstehen. Dieser Leitfaden führt dich durch die Grundlagen, um in dieser herausfordernden Umgebung zu starten und erfolgreich zu sein.
+
+**Video-Highlights:**
+- Offizielle Einführung in die Open-World-RPG-Elemente von Piggy: Intercity.
+- Überblick über Erkundung, Charakterinteraktionen und Überleben.
+- Einblicke in den Basisbau und Minispiele.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity - Offizieller Overview Trailer" />
+
+<Callout type="tip" title="Offizieller Spielzugriff">
+Stelle immer sicher, dass du die offizielle Vollversion von Piggy: Intercity auf Roblox spielst, um einen ordnungsgemäßen Fortschritt und Zugriff auf alle Funktionen zu gewährleisten. Vermeide inoffizielle oder veraltete Demo-Links für das Hauptspiel.
+</Callout>
+
+### Übersicht der offiziellen Spiellinks
+
+Es ist wichtig, zwischen dem Hauptspiel und der Demo zu unterscheiden. Die Vollversion bietet das komplette Erlebnis, während die Demo primär für eine Belohnung gedacht ist.
+
+| Seitentyp         | Status          | Offizieller Name                        | Zweck                                               | Aktion des Spielers                                 |
+|-------------------|-----------------|-----------------------------------------|-----------------------------------------------------|-----------------------------------------------------|
+| **Vollversion**   | Jetzt verfügbar | Piggy: Intercity [OUT NOW]              | Das Haupt-Live-Erlebnis von Piggy Intercity         | Spiele diese Version für das volle Erlebnis.        |
+| **Demo-Version**  | Demo-Seite      | [DEMO VERSION] Piggy: Intercity         | Begrenzte Inhalte mit einer Belohnung für den Abschluss | Nur für den Demo-Abschluss und Belohnungsfortschritt nutzen. |
+| **Release-Event** | Offizielles Roblox | Piggy: Intercity - Piggy                | Roblox-Eventseite für den Release der Vollversion   | Nur als offizielle Referenz nutzen, nicht zum Spielen. |
+
+</Section>
+
+<Section icon={Map} title="Navigieren in Evalia: Erkundung und Überleben">
+Evalia ist eine riesige, infizierte offene Welt voller Herausforderungen und Möglichkeiten. Zu verstehen, wie man Ressourcen verwaltet und Bedrohungen überlebt, ist zentral für die Spielweise von Piggy Intercity. Deine Reise beinhaltet das Finden von Sicherheitszonen, die Interaktion mit NPCs und die Vorbereitung auf gefährliche Begegnungen.
+
+### Wichtige Orte und Zonen
+
+Die Welt von Evalia ist vielfältig und bietet verschiedene Arten von Gebieten, die für das Überleben und den Fortschritt entscheidend sind.
+
+| Ortstyp                    | Beschreibung                                                                                             | Am besten geeignet für                                   |
+|----------------------------|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| **Evalia Open World**      | Der Hauptschauplatz, verwüstet durch die Infektion. Erkunden, Charaktere treffen, überleben.            | Allgemeine Erkundung, Story-Routen, Überlebensbewegung   |
+| **Charakter-Interaktionszonen** | Bereiche, in denen Spieler NPCs treffen und Entscheidungen treffen, zentral für Quests und Story.       | Finden von Quests und Story-Entscheidungen               |
+| **Infektions-Gefahrenrouten** | Erkundungspfade, die von Infizierten geprägt sind. Überleben und Questfortschritt sind hier verknüpft. | Kampfvorbereitung und vorsichtige Erkundung              |
+| **Basis-Bereich**          | Ein persönlicher Raum für Spieler zum Bauen und Verwalten ihrer Basis für langfristigen Fortschritt.    | Basisplanung und Überlebens-Setup                        |
+| **Minispiel-Plätze**       | Orte für Nebenaktivitäten abseits der Haupterkundung und Quests.                                        | Nebeninhalte und Wiederspielwert                         |
+| **Einkaufsbereiche**       | Versorgungspunkte zum Kauf nützlicher Vorräte und Fortschrittsgegenstände.                              | Kauf von Vorräten und nützlichen Items                   |
+
+<Callout type="warning" title="Vorsicht auf Infektionsrouten">
+Einige Gebiete in Evalia sind stark verseucht. Sei immer mit ausreichend Vorräten und Waffen ausgestattet, bevor du dich in unbekannte oder hochgefährliche Zonen wagst.
+</Callout>
+
+### Hunger und Durst verwalten
+Das Überleben in Piggy Intercity erfordert ständige Aufmerksamkeit für den Hunger- und Durstzustand deines Charakters. Diese nicht zu verwalten, kann zu Schwächungen oder sogar zum Tod führen. Nahrung und Wasser können durch Erkundung, Questbelohnungen oder bei Händlern gefunden werden.
+
+| Überlebenswert  | Auswirkung niedriger Werte                 | Wie man auffüllt                                 | Priorität |
+|-----------------|--------------------------------------------|--------------------------------------------------|----------|
+| **Hunger**      | Reduzierte Ausdauer, langsamere Regeneration | Essen (Beeren, Konserven, gekochtes Fleisch)     | Hoch     |
+| **Durst**       | Reduzierte Geschwindigkeit, verschwommene Sicht | Trinken (Flaschenwasser, gereinigtes Wasser)     | Hoch     |
+| **Gesundheit**  | Risiko des Ausscheidens                    | Medizinische Vorräte (Bandagen, Medkits)         | Kritisch |
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Gegenstandspriorisierung">
+Während du Piggy Intercity spielst, wirst du auf verschiedene infizierte Feinde treffen. Effektiver Kampf und kluges Ressourcenmanagement sind lebenswichtig. Zu wissen, welche Gegenstände Vorrang haben, kann deinen Erfolg maßgeblich beeinflussen.
+
+### Essenzielle Gegenstands-Tier-Liste
+
+Diese Liste ordnet Gegenstandskategorien nach ihrem praktischen Nutzen für das Überleben, den Questfortschritt und das allgemeine Gameplay.
+
+| Tier | Label                  | Einträge                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **S**| **Quest-kritische Items** | **Quest-Gegenstände**: Höchste Priorität, da Piggy: Intercity um Charakterinteraktionen und Quests aufgebaut ist. <br/> **Story-Interaktionsitems**: Gegenstände, die mit NPC-Entscheidungen und Beziehungen verknüpft sind und die Welt beeinflussen.                                                                                                                                                                                                                                    |
+| **S**| **Überlebenswichtige Dinge** | **Kern-Überlebensvorräte**: Alles, was den Spieler während der Erkundung am Leben hält. <br/> **Zuverlässige Schutzausrüstung**: Hoher Wert in Gefahrenrouten, wo Erkundung und Infektionsbedrohungen aufeinandertreffen.                                                                                                                                                                                                                                                         |
+| **A**| **Kampf & Erkundung**  | **Waffen**: Wertvoll für den Umgang mit Infizierten und gefährlichen Reisewegen. <br/> **Werkzeuge**: Nützlich, wenn Aufgaben mehr erfordern als nur direkten Kampf.                                                                                                                                                                                                                                                                                                             |
+| **A**| **Basis & Attribute**  | **Basisbau-Ressourcen**: Wertvoll für längere Sitzungen, da der Basisbau ein Feature der Vollversion ist. <br/> **Attribut-Unterstützung**: Starke langfristige Investitionen, da die Vollversion mehr Level-Up-Attribute enthält.                                                                                                                                                                                                                                             |
+| **B**| **Wirtschaft & Nebenbei** | **Einkäufe**: Unterstützt den Item-Kreislauf und die Vorbereitung. <br/> **Kristalle**: Verknüpft mit Demo-Belohnungen, bieten Wert außerhalb der gewöhnlichen Erkundung.                                                                                                                                                                                                                                                                                                       |
+
+<Callout type="info" title="Waffentypen">
+Piggy Intercity bietet sowohl Nahkampf- als auch Fernkampfwaffen. Nahkampfwaffen sind effektiv für den Nahkampf und sparen Munition, während Fernkampfwaffen es ermöglichen, Schaden aus der Distanz zu verursachen, was entscheidend ist, um Angriffen von Infizierten auszuweichen.
+</Callout>
+
+### Kampftipps für neue Spieler
+Achte beim Kampf gegen Feinde auf deren Bewegungsmuster und Angriffsstile. Einige Infizierte mögen langsam, aber stark sein, während andere schnell, aber schwächer sind. Nutze die Umgebung zu deinem Vorteil, indem du Feinde in Engpässe lockst oder Deckung verwendest. Ziele immer auf kritische Stellen, falls vorhanden, um den Schaden zu maximieren.
+</Section>
+
+<Section icon={Shield} title="Quests, Entscheidungen und Basisbau">
+Piggy Intercity ist mehr als nur Überleben; es ist ein RPG, in dem deine Entscheidungen und Handlungen deine Geschichte formen. Das Verständnis des Quest-Systems, der Auswirkungen deiner Entscheidungen und der Vorteile des Basisbaus sind entscheidende Aspekte.
+
+### Navigieren durch Quests und Story-Entscheidungen
+
+<Steps>
+  <Step num="1" title="Starte bei NPC-Interaktionen">
+    Sprich mit Charakteren, um Story- und Quest-Aktivitäten zu beginnen. Die Kernschleife des Spiels basiert darauf, Charaktere zu treffen, Antworten zu wählen und sich basierend auf diesen Interaktionen durch die Welt zu bewegen. Prüfe Dialoge sorgfältig, bevor du eine Antwort wählst.
+  </Step>
+  <Step num="2" title="Erkunde Evalia für Quest-Fortschritt">
+    Bewege dich durch die offene Welt, um Charaktere, Ziele und Überlebensrouten zu finden, die mit Quests verbunden sind. Betrachte jedes neue Gebiet sowohl als Story-Ort als auch als Überlebenszone.
+  </Step>
+  <Step num="3" title="Triff beziehungsrelevante Entscheidungen">
+    Dialog- und Story-Entscheidungen können die Beziehungen zu anderen Charakteren und die Welt um dich herum beeinflussen. Überstürze Dialoge nicht; das Spiel ist auf Konsequenzen ausgelegt.
+  </Step>
+  <Step num="4" title="Demo-Fortschritt von Vollversion trennen">
+    Die Demo ist ein separates Erlebnis. Speicherdaten der Demo werden nicht in die Vollversion übernommen. Nutze die Demo zum Lernen, nicht für einen permanenten Spielstand.
+  </Step>
+  <Step num="5" title="Schließe die Demo-Belohnungsroute ab">
+    Das Beenden der Demo belohnt dich mit kostenlosen Kristallen in der Vollversion. Schließe die Demo einmal ab, bevor du dauerhaft zur Hauptversion wechselst.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Die Macht der Entscheidungen">
+Deine Entscheidungen in Dialogen und Questreihen können zu unterschiedlichen Ergebnissen führen, NPC-Beziehungen beeinflussen und sogar den Zustand bestimmter Gebiete in Evalia verändern. Bedenke deine langfristigen Ziele bei kritischen Entscheidungen.
+</Callout>
+
+### Basisbau und Minispiele
+Die Vollversion von Piggy Intercity enthält robuste Systeme wie Basisbau und Minispiele, die über die Kern-Quests hinaus Tiefe verleihen.
+
+| Systemname            | Kategorie           | Beschreibung                                                                                             | Spielerwert                                                                    |
+|-----------------------|--------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Basisbau**          | Kernsystem         | Spieler können ihre eigene Basis bauen, um die Infektion in Evalia zu überleben.                        | Nützlich für langfristige Identität, persönlichen Fortschritt und Wiederspielwert. |
+| **Minispiele**        | Nebenaktivität     | Teil der Vollversion, bietet Aktivitäten abseits der Haupterkundung.                                    | Nützlich zur Abwechslung zwischen Quests und Erkundung.                         |
+| **Shopping**          | Versorgungssystem  | Ermöglicht den Kauf von Items zur Vorbereitung auf Quests und Gefahrenrouten.                           | Wichtig für die Vorbereitung vor Expeditionen.                                 |
+| **Mehr Gegenstände**  | Fortschrittsinhalt | Die Vollversion bietet deutlich mehr Items als die Demo.                                                | Nützlich für spezialisierte Überlebens-Ausrüstungen und Werkzeuge.             |
+| **Level-Up-Attribute**| Charakterwachstum  | Die Vollversion enthält mehr Attribute zur Verbesserung des Charakters als die Demo.                    | Nützlich für die Build-Planung und Routenoptimierung.                          |
+
+</Section>
+
+<Section icon={Trophy} title="Wichtige Meilensteine für neue Spieler">
+Um einen reibungslosen Start und effektiven Fortschritt in Piggy Intercity zu gewährleisten, findest du hier eine Checkliste der wichtigsten Meilensteine.
+
+<Checklist
+  id="beginner-milestones"
+  title="Deine ersten Schritte in Evalia:"
+  items={[
+    "Verifiziere, dass du die offizielle Vollversion von Piggy: Intercity spielst.",
+    "Schließe die Demo-Version ab, um deine kostenlosen Kristalle zu beanspruchen.",
+    "Interagiere mit den ersten NPCs, um den anfänglichen Questfluss zu verstehen.",
+    "Sammle grundlegende Überlebensvorräte: Nahrung, Wasser und eine einfache Waffe.",
+    "Suche nach einem potenziellen Ort für den Basisbau für die zukünftige Entwicklung.",
+    "Mache dich mit Sicherheitszonen und häufigen Gefahrenrouten vertraut."
+  ]}
+/>
+
+<Callout type="tip" title="Community-Ressourcen">
+Für zusätzliche Tipps und Diskussionen solltest du dem offiziellen Piggy Discord oder der r/RobloxPiggy Reddit-Community beitreten. Diese Plattformen bieten oft wertvolle Einblicke und Erfahrungen anderer Spieler.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen zu Piggy Intercity">
+Hier sind einige häufige Fragen, die Spieler haben, wenn sie lernen, wie man Piggy Intercity spielt.
+
+<FAQ items={[
+  {
+    question: "Was ist das Hauptziel in Piggy Intercity?",
+    answer: "Das Hauptziel ist es, die infizierte Welt von Evalia zu erkunden, Quests abzuschließen, Charaktere zu treffen, Entscheidungen zu treffen, die deine Geschichte formen, eine Basis zu bauen und gegen infizierte Feinde zu überleben. Es ist ein entscheidungsbasiertes Open-World-RPG."
+  },
+  {
+    question: "Wird mein Fortschritt aus der Piggy Intercity Demo in das Hauptspiel übernommen?",
+    answer: "Nein, die offizielle Demo-Seite gibt an, dass Speicherdaten aus der Demo nicht in die Vollversion von Piggy Intercity übernommen werden. Das Abschließen der Demo belohnt dich jedoch mit kostenlosen Kristallen im Hauptspiel."
+  },
+  {
+    question: "Wie wichtig sind meine Entscheidungen in Piggy Intercity?",
+    answer: "Entscheidungen sind in Piggy Intercity sehr wichtig. Dialog- und Story-Entscheidungen können deine Beziehungen zu Charakteren erheblich beeinflussen, die Welt um dich herum verändern und deine Questpfade modifizieren. Achte genau auf sie."
+  },
+  {
+    question: "Wo finde ich Piggy Intercity Codes?",
+    answer: "Piggy Intercity hat derzeit keine offizielle öffentliche Liste für Einlösecodes in den Roblox-Spielbeschreibungen. Zukünftige Codes oder Belohnungen werden wahrscheinlich über den offiziellen Piggy Discord oder die offiziellen Roblox-Seiten angekündigt. Die primäre Belohnung derzeit ist der Abschluss der Demo."
+  }
+]} />
+
+</Section>

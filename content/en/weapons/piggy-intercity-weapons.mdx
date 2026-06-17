@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Weapons: Best Gear & Combat Loadouts",
+  description: "Master combat in Evalia with our Piggy Intercity weapons guide. Learn about melee gear, ranged tactics, ammo locations, and survival loadouts for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Weapons+and+Combat+Guide",
+  date: "2026-06-16",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Piggy intercity weapons** are divided into melee and ranged categories, each requiring specific stamina or ammo management.
+- **Blocking mechanics** are essential for survival in Evalia, allowing players to mitigate damage from infected threats.
+- **Headshot multipliers** significantly increase damage for ranged weapons, making precision more valuable than fire rate.
+- **Early-game progression** should focus on securing a reliable melee tool before venturing into high-danger infection zones.
+- **Demo completion** provides crystals that can be used in the full version to jumpstart your arsenal through shopping.
+</Callout>
+
+<Section icon={Shield} title="Combat Fundamentals in Evalia">
+
+Surviving the open world of Evalia requires more than just running; it demands a deep understanding of the **piggy intercity weapons** system. Unlike the original Piggy escape maps, Intercity introduces a choice-driven RPG framework where combat has consequences. Every encounter with the infected or hostile NPCs tests your equipment durability, your resource management, and your tactical positioning.
+
+The combat loop is built around three pillars: detection, engagement, and recovery. Players must balance their hunger and thirst levels, as low survival stats can negatively impact combat performance, such as reduced stamina for swinging melee weapons or slower movement speeds during a firefight.
+
+| Mechanic | Impact on Combat | Strategy Recommendation |
+| :--- | :--- | :--- |
+| **Blocking** | Reduces incoming melee damage | Time blocks just before an enemy strike |
+| **Stamina** | Limits melee swings and sprinting | Avoid spamming attacks; keep a reserve for escapes |
+| **Headshots** | Massive damage bonus for ranged | Aim slightly above center mass for infected |
+| **Durability** | Weapons may degrade or require maintenance | Always carry a backup melee tool |
+| **Stealth** | Avoids unnecessary combat encounters | Crouch to reduce noise when near infected groups |
+
+<Callout type="warning" title="Stamina Management">
+Do not deplete your stamina bar entirely during a fight. If you reach zero stamina, you will be unable to block or sprint, leaving you completely vulnerable to the infected.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melee Weapon Classification and Tier List">
+
+Melee weapons are the backbone of any survivor's loadout in Piggy: Intercity. Because ammo is a finite and rare resource, you will spend the majority of your time defending yourself with blunt or bladed instruments. These weapons do not require ammunition but rely heavily on the player's stamina bar and timing.
+
+In the current meta, melee weapons are ranked based on their swing speed, reach (hitbox size), and the amount of stagger they apply to enemies. A weapon with high stagger can interrupt an infected's attack animation, providing a vital window for a follow-up strike or a tactical retreat.
+
+<CardGrid cols={3}>
+  <Card title="Light Weapons">
+    - **Fast swing speed**
+    - Low stamina cost
+    - Short reach
+    - Ideal for 1v1 encounters
+  </Card>
+  <Card title="Heavy Weapons">
+    - **High damage per hit**
+    - High stamina cost
+    - Large stagger effect
+    - Best for clearing paths
+  </Card>
+  <Card title="Utility Tools">
+    - **Dual-purpose gear**
+    - Moderate combat stats
+    - Used for world interaction
+    - Essential for early survival
+  </Card>
+</CardGrid>
+
+| Weapon Tier | Weapon Type | Primary Benefit | Best Used For |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Combat Knife / Machete | High speed and bleed damage | Expert players and boss encounters |
+| **A-Tier** | Baseball Bat / Crowbar | Reliable stagger and durability | General exploration and crowd control |
+| **B-Tier** | Pipe / Wooden Board | Common availability | Emergency backup when main gear breaks |
+| **C-Tier** | Small Tools | Low range and damage | Last resort survival only |
+
+<Callout type="tip" title="Melee Mastery">
+When using A-Tier weapons like the Crowbar, use a "hit and run" tactic. Strike once to stagger the enemy, then step back to regenerate a small amount of stamina before striking again.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ranged Weapons and Ammo Tactics">
+
+Ranged **piggy intercity weapons** provide the ultimate advantage: the ability to neutralize threats before they reach you. However, this power comes with the burden of ammo scarcity. Finding bullets in Evalia is difficult, often requiring players to explore dangerous "Infection Danger Routes" or spend hard-earned currency at shops.
+
+Ranged combat is not just about clicking on enemies; it involves managing reload times and understanding the effective range of your firearm. A pistol might be effective at mid-range, but its damage drop-off makes it poor for sniping, whereas a rifle requires steady aim but can clear a path from a safe distance.
+
+| Ammo Type | Compatible Weapons | Rarity | Typical Location |
+| :--- | :--- | :--- | :--- |
+| **Small Caliber** | Pistols, SMGs | Common | Residential buildings, small shops |
+| **Shells** | Shotguns | Uncommon | Police stations, fortified bases |
+| **Large Caliber** | Rifles, Snipers | Rare | Military outposts, high-tier chests |
+| **Specialty** | Crossbows, Launchers | Very Rare | Quest rewards, secret locations |
+
+<Steps>
+  <Step num="1" title="Secure a Firearm">
+    Check police stations or military checkpoints early in your run. These are high-risk areas but are the most likely to spawn a basic pistol or shotgun.
+  </Step>
+  <Step num="2" title="Conserve Your Bullets">
+    Only use ranged weapons against "Tank" infected or when you are outnumbered. Using a bullet on a single, weak infected is a waste of resources.
+  </Step>
+  <Step num="3" title="Master the Reload">
+    Reloading takes time and often slows your movement. Always reload *before* entering a new building or starting a quest interaction.
+  </Step>
+  <Step num="4" title="Aim for the Head">
+    Headshots in Piggy: Intercity deal significantly more damage. This is essential for conserving ammo, as one headshot often equals three body shots.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ammo Scavenging Tip">
+Check under furniture and inside crates in "Safe Zones." Sometimes developers hide small ammo stashes in places players usually overlook while rushing to NPCs.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Obtain Weapons in Evalia">
+
+Acquiring the best **piggy intercity weapons** is a journey through the different zones of Evalia. While some basic items can be found scattered on the floor, the most powerful gear is tied to specific systems: shopping, questing, and demo rewards.
+
+The game's economy revolves around crystals and found materials. If you completed the Piggy Intercity demo, you should have a starting balance of crystals in the full version. These should be spent immediately on a reliable melee weapon and a small supply of food to ensure your first hour of gameplay isn't cut short by the infection.
+
+| Location Type | Weapon Potential | Danger Level | Recommended Gear |
+| :--- | :--- | :--- | :--- |
+| **City Shops** | Guaranteed purchase options | Low | Crystals / Currency |
+| **Military Outposts** | High-tier ranged weapons | Very High | Stealth and backup melee |
+| **Residential Areas** | Basic tools and ammo | Moderate | Flashlight and crowbar |
+| **Quest Hubs** | Unique story-based rewards | Variable | Dialogue awareness |
+
+<Callout type="info" title="Demo Rewards">
+Remember that save data from the demo does not carry over. Your only permanent benefit from the demo is the crystal reward. Use these crystals at the main hub shop as soon as you spawn in the full version.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Combat Stats and Leveling Attributes">
+
+The full version of Piggy: Intercity features an expanded attribute system that directly influences how you use your weapons. As you level up, you can invest points into different stats that change your combat effectiveness. This RPG layer means that two players using the same weapon might have completely different experiences based on their "Build."
+
+Focusing on Strength will increase your melee damage and stagger potential, while Agility might improve your reload speed and stamina regeneration. Understanding these synergies is key to late-game survival in the more difficult regions of Evalia.
+
+| Attribute | Effect on Weapons | Playstyle Synergy |
+| :--- | :--- | :--- |
+| **Strength** | Increases melee damage and knockback | Heavy weapon / Tank build |
+| **Dexterity** | Improves reload speed and weapon swap | Ranged / Gunslinger build |
+| **Endurance** | Increases total stamina and block duration | Defensive / Survivalist build |
+| **Perception** | Highlights ammo and increases headshot crit | Sniper / Scavenger build |
+
+<Checklist
+  id="weapon-readiness"
+  title="Pre-Combat Checklist:"
+  items={[
+    "Check melee weapon durability (is it about to break?)",
+    "Ensure ranged weapon is fully loaded",
+    "Verify stamina bar is at least 80% full",
+    "Equip your highest-damage weapon to the primary slot",
+    "Check for nearby escape routes in case of an ambush"
+  ]}
+/>
+
+<Callout type="tip" title="Build Optimization">
+If you play solo, prioritize a mix of Strength and Endurance. You need the extra health and melee power to handle groups of infected when there is no one else to watch your back.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Weapon Mastery FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the best piggy intercity weapons for beginners?",
+    answer: "For new players, the Crowbar or Baseball Bat are the best choices. They offer a good balance of reach and stagger, which helps keep the infected at a distance while you learn the combat timing."
+  },
+  {
+    question: "How do I get more ammo in Piggy: Intercity?",
+    answer: "Ammo can be found by scavenging in residential and military areas, or by purchasing it from shops using crystals. Completing the demo version also provides crystals that can be used to buy ammo in the full game."
+  },
+  {
+    question: "Can I repair broken weapons?",
+    answer: "Weapon maintenance is a core part of the full version. You may need specific materials found in the world or a crafting bench at your base to keep your high-tier weapons in working order."
+  },
+  {
+    question: "Does attacking neutral NPCs affect my story?",
+    answer: "Yes. Piggy: Intercity is a choice-driven RPG. Attacking neutral NPCs with your weapons can lower your reputation, change character relationships, and potentially lock you out of certain quests or safe zones."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Always keep a "silent" weapon (melee) ready. Guns are loud and can attract more infected to your location. Use firearms as a last resort to maintain your stealth advantage in Evalia.
+</Callout>
+
+</Section>

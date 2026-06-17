@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Waffen: Beste Ausrüstung & Kampf-Loadouts",
+  description: "Meistern Sie den Kampf in Evalia mit unserem Piggy Intercity Waffen-Guide. Erfahren Sie mehr über Nahkampfausrüstung, Fernkampftaktiken, Munitionsfundorte und Überlebens-Loadouts für 2026.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Weapons+and+Combat+Guide",
+  date: "2026-06-16",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Waffen** sind in Nahkampf- und Fernkampfkategorien unterteilt, wobei jede eine spezifische Ausdauer- oder Munitionsverwaltung erfordert.
+- **Blockmechaniken** sind für das Überleben in Evalia unerlässlich und ermöglichen es den Spielern, Schaden durch infizierte Bedrohungen zu mindern.
+- **Kopfschuss-Multiplikatoren** erhöhen den Schaden von Fernkampfwaffen erheblich, wodurch Präzision wertvoller als die Feuerrate wird.
+- **Der Fortschritt im frühen Spiel** sollte sich auf die Sicherung eines zuverlässigen Nahkampfwerkzeugs konzentrieren, bevor man sich in hochgefährliche Infektionszonen wagt.
+- **Der Abschluss der Demo** liefert Kristalle, die in der Vollversion verwendet werden können, um Ihr Arsenal durch Einkäufe aufzurüsten.
+</Callout>
+
+<Section icon={Shield} title="Kampfgrundlagen in Evalia">
+
+Das Überleben in der offenen Welt von Evalia erfordert mehr als nur Laufen; es verlangt ein tiefes Verständnis des **Piggy Intercity Waffensystems**. Im Gegensatz zu den ursprünglichen Piggy Escape Maps führt Intercity ein entscheidungsbasiertes RPG-Framework ein, bei dem Kämpfe Konsequenzen haben. Jede Begegnung mit Infizierten oder feindlichen NPCs stellt die Haltbarkeit Ihrer Ausrüstung, Ihr Ressourcenmanagement und Ihre taktische Positionierung auf die Probe.
+
+Der Kampfzyklus basiert auf drei Säulen: Erkennung, Engagement und Erholung. Spieler müssen ihr Hunger- und Durstlevel ausgleichen, da niedrige Überlebenswerte die Kampfleistung negativ beeinflussen können, wie z.B. reduzierte Ausdauer beim Schwingen von Nahkampfwaffen oder langsamere Bewegungsgeschwindigkeiten während eines Feuergefechts.
+
+| Mechanik | Auswirkungen auf den Kampf | Strategieempfehlung |
+| :--- | :--- | :--- |
+| **Blocken** | Reduziert eingehenden Nahkampfschaden | Blöcke kurz vor einem feindlichen Schlag timen |
+| **Ausdauer** | Begrenzt Nahkampfschläge und Sprinten | Angriffe nicht spammen; eine Reserve für Fluchten behalten |
+| **Kopfschüsse** | Massiver Schadensbonus für Fernkampf | Leicht über die Mitte der Masse der Infizierten zielen |
+| **Haltbarkeit** | Waffen können sich abnutzen oder Wartung erfordern | Immer ein Ersatz-Nahkampfwerkzeug mitführen |
+| **Tarnung** | Vermeidet unnötige Kampfbegegnungen | Ducken, um Geräusche in der Nähe von Infizierten-Gruppen zu reduzieren |
+
+<Callout type="warning" title="Ausdauerverwaltung">
+Verbrauchen Sie Ihre Ausdauerleiste während eines Kampfes nicht vollständig. Wenn Ihre Ausdauer auf Null sinkt, können Sie weder blocken noch sprinten, wodurch Sie den Infizierten völlig schutzlos ausgeliefert sind.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nahkampfwaffen-Klassifizierung und Tier-Liste">
+
+Nahkampfwaffen sind das Rückgrat jeder Überlebensausrüstung in Piggy: Intercity. Da Munition eine endliche und seltene Ressource ist, werden Sie den Großteil Ihrer Zeit damit verbringen, sich mit stumpfen oder scharfen Instrumenten zu verteidigen. Diese Waffen benötigen keine Munition, sind aber stark von der Ausdauerleiste und dem Timing des Spielers abhängig.
+
+In der aktuellen Meta werden Nahkampfwaffen nach ihrer Schwunggeschwindigkeit, Reichweite (Hitbox-Größe) und dem Grad des Staggerns eingestuft, den sie bei Gegnern verursachen. Eine Waffe mit hohem Staggern kann die Angriffsanimation eines Infizierten unterbrechen und ein wichtiges Zeitfenster für einen Folgetreffer oder einen taktischen Rückzug bieten.
+
+<CardGrid cols={3}>
+  <Card title="Leichte Waffen">
+    - **Schnelle Schwunggeschwindigkeit**
+    - Geringe Ausdauerkosten
+    - Kurze Reichweite
+    - Ideal für 1v1-Begegnungen
+  </Card>
+  <Card title="Schwere Waffen">
+    - **Hoher Schaden pro Treffer**
+    - Hohe Ausdauerkosten
+    - Großer Stagger-Effekt
+    - Am besten zum Wegfreimachen geeignet
+  </Card>
+  <Card title="Utility-Werkzeuge">
+    - **Doppelzweck-Ausrüstung**
+    - Moderate Kampfwerte
+    - Für Weltinteraktion verwendet
+    - Wesentlich für das frühe Überleben
+  </Card>
+</CardGrid>
+
+| Waffen-Tier | Waffentyp | Hauptvorteil | Am besten geeignet für |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Kampfmesser / Machete | Hohe Geschwindigkeit und Blutungsschaden | Erfahrene Spieler und Bosskämpfe |
+| **A-Tier** | Baseballschläger / Brecheisen | Zuverlässiger Stagger und Haltbarkeit | Allgemeine Erkundung und Massenkontrolle |
+| **B-Tier** | Rohr / Holzbrett | Allgemeine Verfügbarkeit | Notfall-Backup, wenn Hauptausrüstung kaputtgeht |
+| **C-Tier** | Kleine Werkzeuge | Geringe Reichweite und Schaden | Nur als letztes Mittel zum Überleben |
+
+<Callout type="tip" title="Nahkampf-Meisterschaft">
+Verwenden Sie bei A-Tier-Waffen wie dem Brecheisen eine "Hit-and-Run"-Taktik. Schlagen Sie einmal zu, um den Gegner zu staggern, treten Sie dann zurück, um eine kleine Menge Ausdauer zu regenerieren, bevor Sie erneut zuschlagen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fernkampfwaffen und Munitionstaktiken">
+
+Fernkampf-**Piggy Intercity Waffen** bieten den ultimativen Vorteil: die Fähigkeit, Bedrohungen zu neutralisieren, bevor sie Sie erreichen. Diese Macht geht jedoch mit dem Problem der Munitionsknappheit einher. Kugeln in Evalia zu finden ist schwierig und erfordert oft, dass Spieler gefährliche "Infektionsgefahrenrouten" erkunden oder hart verdientes Geld in Geschäften ausgeben.
+
+Fernkampf ist nicht nur das Klicken auf Feinde; es beinhaltet die Verwaltung von Nachladezeiten und das Verständnis der effektiven Reichweite Ihrer Schusswaffe. Eine Pistole mag auf mittlere Distanz effektiv sein, aber ihr Schadensabfall macht sie schlecht zum Snipen, wohingegen ein Gewehr ein ruhiges Zielen erfordert, aber einen Weg aus sicherer Entfernung freimachen kann.
+
+| Munitionstyp | Kompatible Waffen | Seltenheit | Typischer Fundort |
+| :--- | :--- | :--- | :--- |
+| **Kleinkaliber** | Pistolen, SMGs | Häufig | Wohngebäude, kleine Geschäfte |
+| **Schrotpatronen** | Schrotflinten | Ungewöhnlich | Polizeistationen, befestigte Basen |
+| **Großkaliber** | Gewehre, Scharfschützengewehre | Selten | Militärposten, hochwertige Kisten |
+| **Spezial** | Armbrüste, Werfer | Sehr selten | Questbelohnungen, geheime Orte |
+
+<Steps>
+  <Step num="1" title="Sichern Sie sich eine Schusswaffe">
+    Überprüfen Sie frühzeitig in Ihrem Durchlauf Polizeistationen oder Militärkontrollpunkte. Dies sind Hochrisikobereiche, aber die wahrscheinlichsten Orte, um eine grundlegende Pistole oder Schrotflinte zu finden.
+  </Step>
+  <Step num="2" title="Sparen Sie Ihre Kugeln">
+    Verwenden Sie Fernkampfwaffen nur gegen "Tank"-Infizierte oder wenn Sie in der Unterzahl sind. Eine Kugel für einen einzelnen, schwachen Infizierten zu verwenden, ist Ressourcenverschwendung.
+  </Step>
+  <Step num="3" title="Meistern Sie das Nachladen">
+    Das Nachladen braucht Zeit und verlangsamt oft Ihre Bewegung. Laden Sie immer *bevor* Sie ein neues Gebäude betreten oder eine Quest-Interaktion starten.
+  </Step>
+  <Step num="4" title="Zielen Sie auf den Kopf">
+    Kopfschüsse in Piggy: Intercity verursachen deutlich mehr Schaden. Dies ist unerlässlich, um Munition zu sparen, da ein Kopfschuss oft drei Körperschüssen entspricht.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tipp zum Munitions-Scavenging">
+Schauen Sie unter Möbeln und in Kisten in "Sicheren Zonen" nach. Manchmal verstecken Entwickler kleine Munitionsverstecke an Orten, die Spieler normalerweise übersehen, wenn sie zu NPCs eilen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Wie man Waffen in Evalia erhält">
+
+Die besten **Piggy Intercity Waffen** zu erwerben, ist eine Reise durch die verschiedenen Zonen von Evalia. Während einige grundlegende Gegenstände auf dem Boden verstreut gefunden werden können, ist die mächtigste Ausrüstung an spezifische Systeme gebunden: Einkaufen, Questen und Demo-Belohnungen.
+
+Die Spielökonomie dreht sich um Kristalle und gefundene Materialien. Wenn Sie die Piggy Intercity Demo abgeschlossen haben, sollten Sie in der Vollversion ein Startguthaben an Kristallen haben. Diese sollten sofort für eine zuverlässige Nahkampfwaffe und einen kleinen Vorrat an Nahrung ausgegeben werden, um sicherzustellen, dass Ihre erste Stunde Spielzeit nicht durch die Infektion verkürzt wird.
+
+| Standorttyp | Waffenpotenzial | Gefahrenstufe | Empfohlene Ausrüstung |
+| :--- | :--- | :--- | :--- |
+| **Stadtgeschäfte** | Garantierte Kaufoptionen | Niedrig | Kristalle / Währung |
+| **Militärposten** | Hochstufige Fernkampfwaffen | Sehr hoch | Tarnung und Ersatz-Nahkampf |
+| **Wohngebiete** | Grundlegende Werkzeuge und Munition | Moderat | Taschenlampe und Brecheisen |
+| **Quest-Hubs** | Einzigartige storybasierte Belohnungen | Variabel | Dialogbewusstsein |
+
+<Callout type="info" title="Demo-Belohnungen">
+Denken Sie daran, dass Speicherdaten aus der Demo nicht übernommen werden. Ihr einziger dauerhafter Vorteil aus der Demo ist die Kristallbelohnung. Verwenden Sie diese Kristalle im Haupt-Hub-Shop, sobald Sie in der Vollversion spawnen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kampfstatistiken und Attributs-Leveling">
+
+Die Vollversion von Piggy: Intercity bietet ein erweitertes Attributsystem, das direkt beeinflusst, wie Sie Ihre Waffen einsetzen. Wenn Sie aufsteigen, können Sie Punkte in verschiedene Statistiken investieren, die Ihre Kampfeffektivität verändern. Diese RPG-Schicht bedeutet, dass zwei Spieler, die dieselbe Waffe verwenden, aufgrund ihres "Builds" völlig unterschiedliche Erfahrungen machen können.
+
+Das Fokussieren auf Stärke erhöht Ihren Nahkampfschaden und das Stagger-Potenzial, während Agilität Ihre Nachladegeschwindigkeit und Ausdauerregeneration verbessern könnte. Das Verständnis dieser Synergien ist der Schlüssel zum Überleben im späten Spiel in den schwierigeren Regionen von Evalia.
+
+| Attribut | Effekt auf Waffen | Spielstil-Synergie |
+| :--- | :--- | :--- |
+| **Stärke** | Erhöht Nahkampfschaden und Rückstoß | Schwere Waffe / Tank-Build |
+| **Geschicklichkeit** | Verbessert Nachladegeschwindigkeit und Waffenwechsel | Fernkampf / Revolverheld-Build |
+| **Ausdauer** | Erhöht Gesamtausdauer und Blockdauer | Defensiv / Überlebenskünstler-Build |
+| **Wahrnehmung** | Hebt Munition hervor und erhöht Kopfschuss-Krit | Scharfschütze / Plünderer-Build |
+
+<Checklist
+  id="weapon-readiness"
+  title="Checkliste vor dem Kampf:"
+  items={[
+    "Haltbarkeit der Nahkampfwaffe prüfen (steht sie kurz vor dem Bruch?)",
+    "Sicherstellen, dass die Fernkampfwaffe vollständig geladen ist",
+    "Überprüfen, ob die Ausdauerleiste zu mindestens 80 % gefüllt ist",
+    "Ihre Waffe mit dem höchsten Schaden im primären Slot ausrüsten",
+    "Auf nahegelegene Fluchtwege im Falle eines Hinterhalts prüfen"
+  ]}
+/>
+
+<Callout type="tip" title="Build-Optimierung">
+Wenn Sie alleine spielen, priorisieren Sie eine Mischung aus Stärke und Ausdauer. Sie benötigen die zusätzliche Gesundheit und Nahkampfkraft, um Gruppen von Infizierten zu bewältigen, wenn niemand sonst Ihren Rücken deckt.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ zur Waffenbeherrschung">
+
+<FAQ items={[
+  {
+    question: "Was sind die besten Piggy Intercity Waffen für Anfänger?",
+    answer: "Für neue Spieler sind das Brecheisen oder der Baseballschläger die besten Optionen. Sie bieten eine gute Balance aus Reichweite und Stagger, was hilft, die Infizierten auf Distanz zu halten, während Sie das Kampftiming lernen."
+  },
+  {
+    question: "Wie bekomme ich mehr Munition in Piggy: Intercity?",
+    answer: "Munition kann durch Plündern in Wohn- und Militärgebieten oder durch Kauf in Geschäften mit Kristallen gefunden werden. Der Abschluss der Demo-Version bietet auch Kristalle, die im vollständigen Spiel zum Kauf von Munition verwendet werden können."
+  },
+  {
+    question: "Kann ich kaputte Waffen reparieren?",
+    answer: "Waffenwartung ist ein Kernbestandteil der Vollversion. Sie benötigen möglicherweise spezifische Materialien, die in der Welt gefunden werden, oder eine Werkbank in Ihrer Basis, um Ihre hochwertigen Waffen in einwandfreiem Zustand zu halten."
+  },
+  {
+    question: "Beeinflusst das Angreifen neutraler NPCs meine Geschichte?",
+    answer: "Ja. Piggy: Intercity ist ein entscheidungsbasiertes RPG. Das Angreifen neutraler NPCs mit Ihren Waffen kann Ihren Ruf senken, Charakterbeziehungen ändern und Sie möglicherweise von bestimmten Quests oder sicheren Zonen ausschließen."
+  }
+]} />
+
+<Callout type="success" title="Letzter Ratschlag">
+Halten Sie immer eine "stille" Waffe (Nahkampf) bereit. Waffen sind laut und können mehr Infizierte zu Ihrem Standort locken. Verwenden Sie Schusswaffen als letztes Mittel, um Ihren Tarnvorteil in Evalia zu wahren.
+</Callout>
+
+</Section>

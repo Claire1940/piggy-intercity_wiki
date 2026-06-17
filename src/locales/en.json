@@ -10,7 +10,14 @@
       "twitterDescription": "Piggy Intercity Wiki covers Roblox codes, quests, map, items, weapons, base building and beginner survival tips for Evalia."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "demo": "Demo",
+    "guide": "Guide",
+    "map": "Map",
+    "quests": "Quests",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -514,125 +521,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Piggy Intercity Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced survival strategies in the open world of Evalia.",
-      "metaTitle": "Piggy Intercity Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Piggy Intercity guides covering beginner tips, survival strategies, quests, and expert tactics for mastering the open world RPG.",
+    "release": {
+      "title": "Piggy Intercity Release Date & Launch Info",
+      "description": "Official Piggy Intercity release date, launch time, countdown, timezone guides, and the latest update and release event details.",
+      "metaTitle": "Piggy Intercity Release Date - Launch Time, Countdown & Updates",
+      "metaDescription": "Track the official Piggy Intercity release date, launch time across timezones, countdown, delays, cancellations, and update news from MiniToon.",
+      "categoryLabel": "RELEASE & LAUNCH",
+      "whatIs": "What is the Piggy Intercity Release?",
+      "whatIsDescription": "These guides cover the official Piggy Intercity release: the full-version launch, the countdown and release time in different regions, the relationship between the demo and the full version, and the latest update and release event news from MiniToon.",
+      "why": "Why track the release?",
+      "whySteps": {
+        "step1Title": "Play the Right Version",
+        "step1Description": "Open the official full-version Piggy Intercity page instead of old demo builds",
+        "step2Title": "Know Your Local Launch Time",
+        "step2Description": "Convert the release time and countdown to your own timezone",
+        "step3Title": "Stay Updated",
+        "step3Description": "Follow update, delay, and release event announcements as the game evolves"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
+    },
+    "demo": {
+      "title": "Piggy Intercity Demo Guide",
+      "description": "Everything about the Piggy Intercity demo: save data rules, demo quests, the demo gun, the demo ending, and the free crystal reward.",
+      "metaTitle": "Piggy Intercity Demo Guide - Save Data, Quests, Gun & Ending",
+      "metaDescription": "Learn how the Piggy Intercity demo works: demo save data rules, demo v2 changes, demo quests and gun, the demo ending, and the free crystal reward.",
+      "categoryLabel": "DEMO VERSION",
+      "whatIs": "What is the Piggy Intercity Demo?",
+      "whatIsDescription": "The Piggy Intercity demo is a limited preview of the full game. Demo save data does not carry over to the full version, but completing the demo rewards free crystals that you can use in the full release. These guides explain the demo quests, the demo gun, and how to reach the demo ending.",
+      "why": "Why play the demo?",
+      "whySteps": {
+        "step1Title": "Learn the Basics",
+        "step1Description": "Practice survival, exploration, and quest flow before the full version",
+        "step2Title": "Earn Free Crystals",
+        "step2Description": "Complete the demo to unlock the free crystal reward in the full game",
+        "step3Title": "Finish the Demo Path",
+        "step3Description": "Clear the demo quests, gun encounters, and ending before switching to the full release"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Demo Guides"
+    },
+    "guide": {
+      "title": "Piggy Intercity Guides & Codes",
+      "description": "Beginner guides, survival tips, how-to tutorials, and official Piggy Intercity codes and reward channels.",
+      "metaTitle": "Piggy Intercity Guides & Codes - Beginner Tips & How-To",
+      "metaDescription": "Complete Piggy Intercity guides with beginner tips, survival how-tos, codes, and official reward channels for new and advanced players.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and quest progression in Piggy Intercity. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What are Piggy Intercity Guides?",
+      "whatIsDescription": "These guides cover the core of Piggy Intercity: beginner walkthroughs, survival tips, how-to tutorials for dirt, crystals, saving, and changing clothes, and the official codes and reward channels from Roblox and the Piggy Discord.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the survival and choice systems and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the open world of Evalia",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration, combat, and base building"
+        "step1Title": "Start Strong",
+        "step1Description": "Learn the core loop, survival basics, and first steps in Evalia",
+        "step2Title": "Find Codes and Rewards",
+        "step2Description": "Check active codes and official reward channels in one place",
+        "step3Title": "Solve Common Problems",
+        "step3Description": "Follow how-to guides for resources, saving, and character setup"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "quests": {
-      "title": "Piggy Intercity Quests",
-      "description": "Quest lines, story missions, NPC tasks, and how choices affect relationships in Piggy Intercity.",
-      "metaTitle": "Piggy Intercity Quests - Story Missions & Choices",
-      "metaDescription": "Complete Piggy Intercity quest guides covering story missions, NPC interactions, choices, and rewards across Evalia.",
-      "categoryLabel": "QUESTS & STORY",
-      "whatIs": "What are Quests?",
-      "whatIsDescription": "Quests drive the main story of Piggy Intercity through character interactions, exploration, and choices that affect relationships and the world around you.",
-      "why": "Why follow quest guides?",
-      "whySteps": {
-        "step1Title": "Understand Story Flow",
-        "step1Description": "Learn how quests unlock and connect across Evalia",
-        "step2Title": "Make Better Choices",
-        "step2Description": "See how dialogue and decisions change relationships and routes",
-        "step3Title": "Earn Rewards",
-        "step3Description": "Complete objectives to progress and unlock new content"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Quest Guides"
-    },
-    "items": {
-      "title": "Piggy Intercity Items",
-      "description": "Detailed item guides covering food, water, materials, quest items, weapons, and survival gear with usage tips.",
-      "metaTitle": "Piggy Intercity Items - Items, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Piggy Intercity including food, water, materials, weapons, and gear. Learn how to find and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for items, weapons, tools, and survival gear in Piggy Intercity. Learn usage strategies and optimal loadouts.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Manage Survival",
-        "step1Description": "Track hunger, thirst, and the supplies that keep you alive",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right weapons and tools to navigate dangerous routes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
     "map": {
-      "title": "Piggy Intercity Map",
-      "description": "Explore world regions, quest locations, safe zones, danger routes, and key points of interest across Evalia.",
-      "metaTitle": "Piggy Intercity Map - World Regions & Exploration",
-      "metaDescription": "Explore the Piggy Intercity map including Evalia regions, quest hubs, safe zones, and danger routes. Find resources and navigate the open world.",
+      "title": "Piggy Intercity Map & Locations",
+      "description": "Explore Evalia: all areas, key locations, watch towers, chest and box locations, and the abandoned house.",
+      "metaTitle": "Piggy Intercity Map & Locations - Areas, Chests & Towers",
+      "metaDescription": "Explore the Piggy Intercity map of Evalia: all areas, locations, watch towers, chest and box locations, and the abandoned house.",
       "categoryLabel": "WORLD MAP",
-      "whatIs": "What is the Map?",
-      "whatIsDescription": "Guides to different world regions, quest locations, resource distribution, and danger zones in Piggy Intercity. Learn what to expect and how to prepare for each area.",
+      "whatIs": "What is the Piggy Intercity Map?",
+      "whatIsDescription": "These map guides index the open world of Evalia in Piggy Intercity: all explorable areas, key locations and points of interest, watch tower positions, chest and box locations, and the abandoned house.",
       "why": "Why explore the map?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate materials and points of interest across Evalia",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand infection routes and hostile threat zones",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and routes for each region"
+        "step1Title": "Find Loot",
+        "step1Description": "Locate chests, boxes, and resource spots across Evalia",
+        "step2Title": "Orient Yourself",
+        "step2Description": "Use watch towers and landmarks to navigate all areas",
+        "step3Title": "Plan Your Route",
+        "step3Description": "Connect locations into efficient exploration and survival routes"
       },
       "featured": "Featured & Essential",
       "all": "All Map Guides"
     },
-    "characters": {
-      "title": "Piggy Intercity Characters",
-      "description": "NPCs, main characters, relationships, factions, and dialogue choices that shape your story.",
-      "metaTitle": "Piggy Intercity Characters - NPCs & Relationships",
-      "metaDescription": "Meet the characters and NPCs of Piggy Intercity. Learn their roles, quest connections, and how your choices change relationships.",
-      "categoryLabel": "CHARACTERS",
-      "whatIs": "Who are the Characters?",
-      "whatIsDescription": "Guides to the NPCs and main characters in Piggy Intercity, their locations, roles, and how dialogue choices affect relationships and story paths.",
-      "why": "Why learn the characters?",
+    "quests": {
+      "title": "Piggy Intercity Quests & Walkthroughs",
+      "description": "Quest lines, side quests, NPC tasks, and key story choices like Mayor Bailey, Axelle's package, the school choice, and the bandits route.",
+      "metaTitle": "Piggy Intercity Quests - Story Missions, NPC Tasks & Choices",
+      "metaDescription": "Complete Piggy Intercity quest walkthroughs covering side quests, Mayor Bailey, Axelle's package, the school choice, and the bandits route.",
+      "categoryLabel": "QUESTS & STORY",
+      "whatIs": "What are Piggy Intercity Quests?",
+      "whatIsDescription": "Quests drive the story of Piggy Intercity through NPC interactions, exploration, and choices. These walkthroughs cover all quests and side quests, including Mayor Bailey, Axelle's package, the school choice, and the bandits route.",
+      "why": "Why follow quest guides?",
       "whySteps": {
-        "step1Title": "Build Relationships",
-        "step1Description": "Understand how choices change NPC attitudes toward you",
-        "step2Title": "Unlock Quests",
-        "step2Description": "Find the characters that open new story branches",
-        "step3Title": "Plan Your Route",
-        "step3Description": "Pick dialogue paths that match your preferred playstyle"
+        "step1Title": "Understand Story Flow",
+        "step1Description": "See how quests unlock and connect across Evalia",
+        "step2Title": "Make the Right Choices",
+        "step2Description": "Learn how the school choice and NPC tasks change your route",
+        "step3Title": "Complete Every Path",
+        "step3Description": "Clear main quests, side quests, and the bandits route without getting stuck"
       },
       "featured": "Featured & Essential",
-      "all": "All Character Guides"
+      "all": "All Quest Guides"
     },
-    "base": {
-      "title": "Piggy Intercity Base Building",
-      "description": "Master base building, plot claiming, materials, crafting tables, and base upgrades in Piggy Intercity.",
-      "metaTitle": "Piggy Intercity Base Building - Plots & Construction",
-      "metaDescription": "Master Piggy Intercity base building with plot claiming, construction materials, crafting tables, and base upgrade tips for new players.",
-      "categoryLabel": "BASE BUILDING",
-      "whatIs": "What is Base Building?",
-      "whatIsDescription": "Guides to claiming a plot, gathering building materials, using crafting tables, and expanding your base in Piggy Intercity.",
-      "why": "Why build a base?",
+    "weapons": {
+      "title": "Piggy Intercity Weapons & Guns",
+      "description": "Weapons and guns in Piggy Intercity: melee and ranged options, the demo gun, ammo, and combat tips against the infected.",
+      "metaTitle": "Piggy Intercity Weapons & Guns - Combat Guide",
+      "metaDescription": "Master Piggy Intercity weapons and guns: melee and ranged options, the demo gun, ammo, blocking, and combat tactics against the infected.",
+      "categoryLabel": "WEAPONS & COMBAT",
+      "whatIs": "What are Piggy Intercity Weapons?",
+      "whatIsDescription": "These guides cover the weapons and guns of Piggy Intercity, including melee and ranged options, the demo gun, ammo, blocking, and how to use each weapon against the infected threats in Evalia.",
+      "why": "Why learn the weapons?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish a secure base for storage and survival operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Grow Long-Term",
-        "step3Description": "Upgrade your base to support longer survival sessions"
+        "step1Title": "Pick the Right Tool",
+        "step1Description": "Choose melee or ranged weapons and the demo gun for each threat",
+        "step2Title": "Manage Ammo",
+        "step2Description": "Understand ammo use and when to rely on melee or blocking",
+        "step3Title": "Survive Combat",
+        "step3Description": "Apply tactics to handle the infected and dangerous routes"
       },
       "featured": "Featured & Essential",
-      "all": "All Base Guides"
+      "all": "All Weapon Guides"
     }
   }
 }

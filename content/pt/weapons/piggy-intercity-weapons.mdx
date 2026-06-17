@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de Piggy Intercity: Melhor Equipamento e Carregamentos de Combate",
+  description: "Domine o combate em Evalia com nosso guia de armas de Piggy Intercity. Aprenda sobre equipamentos de combate corpo a corpo, táticas de longo alcance, locais de munição e carregamentos de sobrevivência para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Weapons+and+Combat+Guide",
+  date: "2026-06-16",
+  author: "Equipe Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **armas de Piggy Intercity** são divididas em categorias de combate corpo a corpo e à distância, cada uma exigindo gerenciamento específico de vigor ou munição.
+- As **mecânicas de bloqueio** são essenciais para a sobrevivência em Evalia, permitindo aos jogadores mitigar o dano de ameaças infectadas.
+- Os **multiplicadores de tiro na cabeça** aumentam significativamente o dano para armas de longo alcance, tornando a precisão mais valiosa do que a taxa de tiro.
+- A **progressão no início do jogo** deve focar em garantir uma ferramenta de combate corpo a corpo confiável antes de se aventurar em zonas de infecção de alto perigo.
+- A **conclusão da demonstração** fornece cristais que podem ser usados na versão completa para impulsionar seu arsenal através de compras.
+</Callout>
+
+<Section icon={Shield} title="Fundamentos de Combate em Evalia">
+
+Sobreviver no mundo aberto de Evalia exige mais do que apenas correr; exige um profundo entendimento do sistema de **armas de Piggy Intercity**. Ao contrário dos mapas de fuga originais de Piggy, Intercity introduz uma estrutura de RPG baseada em escolhas, onde o combate tem consequências. Cada encontro com os infectados ou NPCs hostis testa a durabilidade do seu equipamento, o gerenciamento de seus recursos e seu posicionamento tático.
+
+O ciclo de combate é construído em torno de três pilares: detecção, engajamento e recuperação. Os jogadores devem equilibrar seus níveis de fome e sede, pois baixos status de sobrevivência podem impactar negativamente o desempenho em combate, como redução do vigor para balançar armas corpo a corpo ou velocidades de movimento mais lentas durante um tiroteio.
+
+| Mecânica | Impacto no Combate | Recomendação de Estratégia |
+| :--- | :--- | :--- |
+| **Bloqueio** | Reduz o dano corpo a corpo recebido | Cronometre os bloqueios pouco antes de um ataque inimigo |
+| **Vigor** | Limita golpes corpo a corpo e corrida | Evite atacar sem parar; guarde uma reserva para fugas |
+| **Tiros na Cabeça** | Bônus de dano massivo para armas de longo alcance | Mire ligeiramente acima do centro da massa para infectados |
+| **Durabilidade** | Armas podem degradar ou exigir manutenção | Sempre carregue uma ferramenta corpo a corpo de reserva |
+| **Furtividade** | Evita encontros de combate desnecessários | Agache-se para reduzir o ruído perto de grupos infectados |
+
+<Callout type="warning" title="Gerenciamento de Vigor">
+Não esgote sua barra de vigor completamente durante uma luta. Se você atingir zero de vigor, não conseguirá bloquear ou correr, ficando completamente vulnerável aos infectados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classificação e Lista de Níveis de Armas Corpo a Corpo">
+
+Armas corpo a corpo são a espinha dorsal do equipamento de qualquer sobrevivente em Piggy: Intercity. Como a munição é um recurso finito e raro, você passará a maior parte do tempo se defendendo com instrumentos contundentes ou afiados. Essas armas não exigem munição, mas dependem muito da barra de vigor e do tempo do jogador.
+
+No meta atual, as armas corpo a corpo são classificadas com base em sua velocidade de ataque, alcance (tamanho da hitbox) e a quantidade de atordoamento que aplicam aos inimigos. Uma arma com alto atordoamento pode interromper a animação de ataque de um infectado, proporcionando uma janela vital para um ataque de acompanhamento ou uma retirada tática.
+
+<CardGrid cols={3}>
+  <Card title="Armas Leves">
+    - **Velocidade de ataque rápida**
+    - Baixo custo de vigor
+    - Curto alcance
+    - Ideal para encontros 1v1
+  </Card>
+  <Card title="Armas Pesadas">
+    - **Alto dano por golpe**
+    - Alto custo de vigor
+    - Grande efeito de atordoamento
+    - Melhor para abrir caminho
+  </Card>
+  <Card title="Ferramentas Utilitárias">
+    - **Equipamento de dupla finalidade**
+    - Estatísticas de combate moderadas
+    - Usado para interação com o mundo
+    - Essencial para a sobrevivência inicial
+  </Card>
+</CardGrid>
+
+| Nível da Arma | Tipo de Arma | Benefício Principal | Melhor Usado Para |
+| :--- | :--- | :--- | :--- |
+| **Nível S** | Faca de Combate / Facão | Alta velocidade e dano de sangramento | Jogadores experientes e encontros com chefes |
+| **Nível A** | Taco de Beisebol / Pé de Cabra | Atordoamento confiável e durabilidade | Exploração geral e controle de multidões |
+| **Nível B** | Cano / Tábua de Madeira | Disponibilidade comum | Reserva de emergência quando o equipamento principal quebra |
+| **Nível C** | Ferramentas Pequenas | Baixo alcance e dano | Sobrevivência de último recurso apenas |
+
+<Callout type="tip" title="Maestria Corpo a Corpo">
+Ao usar armas de Nível A como o Pé de Cabra, utilize a tática "bata e corra". Bata uma vez para atordoar o inimigo, depois recue para regenerar uma pequena quantidade de vigor antes de atacar novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Armas de Longo Alcance e Táticas de Munição">
+
+As **armas de Piggy Intercity** de longo alcance oferecem a vantagem definitiva: a capacidade de neutralizar ameaças antes que elas o alcancem. No entanto, esse poder vem com o ônus da escassez de munição. Encontrar balas em Evalia é difícil, muitas vezes exigindo que os jogadores explorem "Rotas de Perigo de Infecção" perigosas ou gastem dinheiro suado em lojas.
+
+O combate à distância não é apenas sobre clicar nos inimigos; envolve gerenciar tempos de recarga e entender o alcance efetivo da sua arma de fogo. Uma pistola pode ser eficaz a médio alcance, mas sua queda de dano a torna inadequada para atirar de longe, enquanto um rifle exige mira firme, mas pode abrir caminho de uma distância segura.
+
+| Tipo de Munição | Armas Compatíveis | Raridade | Localização Típica |
+| :--- | :--- | :--- | :--- |
+| **Calibre Pequeno** | Pistolas, SMGs | Comum | Edifícios residenciais, pequenas lojas |
+| **Cartuchos** | Espingardas | Incomum | Delegacias de polícia, bases fortificadas |
+| **Calibre Grande** | Rifles, Snipers | Raro | Postos militares, baús de alto nível |
+| **Especialidade** | Bestas, Lançadores | Muito Raro | Recompensas de missões, locais secretos |
+
+<Steps>
+  <Step num="1" title="Garanta uma Arma de Fogo">
+    Verifique delegacias de polícia ou postos de controle militares no início da sua jornada. Essas são áreas de alto risco, mas são as mais propensas a gerar uma pistola ou espingarda básica.
+  </Step>
+  <Step num="2" title="Conserve Suas Balas">
+    Use armas de longo alcance apenas contra infectados "Tank" ou quando estiver em menor número. Usar uma bala em um único infectado fraco é um desperdício de recursos.
+  </Step>
+  <Step num="3" title="Domine a Recarga">
+    Recarregar leva tempo e muitas vezes diminui seu movimento. Sempre recarregue *antes* de entrar em um novo edifício ou iniciar uma interação de missão.
+  </Step>
+  <Step num="4" title="Mire na Cabeça">
+    Tiros na cabeça em Piggy: Intercity causam significativamente mais dano. Isso é essencial para economizar munição, pois um tiro na cabeça muitas vezes equivale a três tiros no corpo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Busca de Munição">
+Verifique debaixo dos móveis e dentro de caixas nas "Zonas Seguras". Às vezes, os desenvolvedores escondem pequenos estoques de munição em lugares que os jogadores geralmente ignoram enquanto correm para os NPCs.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Obter Armas em Evalia">
+
+Adquirir as melhores **armas de Piggy Intercity** é uma jornada pelas diferentes zonas de Evalia. Embora alguns itens básicos possam ser encontrados espalhados pelo chão, o equipamento mais poderoso está ligado a sistemas específicos: compras, missões e recompensas da demonstração.
+
+A economia do jogo gira em torno de cristais e materiais encontrados. Se você completou a demonstração de Piggy Intercity, você deve ter um saldo inicial de cristais na versão completa. Estes devem ser gastos imediatamente em uma arma corpo a corpo confiável e um pequeno suprimento de comida para garantir que sua primeira hora de jogo não seja interrompida pela infecção.
+
+| Tipo de Localização | Potencial de Arma | Nível de Perigo | Equipamento Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Lojas da Cidade** | Opções de compra garantidas | Baixo | Cristais / Moeda |
+| **Postos Militares** | Armas de longo alcance de alto nível | Muito Alto | Furtividade e arma corpo a corpo de reserva |
+| **Áreas Residenciais** | Ferramentas básicas e munição | Moderado | Lanterna e pé de cabra |
+| **Centros de Missão** | Recompensas únicas baseadas na história | Variável | Consciência do diálogo |
+
+<Callout type="info" title="Recompensas da Demonstração">
+Lembre-se que os dados salvos da demonstração não são transferidos. Seu único benefício permanente da demonstração é a recompensa de cristal. Use esses cristais na loja do centro principal assim que você aparecer na versão completa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estatísticas de Combate e Atributos de Nível">
+
+A versão completa de Piggy: Intercity apresenta um sistema de atributos expandido que influencia diretamente como você usa suas armas. À medida que você sobe de nível, pode investir pontos em diferentes estatísticas que alteram sua eficácia em combate. Essa camada de RPG significa que dois jogadores usando a mesma arma podem ter experiências completamente diferentes com base em sua "Build".
+
+Focar em Força aumentará seu dano corpo a corpo e potencial de atordoamento, enquanto Agilidade pode melhorar sua velocidade de recarga e regeneração de vigor. Entender essas sinergias é fundamental para a sobrevivência no final do jogo nas regiões mais difíceis de Evalia.
+
+| Atributo | Efeito nas Armas | Sinergia de Estilo de Jogo |
+| :--- | :--- | :--- |
+| **Força** | Aumenta o dano corpo a corpo e o empurrão | Build de arma pesada / Tanque |
+| **Destreza** | Melhora a velocidade de recarga e troca de arma | Build de longo alcance / Pistoleiro |
+| **Resistência** | Aumenta o vigor total e a duração do bloqueio | Build defensiva / Sobrevivencialista |
+| **Percepção** | Destaca a munição e aumenta o crítico de tiro na cabeça | Build de Sniper / Catador |
+
+<Checklist
+  id="weapon-readiness"
+  title="Lista de Verificação Pré-Combate:"
+  items={[
+    "Verificar a durabilidade da arma corpo a corpo (está prestes a quebrar?)",
+    "Garantir que a arma de longo alcance esteja totalmente carregada",
+    "Verificar se a barra de vigor está pelo menos 80% cheia",
+    "Equipar sua arma de maior dano no slot primário",
+    "Verificar rotas de fuga próximas em caso de emboscada"
+  ]}
+/>
+
+<Callout type="tip" title="Otimização de Build">
+Se você joga sozinho, priorize uma mistura de Força e Resistência. Você precisa de vida extra e poder corpo a corpo para lidar com grupos de infectados quando não há mais ninguém para proteger suas costas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ de Maestria de Armas">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores armas de Piggy Intercity para iniciantes?",
+    answer: "Para novos jogadores, o Pé de Cabra ou o Taco de Beisebol são as melhores escolhas. Eles oferecem um bom equilíbrio de alcance e atordoamento, o que ajuda a manter os infectados à distância enquanto você aprende o tempo de combate."
+  },
+  {
+    question: "Como consigo mais munição em Piggy: Intercity?",
+    answer: "A munição pode ser encontrada vasculhando áreas residenciais e militares, ou comprando-a em lojas usando cristais. Completar a versão demo também fornece cristais que podem ser usados para comprar munição no jogo completo."
+  },
+  {
+    question: "Posso consertar armas quebradas?",
+    answer: "A manutenção de armas é uma parte fundamental da versão completa. Você pode precisar de materiais específicos encontrados no mundo ou de uma bancada de criação em sua base para manter suas armas de alto nível funcionando corretamente."
+  },
+  {
+    question: "Atacar NPCs neutros afeta minha história?",
+    answer: "Sim. Piggy: Intercity é um RPG baseado em escolhas. Atacar NPCs neutros com suas armas pode diminuir sua reputação, mudar relacionamentos com personagens e potencialmente impedi-lo de acessar certas missões ou zonas seguras."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+Sempre mantenha uma arma "silenciosa" (corpo a corpo) pronta. Armas de fogo são barulhentas e podem atrair mais infectados para sua localização. Use armas de fogo como último recurso para manter sua vantagem furtiva em Evalia.
+</Callout>
+
+</Section>

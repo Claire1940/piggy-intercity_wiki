@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity Alle Gebiete: Kartenstandorte & Überlebensführer",
+  description: "Meistern Sie alle Gebiete von Piggy Intercity mit unserem Leitfaden für Evalia. Lernen Sie Überlebenstipps, Questrouten, Waffenstufen und Basenbau für das Roblox-RPG von 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Piggy+Intercity+All+Areas+Guide",
+  date: "2026-06-16",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Alle Gebiete**: Die Erkundung der riesigen offenen Welt von Evalia erfordert die Bewältigung von Hunger, Durst und infizierten Bedrohungen in verschiedenen Biomen.
+- **Entscheidungsbasiertes RPG**: Dialog- und Story-Entscheidungen haben dauerhaftes Gewicht und beeinflussen NPC-Beziehungen und Weltzustände in der Veröffentlichung von 2026.
+- **Demo-Belohnungen**: Das Abschließen der Demo-Version gewährt **kostenlose Kristalle** in der Vollversion, obwohl Standard-Speicherdaten nicht übertragen werden.
+- **Überlebenszyklus**: Priorisieren Sie das frühe Finden von Sicherheitszonen wie dem Fort oder der Schule, um eine Ressourcenbasis zu schaffen, bevor Sie sich in Hochrisikozonen wagen.
+- **Basenbau**: Das Beanspruchen von Grundstücken und das Herstellen wichtiger Werkzeuge ist der Schlüssel zum langfristigen Fortschritt und zur Verteidigung gegen die Infizierten.
+</Callout>
+
+<Section icon={Map} title="Piggy Intercity Alle Gebiete: Evalia navigieren">
+
+Die Navigation in **piggy intercity alle Gebiete** erfordert mehr als nur einen schnellen Sprint über die Karte; sie verlangt ein tiefes Verständnis von Evalias Geografie und den Gefahren, die in seinen infizierten Grenzen lauern. Evalia ist eine weitläufige, entscheidungsbasierte offene Welt, in der jede Ecke entweder eine lebensrettende Ressource oder eine tödliche Begegnung bietet. Von der befestigten Sicherheit der anfänglichen Spawnpunkte bis zu den verlassenen Ruinen des Stadtzentrums müssen die Spieler das Layout jeder wichtigen Region lernen, um die Apokalypse von 2026 zu überleben.
+
+**Video-Highlights:**
+- **Open-World-Maßstab**: Vorschau auf den massiven Umfang von Evalia und seine vielfältigen Umweltbiome.
+- **NPC-Interaktionen**: Wie das Sprechen mit Überlebenden Quests auslöst und die Erzählung prägt.
+- **Kampfmechaniken**: Ein Blick auf Nah- und Fernkampf gegen verschiedene infizierte Typen.
+- **Überlebens-HUD**: Verständnis der Hunger-, Durst- und Ausdaueranzeigen.
+
+<YouTubeEmbed videoId="i6E2qYuiIVA" title="Piggy: Intercity - Offizieller Übersichts-Trailer" />
+
+Um sich effektiv durch die Welt zu bewegen, sollten Spieler Gebiete nach ihrem Bedrohungsgrad und ihrer Ressourcendichte kategorisieren. Unten finden Sie eine Aufschlüsselung der primären Regionen, denen Sie während Ihrer Erkundung begegnen werden.
+
+| Region | Bedrohungsgrad | Primäre Ressourcen | Wichtige Sehenswürdigkeiten |
+| :--- | :--- | :--- | :--- |
+| **Das Fort** | Niedrig | Wasser, Grundrationen | Sicheres Haus, NPC-Zentrum, Handel |
+| **Die Schule** | Mittel | Medizinische Versorgung, Bücher | Bibliothek, Umkleideräume, Queststart |
+| **Sägewerk** | Mittel | Holz, Bastelschrott | Industriegebiete, Werkzeugschuppen |
+| **Stadtzentrum** | Hoch | Hochwertige Beute, Munition | Wolkenkratzer, Einkaufszentren, Boss-Spawns |
+| **Die Außenbezirke** | Niedrig | Gesammeltes Essen, Verstecke | Verlassene Lager, Kleine Häuser |
+
+<Callout type="tip" title="Erkundungstipp">
+Tragen Sie immer mindestens zwei Flaschen Wasser und eine Nahkampfwaffe mit hoher Haltbarkeit bei sich, bevor Sie das Fort verlassen. Die Entfernung zwischen sicheren Zonen in Evalia kann täuschen, und das Ausgehen der Ausdauer bei Durst ist ein Todesurteil.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebenstaktiken und Ressourcenmanagement">
+
+Das Überleben in Evalia ist ein aktiver Prozess, der eine ständige Überwachung Ihrer Vitalwerte erfordert. Im Gegensatz zu traditionellen RPGs, in denen Sie Status-Effekte ignorieren können, bestraft Piggy Intercity Nachlässigkeit mit schweren Debuffs. Das Verständnis des Ressourcenkreislaufs ist für jeden, der die Spielmechaniken im Jahr 2026 meistern möchte, unerlässlich.
+
+<CardGrid cols={3}>
+  <Card title="Hydratation & Ernährung">
+    - **Wasserquellen**: Bevorzugen Sie Flaschenwasser gegenüber stehenden Pfützen, um Infektionen zu vermeiden.
+    - **Lebensmittelqualität**: Konservendosen bieten die beste Hungerwiederherstellung und Haltbarkeit.
+    - **Landwirtschaft**: Der Basenbau im späten Spiel ermöglicht eine nachhaltige Lebensmittelproduktion.
+  </Card>
+  <Card title="Infektionsresistenz">
+    - **Bisse vermeiden**: Verwenden Sie Blockiermechaniken, um direkten Kontakt mit Infizierten zu verhindern.
+    - **Medizinische Kits**: Unverzichtbar zur Behandlung von Wunden und zur Reduzierung des Infektionsaufbaus.
+    - **Schleichen**: Das leise Bewegen durch Hochrisikogebiete ist oft sicherer als Kämpfen.
+  </Card>
+  <Card title="Inventarverwaltung">
+    - **Stapeln**: Gruppieren Sie ähnliche Gegenstände, um Platz für wichtige Questobjekte zu sparen.
+    - **Werkzeughaltbarkeit**: Überprüfen Sie regelmäßig Ihre Waffen, um sicherzustellen, dass sie im Kampf nicht kaputt gehen.
+    - **Gewichtsbegrenzungen**: Zu viel tragen reduziert Ihre Bewegungsgeschwindigkeit und Ausdauerregeneration.
+  </Card>
+</CardGrid>
+
+Effizientes Sammeln von Ressourcen erfordert, dass Sie genau wissen, wo Sie nach bestimmten Gegenstandsarten suchen müssen. Verwenden Sie die folgende Tabelle, um Ihre Sammelzüge auf der Karte zu planen.
+
+| Gegenstandstyp | Bester Fundort | Nutzungspriorität |
+| :--- | :--- | :--- |
+| **Schrottmetall** | Industriegebiete, Sägewerk | Hoch (Handwerk/Basenbau) |
+| **Konservendosen** | Lebensmittelgeschäfte, Wohnküchen | Hoch (Langzeitüberleben) |
+| **Bandagen** | Schulklinik, Stadtkrankenhäuser | Kritisch (Notfallheilung) |
+| **Munition** | Polizeistationen, Militärkisten | Mittel (Für Bosse aufsparen) |
+| **Benzin** | Tankstellen, Verlassene Fahrzeuge | Niedrig (Transport im späten Spiel) |
+
+<Callout type="warning" title="Gefahrenzonen-Warnung">
+Das Stadtzentrum ist nachts deutlich gefährlicher. Die Sicht der Infizierten nimmt ab, aber ihre Aggression und Anzahl nehmen zu. Wenn Sie nach Sonnenuntergang im Freien erwischt werden, suchen Sie sofort ein Dach oder einen verbarrikadierten Raum auf.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quests, Entscheidungen und Story-Fortschritt">
+
+Der Fortschritt in Piggy Intercity wird durch Ihre Interaktionen mit NPCs und die Entscheidungen, die Sie während der Dialogsequenzen treffen, bestimmt. Dies ist keine lineare Fluchtkarte; es ist ein narratives Erlebnis, bei dem Ihr Ruf bei verschiedenen Fraktionen Türen öffnen oder schließen kann – im wahrsten Sinne des Wortes.
+
+<Steps>
+  <Step num="1" title="Ein Standbein aufbauen">
+    Beginnen Sie, indem Sie die Einführungsquests im Fort abschließen. Diese Aufgaben versorgen Sie mit grundlegender Ausrüstung und führen Sie in die primären Überlebensmechaniken ein.
+  </Step>
+  <Step num="2" title="Der moralische Scheideweg">
+    Begegnen Sie Ihrem ersten wichtigen Entscheidungs-NPC. Die Entscheidung, ob Sie Ressourcen teilen oder für sich behalten, löst verschiedene Questzweige aus und beeinflusst Ihr Ansehen.
+  </Step>
+  <Step num="3" title="Erkundung erweitern">
+    Sobald Sie eine grundlegende Rüstung und eine zuverlässige Nahkampfwaffe besitzen, begeben Sie sich zur Schule oder zum Sägewerk, um Handwerksrezepte und Lore-Einträge für das mittlere Spiel freizuschalten.
+  </Step>
+  <Step num="4" title="Basengründung">
+    Sammeln Sie genügend Materialien, um Ihr erstes Grundstück zu beanspruchen. Dies ermöglicht Ihnen, Gegenstände dauerhaft zu lagern und bietet einen Respawn-Punkt näher an hochrangigen Gebieten.
+  </Step>
+</Steps>
+
+Ihre Entscheidungen haben oft unmittelbare und langfristige Konsequenzen. Die folgende Tabelle zeigt, wie unterschiedliche Ansätze bei Quests Ihr Spielerlebnis verändern können.
+
+| Entscheidungsrichtung | Sofortiger Vorteil | Langfristige Konsequenz |
+| :--- | :--- | :--- |
+| **Altruistisch (NPCs helfen)** | Reputationsgewinne, Einzigartige Lore | Zugang zu Fraktionsspezifischen Geschäften |
+| **Egoistisch (Ressourcen horten)** | Schnelleres persönliches Wachstum | Höhere Preise bei Händlern, Feindliche NPCs |
+| **Aggressiv (Kampf zuerst)** | Schneller Beuteerwerb | Häufige Infiziertenhorden, Beschädigte Ausrüstung |
+| **Heimlich (Vermeidung)** | Ressourcen geschont | Langsamerer Skill-Fortschritt, Verpasste Kampflbeute |
+
+<Callout type="success" title="Auswirkung der Wahl">
+Den Überlebenden in der Schule früh im Spiel zu helfen, schaltet einen spezialisierten Sanitäter-NPC frei, der hochwertige Heilgegenstände mit einem Rabatt herstellen kann. Dies gilt als der effizienteste Weg für Einzelspieler.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen- und Ausrüstungs-Rangliste">
+
+Der Kampf in Evalia ist brutal und unversöhnlich. Während Sie mit bloßen Händen kämpfen können, werden Sie gegen die entwickelten Infizierten im Stadtzentrum nicht lange bestehen. Die Wahl der richtigen Ausrüstung für das spezifische Gebiet, das Sie erkunden, ist der Unterschied zwischen einem erfolgreichen Überfall und einem vollständigen Verlust des Inventars.
+
+| Rang | Waffenname | Typ | Hauptstärke |
+| :--- | :--- | :--- | :--- |
+| **S** | **Taktische Armbrust** | Fernkampf | Leise, Wiederverwendbare Bolzen, Hohe Präzision |
+| **S** | **Verstärkter Vorschlaghammer** | Nahkampf | Massiver Betäubungswert, Schildbrechend |
+| **A** | **Dienstpistole** | Fernkampf | Zuverlässig, Häufige Munition, Schnelles Ziehen |
+| **A** | **Machete** | Nahkampf | Hohe Angriffsgeschwindigkeit, Blutungsschaden |
+| **B** | **Eisenrohr** | Nahkampf | Leicht herzustellen, Ordentliche Haltbarkeit |
+| **C** | **Holzschläger** | Nahkampf | Geringer Schaden, Hoher Rückstoß |
+
+Abgesehen von Waffen bestimmt Ihre Schutzausrüstung, wie viele Treffer Sie einstecken können, bevor die Infektion einsetzt.
+
+| Ausrüstungskategorie | Priorität | Empfohlenes Gebiet |
+| :--- | :--- | :--- |
+| **Kopfbedeckung** | Mittel | Jede urbane Zone (Schützt vor Scharfschützen/Kopfschüssen) |
+| **Körperschutz** | Hoch | Stadtzentrum, Boss-Arenen (Reduziert Biss-Schaden) |
+| **Rucksack** | Kritisch | Alle Gebiete (Erhöht die Tragfähigkeit) |
+| **Schuhwerk** | Niedrig | Langstreckenreisen (Reduziert Ausdauerverbrauch) |
+
+<Callout type="info" title="Wartung der Waffen">
+Tragen Sie immer einen Schleifstein oder ein einfaches Reparaturset bei sich. Eine kaputte 'S-Tier'-Waffe ist weniger nützlich als ein funktionierender 'C-Tier'-Schläger, wenn Sie von einer Horde in die Enge getrieben werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Basenbau und Endspielziele">
+
+Das ultimative Ziel in Piggy Intercity ist es, von einem reisenden Überlebenden zu einem dauerhaften Bewohner einer befestigten Basis zu werden. Der Basenbau ermöglicht es Ihnen, die Ressourcensammlung zu automatisieren, fortschrittliche Waffen herzustellen und anderen Spielern in Mehrspieler-Sitzungen einen sicheren Hafen zu bieten.
+
+<Checklist
+  id="base-milestones"
+  title="Wesentliche Meilensteine des Basenbaus:"
+  items={[
+    "Ein Grundstück in einer strategisch günstig gelegenen Zone mit geringer Bedrohung beanspruchen",
+    "Eine grundlegende Werkbank für fortgeschrittene Rezepte konstruieren",
+    "Sichere Lagerbehälter bauen, um den Verlust von Gegenständen bei Tod zu verhindern",
+    "Ein Wasserfiltersystem für unbegrenzte Hydratation installieren",
+    "Perimeterzäune errichten, um umherstreifende Infizierte abzuschrecken",
+    "Auf eine Werkbank der Stufe 2 für Feuerwaffenmodifikationen aufrüsten"
+  ]}
+/>
+
+Sobald Ihre Basis errichtet ist, konzentriert sich das "Endspiel" darauf, die gefährlichsten Sektoren des Stadtzentrums zu erkunden, um die Wahrheit hinter der Infektion aufzudecken. Diese Gebiete erfordern höchste Koordination und die hochwertigste Ausrüstung, die im Update von 2026 verfügbar ist.
+
+| Endspiel-Ziel | Ort | Benötigte Ausrüstung | Belohnung |
+| :--- | :--- | :--- | :--- |
+| **Der Bienenstock-Überfall** | Unterirdische Tunnel | Gasmasken, Viel Munition | Seltene Handwerkspläne |
+| **Fraktionskrieg** | Grenzzonen | Vollständige Körperpanzerung, Medkits | Exklusive Fraktionskosmetika |
+| **Der Turmaufstieg** | Stadtwolkenkratzer | Enterhaken, Scharfschützen | Legendäre Waffenkomponenten |
+
+<Callout type="tip" title="Tipp zur Basisplatzierung">
+Der Bau Ihrer Basis in der Nähe der Grenze zwischen Sägewerk und Außenbezirken bietet die beste Balance aus Ressourcenzugang und Sicherheit. Sie sind nah genug, um Holz und Schrott zu sammeln, ohne ständig von den hochstufigen Infizierten belästigt zu werden, die tiefer in der Stadt zu finden sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Muss ich die Demo vor der Vollversion von Piggy Intercity spielen?",
+    answer: "Obwohl nicht zwingend erforderlich, wird das Abschließen der Demo dringend empfohlen, da Sie dafür in der Vollversion kostenlose Kristalle erhalten. Beachten Sie jedoch, dass Ihr Standardfortschritt und Ihre Speicherdaten aus der Demo nicht übernommen werden."
+  },
+  {
+    question: "Wie finde ich alle Gebiete in Piggy Intercity, ohne mich zu verlaufen?",
+    answer: "Nutzen Sie Orientierungspunkte wie den Uhrturm der Schule oder die Wolkenkratzer des Stadtzentrums, um sich zu orientieren. Den Hauptstraßen zu folgen führt normalerweise zu wichtigen Sehenswürdigkeiten, aber abseits der Straßen zu bleiben ist sicherer, um infizierte Horden zu vermeiden."
+  },
+  {
+    question: "Was ist die beste Waffe für Anfänger in Evalia?",
+    answer: "Das Eisenrohr ist die beste Startwaffe. Es ist leicht aus Schrott herzustellen, der im anfänglichen Fort-Gebiet gefunden wird, und bietet eine gute Balance aus Geschwindigkeit und Schaden im Vergleich zum einfachen Holzschläger."
+  },
+  {
+    question: "Können andere Spieler Gegenstände aus meiner Basis stehlen?",
+    answer: "Im aktuellen Build von 2026 bieten beanspruchte Grundstücke Schutz für Ihre Lagerbehälter. Wenn Sie jedoch Gegenstände in ungesicherten Kisten außerhalb Ihres Grundstücks lassen, können andere Spieler diese plündern."
+  }
+]} />
+
+</Section>

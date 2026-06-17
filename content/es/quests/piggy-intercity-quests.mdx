@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Misiones de Piggy Intercity: Guía de Elecciones e Interacciones",
+  description: "Navega por las misiones de Piggy Intercity en Evalia, comprende las interacciones con los NPC y toma decisiones que dan forma a tu historia en este RPG de Roblox de mundo abierto.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/E85D98/fff?text=Piggy+Intercity+Quests",
+  date: "2026-06-16",
+  author: "Equipo de Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **misiones de Piggy Intercity** son fundamentales para la progresión y la historia en Evalia.
+- Las **interacciones con los NPC** inician las líneas de misiones y dirigen las elecciones narrativas.
+- Las **elecciones de la historia** impactan significativamente las relaciones entre personajes y el estado del mundo.
+- La **finalización de la demo** otorga cristales gratis, pero no transfiere los datos guardados.
+- La **exploración** es clave para encontrar los objetivos de las misiones y sobrevivir en las zonas infectadas.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo las Misiones de Piggy Intercity">
+
+Piggy: Intercity está diseñado como un RPG de mundo abierto basado en decisiones, donde las misiones forman la columna vertebral de tu viaje a través del mundo infectado de Evalia. A diferencia de los simples mapas de escape, la progresión aquí depende en gran medida de interactuar con los NPC, explorar tu entorno y tomar decisiones que conllevan consecuencias. Esta guía te ayudará a comprender la mecánica central de las misiones y cómo navegarlas de manera efectiva.
+
+**Puntos destacados del video:**
+- El gameplay oficial muestra el inicio de las misiones a través del diálogo con los NPC.
+- La exploración de Evalia es integral para completar los objetivos.
+- Las decisiones tomadas durante las misiones tienen un impacto narrativo.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity - Tráiler de la visión general oficial" />
+
+Tu objetivo principal en Piggy Intercity es sobrevivir a la infección mientras descubres la historia de Evalia. Cada misión contribuye a esta narrativa más amplia, ofreciendo recompensas, desbloqueando nuevas áreas o revelando más sobre la historia del juego.
+
+<Callout type="tip" title="Prioridad del Flujo de Misiones">
+Prioriza siempre las misiones que implican nuevas interacciones con NPC o que desbloquean nuevas áreas. Estas a menudo conducen a un progreso significativo de la historia y mejores recompensas.
+</Callout>
+
+### Resumen de Tipos de Misiones
+
+| Tipo de Misión      | Descripción                                                                  | Mecánica de Activación          | Objetivo Clave                                         |
+| :------------------ | :--------------------------------------------------------------------------- | :------------------------------ | :----------------------------------------------------- |
+| **Historia Principal** | Misiones narrativas centrales, que impulsan la trama principal de Evalia.    | Diálogo de NPC, Desbloqueo de Ubicación | Progresar en la historia general, desbloquear zonas principales. |
+| **Misiones Secundarias** | Misiones opcionales que proporcionan lore adicional, objetos o desarrollo de personajes. | Solicitud de NPC, Objeto Encontrado | Obtener recursos, construir reputación, explorar historias secundarias. |
+| **Tareas de Supervivencia** | Objetivos recurrentes centrados en la recolección de recursos, la creación y el mantenimiento de la base. | Necesidad Ambiental, Estado de la Base | Asegurar la sostenibilidad del jugador y la funcionalidad de la base. |
+| **Basadas en Decisiones** | Misiones donde las decisiones del jugador alteran directamente los resultados y las relaciones. | Diálogo Crítico, Activador de Eventos | Dar forma a la ruta narrativa, influir en las alianzas de personajes. |
+
+</Section>
+
+<Section icon={Map} title="Navegando por Evalia: Ubicaciones de Misiones y Exploración">
+
+Evalia es un vasto mundo abierto infectado, y comprender su geografía es crucial para completar las misiones de manera eficiente. Las misiones a menudo te llevarán a ubicaciones específicas, requerirán que encuentres ciertos objetos o que interactúes con NPC dispersos por el mapa.
+
+### Ubicaciones Clave para las Misiones
+
+| Tipo de Ubicación               | Descripción                                                                        | Actividades de Misión Asociadas                                  | Importancia para las Misiones |
+| :------------------------------ | :--------------------------------------------------------------------------------- | :----------------------------------------------------------- | :------------------------- |
+| **Zonas de Interacción con Personajes** | Áreas donde residen los NPC clave, ofreciendo misiones y opciones de diálogo críticas. | Recogida de misiones, opciones de diálogo, construcción de relaciones. | Alta - Progreso de la historia |
+| **Rutas de Peligro de Infección** | Caminos y zonas muy infestadas de enemigos infectados, a menudo con objetivos.     | Combate, desafíos de supervivencia, encontrar objetos de misión raros. | Media - Recurso/Desafío   |
+| **Puntos de Recolección de Recursos** | Áreas ricas en materiales necesarios para la creación, la construcción de bases o los requisitos de las misiones. | Recolección de materiales, búsquedas del tesoro, requisitos previos de creación. | Media - Utilidad/Soporte  |
+| **Puntos de Minijuegos**        | Ubicaciones que ofrecen actividades secundarias que pueden estar ligadas a misiones o recompensas específicas. | Desafíos de habilidad, recompensas únicas, actividades de ocio. | Baja - Desvío/Bonificación |
+
+<Callout type="warning" title="Cuidado con las Elecciones">
+Ciertas opciones de diálogo pueden tener efectos permanentes en las relaciones con los NPC o incluso bloquearte de futuras líneas de misiones. Siempre lee el diálogo con atención.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Exploración Eficiente">
+    - **Sigue los marcadores de misión**, pero también explora las áreas cercanas en busca de objetivos ocultos.
+    - **Prioriza las rutas seguras** cuando lleves objetos de misión valiosos.
+    - **Memoriza los nodos de recursos** para futuras tareas de supervivencia.
+  </Card>
+  <Card title="Encuentros de Combate">
+    - **Prepárate adecuadamente** con armas y suministros antes de entrar en zonas de alto peligro.
+    - **Utiliza el terreno** a tu favor contra las amenazas infectadas.
+    - **Saber cuándo retirarse** si estás abrumado; la supervivencia es primordial.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Tomando Decisiones: Impacto en la Historia y las Relaciones">
+
+El aspecto "basado en decisiones" de Piggy: Intercity significa que tus decisiones importan. Las opciones de diálogo, las acciones tomadas durante las misiones e incluso cómo interactúas con el entorno pueden influir en tu reputación con varias facciones y personajes, dando forma en última instancia a tu camino único en la historia.
+
+### Cómo las Decisiones Influyen en tu Viaje
+
+<Steps>
+  <Step num="1" title="Opciones de Diálogo con los NPC">
+    Cada conversación con un NPC presenta una oportunidad para influir en tu relación con él. Elegir respuestas empáticas podría generar confianza, mientras que las agresivas podrían llevar a la hostilidad. Estas interacciones a menudo determinan qué misiones están disponibles o cómo se desarrollan.
+  </Step>
+  <Step num="2" title="Decisiones sobre el Resultado de la Misión">
+    Muchas misiones ofrecen múltiples formas de completarlas o presentan dilemas morales. Por ejemplo, puedes elegir ayudar a una facción en lugar de a otra, o decidir el destino de un personaje capturado. Estas decisiones pueden tener consecuencias de gran alcance, afectando el mundo del juego y futuras ramas narrativas.
+  </Step>
+  <Step num="3" title="Reputación y Posición de Facciones">
+    Tus decisiones contribuyen a tu reputación general con diferentes grupos en Evalia. Una alta reputación puede desbloquear vendedores especiales, misiones únicas o incluso proporcionar un paso seguro a través de territorios que de otro modo serían hostiles. Por el contrario, una baja reputación podría llevar a emboscadas o a la negativa total de ayuda.
+  </Step>
+  <Step num="4" title="Alteraciones del Estado del Mundo">
+    En algunos casos, tus decisiones críticas pueden alterar permanentemente partes de Evalia. Esto podría manifestarse como cambios en el comportamiento de los NPC, la disponibilidad de ciertos recursos o incluso el diseño de áreas específicas. El juego está diseñado para reaccionar a tus decisiones, haciendo que cada partida sea potencialmente única.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Elecciones de la Demo vs. la Versión Completa">
+Recuerda que las decisiones tomadas en la **versión demo** no se transfieren al juego completo. Usa la demo para experimentar con las mecánicas, pero comprende que tu historia permanente comienza en el lanzamiento completo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando la Progresión de Misiones: Consejos y Lista de Verificación">
+
+Para aprovechar al máximo tu tiempo en Piggy: Intercity y asegurar una progresión fluida de las misiones, considera estas estrategias y una práctica lista de verificación.
+
+### Lista de Verificación de Misiones Eficientes
+
+<Checklist
+  id="quest-efficiency"
+  title="Antes de Comenzar una Misión Importante:"
+  items={[
+    "Explora completamente el área de inicio en busca de objetos o NPC ocultos",
+    "Abastece de suministros de supervivencia (comida, agua, medicinas)",
+    "Repara o mejora tus armas y armaduras actuales",
+    "Identifica posibles zonas de peligro en tu mapa",
+    "Revisa el estado de recompensa por completar la demo para cristales"
+  ]}
+/>
+
+### Obstáculos Comunes en la Progresión de Misiones y Soluciones
+
+| Descripción del Obstáculo                               | Estrategia de Solución                                                               | Beneficio                                             |
+| :------------------------------------------------------ | :----------------------------------------------------------------------------------- | :---------------------------------------------------- |
+| **Perdido o confundido sobre el próximo objetivo**       | Vuelve a visitar al dador de la misión; consulta tu registro de misiones para obtener instrucciones detalladas. | Aclara el camino, previene el deambular sin rumbo.    |
+| **Atascado en un encuentro de combate difícil**          | Mejora el equipo, reevalúa las tácticas o forma equipo con otros jugadores si es posible. | Aumenta la probabilidad de supervivencia, supera las barreras de habilidad. |
+| **Incapaz de encontrar un objeto de misión específico** | Busca exhaustivamente en las áreas circundantes, revisa los inventarios de los vendedores o busca pistas. | Asegura la adquisición del objeto, progresa el objetivo. |
+| **Reacción negativa de un NPC debido a elecciones pasadas** | Intenta completar misiones secundarias neutrales para reconstruir la reputación si está disponible. | Potencialmente reabre diálogos o líneas de misiones. |
+| **Escasez de recursos esenciales para la supervivencia** | Prioriza las tareas de recolección de recursos; establece un campamento seguro temporal. | Sostiene al jugador, permite la exploración continua. |
+
+<Callout type="success" title="Maximiza tus Recompensas">
+Completar misiones no solo avanza la historia, sino que también proporciona valiosa experiencia, moneda y objetos raros esenciales para la supervivencia a largo plazo y el crecimiento del personaje en Evalia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Misiones de Piggy Intercity">
+
+Aquí tienes algunas preguntas frecuentes sobre las **misiones de Piggy Intercity** y sus mecánicas.
+
+<FAQ items={[
+  {
+    question: "¿Cómo inicio misiones en Piggy: Intercity?",
+    answer: "La mayoría de las misiones en Piggy: Intercity comienzan interactuando con los NPC (Personajes No Jugadores) que se encuentran en Evalia. Busca personajes con un signo de exclamación sobre sus cabezas o con opciones de diálogo específicas."
+  },
+  {
+    question: "¿Realmente importan mis elecciones en las misiones?",
+    answer: "Sí, Piggy: Intercity es un RPG basado en decisiones. Tus decisiones durante el diálogo y los resultados de las misiones pueden afectar significativamente tus relaciones con los personajes, tu reputación con las facciones e incluso alterar el estado del mundo del juego."
+  },
+  {
+    question: "¿Puedo volver a jugar misiones si tomo una 'mala' decisión?",
+    answer: "El juego está diseñado para tener consecuencias, por lo que las decisiones son generalmente permanentes para una partida dada. Sin embargo, siempre puedes comenzar un nuevo personaje para explorar diferentes caminos de la historia y resultados de misiones."
+  },
+  {
+    question: "¿Qué tipo de recompensas puedo esperar de las misiones de Piggy Intercity?",
+    answer: "Las misiones ofrecen una variedad de recompensas, incluyendo puntos de experiencia para subir de nivel, moneda del juego, objetos únicos, materiales de creación y acceso a nuevas áreas o servicios. Completar la demo también otorga cristales gratis en la versión completa."
+  }
+]} />
+
+</Section>
