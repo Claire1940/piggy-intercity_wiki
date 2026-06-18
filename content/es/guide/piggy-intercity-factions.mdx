@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Facciones de Piggy Intercity: Guía de Reputación y Elección 2026",
+  description: "Domina las facciones y sistemas de reputación de Piggy Intercity. Aprende cómo las elecciones de la historia en Evalia afectan las relaciones con los NPC, las recompensas y la jugabilidad de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Factions+and+Reputation+Guide",
+  date: "2026-06-18",
+  author: "Equipo Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Facciones de Piggy Intercity**: Son los grupos de NPC y asentamientos de supervivientes encontrados en el mundo abierto de Evalia.
+- **Sistema de Reputación**: Tu posición con los diferentes grupos se determina mediante elecciones de diálogo y la finalización de misiones.
+- **Peso Moral**: Las elecciones en la versión completa tienen consecuencias permanentes sobre cómo reaccionan los personajes contigo.
+- **Impacto en la Supervivencia**: Una alta reputación puede desbloquear zonas seguras, mejores artículos en la tienda y recursos únicos para la construcción de bases.
+- **Recompensas de la Demo**: Completar la demo otorga **Cristales Gratis** en la versión completa para impulsar tu progresión.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo las Facciones y la Reputación de Piggy Intercity">
+
+El mundo de Evalia ya no es solo un simple mapa de escape; es un ecosistema vivo y respiratorio donde las **facciones de Piggy Intercity** dictan el flujo de recursos y la seguridad. Como un RPG de mundo abierto impulsado por elecciones, el juego pone un gran énfasis en cómo interactúas con los supervivientes restantes y las amenazas infectadas. Tu reputación no es solo un número, determina qué puertas permanecen abiertas y qué NPC podrían volverse hostiles a tu llegada.
+
+**Puntos Destacados del Video:**
+- Descripción general de las mecánicas RPG de mundo abierto en Evalia.
+- Introducción a la interacción con los NPC y los sistemas de diálogo.
+- Guía visual del ciclo de supervivencia y las zonas de construcción de bases.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity - Tráiler Oficial de Resumen" />
+
+En Piggy Intercity, la reputación se construye a través del sistema de "Peso Moral". A diferencia de los juegos tradicionales de Roblox donde podrías hacer clic sin pensar a través del diálogo, aquí, cada respuesta puede cambiar tu posición. Este sistema afecta los precios de la tienda, la disponibilidad de misiones e incluso la dificultad de ciertas rutas de supervivencia.
+
+| Nivel de Reputación | Nombre de Posición | Efectos en el Juego | Reacción de los NPC |
+| :--- | :--- | :--- | :--- |
+| **Nivel 4** | **Exaltado** | Descuentos máximos en la tienda, Aspectos de base únicos | Amistoso / Protector |
+| **Nivel 3** | **Confiable** | Acceso a líneas de misiones restringidas, Munición extra | Acogedor |
+| **Nivel 2** | **Neutral** | Precios estándar, Acceso a misiones básicas | Indiferente |
+| **Nivel 1** | **Sospechoso** | Precios más altos en la tienda, Diálogo limitado | Cauteloso |
+| **Nivel 0** | **Hostil** | Entrada prohibida a centros, Combate potencial | Agresivo |
+
+<Callout type="success" title="Bonificación de Reputación">
+Completar la versión demo proporciona una "Recompensa de Cristales" que se puede usar en la versión completa. Esta moneda es vital para el comercio temprano con facciones neutrales para aumentar tu posición inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Centros de Facciones Principales y Zonas de Interacción">
+
+Navegar por las ruinas de Evalia requiere una profunda comprensión de dónde residen los diferentes grupos. Cada área en el mapa sirve como un centro para **facciones específicas de Piggy Intercity**, ofreciendo elementos únicos y desafíos de supervivencia. Ya sea que busques la seguridad del Fuerte o el Aserradero rico en recursos, saber quién controla el territorio es la mitad de la batalla.
+
+<CardGrid cols={3}>
+  <Card title="El Fuerte de la Zona Segura">
+    - **Facción Principal**: Alianza de Supervivientes
+    - **Utilidad Clave**: Comercio seguro, Puntos de inicio de misiones
+    - **Nivel de Seguridad**: Alto (Zona libre de infectados)
+  </Card>
+  <Card title="El Aserradero">
+    - **Facción Principal**: Carroñeros Independientes
+    - **Utilidad Clave**: Recursos de madera, Materiales de base
+    - **Nivel de Seguridad**: Moderado (Amenazas ocasionales)
+  </Card>
+  <Card title="Centro de la Ciudad de Evalia">
+    - **Facción Principal**: Restos Dispersos
+    - **Utilidad Clave**: Botín de alto nivel, Armas avanzadas
+    - **Nivel de Seguridad**: Bajo (Alta densidad de infección)
+  </Card>
+</CardGrid>
+
+Las zonas de interacción son donde tus elecciones realmente importan. Al entrar en una nueva área, busca NPC con iconos de diálogo. Estos personajes son los guardianes de la progresión específica de la facción. Si actúas agresivamente hacia los NPC neutrales, podrías verte permanentemente excluido de áreas de compra esenciales.
+
+| Ubicación | Grupo de Control | Recurso Principal | Equipo Recomendado |
+| :--- | :--- | :--- | :--- |
+| **El Fuerte** | Alianza de Supervivientes | Comida / Agua / Misiones | Cuerpo a Cuerpo Básico |
+| **Distrito Escolar** | Los Educadores | Información / Botiquines | Armadura Defensiva |
+| **Aserradero** | Cuerpo de Carroñeros | Materiales de Construcción | Cuerpo a Cuerpo Pesado / Herramientas |
+| **Centro Comercial** | Comerciantes Independientes | Armas / Cristales | Armas a Distancia |
+
+<Callout type="tip" title="Estrategia de Exploración">
+Lleva siempre "Suministros Esenciales de Supervivencia" antes de aventurarte en zonas controladas por facciones. Si una facción es neutral o sospechosa, no te proporcionarán recursos gratuitos, y es posible que necesites comerciar para ganarte su favor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando Elecciones y Consecuencias de la Historia">
+
+El corazón del sistema de **facciones de Piggy Intercity** reside en la narrativa impulsada por elecciones. Cada misión en Evalia presenta una bifurcación en el camino. ¿Ayudas a los supervivientes en apuros en el Fuerte, o priorizas la construcción de tu propia base acaparando recursos? Estas decisiones son permanentes en la versión completa del juego.
+
+<Steps>
+  <Step num="1" title="Iniciar Diálogo con el NPC">
+    Acércate a un personaje en una zona central. Lee el diálogo con atención, ya que el juego utiliza un sistema basado en consecuencias en lugar de simples indicaciones de "Sí/No".
+  </Step>
+  <Step num="2" title="Evaluar el Peso Moral">
+    Considera los objetivos de la facción. Ayudar a un grupo podría alienar a otro. Verifica tu reputación actual antes de comprometerte con una elección importante de la historia.
+  </Step>
+  <Step num="3" title="Completar Tareas Basadas en Objetivos">
+    Las misiones a menudo implican explorar rutas peligrosas o recuperar elementos críticos para la misión. El éxito aumenta tu posición; el fracaso podría disminuirla.
+  </Step>
+  <Step num="4" title="Observar Cambios en el Mundo">
+    Después de una elección importante, vuelve a visitar el centro. Podrías notar nuevos artículos en la tienda, diferentes diálogos de NPC o incluso cambios en el diseño físico de la base.
+  </Step>
+</Steps>
+
+Las elecciones de la historia también impactan el crecimiento de tu personaje. La versión completa incluye más atributos de subida de nivel que la demo, y muchos de ellos están vinculados a cómo resuelves los conflictos. Por ejemplo, las resoluciones diplomáticas podrían aumentar tus atributos de "Carisma" o "Inteligencia", mientras que los caminos centrados en el combate favorecen la "Fuerza" y la "Resistencia".
+
+| Tipo de Elección | Recompensa Inmediata | Consecuencia a Largo Plazo | Impacto en la Facción |
+| :--- | :--- | :--- | :--- |
+| **Altruista** | Baja Ganancia de Recursos | Alta Reputación, Desbloquea Misiones | Alianza +15 |
+| **Pragmático** | Ganancia Moderada de Recursos | Posición Neutral, Comercio Estándar | Alianza +5 |
+| **Hostil** | Alta Ganancia de Recursos | Posición Hostil, Zonas Bloqueadas | Alianza -50 |
+
+<Callout type="warning" title="Progresión Permanente">
+La versión demo te permite experimentar con las elecciones, pero recuerda que los datos guardados de la demo **no se transfieren** a la versión completa. Usa la demo para aprender el flujo, luego toma tus decisiones finales en el juego completo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Supervivencia vs. Diplomacia: Gestionando el Combate">
+
+Si bien la diplomacia es clave para dominar las **facciones de Piggy Intercity**, el combate es a menudo inevitable en el mundo infectado de Evalia. Equilibrar tu relación con los grupos humanos mientras luchas contra los infectados requiere un equipamiento estratégico. Tu elección de armas y herramientas debe reflejar tu posición actual con la facción.
+
+Si tienes una buena relación con la Alianza de Supervivientes, tendrás acceso a mejores armas a distancia y munición. Si juegas como un lobo solitario, necesitarás depender del carroñeo y los recursos de construcción de bases para fabricar tu propia defensa.
+
+| Categoría de Artículo | Rol en Facciones | Valor Práctico | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Objetos de Misión** | Progresión | Esenciales para el avance de la historia | **Nivel S** |
+| **Suministros de Supervivencia** | Supervivencia | Te mantienen vivo durante el viaje | **Nivel S** |
+| **Armas** | Combate | Defensa contra amenazas | **Nivel A** |
+| **Recursos de Base** | Crecimiento | Configuración de supervivencia a largo plazo | **Nivel A** |
+
+<Checklist
+  id="faction-combat-ready"
+  title="Lista de Verificación de Preparación para el Combate:"
+  items={[
+    "Equipa un arma cuerpo a cuerpo fiable para eliminaciones silenciosas",
+    "Almacena al menos 3 días de comida y agua",
+    "Verifica la posición de la facción antes de entrar en un nuevo centro",
+    "Asegúrate de que tu base tenga una Mesa de Crafteo funcional",
+    "Recoge Cristales de la demo para el comercio temprano en el juego"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de Combate">
+El equipo defensivo tiene un valor significativamente mayor en las "Rutas Peligrosas" donde las amenazas de infección son altas. Las facciones a menudo te recompensarán con una mejor armadura si completas misiones de despeje de alto riesgo en Evalia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Construcción de Bases y Apoyo de Facciones">
+
+Tu base en Piggy Intercity sirve como tu santuario personal y un reflejo de tu viaje a través de las **facciones de Piggy Intercity**. A medida que avanzas en la historia y tomas decisiones, tus capacidades de construcción de bases se expanden. Una alta reputación con grupos específicos puede desbloquear materiales de construcción únicos y minijuegos que proporcionan recompensas repetibles.
+
+La construcción de bases está integrada en el ciclo de supervivencia. Una base bien ubicada cerca de un centro de facción amigable permite un comercio rápido y la entrega de misiones. Por el contrario, construir en un área remota podría ofrecer más espacio, pero aumenta el riesgo de ser abrumado por infectados durante las carreras de recursos.
+
+| Característica de la Base | Requisito | Beneficio |
+| :--- | :--- | :--- |
+| **Mesa de Crafteo** | Recursos Básicos | Fabrica herramientas, armas y suministros |
+| **Puesto Comercial** | Reputación Confiable | Intercambio automático de recursos |
+| **Cajas de Almacenamiento** | Madera / Metal | Organiza el inventario y los objetos de misión |
+| **Torretas de Defensa** | Ingeniería Avanzada | Protege la base de incursiones de infectados |
+
+<Callout type="tip" title="Ubicación de la Base">
+La versión completa del juego incluye más ubicaciones para parcelas de base. Busca parcelas cerca de "Zonas de Interacción de Personajes" para minimizar el tiempo de viaje entre tu almacenamiento y los dadores de misiones.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Facciones y Mecánicas de Piggy Intercity">
+
+<FAQ items={[
+  {
+    question: "¿Puedo unirme a varias facciones de Piggy Intercity a la vez?",
+    answer: "Sí, puedes mantener relaciones positivas con varios grupos simultáneamente. Sin embargo, ciertas elecciones de la historia pueden obligarte a elegir uno sobre el otro, afectando permanentemente tu posición con el lado opuesto."
+  },
+  {
+    question: "¿Mi reputación se reinicia si muero en Evalia?",
+    answer: "No, tu reputación con la facción está ligada a la progresión permanente de tu personaje. Aunque puedes perder algunos objetos que poseías al morir, tu posición con los NPC permanece intacta."
+  },
+  {
+    question: "¿Cómo puedo arreglar una reputación Hostil con una facción?",
+    answer: "Arreglar una relación hostil es difícil y a menudo requiere completar 'Misiones de Redención' u ofrecer recursos significativos a los líderes de la facción. Es mucho más fácil mantener una posición Neutral que recuperarse de Hostil."
+  },
+  {
+    question: "¿Hay recompensas exclusivas por alcanzar el estado Exaltado?",
+    answer: "Sí. Alcanzar el nivel de reputación más alto con una facción a menudo desbloquea planos de construcción de bases únicos, armas de Nivel S y diálogos especiales de personajes que revelan más sobre la historia de Evalia."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final de Supervivencia">
+Prioriza siempre los "Objetos Críticos para la Misión" sobre el botín genérico. En el mundo de Piggy Intercity, impulsado por elecciones, tu capacidad para progresar en la historia e influir en las facciones es tu mayor arma para la supervivencia a largo plazo.
+</Callout>
+
+</Section>

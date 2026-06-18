@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity Fraktionen: 2026 Ruf- & Entscheidungsleitfaden",
+  description: "Meistern Sie die Piggy Intercity Fraktionen und Reputationssysteme. Erfahren Sie, wie Story-Entscheidungen in Evalia NPC-Beziehungen, Belohnungen und das Überlebens-Gameplay beeinflussen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Factions+and+Reputation+Guide",
+  date: "2026-06-18",
+  author: "Piggy Intercity Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Fraktionen**: Dies sind die NPC-Gruppen und Überlebendensiedlungen, die in der offenen Welt von Evalia zu finden sind.
+- **Reputationssystem**: Ihr Ansehen bei verschiedenen Gruppen wird durch Dialogentscheidungen und Questabschlüsse bestimmt.
+- **Moralisches Gewicht**: Entscheidungen in der Vollversion haben dauerhafte Konsequenzen darauf, wie Charaktere auf Sie reagieren.
+- **Überlebenseinfluss**: Hoher Ruf kann sichere Zonen, bessere Shop-Artikel und einzigartige Basisbau-Ressourcen freischalten.
+- **Demo-Belohnungen**: Das Abschließen der Demo gewährt **Kostenlose Kristalle** in der Vollversion, um Ihren Fortschritt anzukurbeln.
+</Callout>
+
+<Section icon={Shield} title="Piggy Intercity Fraktionen und Ruf verstehen">
+
+Die Welt von Evalia ist nicht länger nur eine einfache Fluchtkarte; sie ist ein lebendiges, atmendes Ökosystem, in dem **Piggy Intercity Fraktionen** den Fluss von Ressourcen und Sicherheit diktieren. Als ein entscheidungsgetriebenes Open-World-Rollenspiel legt das Spiel großen Wert darauf, wie Sie mit den verbleibenden Überlebenden und den infizierten Bedrohungen interagieren. Ihr Ruf ist nicht nur eine Zahl – er bestimmt, welche Türen offen bleiben und welche NPCs bei Ihrer Ankunft feindselig werden könnten.
+
+**Video-Highlights:**
+- Überblick über die Open-World-RPG-Mechaniken in Evalia.
+- Einführung in NPC-Interaktions- und Dialogsysteme.
+- Visueller Leitfaden zum Überlebenskreislauf und den Basisbauzonen.
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy: Intercity - Offizieller Übersichts-Trailer" />
+
+In Piggy Intercity wird der Ruf durch das "Moral Weight"-System aufgebaut. Anders als bei traditionellen Roblox-Spielen, bei denen man gedankenlos durch Dialoge klicken könnte, kann hier jede Antwort Ihr Ansehen verändern. Dieses System beeinflusst Shop-Preise, Quest-Verfügbarkeit und sogar die Schwierigkeit bestimmter Überlebensrouten.
+
+| Reputationsstufe | Ansehensname | Gameplay-Effekte | NPC-Reaktion |
+| :--- | :--- | :--- | :--- |
+| **Stufe 4** | **Erhoben** | Maximale Shop-Rabatte, Einzigartige Basisskins | Freundlich / Beschützend |
+| **Stufe 3** | **Vertraut** | Zugang zu eingeschränkten Questreihen, Bonus-Munition | Willkommen |
+| **Stufe 2** | **Neutral** | Standardpreise, Grundlegender Questzugang | Gleichgültig |
+| **Stufe 1** | **Misstrauisch** | Höhere Shop-Preise, Begrenzter Dialog | Vorsichtig |
+| **Stufe 0** | **Feindselig** | Verbotener Zutritt zu Hubs, Potenzielle Kämpfe | Aggressiv |
+
+<Callout type="success" title="Reputationsbonus">
+Das Abschließen der Demo-Version bietet eine "Kristall-Belohnung", die in der Vollversion verwendet werden kann. Diese Währung ist entscheidend für den Handel im frühen Spiel mit neutralen Fraktionen, um Ihr anfängliches Ansehen zu steigern.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Wichtige Fraktionszentren und Interaktionszonen">
+
+Die Navigation durch die Ruinen von Evalia erfordert ein tiefes Verständnis dafür, wo sich verschiedene Gruppen aufhalten. Jedes Gebiet auf der Karte dient als Zentrum für spezifische **Piggy Intercity Fraktionen** und bietet einzigartige Gegenstände und Überlebensherausforderungen. Egal, ob Sie die Sicherheit des Forts oder die ressourcenreiche Sägemühle suchen, zu wissen, wer das Territorium kontrolliert, ist die halbe Miete.
+
+<CardGrid cols={3}>
+  <Card title="Das Safe Zone Fort">
+    - **Primäre Fraktion**: Überlebenden-Allianz
+    - **Schlüsselnutzen**: Sicherer Handel, Quest-Startpunkte
+    - **Sicherheitsstufe**: Hoch (Infektionsfreie Zone)
+  </Card>
+  <Card title="Die Sägemühle">
+    - **Primäre Fraktion**: Unabhängige Plünderer
+    - **Schlüsselnutzen**: Holzressourcen, Basismaterialien
+    - **Sicherheitsstufe**: Moderat (Gelegentliche Bedrohungen)
+  </Card>
+  <Card title="Evalia Stadtzentrum">
+    - **Primäre Fraktion**: Verstreute Überreste
+    - **Schlüsselnutzen**: Hochwertige Beute, Fortgeschrittene Waffen
+    - **Sicherheitsstufe**: Niedrig (Hohe Infektionsdichte)
+  </Card>
+</CardGrid>
+
+Die Interaktionszonen sind der Ort, an dem Ihre Entscheidungen wirklich zählen. Wenn Sie ein neues Gebiet betreten, suchen Sie nach NPCs mit Dialogsymbolen. Diese Charaktere sind die Torwächter für den fraktionsspezifischen Fortschritt. Wenn Sie aggressiv gegenüber neutralen NPCs handeln, kann es sein, dass Ihnen der Zugang zu wichtigen Einkaufsbereichen dauerhaft verwehrt bleibt.
+
+| Ort | Kontrollierende Gruppe | Hauptressource | Empfohlene Ausrüstung |
+| :--- | :--- | :--- | :--- |
+| **Das Fort** | Überlebenden-Allianz | Nahrung / Wasser / Quests | Grundlegende Nahkampfwaffen |
+| **Schulbezirk** | Die Pädagogen | Informationen / Medkits | Defensive Rüstung |
+| **Sägemühle** | Plünderer-Korps | Baumaterialien | Schwere Nahkampfwaffen / Werkzeuge |
+| **Einkaufszentrum** | Unabhängige Händler | Waffen / Kristalle | Fernkampfwaffen |
+
+<Callout type="tip" title="Explorationsstrategie">
+Tragen Sie immer "Core Survival Supplies" bei sich, bevor Sie sich in fraktionskontrollierte Zonen wagen. Wenn eine Fraktion neutral oder misstrauisch ist, werden sie keine kostenlosen Ressourcen bereitstellen, und Sie müssen sich möglicherweise ihren Gefallen durch Handel erkaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigieren von Story-Entscheidungen und Konsequenzen">
+
+Das Herzstück des **Piggy Intercity Fraktionen**-Systems liegt in der entscheidungsgetriebenen Erzählung. Jede Quest in Evalia bietet eine Weggabelung. Helfen Sie den kämpfenden Überlebenden im Fort, oder priorisieren Sie Ihren eigenen Basisbau, indem Sie Ressourcen horten? Diese Entscheidungen sind in der Vollversion des Spiels dauerhaft.
+
+<Steps>
+  <Step num="1" title="NPC-Dialog initiieren">
+    Nähern Sie sich einem Charakter in einer Hub-Zone. Lesen Sie den Dialog sorgfältig, da das Spiel ein konsequenzbasiertes System anstelle einfacher "Ja/Nein"-Aufforderungen verwendet.
+  </Step>
+  <Step num="2" title="Das moralische Gewicht bewerten">
+    Berücksichtigen Sie die Ziele der Fraktion. Einer Gruppe zu helfen, könnte eine andere verärgern. Überprüfen Sie Ihren aktuellen Ruf, bevor Sie eine wichtige Story-Entscheidung treffen.
+  </Step>
+  <Step num="3" title="Aufgabenbasierte Ziele abschließen">
+    Quests beinhalten oft das Erkunden gefährlicher Routen oder das Bergen von questkritischen Gegenständen. Erfolg steigert Ihr Ansehen; Misserfolg könnte es senken.
+  </Step>
+  <Step num="4" title="Weltveränderungen beobachten">
+    Besuchen Sie nach einer wichtigen Entscheidung den Hub erneut. Möglicherweise bemerken Sie neue Shop-Artikel, andere NPC-Dialoge oder sogar Änderungen im physischen Layout der Basis.
+  </Step>
+</Steps>
+
+Story-Entscheidungen beeinflussen auch die Entwicklung Ihres Charakters. Die Vollversion enthält mehr Level-Up-Attribute als die Demo, und viele davon sind an die Art und Weise gebunden, wie Sie Konflikte lösen. Zum Beispiel könnten diplomatische Lösungen Ihre Attribute "Charisma" oder "Intelligenz" steigern, während kampfbetonte Wege "Stärke" und "Ausdauer" bevorzugen.
+
+| Entscheidungstyp | Sofortige Belohnung | Langfristige Konsequenz | Fraktionseinfluss |
+| :--- | :--- | :--- | :--- |
+| **Altruistisch** | Geringer Ressourcengewinn | Hoher Ruf, Quests freischalten | Allianz +15 |
+| **Pragmatisch** | Moderater Ressourcengewinn | Neutrales Ansehen, Standardhandel | Allianz +5 |
+| **Feindselig** | Hoher Ressourcengewinn | Feindseliges Ansehen, Gesperrte Zonen | Allianz -50 |
+
+<Callout type="warning" title="Permanenter Fortschritt">
+Die Demo-Version ermöglicht es Ihnen, mit Entscheidungen zu experimentieren, aber denken Sie daran, dass Demo-Speicherdaten **nicht** in die Vollversion **übertragen werden**. Nutzen Sie die Demo, um den Ablauf zu lernen, und treffen Sie dann Ihre endgültigen Entscheidungen im Live-Spiel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Überleben vs. Diplomatie: Kampfmanagement">
+
+Während Diplomatie der Schlüssel zur Beherrschung der **Piggy Intercity Fraktionen** ist, ist der Kampf in der infizierten Welt von Evalia oft unvermeidlich. Das Gleichgewicht zwischen Ihren Beziehungen zu menschlichen Gruppen und dem Kampf gegen die Infizierten erfordert eine strategische Ausrüstung. Ihre Wahl der Waffen und Werkzeuge sollte Ihr aktuelles Fraktionsansehen widerspiegeln.
+
+Wenn Sie ein gutes Ansehen bei der Überlebenden-Allianz haben, erhalten Sie Zugang zu besseren Fernkampfwaffen und Munition. Wenn Sie als Einzelkämpfer spielen, müssen Sie sich auf Plünderungen und Basisbau-Ressourcen verlassen, um Ihre eigene Verteidigung zu bauen.
+
+| Gegenstandskategorie | Rolle in Fraktionen | Praktischer Wert | Priorität |
+| :--- | :--- | :--- | :--- |
+| **Questgegenstände** | Fortschritt | Essenziell für die Story-Bewegung | **S-Tier** |
+| **Überlebensvorräte** | Überleben | Hält Sie während der Reise am Leben | **S-Tier** |
+| **Waffen** | Kampf | Verteidigung gegen Bedrohungen | **A-Tier** |
+| **Basisressourcen** | Wachstum | Langfristiger Überlebensaufbau | **A-Tier** |
+
+<Checklist
+  id="faction-combat-ready"
+  title="Checkliste für die Kampfbereitschaft:"
+  items={[
+    "Rüsten Sie eine zuverlässige Nahkampfwaffe für lautlose Ausschaltungen aus",
+    "Lagern Sie Vorräte für mindestens 3 Tage Nahrung und Wasser",
+    "Überprüfen Sie den Fraktionsstatus, bevor Sie einen neuen Hub betreten",
+    "Stellen Sie sicher, dass Ihre Basis über einen funktionierenden Crafting-Tisch verfügt",
+    "Sammeln Sie Kristalle aus der Demo für den Handel im frühen Spiel"
+  ]}
+/>
+
+<Callout type="info" title="Kampftipp">
+Defensive Ausrüstung hat in "Gefahrenrouten", wo die Infektionsbedrohungen hoch sind, einen deutlich höheren Wert. Fraktionen belohnen Sie oft mit besserer Rüstung, wenn Sie risikoreiche Räumungsmissionen in Evalia abschließen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Basisbau und Fraktionsunterstützung">
+
+Ihre Basis in Piggy Intercity dient als Ihr persönlicher Zufluchtsort und als Spiegelbild Ihrer Reise durch die **Piggy Intercity Fraktionen**. Während Sie die Geschichte durchspielen und Entscheidungen treffen, erweitern sich Ihre Basisbau-Fähigkeiten. Ein hoher Ruf bei bestimmten Gruppen kann einzigartige Baumaterialien und Minispiele freischalten, die wiederholbare Belohnungen bieten.
+
+Der Basisbau ist in den Überlebenskreislauf integriert. Eine gut platzierte Basis in der Nähe eines freundlichen Fraktionszentrums ermöglicht schnellen Handel und Questabgaben. Umgekehrt bietet der Bau in einem abgelegenen Gebiet möglicherweise mehr Platz, erhöht aber das Risiko, bei Ressourcenläufen von Infizierten überwältigt zu werden.
+
+| Basisfunktion | Anforderung | Nutzen |
+| :--- | :--- | :--- |
+| **Crafting-Tisch** | Grundlegende Ressourcen | Werkzeuge, Waffen und Vorräte herstellen |
+| **Handelsposten** | Vertrauter Ruf | Automatischer Ressourcenaustausch |
+| **Lagerkisten** | Holz / Metall | Inventar und Questgegenstände organisieren |
+| **Verteidigungstürme** | Fortgeschrittene Technik | Basis vor Infiziertenangriffen schützen |
+
+<Callout type="tip" title="Basisplatzierung">
+Die Vollversion des Spiels enthält mehr Standorte für Basisgrundstücke. Suchen Sie nach Grundstücken in der Nähe von "Charakter-Interaktionszonen", um die Reisezeit zwischen Ihrem Lager und den Questgebern zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Piggy Intercity Fraktionen & Mechaniken">
+
+<FAQ items={[
+  {
+    question: "Kann ich mehreren Piggy Intercity Fraktionen gleichzeitig beitreten?",
+    answer: "Ja, Sie können positive Beziehungen zu mehreren Gruppen gleichzeitig pflegen. Bestimmte Story-Entscheidungen können Sie jedoch dazu zwingen, eine über die andere zu wählen, was Ihr Ansehen bei der gegnerischen Seite dauerhaft beeinflusst."
+  },
+  {
+    question: "Setzt sich mein Ruf zurück, wenn ich in Evalia sterbe?",
+    answer: "Nein, Ihr Fraktionsruf ist an den permanenten Fortschritt Ihres Charakters gebunden. Während Sie beim Tod einige getragene Gegenstände verlieren können, bleibt Ihr Ansehen bei NPCs intakt."
+  },
+  {
+    question: "Wie behebe ich einen feindseligen Ruf bei einer Fraktion?",
+    answer: "Eine feindselige Beziehung zu beheben ist schwierig und erfordert oft das Abschließen von 'Erlösungsquests' oder das Anbieten erheblicher Ressourcen an Fraktionsführer. Es ist viel einfacher, ein neutrales Ansehen zu bewahren, als von feindselig wieder aufzusteigen."
+  },
+  {
+    question: "Gibt es exklusive Belohnungen für das Erreichen des 'Erhoben'-Status?",
+    answer: "Ja. Das Erreichen der höchsten Reputationsstufe bei einer Fraktion schaltet oft einzigartige Basisbaupläne, S-Tier-Waffen und spezielle Charakterdialoge frei, die mehr über die Lore von Evalia enthüllen."
+  }
+]} />
+
+<Callout type="success" title="Letzter Überlebenstipp">
+Priorisieren Sie immer "Quest-kritische Gegenstände" gegenüber generischer Beute. In der entscheidungsgetriebenen Welt von Piggy Intercity ist Ihre Fähigkeit, die Geschichte voranzutreiben und Fraktionen zu beeinflussen, Ihre größte Waffe für langfristiges Überleben.
+</Callout>
+
+</Section>

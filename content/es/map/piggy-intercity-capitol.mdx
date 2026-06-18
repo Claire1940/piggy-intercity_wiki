@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Capitol de Piggy Intercity: Ubicaciones del Mapa y Guía de Supervivencia",
+  description: "Domina el Capitol de Piggy Intercity y el mapa de Evalia. Aprende estrategias esenciales de supervivencia, rutas de misiones, clasificaciones de armas y consejos para construir bases para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Capitol+Survival+Guide",
+  date: "2026-06-18",
+  author: "Equipo de Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Capitol de Piggy Intercity** sirve como un punto de referencia estratégico crítico dentro del mundo abierto infectado de Evalia.
+- Las **mecánicas centrales de supervivencia** requieren un monitoreo constante de los niveles de hambre, sed e infección mientras se navega por rutas peligrosas.
+- La **progresión de la historia** depende completamente de opciones de diálogo basadas en elecciones que alteran permanentemente las relaciones con los NPC.
+- Los **datos de guardado de la demo** no se transfieren a la versión completa en vivo, pero completarla asegura recompensas de cristales gratuitas.
+</Callout>
+
+<Section icon={Map} title="Explorando el Capitol de Piggy Intercity y el Mapa de Evalia">
+
+Navegar por el vasto y infectado paisaje de Evalia requiere una comprensión profunda de su diseño regional, zonas seguras y corredores de recolección de alto riesgo. El **Capitol de Piggy Intercity** se destaca como un punto central para las principales intersecciones de la historia y la planificación de rutas de exploración, exigiendo una preparación cuidadosa antes de la entrada. La supervivencia en este RPG de mundo abierto depende de mapear los nodos de recursos y evitar las hordas infectadas que ocupan las rutas de tránsito clave entre los puntos de referencia.
+
+La estructura del mapa transita sin problemas desde bastiones de facciones seguras hasta ruinas altamente volátiles y ricas en recursos. El movimiento estratégico entre estos sectores asegura un suministro constante de materiales de artesanía, alimentos y municiones, minimizando la exposición a amenazas ambientales letales.
+
+| Región | Nivel de Amenaza | Recursos Principales | Actividades Clave |
+| :--- | :--- | :--- | :--- |
+| **Núcleo del Capitol** | Alto | Equipo militar, Municiones, Objetos de misión | Progresión de la historia, Combate de alto nivel |
+| Campamentos Seguros | Ninguno | Agua básica, Suministros médicos de bajo nivel | Comercio con NPC, Recogida de misiones, Planificación de bases |
+| Aserradero | Medio | Materiales de madera, Herramientas básicas, Componentes de artesanía | Recolección de recursos, Configuración temprana de refugios |
+| Escuela Abandonada | Medio | Medicina, Libros de texto, Chatarra | Recolección de supervivencia, Misiones secundarias |
+| Rutas Peligrosas | Extremo | Cristales raros, Piezas de armas avanzadas | Encuentros con jefes, Extracción de alto riesgo |
+
+<Callout type="warning" title="Alerta de Infección">
+Las rutas peligrosas y los sectores de alta amenaza como las ruinas centrales presentan tasas de infección aceleradas. Siempre lleve equipo defensivo de alto grado y suministros médicos antes de intentar una carrera de extracción a través de estas zonas.
+</Callout>
+
+Al trazar una ruta de exploración, priorice la conexión de zonas seguras para formar líneas de retirada fiables. La infraestructura circundante ofrece varias ventajas tácticas, como puntos de observación elevados para explorar patrullas enemigas o túneles subterráneos que evitan por completo los puntos de estrangulamiento fuertemente custodiados.
+
+</Section>
+
+<Section icon={Target} title="Ruta de Progresión para Principiantes Paso a Paso">
+
+Sobrevivir tu primera hora en Evalia dicta tu éxito a largo plazo. Lanzarse a ciegas a áreas de alto riesgo conducirá a un rápido agotamiento de recursos y frecuentes derrotas. Siga esta ruta de progresión optimizada para asegurar su posición, establecer su parcela de base inicial y comenzar a realizar las misiones principales de facción de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Asegurar la Entrada a la Versión Completa">
+    Inicie la versión oficial en vivo del juego en lugar de depender de entornos de prueba obsoletos. Asegúrese de que su punto de aparición esté configurado dentro de una zona segura designada para proteger su inventario inicial de amenazas inmediatas.
+  </Step>
+  <Step num="2" title="Recopilar Suministros Básicos de Supervivencia">
+    Busque en el perímetro inmediato agua limpia, raciones básicas y herramientas cuerpo a cuerpo. Priorice la gestión del inventario apilando consumibles esenciales y evitando materiales de artesanía pesados y no esenciales durante su primera incursión.
+  </Step>
+  <Step num="3" title="Localizar NPC de Facciones y Recoger Misiones">
+    Interactúe con los personajes localizados para desbloquear las líneas de misiones principales. Lea las opciones de diálogo con atención, ya que sus respuestas introducen un peso moral y dan forma a su posición con los diferentes grupos de supervivientes en Evalia.
+  </Step>
+  <Step num="4" title="Reclamar una Parcela de Base y Construir una Mesa de Artesanía">
+    Encuentre una parcela de construcción abierta cerca de un nodo de recursos fiable para reclamar su territorio. Erige un perímetro básico y coloque una mesa de artesanía para desbloquear la producción de herramientas avanzadas y opciones de almacenamiento a largo plazo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gestión del Diálogo">
+Las relaciones con los NPC impactan directamente la disponibilidad de misiones secundarias y descuentos especializados de los comerciantes. Evite saltarse las secuencias de diálogo, ya que ciertas elecciones bloquean permanentemente rutas narrativas ramificadas específicas.
+</Callout>
+
+Una vez que se satisfacen sus necesidades básicas de supervivencia, cambie su enfoque hacia la optimización. Esto implica mejorar sus contenedores de almacenamiento para almacenar materiales excedentes y establecer una ruta de cultivo repetible entre los alijos de suministros cercanos.
+
+| Elemento de Acción | Ubicación Objetivo | Resultado Esperado | Nivel de Prioridad |
+| :--- | :--- | :--- | :--- |
+| Reclamar Parcela | Perímetros de Asentamiento | Desbloquea la construcción de bases y reapariciones seguras | Crítico |
+| Recoger Agua | Pozo Central / Tiendas | Previene penalizaciones de atributo por deshidratación | Crítico |
+| Fabricar Arma Cuerpo a Cuerpo | Banco de Trabajo | Proporciona defensa básica sin gastar munición | Alto |
+| Completar Ruta de la Demo | Campos de Pruebas de la Demo | Asegura cristales gratuitos para el juego completo | Medio |
+
+</Section>
+
+<Section icon={Swords} title="Clasificaciones de Objetos de Supervivencia y Armas por Nivel">
+
+Las elecciones de equipo en Evalia determinan su eficiencia tanto en la recolección de recursos como en los combates. Las armas y el equipo de supervivencia se clasifican según su durabilidad, daño, costo de recursos y utilidad general al defender su base o limpiar zonas de alta amenaza.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Esenciales de Misión y Supervivencia">
+    - **Objetos Críticos de Misión**: Objetos obligatorios necesarios para avanzar en las rutas de la historia.
+    - **Suministros Básicos de Supervivencia**: Alimentos de alto rendimiento y fuentes de agua purificada.
+    - **Armadura Corporal Defensiva**: Equipo vital que mitiga el daño pesado en zonas de peligro.
+  </Card>
+  <Card title="Nivel A: Equipo de Combate y Utilidad">
+    - **Armas de Fuego a Distancia**: Alto daño para eliminar jefes infectados.
+    - **Herramientas de Recolección**: Hachas y picos avanzados que aceleran la construcción de bases.
+    - **Mejoradores de Atributos**: Objetos que aumentan temporalmente las estadísticas de resistencia o velocidad.
+  </Card>
+  <Card title="Nivel B: Economía y Actividades Secundarias">
+    - **Compras de Comerciantes**: Suministros estándar adquiridos a través de comerciantes locales.
+    - **Cristales de Recompensa de la Demo**: Moneda premium utilizada para desbloqueos de utilidad especializados.
+    - **Herramientas Básicas Cuerpo a Cuerpo**: Armas de bajo costo adecuadas para la defensa al principio del juego.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimización del Combate">
+Siempre apunte a la cabeza al usar armas de fuego a distancia contra enemigos infectados. Esto maximiza el daño por ronda, conservando munición valiosa para incursiones más profundas en territorios de alta amenaza.
+</Callout>
+
+Equilibrar su carga de inventario entre armas ofensivas y elementos curativos evita situaciones en las que no pueda recuperarse de encuentros de combate inesperados. Mantenga un espacio dedicado para vendas médicas de uso rápido en todo momento.
+
+| Categoría de Arma | Daño | Costo de Recursos | Clasificación de Durabilidad | Alcance Óptimo |
+| :--- | :--- | :--- | :--- | :--- |
+| Armas de Fuego Avanzadas | Muy Alto | Alto (Depende de la munición) | Excelente | A distancia |
+| Armas Cuerpo a Cuerpo Fabricadas | Moderado | Bajo (Madera/metal básico) | Bueno | Corta distancia |
+| Herramientas Tácticas | Bajo | Medio (Chatarra) | Regular | Corta distancia |
+| Arcos Estándar | Moderado | Bajo (Flechas fabricadas) | Bueno | Alcance medio |
+
+</Section>
+
+<Section icon={Shield} title="Sistemas de Construcción de Bases y Reglas de Guardado de la Demo">
+
+Establecer una base fortificada proporciona un refugio seguro para almacenar botín de alto valor, fabricar objetos de nivel avanzado y recuperarse entre intensas carreras de supervivencia. Elegir la ubicación correcta de la parcela asegura un fácil acceso a los centros comerciales mientras se mantiene una distancia segura de los puntos de aparición de infectados agresivos.
+
+Comprender las reglas de los límites entre las diferentes versiones del juego evita la pérdida de tiempo de juego valioso. Revise las diferencias operativas a continuación para optimizar su estrategia de progresión.
+
+| Característica / Regla | Versión Demo | Versión Completa en Vivo |
+| :--- | :--- | :--- |
+| **Transferencia de Datos de Guardado** | No se transfiere al juego en vivo | Progresión permanente del lado del servidor |
+| **Recompensa por Completar** | Otorga cristales gratuitos a la versión completa | Desbloquea sistemas avanzados de juego final |
+| **Construcción de Bases** | Restringido a estructuras básicas | Construcción completa, Mejoras, Personalización |
+| **Límites del Mapa** | Zonas de exploración limitadas | Acceso completo a Evalia y el Capitol |
+| **Atributos de Subida de Nivel** | Ajustes básicos de estadísticas | Personalización avanzada de la construcción de personajes |
+
+<Callout type="info" title="Aclaración de Datos">
+No dedique un tiempo excesivo a optimizar su diseño dentro del entorno de la demo. Utilice ese espacio estrictamente para asegurar la recompensa por completar, luego pase inmediatamente al entorno en vivo para construir su base permanente.
+</Callout>
+
+Al diseñar el diseño de su base, coloque su mesa de artesanía y cofres de almacenamiento en el centro de su parcela, rodeados por capas concéntricas de muros defensivos. Este diseño obliga a los atacantes a romper múltiples barreras defensivas para llegar a sus valiosas existencias.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación del Juego Final">
+
+Una vez que su ciclo de supervivencia esté estabilizado y su arsenal mejorado, concéntrese en dominar las mecánicas estructurales de Evalia. Lograr el dominio total requiere completar todas las rutas de historia ramificadas, maximizar las defensas de su base y optimizar los atributos de su personaje.
+
+<Checklist
+  id="endgame-progression"
+  title="Hitos para Supervivientes de Élite:"
+  items={[
+    "Establecer un diseño de base de nivel tres completamente fortificado cerca de una ruta de tránsito importante",
+    "Completar todas las líneas de misiones de NPC ramificadas y maximizar la reputación positiva de la facción",
+    "Asegurar todas las armas de alto nivel y almacenar variantes de munición avanzadas",
+    "Extraer con éxito de todas las rutas peligrosas de amenaza extrema dentro de Evalia",
+    "Optimizar todos los atributos de subida de nivel del personaje para complementar su estilo de juego preferido"
+  ]}
+/>
+
+<Callout type="tip" title="Recomendación Final">
+Coordínese con jugadores amigos en servidores multijugador para distribuir las tareas de recolección de recursos. Esto acelera las mejoras de la base y permite a su grupo asegurar sectores de alta amenaza de manera más eficiente.
+</Callout>
+
+Realice un seguimiento de su progresión regularmente y ajuste sus rutas de cultivo según sus requisitos de mejora inmediatos. Priorice la integridad estructural sobre las mejoras cosméticas durante la fase de construcción.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra el Capitol de Piggy Intercity en el mapa?",
+    answer: "El capitol se encuentra dentro del sector central de alta amenaza del mapa de Evalia. Sirve como un centro importante para misiones de historia avanzadas, encuentros con infectados de élite y caídas de botín militar de alto nivel."
+  },
+  {
+    question: "¿Mis objetos y el progreso de mi base de la demo se transfieren a la versión completa?",
+    answer: "No, los datos de guardado de la demo no se transfieren a la versión completa en vivo. Sin embargo, completar la ruta designada de la demo recompensa su cuenta con cristales gratuitos que se pueden utilizar al ingresar al juego completo."
+  },
+  {
+    question: "¿Cómo afectan las opciones de diálogo al juego en Evalia?",
+    answer: "Las opciones de diálogo introducen un peso moral y alteran permanentemente sus relaciones con varias facciones de supervivientes. Estas decisiones determinan qué líneas de misiones permanecen abiertas, alteran los precios de los comerciantes y cambian cómo los NPC reaccionan a su presencia."
+  },
+  {
+    question: "¿Cuál es la forma más eficiente de gestionar los atributos de hambre y sed?",
+    answer: "Establezca una parcela de base segura cerca de pozos de agua o áreas comerciales. Almacene cantidades apiladas de agua purificada y raciones de alto rendimiento en contenedores seguros, y siempre rellene sus medidores antes de embarcarse en una larga carrera de extracción."
+  }
+]} />
+
+</Section>
