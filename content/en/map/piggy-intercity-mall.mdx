@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Mall: Loot Map & Survival Walkthrough",
+  description: "Master the Piggy Intercity Mall location in Evalia. Learn survival paths, NPC quest choices, loot spawn points, and base-building tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Piggy+Intercity+Mall+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: The **piggy intercity mall** serves as a high-tier looting zone containing essential gear, survival food, and weapon spawns.
+- **High-Risk Threat**: Infected enemies swarm the narrow store aisles, requiring defensive gear and careful routing.
+- **NPC Decisions**: Dialogue choices with survivors in the Mall permanently impact your faction standing and storyline routes.
+- **Demo Rewards**: Earn crystal bonuses by completing the demo before transferring your progression to the main open-world game.
+- **Base Expansion**: Claim plots adjacent to the Mall to establish safe zones and storage outposts near premium resources.
+</Callout>
+
+Navigating the ruins of Evalia requires strategy, quick reflexes, and deep knowledge of high-tier loot hubs. The **piggy intercity mall** stands as one of the most vital landmarks in the open world, serving as both a primary battleground against infected threats and a treasure trove of survival resources. To survive this massive structure, players must master safe navigation pathways, manage branching dialogue choices with resident NPCs, and prioritize the correct items for inventory efficiency. 
+
+Understanding the layout of this landmark is the difference between securing elite gear and falling victim to the infected horde. This guide details everything needed to conquer the Mall, complete its resident quests, and secure your base perimeter.
+
+---
+
+<Section icon={Map} title="Navigating the Piggy Intercity Mall Layout">
+
+Exploration in Evalia is dangerous, but the rewards inside the central shopping district justify the risk. The Mall structure consists of three main floors, a rooftop maintenance area, and a subterranean parking garage. Each floor contains distinct store categories that yield specific item types, ranging from medical kits to heavy melee tools.
+
+To navigate the structure safely, avoid the main atrium escalators when infected presence is high. Use the side fire escapes and elevator shafts to move vertically without drawing attention.
+
+| Location | Threat Level | Loot Value | Strategic Purpose |
+| --- | --- | --- | --- |
+| Ground Floor Atrium | High | ★★★ | Fast transit, vending machine food, high enemy density |
+| Second Floor Stores | Medium | ★★★★ | Tool spawns, quest progression items, clothing |
+| Sublevel Parking | High | ★★★★★ | Weapon upgrades, vehicle parts, crafting scrap |
+| Rooftop Access | Low | ★★ | Safe resting area, sniping vantage point, base planning |
+
+<Callout type="success" title="Survival Tip">
+Always clear the rooftop first. It provides an immediate escape route and a clear view of the surrounding Evalia streets, allowing you to track infected movements before descending.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mall Quests and Story Choices">
+
+Unlike simple escape maps, this open-world RPG features branching narratives where your choices carry permanent consequences. The Mall houses several neutral NPCs who offer quests in exchange for supplies, reputation, and currency. How you interact with these factions determines whether certain city districts remain friendly or turn hostile.
+
+When speaking to survivors, pay close attention to the dialogue prompt. Choosing to hoard supplies instead of sharing them can lock you out of future trading opportunities.
+
+<Steps>
+  <Step num="1" title="Locate the Mall Security Office">
+    Navigate to the second floor and locate the fortified security office. Speak with the faction leader to unlock the primary investigation quest.
+  </Step>
+  <Step num="2" title="Retrieve the Maintenance Keys">
+    Descend to the sublevel parking garage to find the maintenance keys. Watch the dark corners for stealthy infected threats.
+  </Step>
+  <Step num="3" title="Make the Faction Alignment Choice">
+    Deliver the keys back to the leader or hand them over to the rogue survivor waiting by the exit. This choice alters your local reputation.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Permanent Choices">
+Decisions regarding faction alignment cannot be reversed during your current playthrough. Aligning with the rogue group makes security guards hostile throughout the Mall perimeter.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Loot Priorities and Weapon Rankings">
+
+Looting efficiently prevents your inventory from becoming cluttered with low-value items. Prioritize defensive armaments and restoration items that sustain your hunger, thirst, and health bars during prolonged explorations.
+
+Weapons found within the sports outlets and hardware stores of the Mall range from quick melee options to heavy defensive tools. 
+
+<CardGrid cols={3}>
+  <Card title="Quest-Critical Items">
+    Items highlighted in yellow are required for story progression. Always secure these first as they do not consume standard inventory slots.
+  </Card>
+  <Card title="Survival Consumables">
+    Keep a steady supply of canned food and purified water. Vending machines on the first floor are reliable sources for these.
+  </Card>
+  <Card title="Combat Armaments">
+    Melee weapons with high knockback are preferred for crowd control in tight corridors. Keep ranged weapons for open spaces.
+  </Card>
+</CardGrid>
+
+| Item Category | Tier Rating | Core Use | Spawn Location |
+| --- | --- | --- | --- |
+| Melee Weapons | S (Excellent) | Crowd control, low noise, infinite use | Sports Store / Hardware Depot |
+| Medical Supplies | S (Excellent) | Health restoration, infection resistance | Pharmacy / First Aid Stations |
+| Crafting Materials | A (Good) | Base building, barricade reinforcement | Storage Lockers / Service Hallways |
+| Standard Consumables | B (Average) | Hunger and thirst recovery | Food Court / Vending Machines |
+
+<Callout type="tip" title="Inventory Management">
+Always store crafting materials at your base before initiating a Mall raid. This frees up maximum inventory slots for high-tier weapons and survival supplies.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Base Building Near the Mall Zone">
+
+Establishing a secure base close to the Mall perimeter provides a safe retreat point and a place to stockpile resources. Look for claimable plots located in the alleyways or nearby parking structures. Establishing a crafting table allows you to convert raw materials found in the Mall into defensive barriers and storage crates.
+
+Barricading the entrance to your claimed plot is vital to prevent wandering infected from destroying your resource caches while you are away looting.
+
+<Checklist
+  id="mall-base-setup"
+  title="Safehouse Setup Steps:"
+  items={[
+    "Locate a claimable plot within one block of the Mall exit",
+    "Construct a basic Crafting Table using lumber and metal scraps",
+    "Build double-layer wooden barriers to block entry points",
+    "Place a medium storage chest to store surplus weapon parts",
+    "Establish a water collector to maintain hydration levels"
+  ]}
+/>
+
+| Building Material | Spawn Frequency | Primary Use | Sourcing Strategy |
+| --- | --- | --- | --- |
+| Wooden Planks | Common | Basic walls, structural supports | Lumber yard / Mall crates |
+| Metal Scrap | Uncommon | Reinforcements, tool crafting | Sublevel garage / car wrecks |
+| Electronic Components | Rare | Advanced traps, power generators | Tech store shelves |
+
+<Callout type="info" title="Plot Mechanics">
+Claimed plots require maintenance. Ensure you visit your base regularly to repair structural damage caused by environmental wear or infected attacks.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Demo Progress and Full Version Transitions">
+
+Players transitioning from the demo version must understand the progression guidelines. While direct save files do not carry over to the full open-world experience, completing specific milestones in the demo provides significant advantages in the main release.
+
+Completing the demo story path unlocks premium rewards that facilitate early-game progression in Evalia.
+
+| System Feature | Demo Version | Full Version | Carryover Status |
+| --- | --- | --- | --- |
+| Playable Map Area | Restricted (Demo sector) | Expanded (Full Evalia city) | Does not transfer |
+| Save Data | Local (Temporary) | Cloud-saved (Permanent) | Reset on launch |
+| Crystal Rewards | Unavailable | Earned via demo completion | Transferred to full version |
+| Base Building | Locked | Unlocked | N/A |
+| Quest Variety | Limited | Full branching storylines | N/A |
+
+<Callout type="warning" title="Transition Alert">
+Ensure you complete all demo achievements before launching the full version. The free crystal rewards are only distributed to accounts with verified demo completion badges.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Survival FAQs">
+
+<FAQ items={[
+  {
+    question: "How do I find the piggy intercity mall on the map?",
+    answer: "The Mall is located in the central sector of Evalia. Follow the main highway east from the starter safe zone until you see the large parking structure and neon signs."
+  },
+  {
+    question: "Do items respawn inside the Mall?",
+    answer: "Yes, loot containers and shelf items respawn periodically. Leaving the district and returning after a short duration resets the item spawns."
+  },
+  {
+    question: "Can I build a base directly inside the Mall?",
+    answer: "No, you cannot claim plots inside the main Mall structure. Bases must be built on designated plots located in the surrounding streets and alleyways."
+  },
+  {
+    question: "What happens if my reputation drops too low with the Mall faction?",
+    answer: "If your reputation becomes hostile, security guards will attack you on sight, and you will lose access to the Mall's specialty trading shops."
+  }
+]} />
+
+</Section>

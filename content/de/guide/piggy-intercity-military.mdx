@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Militär: Fort-Standort, Ausrüstung & Quest-Entscheidungen",
+  description: "Der Piggy Intercity Militär-Leitfaden deckt den Fort-Standort in Evalia, Fraktionsentscheidungen, Waffen-Tier-List, Militärausrüstung und Überlebensquests in Roblox ab.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Military+Faction+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptziel**: Lokalisiere das **Piggy Intercity-Militär** Fort im Norden von Evalia, um Zugang zu hochstufiger Überlebensausrüstung und Fraktionsquests zu erhalten.
+- **Waffenpräferenz**: Sammle **Militärwaffen** wie Gewehre und Pistolen, um dir einen hohen Kampfvorteil gegen infizierte Bedrohungen zu sichern.
+- **Ruf-Auswirkung**: Triff vorsichtige **Entscheidungen in der Story**, wenn du mit Militär-NPCs interagierst, da der Ruf die Fraktionsbeziehungen dauerhaft verändert.
+- **Basisstrategie**: Beanspruche ein **Basisgrundstück** in der Nähe von Verteidigungskontrollpunkten, um ein sichereres Ressourcen-Farming und leichtere Rückzugswege zu gewährleisten.
+</Callout>
+
+<Section icon={Map} title="Erkundung des Piggy Intercity Militärforts und der Außenposten">
+
+Das Navigieren in der infizierten offenen Welt von Evalia erfordert, dass Spieler wichtige Sicherheitszonen, Beutebereiche und Fraktionsstützpunkte identifizieren. Die Militärpräsenz im Spiel stellt eines der am besten organisierten, aber auch gefährlichsten Elemente dar. Das zentrale Zentrum für diese Fraktion ist der Fort-Außenposten im nördlichen Sektor der Karte. Dieses Gebiet dient als Hauptquelle für hochstufige taktische Ausrüstung, Munition und spezialisierte Herstellungsbaupläne.
+
+Aufgrund der Dichte an infizierten Soldaten, die das Gelände patrouillieren, wird dringend davon abgeraten, diese Zone unvorbereitet zu betreten. Die lokale KI-Wegfindung ist aggressiv, und die infizierten Streitkräfte hier besitzen größere Lebensbalken als standardmäßige städtische Varianten. Das Überleben in dieser Region erfordert ein klares Verständnis der verschiedenen Teilbereiche, Beuteverteilungspunkte und Sicherheitszonen.
+
+| Standortname | Gefahrenstufe | Primäre Beutearten | Wichtiger NPC vor Ort |
+| --- | --- | --- | --- |
+| Fort-Außenposten | Hoch | Gewehre, schwere Munition, Rüstung | Sergeant Marcus |
+| Funkturm | Mittel | Elektronik, Funkteile | Spezialist Hayes |
+| Versorgungsdepot | Hoch | Rationen, Militärwesten | Quartiermeister |
+| F&E-Labore | Sehr hoch | Medkits, Kristalle, Schlüsselkarten | Leitender Wissenschaftler |
+
+Um Beutezüge durch diese Gebiete erfolgreich durchzuführen, sollten Spieler Routen planen, die einen schnellen Ein- und Ausstieg ermöglichen. Das Versorgungsdepot eignet sich hervorragend zum Sammeln von Verteidigungsausrüstung, während der Funkturm der sicherste Punkt ist, um elektronische Herstellungskomponenten für das frühe Spiel zu ergattern.
+
+<Callout type="warning" title="Infektionsgefahr">
+Vermeide es, die äußeren Zäune des Fort-Außenpostens während der Nachtzyklen zu patrouillieren. Die Dichte der infizierten Spawns verdoppelt sich und die Sicht sinkt, was den Fernkampf mit Gewehren sehr ineffektiv macht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Militärische Fraktionsquests und Dialogentscheidungen">
+
+Das Questsystem in Piggy Intercity basiert stark auf entscheidungsgesteuerten RPG-Mechaniken. Wenn Spieler mit Militärpersonal interagieren, nehmen sie nicht einfach lineare Aufgaben an; sie entscheiden, wie sich ihr Charakter in die breitere gesellschaftliche Landschaft von Evalia einfügt. Die Arbeit für die Militärüberreste wird unabhängige zivile Überlebendenlager entfremden, während die Unterstützung von Zivilisten dich von hochstufigen militärischen Versorgungslinien ausschließt.
+
+Der Hauptstrang der Geschichte beginnt mit Sergeant Marcus am Torhaus des Forts. Um diese Questreihe voranzutreiben, müssen aufeinanderfolgende Aufgaben in verschiedenen Teilen der Karte abgeschlossen werden.
+
+<Steps>
+  <Step num="1" title="Finde den Rekrutierer">
+    Reise zum nördlichen Torhaus des Fort-Außenpostens. Halte deine Waffen geholstert, wenn du dich den Toren näherst, um zu verhindern, dass die Fraktionswachen dich als feindlichen Überlebenden identifizieren.
+  </Step>
+  <Step num="2" title="Sichere die Vorräte">
+    Reise nach Süden zum Sägewerk. Durchsuche die verschlossenen Kisten im Hauptlagerhaus nach gestohlenen Militärrationen und bringe sie zum Fort zurück.
+  </Step>
+  <Step num="3" title="Löse die Fraktionsentscheidung">
+    Wähle, ob du die geborgenen F&E-Forschungsdateien direkt an Sergeant Marcus liefern oder sie an das zivile Zufluchtslager im südlichen Tal weitergeben möchtest.
+  </Step>
+  <Step num="4" title="Beanspruche Fraktionsbelohnungen">
+    Sprich je nach deiner Wahl mit deinem gewählten Fraktionsführer, um deine einzigartigen Ausrüstungsbaupläne abzuholen und deinen dauerhaften Rufrang festzulegen.
+  </Step>
+</Steps>
+
+Jede Dialogentscheidung verschiebt dein Ansehen bei den beiden Hauptgruppen. Unten ist eine Aufschlüsselung, wie sich diese Entscheidungen auf deinen Fortschritt und deine endgültigen Belohnungen auswirken.
+
+| Auswahl der Entscheidung | Änderung des Militärrufs | Änderung des Zivilrufs | Einzigartige Belohnung freigeschaltet |
+| --- | --- | --- | --- |
+| Militär unterstützen | Freundlich (+50) | Feindselig (-50) | Elite-Gewehr-Bauplan |
+| Zivilisten unterstützen | Feindselig (-50) | Freundlich (+50) | Fortschrittliches Medikit |
+| Neutral bleiben | Neutral (0) | Neutral (0) | Zusätzliches Geld, Kristalle |
+
+<Callout type="info" title="Rufsperre">
+Das Erreichen eines feindseligen Status mit der Militärfraktion führt dazu, dass alle Wachen am Fort-Außenposten sofort das Feuer auf dich eröffnen. Dies sperrt dich dauerhaft vom Militärshop-Terminal aus, bis ein Gegenstand zum Zurücksetzen des Rufs gekauft oder verdient wird.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier-List für taktische Waffen und Überlebensausrüstung">
+
+Das Überleben von Begegnungen mit hochstufigen Infizierten erfordert ein effizientes Ausrüstungsmanagement. Im Gegensatz zu Gelegenheits-Escape-Karten legt die Open-World-RPG-Struktur des Spiels Priorität auf Waffenhaltbarkeit, Munitionsverfügbarkeit und prozentuale Schadensreduzierung. Um die Überlebenszeit während langer Erkundungstouren zu maximieren, sollten Spieler darauf abzielen, taktische Ausrüstung zu erwerben, die Kampfstärke mit Gewichtseffizienz ausbalanciert.
+
+<CardGrid cols={3}>
+  <Card title="Kampf-Angriffs-Build">
+    - **Hauptfokus**: Hoher Schaden pro Sekunde (DPS) und Reichweite
+    - Empfohlene Waffe: Sturmgewehr
+    - Empfohlene Ausrüstung: Taktische Weste
+  </Card>
+  <Card title="Aufklärungs-Späher-Build">
+    - **Hauptfokus**: Mobilität und Ressourcensammeln
+    - Empfohlene Waffe: Dienstpistole
+    - Empfohlene Ausrüstung: Leichter Späher-Rucksack
+  </Card>
+  <Card title="Basis-Wächter-Build">
+    - **Hauptfokus**: Strukturverteidigung und Nahkampf
+    - Empfohlene Waffe: Kampfschrotflinte
+    - Empfohlene Ausrüstung: Schwere Rüstungsplatte
+  </Card>
+</CardGrid>
+
+Waffen werden basierend auf ihren Ressourcenanforderungen, ihrem Basisschaden, ihrer Nachladegeschwindigkeit und ihrem Nutzen sowohl im Solo- als auch im Kooperativspiel eingestuft.
+
+| Gegenstandsname | Gegenstandstyp | Basisschaden | Erforderlicher Munitionstyp | Tier-Einstufung |
+| --- | --- | --- | --- | --- |
+| Sturmgewehr | Fernkampfwaffe | Hoch | 5,56-mm-Gewehrmunition | S-Tier |
+| Taktische Weste | Körperrüstung | 35 % Reduzierung | N/A | S-Tier |
+| Dienstpistole | Fernkampfwaffe | Moderat | 9-mm-Pistolenmunition | A-Tier |
+| Kampfmesser | Nahkampfwaffe | Niedrig | N/A | B-Tier |
+| Einsatzschild | Verteidigungsausrüstung | Schaden blockieren | N/A | B-Tier |
+
+Das Sturmgewehr steht aufgrund seines hohen Kopfschuss-Multiplikators und seiner Genauigkeit auf lange Distanz an der Spitze der Kampf-Meta. Allerdings müssen Spieler eine effiziente Farming-Route für 5,56-mm-Munition aufbauen, um die Waffe nutzbar zu halten. Die Dienstpistole bleibt eine zuverlässige Ausweichoption zum Beseitigen einfacher Standardgegner, da 9-mm-Munition in städtischen Einkaufsbereichen reichlich verstreut ist.
+
+<Callout type="tip" title="Munition sparen">
+Nutze das Kampfmesser oder andere schnelle Nahkampfoptionen, um infizierte Feinde zu erledigen, sobald ihre Lebenspunkte unter 20 % fallen. Dies spart wertvolle Schusswaffenmunition für plötzliche Boss-Spawns oder Verteidigungsmissionen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Militärischer Basisbau und Verteidigung">
+
+Sobald du genügend Materialien gesammelt und deine bevorzugte Fraktionsausrichtung gesichert hast, ist der Aufbau einer persönlichen Basis die nächste Phase des langfristigen Fortschritts. Das Spiel verfügt über spezielle Grundstücksraster, auf denen Spieler Unterstände, Lagerkisten und aktive Verteidigungsnetzwerke errichten können, um Wellen von Infizierten abzuwehren.
+
+Die Verwendung von militärischen Bauplänen ermöglicht es dir, Strukturen mit deutlich höheren Haltbarkeitswerten als einfache Holz- oder Schrottmetallwände zu bauen.
+
+<Checklist
+  id="base-building-goals"
+  title="Militärbasis-Checkliste:"
+  items={[
+    "Beanspruche ein Basisgrundstück in der Nähe einer Wasserquelle und des Fort-Außenpostens",
+    "Baue eine Werkbank der Stufe 2, um Zugang zu Metallkomponenten zu erhalten",
+    "Errichte äußere Betonwände, um schweren Angriffen von Infizierten standzuhalten",
+    "Installiere mindestens zwei erhöhte Wachtürme für eine freie Sichtlinie",
+    "Platziere einen sicheren Waffenschrank, um Ersatzmunition zu organisieren"
+  ]}
+/>
+
+Um ein optimales Verteidigungs-Setup aufzubauen, kombiniere schwere Wandstrukturen mit verlangsamenden Fallen. Das Platzieren von Stacheln direkt vor deinen Haupttoren zwingt die Wegfindung der Infizierten zu verlangsamen, wodurch die Zeit maximiert wird, die du hast, um sie aus der Sicherheit mit Fernkampfwaffen ins Visier zu nehmen.
+
+| Strukturname | Erforderliche Basismaterialien | Haltbarkeitsstufe | Beste taktische Platzierung |
+| --- | --- | --- | --- |
+| Betonwand | 10 Zement, 5 Bewehrungsstäbe, 2 Draht | Hoch (5/5) | Außengrenzen |
+| Metallbarrikade | 8 Eisenbleche, 4 Bolzen | Moderat (4/5) | Innere Toreingänge |
+| Holzstachelfalle | 15 Holzbretter, 10 Nägel | Niedrig (2/5) | Engpässe und Pfade |
+| Erhöhter Turm | 20 Holz, 10 Eisenbleche | Hoch (5/5) | Eckpositionen |
+
+Der Bau zu nah an Spawn-Punkten mit hoher Bedrohung wie dem Fort-Außenposten führt zu häufigeren Angriffen auf deine Basis. Wähle ein Grundstück, das ein Gleichgewicht zwischen schnellen Beutezügen und bewältigbaren Verteidigungszyklen bietet.
+
+<Callout type="success" title="Basis-Synergie">
+Der Bau einer Basis in der Nähe der Grenze der nördlichen Region ermöglicht es dir, die Aggro der Infizierten schnell zurückzusetzen, indem du dich in die neutrale Zone zurückziehst, was sowohl Wandhaltbarkeit als auch Munition spart.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen zu militärischem Fortschritt und Strategie">
+
+Das Verständnis der Nuancen von Fraktionsmechaniken, Kampfsystemen und des Basisbaus ist entscheidend, um den Endspiel-Fortschritt zu meistern.
+
+<FAQ items={[
+  {
+    question: "Wie betritt man die Militärbasis in Piggy Intercity sicher?",
+    answer: "Nähere dich der Basis vom östlichen Kamm aus, um den Fallen auf der Hauptstraße auszuweichen. Stelle sicher, dass deine Waffen geholstert sind, damit die Wachen des Außenpostens dich nicht sofort angreifen."
+  },
+  {
+    question: "Kann man seine Fraktionswahl ändern, nachdem man den Zivilisten geholfen hat?",
+    answer: "Ja, aber du musst eine Reihe von Bergungsquests für Sergeant Marcus abschließen oder eine Marke zum Zurücksetzen der Fraktionsausrichtung mit Kristallen kaufen, die du durch das Abschließen der Demo verdient hast."
+  },
+  {
+    question: "Wo ist der beste Ort, um 5,56-mm-Gewehrmunition zu farmen?",
+    answer: "Das Versorgungsdepot innerhalb des Militärforts hat die höchste Spawnrate für Gewehrkisten. Alternativ kannst du sie an einer Werkbank der Stufe 2 aus Schießpulver und Blei und Kupfer herstellen."
+  },
+  {
+    question: "Reparieren sich Basisverteidigungen nach einem Angriff von Infizierten automatisch?",
+    answer: "Nein, Strukturen müssen manuell mit einem Hammerwerkzeug und den entsprechenden Basismaterialien wie Holzbrettern oder Eisenblechen repariert werden."
+  }
+]} />
+
+<Callout type="info" title="Community-Ressourcen">
+Für Echtzeit-Updates zu Patchnotizen, neuen Waffenveröffentlichungen und Kartenerweiterungen konsultiere die offizielle Piggy-Discord-Community oder folge den offiziellen Entwicklungsankündigungen.
+</Callout>
+
+</Section>

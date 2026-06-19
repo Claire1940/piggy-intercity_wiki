@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Militar de Piggy Intercity: Ubicación del Fuerte, Equipamiento y Elección de Misiones",
+  description: "La guía militar de Piggy Intercity cubre la ubicación del Fuerte en Evalia, las elecciones de facción, la lista de niveles de armas, el equipamiento militar y las misiones de supervivencia en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Military+Faction+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Localizar el fuerte **militar de Piggy Intercity** en el norte de Evalia para acceder a equipamiento de supervivencia de alto nivel y misiones de facción.
+- **Preferencia de armas**: Recoger **armas militares** como rifles y pistolas para asegurar una gran ventaja de combate contra las amenazas infectadas.
+- **Impacto en la reputación**: Tomar **decisiones de historia** cuidadosas al interactuar con NPCs militares, ya que la reputación altera permanentemente las relaciones con las facciones.
+- **Estrategia de base**: Reclamar un **terreno de base** cerca de los puntos de control de defensa para garantizar una recolección de recursos más segura y rutas de retirada más fáciles.
+</Callout>
+
+<Section icon={Map} title="Explorando el Fuerte y los Puestos de Avanzada Militar de Piggy Intercity">
+
+Navegar por el mundo abierto infectado de Evalia requiere que los jugadores identifiquen las principales zonas seguras, áreas de botín y bastiones de facciones. La presencia militar en el juego representa uno de los elementos más organizados pero peligrosos. El centro neurálgico de esta facción es el Puesto de Avanzada del Fuerte, situado en el sector norte del mapa. Esta área sirve como fuente principal de equipamiento táctico de alto nivel, munición y planos de fabricación especializados.
+
+Debido a la densidad de soldados infectados que patrullan el perímetro, se desaconseja totalmente entrar en esta zona sin preparación. La ruta de la IA local es agresiva, y las fuerzas infectadas aquí poseen más puntos de vida que las variantes urbanas estándar. Sobrevivir en esta región requiere una comprensión clara de sus distintas sububicaciones, puntos de distribución de botín y zonas seguras.
+
+| Nombre de la Ubicación | Nivel de Peligro | Tipos de Botín Principal | NPC Clave Presente |
+| --- | --- | --- | --- |
+| Puesto de Avanzada del Fuerte | Alto | Rifles, Munición Pesada, Armadura | Sargento Marcus |
+| Torre de Comunicaciones | Medio | Electrónica, Piezas de Radio | Especialista Hayes |
+| Depósito de Suministros | Alto | Raciones, Chalecos Militares | Intendente |
+| Laboratorios de I+D | Muy Alto | Botiquines, Cristales, Tarjetas de Acceso | Científico Principal |
+
+Para realizar con éxito ciclos de botín en estas áreas, los jugadores deben trazar rutas que permitan una entrada y salida rápidas. El Depósito de Suministros es excelente para recolectar equipamiento defensivo, mientras que la Torre de Comunicaciones sigue siendo el punto más seguro para conseguir componentes electrónicos de fabricación al principio del juego.
+
+<Callout type="warning" title="Peligro de Infección">
+Evita patrullar las vallas exteriores del Puesto de Avanzada del Fuerte durante los ciclos nocturnos. La aparición de infectados se duplica en densidad y la visibilidad disminuye, lo que hace que el combate con rifles a larga distancia sea muy ineficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones de la Facción Militar y Decisiones de Diálogo">
+
+El sistema de misiones en Piggy Intercity se basa en gran medida en mecánicas de RPG de toma de decisiones. Al interactuar con el personal militar, los jugadores no aceptan simplemente tareas lineales; deciden cómo encaja su personaje en el panorama social más amplio de Evalia. Trabajar para los remanentes militares los alejará de los campamentos civiles independientes de sobrevivientes, mientras que ayudar a los civiles les bloqueará el acceso a las líneas de suministro militar de alto nivel.
+
+El hilo narrativo principal comienza con el Sargento Marcus en la puerta del Fuerte. Progresar en esta línea de misiones requiere completar tareas secuenciales en diferentes partes del mapa.
+
+<Steps>
+  <Step num="1" title="Localizar al Reclutador">
+    Viaja a la puerta norte del Puesto de Avanzada del Fuerte. Mantén tus armas guardadas al acercarte a las puertas para evitar que los guardias de la facción te identifiquen como un sobreviviente hostil.
+  </Step>
+  <Step num="2" title="Asegurar los Suministros">
+    Viaja al sur hacia el Aserradero. Busca en las cajas cerradas dentro del almacén principal raciones militares robadas y devuélvelas al Fuerte.
+  </Step>
+  <Step num="3" title="Resolver la Elección de Facción">
+    Elige si entregar los archivos de investigación de I+D recuperados directamente al Sargento Marcus o filtrarlos al campamento de refugiados civiles en el valle del sur.
+  </Step>
+  <Step num="4" title="Reclamar Recompensas de Facción">
+    Dependiendo de tu elección, habla con el líder de la facción elegida para recoger tus planos de equipamiento únicos y establecer tu rango de reputación permanente.
+  </Step>
+</Steps>
+
+Cada elección de diálogo cambia tu reputación con los dos grupos principales. A continuación se muestra un desglose de cómo estas elecciones afectan tu progresión y recompensas finales.
+
+| Selección de Elección | Cambio de Reputación Militar | Cambio de Reputación Civil | Recompensa Única Desbloqueada |
+| --- | --- | --- | --- |
+| Apoyar a los Militares | Amistoso (+50) | Hostil (-50) | Plano de Rifle de Élite |
+| Apoyar a los Civiles | Hostil (-50) | Amistoso (+50) | Botiquín Médico Avanzado |
+| Permanecer Neutral | Neutral (0) | Neutral (0) | Dinero Extra, Cristales |
+
+<Callout type="info" title="Bloqueo de Reputación">
+Llegar a un estado Hostil con la facción militar hace que todos los guardias del Puesto de Avanzada del Fuerte disparen al avistarte. Esto te bloquea permanentemente el acceso a la terminal de la tienda militar hasta que compres o ganes un objeto de restablecimiento de reputación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Armas Tácticas y Equipamiento de Supervivencia">
+
+Sobrevivir a los encuentros con infectados de alto nivel requiere una gestión eficiente del equipamiento. A diferencia de los mapas de escape casuales, la estructura RPG de mundo abierto del juego prioriza la durabilidad de las armas, la disponibilidad de munición y la reducción de daño basada en porcentajes. Para maximizar el tiempo de supervivencia durante las largas rutas de exploración, los jugadores deben intentar adquirir equipamiento táctico que equilibre el poder de combate con la eficiencia del peso.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Asalto de Combate">
+    - **Enfoque principal**: Alto DPS y capacidad a distancia
+    - Arma recomendada: Rifle de Asalto
+    - Equipamiento recomendado: Chaleco Táctico
+  </Card>
+  <Card title="Configuración de Exploración de Reconocimiento">
+    - **Enfoque principal**: Movilidad y recolección de recursos
+    - Arma recomendada: Pistola de Servicio
+    - Equipamiento recomendado: Mochila de Explorador Ligera
+  </Card>
+  <Card title="Configuración de Guardián de Base">
+    - **Enfoque principal**: Defensa estructural y combate cuerpo a cuerpo
+    - Arma recomendada: Escopeta de Combate
+    - Equipamiento recomendado: Placa de Armadura Pesada
+  </Card>
+</CardGrid>
+
+Las armas se clasifican en función de sus requisitos de recursos, daño base, velocidad de recarga y utilidad tanto en juego en solitario como cooperativo.
+
+| Nombre del Objeto | Tipo de Objeto | Daño Base | Tipo de Munición Requerida | Clasificación de Nivel |
+| --- | --- | --- | --- | --- |
+| Rifle de Asalto | Arma a Distancia | Alto | Munición de Rifle de 5.56 mm | Nivel S |
+| Chaleco Táctico | Armadura Corporal | 35% de Reducción | N/D | Nivel S |
+| Pistola de Servicio | Arma a Distancia | Moderado | Munición de Pistola de 9 mm | Nivel A |
+| Cuchillo de Combate | Arma Cuerpo a Cuerpo | Bajo | N/D | Nivel B |
+| Escudo Antidisturbios | Equipamiento Defensivo | Bloquear Daño | N/D | Nivel B |
+
+El Rifle de Asalto se encuentra en la cima del meta de combate debido a su alto multiplicador de tiros a la cabeza y su precisión a larga distancia. Sin embargo, los jugadores deben crear una ruta de recolección eficiente para la munición de 5.56 mm para mantener el arma viable. La Pistola de Servicio sigue siendo una opción de respaldo confiable para eliminar hordas de enemigos básicos debido a la abundancia de munición de 9 mm dispersa por las zonas comerciales urbanas.
+
+<Callout type="tip" title="Conservación de Munición">
+Usa el Cuchillo de Combate u otras opciones cuerpo a cuerpo de alta velocidad para acabar con los enemigos infectados una vez que su vida caiga por debajo del 20%. Esto ahorra valiosa munición de armas de fuego para apariciones repentinas de jefes o misiones de defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Bases Militares y Defenses">
+
+Una vez que hayas recolectado suficientes materiales y asegurado tu alineación de facción preferida, establecer una base personal es la siguiente fase de la progresión a largo plazo. El juego cuenta con cuadrículas de parcelas dedicadas donde los jugadores pueden construir refugios, cofres de almacenamiento y redes de defensa activa para repeler oleadas de infectados.
+
+El uso de planos de calidad militar te permite construir estructuras con clasificaciones de durabilidad significativamente más altas que las paredes básicas de madera o chatarra.
+
+<Checklist
+  id="base-building-goals"
+  title="Lista de Verificación de la Base Militar:"
+  items={[
+    "Reclamar un terreno de base cerca de una fuente de agua y del Puesto de Avanzada del Fuerte",
+    "Construir una Mesa de Trabajo de nivel 2 para acceder a componentes metálicos",
+    "Construir paredes exteriores de concreto para soportar incursiones intensas de infectados",
+    "Instalar al menos dos torres de guardia elevadas para tener una línea de visión despejada",
+    "Colocar un casillero de armas seguro para organizar la munición de repuesto"
+  ]}
+/>
+
+Para construir una configuración defensiva óptima, combina estructuras de paredes pesadas con trampas de efecto lento. Colocar pinchos directamente frente a las puertas principales obliga a los infectados a ralentizar su paso, maximizando el tiempo que tienes para apuntarles con armas a distancia desde un lugar seguro.
+
+| Nombre de la Estructura | Materiales Base Requeridos | Clasificación de Durabilidad | Mejor Ubicación Táctica |
+| --- | --- | --- | --- |
+| Pared de Concreto | 10 de Cemento, 5 de Varillas, 2 de Cable | Alta (5/5) | Límites del Perímetro |
+| Barricada de Metal | 8 Láminas de Hierro, 4 Pernos | Moderada (4/5) | Entradas de Puertas Internas |
+| Trampa de Madera con Pinchos | 15 Tablones de Madera, 10 Clavos | Baja (2/5) | Puntos de Estrangulamiento y Senderos |
+| Torre Elevada | 20 de Madera, 10 Láminas de Hierro | Alta (5/5) | Posiciones de las Esquinas |
+
+Construir demasiado cerca de apariciones de alta amenaza como el Puesto de Avanzada del Fuerte resultará en incursiones más frecuentes en tu base. Elige una parcela que equilibre las rutas rápidas de botín con ciclos de defensa manejables.
+
+<Callout type="success" title="Sinergia de Base">
+Construir una base cerca del límite de la región norte te permite restablecer rápidamente la agresividad de los infectados al retirarte a la zona neutral, ahorrando tanto la durabilidad de las paredes como la munición.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Progresión y Estrategia Militar">
+
+Comprender los matices de las mecánicas de las facciones, los sistemas de combate y la construcción de bases es fundamental para dominar la progresión al final del juego.
+
+<FAQ items={[
+  {
+    question: "¿Cómo acceder a la base militar de Piggy Intercity de forma segura?",
+    answer: "Acercate a la base desde la cresta este para evitar las trampas de la carretera principal. Asegúrate de tener tus armas enfundadas para evitar que los guardias del puesto de avanzada te ataquen de inmediato."
+  },
+  {
+    question: "¿Puedes cambiar tu elección de facción después de ayudar a los civiles?",
+    answer: "Sí, pero debes completar una serie de misiones de recuperación para el Sargento Marcus o comprar una ficha de restablecimiento de alineación de facción usando los cristales obtenidos al completar la demo."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para conseguir munición de rifle de 5.56 mm?",
+    answer: "El Depósito de Suministros dentro del fuerte militar tiene la mayor tasa de aparición de cajas de rifle. Alternativamente, puedes fabricarlas en una mesa de trabajo de nivel 2 usando pólvora y cobre de plomo."
+  },
+  {
+    question: "¿Las defensas de la base se reparan automáticamente después de una incursión infectada?",
+    answer: "No, las estructuras deben repararse manualmente usando una herramienta de martillo y los materiales de base correspondientes, como tablones de madera o láminas de hierro."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la Comunidad">
+Para obtener actualizaciones en tiempo real sobre las notas del parche, lanzamientos de nuevas armas y expansiones de mapas, consulta la comunidad oficial de Discord de Piggy o sigue los anuncios oficiales de desarrollo.
+</Callout>
+
+</Section>

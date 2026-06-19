@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Einkaufszentrum: Beutekarte & Überlebens-Leitfaden",
+  description: "Meistere das Einkaufszentrum in Piggy Intercity in Evalia. Lerne Überlebenspfade, NPC-Questentscheidungen, Beute-Spawn-Punkte und Tipps zum Basisbau.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Piggy+Intercity+Mall+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptziel**: Das **Einkaufszentrum in Piggy Intercity** dient als hochrangige Beutezone, die wichtige Ausrüstung, Überlebensnahrung und Waffenspawns enthält.
+- **Hohes Risiko**: Infizierte Feinde schwärmen durch die engen Ladengänge, was Verteidigungsausrüstung und eine vorsichtige Routenplanung erfordert.
+- **NPC-Entscheidungen**: Dialogentscheidungen mit Überlebenden im Einkaufszentrum haben dauerhafte Auswirkungen auf deinen Fraktionsruf und deine Handlungsstränge.
+- **Demo-Belohnungen**: Verdiene Kristallboni, indem du die Demo abschließt, bevor du deinen Fortschritt auf das Hauptspiel in der offenen Welt überträgst.
+- **Basiserweiterung**: Beanspruche Grundstücke in der Nähe des Einkaufszentrums, um Sicherheitszonen und Lager-Außenposten in der Nähe erstklassiger Ressourcen zu errichten.
+</Callout>
+
+Das Navigieren durch die Ruinen von Evalia erfordert Strategie, schnelle Reflexe und fundiertes Wissen über erstklassige Beute-Hotspots. Das **Piggy Intercity Einkaufszentrum** ist einer der wichtigsten Orientierungspunkte in der offenen Welt. Es dient sowohl als Hauptschlachtfeld gegen infizierte Bedrohungen als auch als Schatzkammer für Überlebensressourcen. Um diese gewaltige Struktur zu überleben, müssen Spieler sichere Navigationspfade meistern, verzweigte Dialogentscheidungen mit ansässigen NPCs verwalten und die richtigen Gegenstände für eine effiziente Inventarnutzung priorisieren. 
+
+Das Layout dieses Orientierungspunkts zu verstehen, macht den Unterschied aus zwischen dem Sichern von Elite-Ausrüstung und dem Opfer der infizierten Horde zu werden. Dieser Leitfaden beschreibt alles, was du brauchst, um das Einkaufszentrum zu erobern, seine Quests abzuschließen und den Perimeter deiner Basis zu sichern.
+
+---
+
+<Section icon={Map} title="Navigation durch das Layout des Piggy Intercity Einkaufszentrums">
+
+Die Erkundung in Evalia ist gefährlich, aber die Belohnungen im zentralen Einkaufsviertel rechtfertigen das Risiko. Das Einkaufszentrum besteht aus drei Hauptetagen, einem Wartungsbereich auf dem Dach und einer Tiefgarage. Jede Etage enthält verschiedene Ladenkategorien, die spezifische Gegenstandstypen hervorbringen, von Verbandskästen bis hin zu schweren Nahkampfwerkzeugen.
+
+Um das Gebäude sicher zu navigieren, solltest du die Rolltreppen im Hauptatrium meiden, wenn viele Infizierte anwesend sind. Nutze die seitlichen Feuertreppen und Aufzugsschächte, um dich vertikal zu bewegen, ohne Aufmerksamkeit zu erregen.
+
+| Ort | Bedrohungsstufe | Beutewert | Strategischer Zweck |
+| --- | --- | --- | --- |
+| Atrium im Erdgeschoss | Hoch | ★★★ | Schneller Durchgang, Essen aus Automaten, hohe Feinddichte |
+| Geschäfte in der zweiten Etage | Mittel | ★★★★ | Werkzeug-Spawns, Questfortschritts-Gegenstände, Kleidung |
+| Tiefgarage | Hoch | ★★★★★ | Waffen-Upgrades, Fahrzeugteile, Handwerksschrott |
+| Dachzugang | Niedrig | ★★ | Sicherer Ruhebereich, Scharfschützen-Aussichtspunkt, Basisplanung |
+
+<Callout type="success" title="Überlebens-Tipp">
+Säubere das Dach immer zuerst. Es bietet einen sofortigen Fluchtweg und eine klare Sicht auf die umliegenden Straßen von Evalia, sodass du die Bewegungen der Infizierten verfolgen kannst, bevor du hinabsteigst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quests im Einkaufszentrum und Story-Entscheidungen">
+
+Im Gegensatz zu einfachen Fluchtkarten bietet dieses Open-World-RPG verzweigte Handlungsstränge, bei denen deine Entscheidungen dauerhafte Konsequenzen haben. Das Einkaufszentrum beherbergt mehrere neutrale NPCs, die Quests im Austausch gegen Vorräte, Ruf und Währung anbieten. Wie du mit diesen Fraktionen interagierst, bestimmt, ob bestimmte Stadtteile freundlich bleiben oder feindselig werden.
+
+Achte bei Gesprächen mit Überlebenden genau auf die Dialogoptionen. Wenn du dich entscheidest, Vorräte zu horten, anstatt sie zu teilen, kann dich das von zukünftigen Handelsmöglichkeiten ausschließen.
+
+<Steps>
+  <Step num="1" title="Finde das Sicherheitsbüro des Einkaufszentrums">
+    Begib dich in die zweite Etage und finde das verbarrikadierte Sicherheitsbüro. Sprich mit dem Anführer der Fraktion, um die primäre Untersuchungsquest freizuschalten.
+  </Step>
+  <Step num="2" title="Hole die Wartungsschlüssel">
+    Steige in die Tiefgarage hinab, um die Wartungsschlüssel zu finden. Achte in den dunklen Ecken auf heimliche infizierte Bedrohungen.
+  </Step>
+  <Step num="3" title="Triff die Fraktions-Entscheidung">
+    Bringe die Schlüssel zurück zum Anführer oder übergib sie dem abtrünnigen Überlebenden, der am Ausgang wartet. Diese Entscheidung verändert deinen lokalen Ruf.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Dauerhafte Entscheidungen">
+Entscheidungen bezüglich der Fraktionsausrichtung können in deinem aktuellen Spieldurchgang nicht rückgängig gemacht werden. Wenn du dich der abtrünnigen Gruppe anschließt, werden die Sicherheitskräfte im gesamten Einkaufszentrum feindselig.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beuteprioritäten und Waffen-Rankings">
+
+Effizientes Plündern verhindert, dass dein Inventar mit minderwertigen Gegenständen überfüllt wird. Priorisiere Verteidigungsausrüstung und Wiederherstellungsgegenstände, die deinen Hunger-, Durst- und Gesundheitsbalken bei längeren Erkundungen aufrechterhalten.
+
+Die Waffen, die in den Sportgeschäften und Baumärkten des Einkaufszentrums zu finden sind, reichen von schnellen Nahkampfwaffen bis hin zu schweren Verteidigungswerkzeugen.
+
+<CardGrid cols={3}>
+  <Card title="Quest-kritische Gegenstände">
+    Gelb hervorgehobene Gegenstände sind für den Story-Fortschritt erforderlich. Sichere diese immer zuerst, da sie keine Standard-Inventarplätze verbrauchen.
+  </Card>
+  <Card title="Überlebens-Verbrauchsgüter">
+    Halte einen stetigen Vorrat an Dosenfutter und gereinigtem Wasser bereit. Verkaufsautomaten im ersten Stock sind zuverlässige Quellen dafür.
+  </Card>
+  <Card title="Kampfausrüstung">
+    Nahkampfwaffen mit hohem Rückstoß werden für die Massenkontrolle in engen Korridoren bevorzugt. Hebe dir Fernkampfwaffen für offene Räume auf.
+  </Card>
+</CardGrid>
+
+| Gegenstandskategorie | Tier-Bewertung | Hauptnutzen | Spawn-Ort |
+| --- | --- | --- | --- |
+| Nahkampfwaffen | S (Exzellent) | Massenkontrolle, leise, unbegrenzte Nutzung | Sportgeschäft / Baumarkt |
+| Medizinische Vorräte | S (Exzellent) | Gesundheitswiederherstellung, Infektionsresistenz | Apotheke / Erste-Hilfe-Stationen |
+| Handwerksmaterialien | A (Gut) | Basisbau, Barrikadenverstärkung | Lagerschränke / Servicekorridore |
+| Standard-Verbrauchsgüter | B (Durchschnittlich) | Hunger- und Durstwiederherstellung | Food-Court / Verkaufsautomaten |
+
+<Callout type="tip" title="Inventarverwaltung">
+Lagere Handwerksmaterialien immer in deiner Basis, bevor du einen Raubzug im Einkaufszentrum startest. Dadurch werden maximale Inventarplätze für hochwertige Waffen und Überlebensvorräte frei.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basisbau in der Nähe des Einkaufszentrums">
+
+Das Errichten einer sicheren Basis in der Nähe des Einkaufszentrums bietet einen sicheren Rückzugsort und einen Platz zum Horten von Ressourcen. Suche nach beanspruchbaren Grundstücken in den Gassen oder nahe gelegenen Parkhäusern. Das Aufstellen eines Werkzeugtisches ermöglicht es dir, im Einkaufszentrum gefundene Rohstoffe in Verteidigungsbarrieren und Lagerkisten zu verwandeln.
+
+Die Verbarrikadierung des Eingangs zu deinem beanspruchten Grundstück ist lebenswichtig, um zu verhindern, dass herumstreifende Infizierte deine Ressourdentresore zerstören, während du plündern bist.
+
+<Checklist
+  id="mall-base-setup"
+  title="Schritte zur Einrichtung des Schutzhauses:"
+  items={[
+    "Finde ein beanspruchbares Grundstück innerhalb eines Blocks vom Ausgang des Einkaufszentrums",
+    "Baue einen einfachen Werkzeugtisch aus Holz und Metallschrott",
+    "Errichte zweilagige Holzbarrieren, um Zugangspunkte zu blockieren",
+    "Platziere eine mittlere Lagerkiste, um überschüssige Waffenteile zu lagern",
+    "Stelle einen Wassersammler auf, um deinen Flüssigkeitshaushalt aufrechtzuerhalten"
+  ]}
+/>
+
+| Baumaterial | Spawn-Häufigkeit | Hauptnutzen | Beschaffungsstrategie |
+| --- | --- | --- | --- |
+| Holzbretter | Häufig | Einfache Wände, Strukturstützen | Sägewerk / Kisten im Einkaufszentrum |
+| Metallschrott | Ungewöhnlich | Verstärkungen, Werkzeugherstellung | Tiefgarage / Autowracks |
+| Elektronische Bauteile | Selten | Fortschrittliche Fallen, Stromgeneratoren | Regale in Elektronikgeschäften |
+
+<Callout type="info" title="Grundstücksmechanik">
+Beanspruchte Grundstücke müssen gewartet werden. Stelle sicher, dass du deine Basis regelmäßig besuchst, um strukturelle Schäden zu reparieren, die durch Umwelteinflüsse oder Angriffe von Infizierten entstanden sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Demo-Fortschritt und Übergang zur Vollversion">
+
+Spieler, die von der Demoversion wechseln, müssen die Richtlinien zum Fortschritt verstehen. Obwohl direkte Speicherdaten nicht in die vollständige Open-World-Erfahrung übernommen werden, bietet das Abschließen bestimmter Meilensteine in der Demo erhebliche Vorteile in der Vollversion.
+
+Das Abschließen des Demo-Storypfads schaltet Premium-Belohnungen frei, die den Einstieg in das Spiel in Evalia erleichtern.
+
+| Systemfunktion | Demoversion | Vollversion | Übertragungsstatus |
+| --- | --- | --- | --- |
+| Spielbarer Kartenbereich | Eingeschränkt (Demo-Sektor) | Erweitert (Vollständige Stadt Evalia) | Wird nicht übertragen |
+| Speicherdaten | Lokal (Temporär) | Cloud-gespeichert (Dauerhaft) | Zurückgesetzt beim Start |
+| Kristallbelohnungen | Nicht verfügbar | Verdient durch Demo-Abschluss | Übertragen in die Vollversion |
+| Basisbau | Gesperrt | Freigeschaltet | N/A |
+| Quest-Vielfalt | Begrenzt | Vollständig verzweigte Handlungsstränge | N/A |
+
+<Callout type="warning" title="Übergangs-Warnung">
+Stelle sicher, dass du alle Demo-Erfolge abschließt, bevor du die Vollversion startest. Die kostenlosen Kristallbelohnungen werden nur an Konten mit verifizierten Demo-Abschlussabzeichen verteilt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Überlebens-FAQs">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich das Einkaufszentrum in Piggy Intercity auf der Karte?",
+    answer: "Das Einkaufszentrum befindet sich im zentralen Sektor von Evalia. Folge dem Haupt-Highway vom anfänglichen Schutzbereich nach Osten, bis du das große Parkhaus und die Leuchtreklamen siehst."
+  },
+  {
+    question: "Werden Gegenstände im Einkaufszentrum neu gespawnt?",
+    answer: "Ja, Beutebehälter und Gegenstände in Regalen spawnen regelmäßig neu. Wenn du den Bezirk verlässt und nach kurzer Zeit zurückkehrst, werden die Gegenstands-Spawns zurückgesetzt."
+  },
+  {
+    question: "Kann ich eine Basis direkt im Einkaufszentrum bauen?",
+    answer: "Nein, du kannst keine Grundstücke innerhalb des Hauptgebäudes des Einkaufszentrums beanspruchen. Basen müssen auf dafür vorgesehenen Grundstücken in den umliegenden Straßen und Gassen gebaut werden."
+  },
+  {
+    question: "Was passiert, wenn mein Ruf bei der Fraktion des Einkaufszentrums zu tief sinkt?",
+    answer: "Wenn dein Ruf feindselig wird, greifen dich die Sicherheitskräfte sofort an, und du verlierst den Zugang zu den Spezialhändlern des Einkaufszentrums."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "piggy intercity fort: Configuração da Zona Segura e Guia de Rotas de Saque",
+  description: "Saiba como proteger o piggy intercity fort, reivindicar lotes de construção, gerenciar recursos de sobrevivência e concluir missões de NPCs no mundo aberto de Evalia.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1b23/e85d98?text=Piggy+Intercity+Fort+Guide",
+  date: "2026-06-19",
+  author: "Equipe Wiki do piggy intercity"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Localização Principal**: O **piggy intercity fort** é o centro de sobrevivência principal e a zona segura primária em Evalia.
+- **Aviso de Dados Salvos**: O progresso da demonstração não é transferido para o jogo final, mas concluir a demo concede cristais gratuitos na versão completa.
+- **Mecânica Chave**: Foque em reivindicar um lote de base cedo para garantir armazenamento e desbloquear bancadas de criação.
+- **Aviso de Diálogo**: As escolhas com NPCs têm peso permanente, afetando descontos de mercadores e a hostilidade de facções.
+- **Melhor Equipamento**: Priorize armas corpo a corpo para defesa silenciosa em combate próximo para economizar munição.
+</Callout>
+
+Sobreviver no mundo aberto infectado de Evalia exige uma estratégia sólida, e dominar o **piggy intercity fort** é seu primeiro passo para a sobrevivência a longo prazo. Como um RPG multiplayer de mundo aberto focado em escolhas, desenvolvido pela MiniToon, o Piggy: Intercity desafia os jogadores a gerenciar inventário, construir bases seguras, concluir missões complexas e fazer escolhas que definem a história. O Forte atua como o principal ponto de encontro para jogadores que buscam abrigo, oportunidades de comércio e progressão de missões, tornando-se um ponto de interesse crítico no mapa de Evalia.
+
+<Section icon={Map} title="Layout do Mapa de Evalia e Localização do Forte">
+
+Navegar por Evalia pode ser um desafio devido à névoa densa da infecção e às ameaças constantes. O Forte se destaca como um complexo defensivo primário situado entre o perigoso setor da Escola e a Serraria de alto rendimento. Entender a posição geográfica do Forte ajuda você a planejar rotas eficientes de recursos e evitar zonas de afunilamento onde os inimigos infectados frequentemente surgem.
+
+| Nome da Área | Nível de Ameaça | Recursos Principais | NPCs Importantes |
+|---|---|---|---|
+| Forte | Baixo | Materiais de construção, Cristais | Mercadores, Guardas |
+| Escola | Médio | Medicamentos, Livros, Comida | Sobreviventes Hostis |
+| Serraria | Alto | Tábuas de madeira, Sucata de metal | Treinadores de Criação |
+| Lojas | Médio | Suprimentos, Consumíveis | NPCs Comerciantes |
+
+As regiões ao redor oferecem vários níveis de risco e recompensa. Viajar do Forte para a Serraria fornece recursos estruturais, mas o caminho é habitado por tipos ágeis de infectados. Por outro lado, seguir em direção à Escola permite garantir suprimentos médicos ao custo de enfrentar facções armadas de sobreviventes hostis.
+
+<Callout type="success" title="Vantagem da Zona Segura">
+O Forte é uma das poucas zonas onde os jogadores podem interagir com comerciantes e descansar sem a ameaça constante de infecção. Use esta área para organizar seu inventário antes de longas expedições.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Zona Segura no piggy intercity fort">
+
+Configurar uma base de operações no **piggy intercity fort** exige a compreensão do sistema de reivindicação de lotes. A construção da base não é apenas cosmética; ela fornece armazenamento seguro, pontos de renascimento e melhorias de criação essenciais para a sobrevivência em alto nível. Ao entrar no Forte pela primeira vez, procure por lotes vagos marcados por linhas de limite brilhantes para estabelecer sua presença.
+
+<CardGrid cols={3}>
+  <Card title="Armazenamento Seguro">
+    - Impede a perda de itens ao morrer
+    - Permite estocar recursos
+    - Espaços de baú expansíveis
+  </Card>
+  <Card title="Bancadas de Criação">
+    - Desbloqueia a construção de ferramentas avançadas
+    - Repara equipamentos de defesa danificados
+    - Refina madeira bruta e metal
+  </Card>
+  <Card title="Bônus de Descanso">
+    - Acelera a regeneração de vida
+    - Restaura a estamina máxima
+    - Reduz o acúmulo da taxa de infecção
+  </Card>
+</CardGrid>
+
+O gerenciamento eficiente de recursos é crucial ao iniciar sua base. A tabela abaixo lista os itens prioritários que você precisa coletar para melhorar a estrutura do seu Forte:
+
+| Tipo de Recurso | Método de Obtenção | Utilidade de Criação | Limite de Pilha |
+|---|---|---|---|
+| Tábuas de Madeira | Coleta de árvores, caixas da Serraria | Paredes básicas, Baús de armazenamento | 20 |
+| Sucatas de Metal | Vasculhar ruínas, Caixas de ferramentas | Estruturas avançadas, Armas | 15 |
+| Cristais | Recompensas da demo, Missões de alto nível | Negociação premium, Melhorias especiais | 99 |
+| Comida e Água | Vasculhar prateleiras de mercado, Comerciantes | Atributos de sobrevivência consumíveis | 10 |
+
+<Callout type="warning" title="Alerta do Sistema de Deterioração">
+Estruturas de base não protegidas fora dos limites do Forte deterioram duas vezes mais rápido. Sempre priorize reivindicar um lote dentro da zona segura designada do Forte para maximizar a durabilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Progressão Passo a Passo">
+
+Para estabelecer uma fortaleza de sucesso no Forte, os jogadores devem seguir uma rota de progressão estruturada. Isso minimiza o risco de perder itens valiosos no início do jogo e garante que você maximize os bônus obtidos na versão de demonstração do Piggy: Intercity.
+
+<Steps>
+  <Step num="1" title="Garanta as Recompensas da Demo Primeiro">
+    Antes de mergulhar no jogo completo, conclua a demonstração do Piggy: Intercity. Os dados salvos não são transferidos, mas concluir a demo concede cristais gratuitos no jogo final, cruciais para compras iniciais.
+  </Step>
+  <Step num="2" title="Vá para o Centro do Forte">
+    Inicie na versão completa e siga diretamente para as coordenadas do Forte. Evite combates com inimigos infectados ao longo da rodovia principal para poupar sua estamina inicial.
+  </Step>
+  <Step num="3" title="Reivindique um Lote e Construa um Baú">
+    Encontre um lote vazio dentro dos portões do Forte. Use seus materiais iniciais para criar um baú de madeira básico. Guarde seus itens excedentes imediatamente para protegê-los de encontros inesperados de PvP ou PvE.
+  </Step>
+  <Step num="4" title="Estabeleça Relações Comerciais">
+    Fale com os mercadores residentes no Forte. Use seus cristais para comprar uma arma corpo a corpo confiável e medicamentos básicos antes de tentar qualquer missão de exploração próxima.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Eficiência dos Cristais">
+Guarde os cristais da demo para melhorias de mochilas de alto nível em vez de desperdiçá-los com itens básicos de comida. Alimentos podem ser facilmente coletados de graça perto das lojas do Forte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Missões de NPCs e Escolhas de História">
+
+O **piggy intercity fort** serve como o principal centro de missões do jogo. Ao contrário dos RPGs lineares tradicionais, o Piggy: Intercity apresenta um sistema de história voltado para escolhas. A forma como você interage com os personagens no Forte pode alterar sua reputação, liberar novos descontos comerciais ou bloquear o acesso a missões específicas permanentemente.
+
+| Facção / NPC | Atitude Inicial | Objetivos da Missão | Impacto da Escolha |
+|---|---|---|---|
+| Segurança do Forte | Neutro | Defender portões externos, Eliminar ameaças | Desbloqueia privilégios de comércio seguro |
+| Comerciantes do Ermo | Amigável | Fornecer caixas de comida, Buscar itens | Melhores preços ou embargo comercial |
+| Sobreviventes Perdidos | Cauteloso | Escapar da escola local, Encontrar medicamentos | Ajustes na reputação da facção |
+
+Preste muita atenção às escolhas de diálogo ao falar com os líderes das facções. Optar por acumular suprimentos em vez de compartilhá-los com os guardas do Forte pode trazer benefícios a curto prazo, mas pode resultar em preços mais altos nas lojas locais e restrições em certas áreas seguras.
+
+<Callout type="tip" title="Consequências do Diálogo">
+Se você decidir atacar NPCs neutros fora do Forte, os guardas se tornarão hostis contra você ao retornar. Mantenha sua arma guardada dentro das zonas seguras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate e Preparação Defensiva">
+
+Aventurar-se fora do Forte exige preparação. O sistema de combate no Piggy: Intercity depende muito do gerenciamento de estamina, do tempo de bloqueio e da mira na cabeça ao usar armas de longo alcance. Armas corpo a corpo não precisam de munição, mas colocam você em risco de sofrer dano direto e aumentar seu medidor de infecção.
+
+| Nome da Arma | Classe da Arma | Classificação de Alcance | Velocidade de Ataque | Eficácia de Bloqueio |
+|---|---|---|---|---|
+| Chave de Grifo | Corpo a Corpo | Curto | Moderada | Alta |
+| Besta | À Distância | Longo | Lenta | Baixa |
+| Faca de Combate | Corpo a Corpo | Curto | Muito Rápida | Média |
+| Pistola | À Distância | Médio | Rápida | Baixa |
+
+Antes de deixar a proteção das muralhas do Forte, certifique-se de ter cumprido todas as preparações essenciais para sobreviver às perigosas rotas de infecção.
+
+<Checklist
+  id="fort-defensive-checklist"
+  title="Lista de Preparação para a Expedição do Forte:"
+  items={[
+    "Guarde todos os materiais de construção excedentes no baú da sua base",
+    "Equipe pelo menos uma arma corpo a corpo de alta durabilidade",
+    "Leve duas garrafas de água limpa e dois alimentos enlatados",
+    "Verifique se o seu nível de infecção está abaixo de vinte por cento",
+    "Equipe equipamentos de defesa para mitigar danos de arranhões a curta distância"
+  ]}
+/>
+
+<Callout type="warning" title="Escassez de Munição">
+Munição para armas de longo alcance não pode ser fabricada facilmente. Reserve os tiros de pistola para confrontos contra chefes e use armas corpo a corpo para eliminar os infectados comuns.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+Para ajudar você a aproveitar ao máximo seu tempo no Forte, aqui estão as respostas para as perguntas mais comuns que os jogadores fazem ao explorar o jogo.
+
+<Callout type="tip" title="Otimização de Atributos">
+Ao subir os atributos do seu personagem, priorize Estamina e Força. Uma estamina alta permite que você escape de situações ruins, enquanto a força aumenta os limites de peso do seu inventário.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Meu progresso na demonstração do piggy intercity fort é transferido?",
+    answer: "Não, os dados salvos da demonstração não são transferidos para a versão completa. No entanto, concluir a demo recompensa você com cristais gratuitos que podem ser resgatados no jogo final."
+  },
+  {
+    question: "Outros jogadores podem roubar recursos da minha base dentro do Forte?",
+    answer: "Os itens armazenados dentro de baús reivindicados em seu lote estão seguros. No entanto, quaisquer recursos deixados em bancadas de criação abertas podem ser acessados por outros jogadores, então retire-os após o uso."
+  },
+  {
+    question: "O que acontece se meu personagem morrer durante uma expedição?",
+    answer: "Você perderá os itens em seus espaços de inventário, a menos que estejam protegidos em sua base. Você renascerá de volta no lote reivindicado dentro da zona segura do Forte."
+  },
+  {
+    question: "Como faço para melhorar o dano da minha arma?",
+    answer: "Você pode melhorar os atributos das armas na bancada de criação dentro do Forte usando sucatas de metal e conjuntos de ferramentas específicos coletados na Serraria."
+  }
+]} />
+
+</Section>

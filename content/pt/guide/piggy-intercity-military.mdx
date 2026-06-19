@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Militar de Piggy Intercity: Localização do Forte, Equipamentos e Escolhas de Missões",
+  description: "O guia militar do Piggy Intercity cobre a localização do Forte em Evalia, escolhas de facção, lista de níveis de armas, equipamentos militares e missões de sobrevivência no Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Military+Faction+Guide",
+  date: "2026-06-19",
+  author: "Equipe da Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo principal**: Localize o forte **militar de piggy intercity** no norte de Evalia para acessar equipamentos de sobrevivência de alto nível e missões de facção.
+- **Preferência de armas**: Colete **armas militares** como fuzis e pistolas para garantir uma alta vantagem de combate contra ameaças infectadas.
+- **Impacto na reputação**: Faça **escolhas de história** cuidadosas ao interagir com NPCs militares, pois a reputação altera permanentemente as relações com as facções.
+- **Estratégia de base**: Reivindique um **lote de base** perto de pontos de controle de defesa para garantir uma coleta de recursos mais segura e caminhos de recuo mais fáceis.
+</Callout>
+
+<Section icon={Map} title="Explorando o Forte Militar e Postos Avançados de Piggy Intercity">
+
+Navegar pelo mundo aberto infectado de Evalia exige que os jogadores identifiquem as principais zonas seguras, áreas de saque e fortalezas de facções. A presença militar no jogo representa um dos elementos mais organizados, porém perigosos. O hub central para esta facção é o Posto Avançado do Forte, situado no setor norte do mapa. Esta área serve como a principal fonte de equipamentos táticos de alto nível, munições e projetos de fabricação especializados.
+
+Devido à densidade de soldados infectados patrulhando o perímetro, entrar nesta zona sem preparação é altamente desaconselhável. A rota de IA local é agressiva, e as forças infectadas aqui possuem barras de vida maiores do que as variantes urbanas padrão. Sobreviver nesta região requer uma compreensão clara de suas sublocalizações distintas, pontos de distribuição de saques e zonas seguras.
+
+| Nome do Local | Nível de Perigo | Principais Tipos de Saque | NPC Principal Presente |
+| --- | --- | --- | --- |
+| Posto Avançado do Forte | Alto | Fuzis, Munição Pesada, Armadura | Sargento Marcus |
+| Torre de Comunicação | Médio | Eletrônicos, Peças de Rádio | Especialista Hayes |
+| Depósito de Suprimentos | Alto | Rações, Coletes Militares | Intendente |
+| Laboratórios de P&D | Muito Alto | Kits Médicos, Cristais, Cartões de Acesso | Cientista-Chefe |
+
+Para realizar ciclos de saque com sucesso nessas áreas, os jogadores devem planejar rotas que permitam entrada e saída rápidas. O Depósito de Suprimentos é excelente para coletar equipamentos defensivos, enquanto a Torre de Comunicação continua sendo o ponto mais seguro para obter componentes eletrônicos de fabricação no início do jogo.
+
+<Callout type="warning" title="Perigo de Infecção">
+Evite patrulhar as cercas externas do Posto Avançado do Forte durante os ciclos noturnos. O surgimento de infectados dobra em densidade e a visibilidade cai, tornando o combate com fuzil a longa distância altamente ineficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missões de Facção Militar e Escolhas de Diálogo">
+
+O sistema de missões em Piggy Intercity depende muito de mecânicas de RPG baseadas em escolhas. Ao interagir com o pessoal militar, os jogadores não estão simplesmente aceitando tarefas lineares; eles estão decidindo como seu personagem se encaixa no cenário social mais amplo de Evalia. Trabalhar para os remanescentes militares irá afastar os acampamentos de sobreviventes civis independentes, enquanto ajudar civis irá bloquear seu acesso às linhas de suprimentos militares de alto nível.
+
+O fio narrativo principal começa com o Sargento Marcus na guarita do Forte. Progredir nesta linha de missões requer a conclusão de tarefas sequenciais em diferentes partes do mapa.
+
+<Steps>
+  <Step num="1" title="Localize o Recrutador">
+    Viaje até a guarita norte do Posto Avançado do Forte. Mantenha suas armas no coldre ao se aproximar dos portões para evitar que os guardas da facção identifiquem você como um sobrevivente hostil.
+  </Step>
+  <Step num="2" title="Garanta os Suprimentos">
+    Viaje para o sul até a Serraria. Procure nas caixas trancadas dentro do armazém principal por rações militares roubadas e devolva-as ao Forte.
+  </Step>
+  <Step num="3" title="Resolva a Escolha de Facção">
+    Escolha se deseja entregar os arquivos de pesquisa de P&D recuperados diretamente ao Sargento Marcus ou vazá-los para o acampamento de refúgio civil no vale sul.
+  </Step>
+  <Step num="4" title="Reivindique as Recompensas de Facção">
+    Dependendo da sua escolha, fale com o líder da facção escolhida para coletar seus projetos de equipamentos exclusivos e estabelecer seu nível de reputação permanente.
+  </Step>
+</Steps>
+
+Cada escolha de diálogo altera sua posição com os dois grupos principais. Abaixo está uma análise de como essas escolhas impactam seu progresso e recompensas finais.
+
+| Seleção de Escolha | Mudança de Reputação Militar | Mudança de Reputação Civil | Recompensa Exclusiva Desbloqueada |
+| --- | --- | --- | --- |
+| Apoiar os Militares | Amigável (+50) | Hostil (-50) | Projeto de Fuzil de Elite |
+| Apoiar os Civis | Hostil (-50) | Amigável (+50) | Kit Médico Avançado |
+| Permanecer Neutro | Neutro (0) | Neutro (0) | Dinheiro Extra, Cristais |
+
+<Callout type="info" title="Bloqueio de Reputação">
+Atingir o status de Hostil com a facção militar faz com que todos os guardas no Posto Avançado do Forte atirem ao avistar você. Isso bloqueia permanentemente seu acesso ao terminal da loja militar até que um item de redefinição de reputação seja comprado ou obtido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Níveis de Armas Táticas e Equipamentos de Sobrevivência">
+
+Sobreviver a encontros com infectados de alto nível requer um gerenciamento eficiente de equipamentos. Ao contrário dos mapas de fuga casuais, a estrutura de RPG de mundo aberto do jogo prioriza a durabilidade das armas, a disponibilidade de munição e a redução de danos baseada em porcentagem. Para maximizar o tempo de sobrevivência durante longas jornadas de exploração, os jogadores devem buscar adquirir equipamentos táticos que equilibrem poder de combate com eficiência de peso.
+
+<CardGrid cols={3}>
+  <Card title="Build de Assalto de Combate">
+    - **Foco principal**: Alto DPS e capacidade à distância
+    - Arma recomendada: Fuzil de Assalto
+    - Equipamento recomendado: Colete Tático
+  </Card>
+  <Card title="Build de Reconhecimento e Batedor">
+    - **Foco principal**: Mobilidade e coleta de recursos
+    - Arma recomendada: Pistola de Serviço
+    - Equipamento recomendado: Mochila Leve de Batedor
+  </Card>
+  <Card title="Build de Guardião de Base">
+    - **Foco principal**: Defesa estrutural e combate a curta distância
+    - Arma recomendada: Espingarda de Combate
+    - Equipamento recomendado: Placa de Armadura Pesada
+  </Card>
+</CardGrid>
+
+As armas são classificadas com base em seus requisitos de recursos, dano base causado, velocidade de recarga e utilidade no jogo solo e cooperativo.
+
+| Nome do Item | Tipo de Item | Dano Base | Tipo de Munição Necessário | Classificação de Nível |
+| --- | --- | --- | --- | --- |
+| Fuzil de Assalto | Arma à Distância | Alto | Munição de Fuzil 5.56mm | Tier S |
+| Colete Tático | Armadura Corporal | 35% de Redução | N/A | Tier S |
+| Pistola de Serviço | Arma à Distância | Moderado | Munição de Pistola 9mm | Tier A |
+| Faca de Combate | Arma Corpo a Corpo | Baixo | N/A | Tier B |
+| Escudo Antidistúrbios | Equipamento Defensivo | Bloqueio de Dano | N/A | Tier B |
+
+O Fuzil de Assalto está no topo do meta de combate devido ao seu alto multiplicador de tiro na cabeça e precisão a longa distância. No entanto, os jogadores devem criar uma rota de coleta eficiente para munição de 5.56mm para manter a arma viável. A Pistola de Serviço continua sendo uma opção de reserva confiável para limpar hordas básicas de inimigos devido à abundância de munição de 9mm espalhada pelas áreas de compras urbanas.
+
+<Callout type="tip" title="Conservação de Munição">
+Use a Faca de Combate ou outras opções corpo a corpo de alta velocidade para finalizar inimigos infectados quando a vida deles cair abaixo de 20%. Isso economiza munição valiosa de armas de fogo para surgimentos repentinos de chefes ou missões de defesa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construção de Base Militar e Defesas">
+
+Depois de coletar materiais suficientes e garantir seu alinhamento de facção preferido, estabelecer uma base pessoal é a próxima fase do progresso a longo prazo. O jogo apresenta grades de lotes dedicados onde os jogadores podem construir abrigos, baús de armazenamento e redes de defesa ativa para repelir ondas de infectados.
+
+O uso de projetos de nível militar permite construir estruturas com classificações de durabilidade significativamente maiores do que paredes básicas de madeira ou sucata de metal.
+
+<Checklist
+  id="base-building-goals"
+  title="Lista de Controle da Base Militar:"
+  items={[
+    "Reivindique um lote de base perto de uma fonte de água e do Posto Avançado do Forte",
+    "Construa uma Bancada de Trabalho de nível 2 para acessar componentes de metal",
+    "Construa paredes externas de concreto para resistir a ataques pesados de infectados",
+    "Instale pelo menos duas torres de vigia elevadas para uma linha de visão limpa",
+    "Coloque um armário de armas seguro para organizar a munição sobressalente"
+  ]}
+/>
+
+Para construir uma configuração defensiva ideal, combine estruturas de parede pesadas com armadilhas de efeito de lentidão. Colocar espinhos diretamente na frente de seus portões principais força a rota dos infectados a desacelerar, maximizando o tempo que você tem para alvejá-los com armas à distância em segurança.
+
+| Nome da Estrutura | Materiais de Base Necessários | Classificação de Durabilidade | Melhor Posicionamento Tático |
+| --- | --- | --- | --- |
+| Parede de Concreto | 10 Cimento, 5 Vergalhão, 2 Fios | Alta (5/5) | Limites do Perímetro |
+| Barricada de Metal | 8 Chapas de Ferro, 4 Parafusos | Moderada (4/5) | Entradas dos Portões Internos |
+| Armadilha de Espinhos de Madeira | 15 Tábuas de Madeira, 10 Pregos | Baixa (2/5) | Pontos de Estrangulamento e Caminhos |
+| Torre Elevada | 20 Madeira, 10 Chapas de Ferro | Alta (5/5) | Posições de Canto |
+
+Construir muito perto de locais de surgimento de alta ameaça, como o Posto Avançado do Forte, resultará em ataques mais frequentes à sua base. Escolha um lote que equilibre corridas rápidas de saque com ciclos de defesa gerenciáveis.
+
+<Callout type="success" title="Sinergia de Base">
+Construir uma base perto da fronteira da região norte permite que você redefina rapidamente a agressividade dos infectados recuando para a zona neutra, economizando durabilidade da parede e munição.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre Progressão Militar e Estratégia">
+
+Compreender as nuances das mecânicas de facção, sistemas de combate e construção de bases é fundamental para dominar a progressão no final do jogo.
+
+<FAQ items={[
+  {
+    question: "Como acessar a base militar de piggy intercity com segurança?",
+    answer: "Aproxime-se da base pela crista leste para evitar as armadilhas da estrada principal. Certifique-se de que suas armas estejam no coldre para evitar que os guardas do posto avançado ataquem você imediatamente."
+  },
+  {
+    question: "É possível mudar a escolha de facção após ajudar os civis?",
+    answer: "Sim, mas você deve completar uma série de missões de recuperação para o Sargento Marcus ou comprar um token de redefinição de alinhamento de facção usando cristais obtidos ao completar a demonstração."
+  },
+  {
+    question: "Qual é o melhor lugar para coletar munição de fuzil 5.56mm?",
+    answer: "O Depósito de Suprimentos dentro do forte militar tem a maior taxa de surgimento de caixas de munição de fuzil. Como alternativa, você pode fabricá-las em uma bancada de trabalho de nível 2 usando pólvora e chumbo e cobre."
+  },
+  {
+    question: "As defesas da base são reparadas automaticamente após um ataque de infectados?",
+    answer: "Não, as estruturas devem ser reparadas manualmente usando uma ferramenta de martelo e os materiais de base correspondentes, como tábuas de madeira ou chapas de ferro."
+  }
+]} />
+
+<Callout type="info" title="Recursos da Comunidade">
+Para atualizações em tempo real sobre notas de atualização, novos lançamentos de armas e expansões de mapa, consulte a comunidade oficial do Piggy no Discord ou acompanhe os anúncios oficiais de desenvolvimento.
+</Callout>
+
+</Section>

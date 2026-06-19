@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "piggy intercity fort: Leitfaden zur Einrichtung der Sicherheitszone & Beuterouten",
+  description: "Erfahre, wie du das piggy intercity fort sicherst, Bauplätze beanspruchst, Überlebensressourcen verwaltest und NPC-Quests in der offenen Welt von Evalia abschließt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1b23/e85d98?text=Piggy+Intercity+Fort+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptstandort**: Das **piggy intercity fort** ist das zentrale Überlebenszentrum und die primäre Sicherheitszone in Evalia.
+- **Hinweis zu Speicherdaten**: Der Fortschritt aus der Demo wird nicht in das Hauptspiel übernommen, aber das Abschließen der Demo bringt dir kostenlose Kristalle in der Vollversion.
+- **Wichtige Spielmechanik**: Konzentriere dich frühzeitig darauf, einen Bauplatz zu beanspruchen, um Lagerplatz zu sichern und Handwerksstationen freizuschalten.
+- **Warnung zu Dialogen**: NPC-Entscheidungen haben dauerhafte Auswirkungen und beeinflussen Händlerrabatte sowie die Feindseligkeit von Fraktionen.
+- **Beste Ausrüstung**: Bevorzuge Nahkampfwaffen für die lautlose Nahverteidigung, um Munition zu sparen.
+</Callout>
+
+Das Überleben in der infizierten offenen Welt von Evalia erfordert eine solide Strategie, und das Meistern des **piggy intercity fort** ist dein erster Schritt zum langfristigen Überleben. Als ein von MiniToon entwickeltes, multiplayer- und entscheidungsbasiertes Open-World-RPG fordert Piggy: Intercity die Spieler heraus, ihr Inventar zu verwalten, sichere Basen zu bauen, komplexe Quests abzuschließen und storybestimmende Entscheidungen zu treffen. Das Fort dient als zentraler Knotenpunkt für Spieler, die Zuflucht, Handelsmöglichkeiten und Questfortschritt suchen, was es zu einem entscheidenden Orientierungspunkt auf der Evalia-Karte macht.
+
+<Section icon={Map} title="Evalia-Kartenlayout und der Standort des Forts">
+
+Sich in Evalia zurechtzufinden, kann aufgrund des dichten Nebels der Infektion und der ständigen Bedrohungen eine Herausforderung sein. Das Fort sticht als primäre Verteidigungsanlage hervor, die sich zwischen dem gefährlichen Schulbezirk und dem ertragreichen Sägewerk befindet. Das Verständnis der geografischen Lage des Forts hilft dir, effiziente Ressourcenläufe zu planen und Engpässe zu vermeiden, an denen häufig infizierte Feinde spawnen.
+
+| Gebietsname | Bedrohungsstufe | Primäre Ressourcen | Wichtige NPCs |
+|---|---|---|---|
+| Fort | Niedrig | Baumaterialien, Kristalle | Händler, Wachen |
+| Schule | Mittel | Medizin, Bücher, Lebensmittel | Feindselige Überlebende |
+| Sägewerk | Hoch | Holzbretter, Altmetall | Handwerkslehrer |
+| Läden | Mittel | Vorräte, Verbrauchsmaterialien | Händler-NPCs |
+
+Die umliegenden Regionen bieten unterschiedliche Risiko- und Belohnungsstufen. Der Weg vom Fort zum Sägewerk bringt Baumaterialien, ist jedoch von wendigen Infizierten bevölkert. Wenn du dich stattdessen in Richtung Schule begibst, kannst du dir medizinische Vorräte sichern, musst dich dafür aber bewaffneten, feindseligen Überlebendenfraktionen stellen.
+
+<Callout type="success" title="Vorteil der Sicherheitszone">
+Das Fort ist eine der wenigen Zonen, in denen Spieler mit Händlern interagieren und sich ohne ständige Infektionsgefahr ausruhen können. Nutze diesen Bereich, um dein Inventar vor langen Expeditionen zu organisieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategien für die Sicherheitszone im piggy intercity fort">
+
+Das Errichten einer Operationsbasis im **piggy intercity fort** erfordert ein Verständnis des Grundstücksbeanspruchungssystems. Der Basisbau ist nicht nur kosmetisch; er bietet sicheren Lagerraum, Respawn-Punkte und Handwerks-Upgrades, die für das Überleben im späteren Spielverlauf unerlässlich sind. Wenn du das Fort zum ersten Mal betrittst, suche nach freien Grundstücken, die durch leuchtende Begrenzungslinien markiert sind, um deine Präsenz zu etablieren.
+
+<CardGrid cols={3}>
+  <Card title="Sicheres Lager">
+    - Verhindert Gegenstandsverlust bei Tod
+    - Ermöglicht das Horten von Ressourcen
+    - Erweiterbare Kistenplätze
+  </Card>
+  <Card title="Handwerksstationen">
+    - Schaltet den Bau fortschrittlicher Werkzeuge frei
+    - Repariert beschädigte Verteidigungsausrüstung
+    - Veredelt Rohholz und Metall
+  </Card>
+  <Card title="Erholungsboni">
+    - Beschleunigt die Regeneration der Gesundheit
+    - Stellt den maximalen Ausdauerpool wieder her
+    - Verlangsamt den Anstieg der Infektionsrate
+  </Card>
+</CardGrid>
+
+Ein effizientes Ressourcenmanagement ist beim Start deiner Basis von entscheidender Bedeutung. Die folgende Tabelle listet die wichtigsten Gegenstände auf, die du plündern musst, um deine Fort-Einrichtung zu verbessern:
+
+| Ressourcentyp | Beschaffungsmethode | Nutzen beim Handwerk | Stapellimit |
+|---|---|---|---|
+| Holzbretter | Bäume fällen, Sägewerk-Kisten | Einfache Wände, Lagerkisten | 20 |
+| Altmetall | Ruinen durchsuchen, Werkzeugkisten | Fortschrittliche Strukturen, Waffen | 15 |
+| Kristalle | Demo-Belohnungen, Hochwertige Quests | Premium-Handel, Spezial-Upgrades | 99 |
+| Nahrung & Wasser | Supermarktregale durchsuchen, Händler | Verbrauchbare Überlebenswerte | 10 |
+
+<Callout type="warning" title="Warnung zum Verfallssystem">
+Ungesicherte Basisstrukturen außerhalb der Grenzen des Forts verfallen doppelt so schnell. Priorisiere immer die Beanspruchung eines Grundstücks innerhalb der ausgewiesenen Sicherheitszone des Forts, um die Haltbarkeit zu maximieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Fortschrittsleitfaden">
+
+Um eine erfolgreiche Festung im Fort aufzubauen, sollten Spieler einer strukturierten Fortschrittsroute folgen. Dies minimiert das Risiko, früh im Spiel wertvolle Gegenstände zu verlieren, und stellt sicher, dass du die Boni aus der Demoversion von Piggy: Intercity maximierst.
+
+<Steps>
+  <Step num="1" title="Sichere dir zuerst die Demo-Belohnungen">
+    Bevor du tief in das Hauptspiel eintauchst, schließe die Demo von Piggy: Intercity ab. Die Speicherdaten werden zwar nicht übertragen, aber das Abschließen der Demo beschert dir im Live-Spiel kostenlose Kristalle, die für erste Einkäufe entscheidend sind.
+  </Step>
+  <Step num="2" title="Reise zum Fort-Knotenpunkt">
+    Spawne in der Vollversion und mache dich direkt auf den Weg zu den Koordinaten des Forts. Vermeide Kämpfe mit infizierten Feinden entlang des Haupt-Highways, um deine Anfangsausdauer zu schonen.
+  </Step>
+  <Step num="3" title="Beanspruche ein Grundstück und baue eine Kiste">
+    Suche ein freies Grundstück innerhalb der Tore des Forts. Nutze deine Startmaterialien, um eine einfache Holzkiste herzustellen. Lagere deine überschüssigen Gegenstände sofort hier, um sie vor unerwarteten PvP- oder PvE-Begegnungen zu schützen.
+  </Step>
+  <Step num="4" title="Baue Handelsbeziehungen auf">
+    Sprich mit den ansässigen Händlern im Fort. Nutze deine Kristalle, um eine zuverlässige Nahkampfwaffe und grundlegende Medizin zu kaufen, bevor du Erkundungsquests in der Nähe antrittst.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Effiziente Kristallnutzung">
+Hebe dir deine Demo-Kristalle für Rucksack-Upgrades höherer Stufen auf, anstatt sie für einfache Lebensmittel zu verschwenden. Nahrung kann in der Nähe der Geschäfte des Forts leicht kostenlos geplündert werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="NPC-Quests und Story-Entscheidungen">
+
+Das **piggy intercity fort** dient als Haupt-Quest-Knotenpunkt im Spiel. Im Gegensatz zu traditionellen linearen RPGs bietet Piggy: Intercity ein entscheidungsbasiertes Story-System. Wie du mit Charakteren im Fort interagierst, kann deinen Ruf verändern, neue Händlerrabatte freischalten oder dich komplett von bestimmten Questreihen ausschließen.
+
+| Fraktion / NPC | Anfängliche Haltung | Quest-Ziele | Auswirkung der Entscheidung |
+|---|---|---|---|
+| Fort-Sicherheit | Neutral | Äußere Tore verteidigen, Bedrohungen beseitigen | Sichere Handelsprivilegien freischalten |
+| Ödland-Händler | Freundlich | Lebensmittelkisten liefern, Gegenstände beschaffen | Bessere Preise oder Handelsembargo |
+| Verlorene Überlebende | Vorsichtig | Aus der örtlichen Schule entkommen, Medizin finden | Anpassungen des Fraktionsrufs |
+
+Achte bei Gesprächen mit Fraktionsführern genau auf deine Dialogentscheidungen. Sich dafür zu entscheiden, Vorräte zu horten, anstatt sie mit den Wachen des Forts zu teilen, mag kurzfristige Vorteile bringen, kann jedoch zu höheren Preisen in den örtlichen Geschäften und dem Ausschluss aus bestimmten Sicherheitsbereichen führen.
+
+<Callout type="tip" title="Folgen von Dialogen">
+Wenn du dich entscheidest, neutrale NPCs außerhalb des Forts anzugreifen, werden die Wachen dir gegenüber bei deiner Rückkehr feindselig gestimmt sein. Lass deine Waffe in Sicherheitszonen eingesteckt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Verteidigungsvorbereitung">
+
+Sich außerhalb des Forts zu wagen, erfordert Vorbereitung. Das Kampfsystem in Piggy: Intercity basiert stark auf Ausdauermanagement, dem Timing beim Blocken und dem Zielen auf Kopfschüsse bei der Verwendung von Fernkampfwaffen. Nahkampfwaffen benötigen keine Munition, bergen jedoch das Risiko, direkten Schaden zu erleiden und deine Infektionsanzeige zu erhöhen.
+
+| Waffenname | Waffenklasse | Reichweitenbewertung | Angriffsgeschwindigkeit | Blockeffektivität |
+|---|---|---|---|---|
+| Rohrzange | Nahkampf | Kurz | Mäßig | Hoch |
+| Armbrust | Fernkampf | Lang | Langsam | Niedrig |
+| Kampfmesser | Nahkampf | Kurz | Sehr schnell | Mittel |
+| Pistole | Fernkampf | Mittel | Schnell | Niedrig |
+
+Bevor du den Schutz der Fort-Mauern verlässt, stelle sicher, dass du alle wesentlichen Vorbereitungen getroffen hast, um die gefährlichen Infektionsrouten zu überleben.
+
+<Checklist
+  id="fort-defensive-checklist"
+  title="Checkliste für die Fort-Expedition:"
+  items={[
+    "Lagere alle überschüssigen Baumaterialien in deiner Basiskiste",
+    "Rüste mindestens eine Nahkampfwaffe mit hoher Haltbarkeit aus",
+    "Packe zwei saubere Wasserflaschen und zwei Dosen Lebensmittel ein",
+    "Vergewissere dich, dass dein Infektionswert unter zwanzig Prozent liegt",
+    "Rüste Verteidigungsausrüstung aus, um Schaden durch Kratzer im Nahbereich abzumildern"
+  ]}
+/>
+
+<Callout type="warning" title="Munitionsknappheit">
+Fernkampfmunition kann nicht einfach hergestellt werden. Reserviere deine Pistolenschüsse für Bossbegegnungen und nutze Nahkampfwaffen, um normale infizierte Streuner auszuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+Um dir zu helfen, das Beste aus deiner Zeit im Fort herauszuholen, findest du hier Antworten auf die häufigsten Fragen, die Spieler beim Erkunden des Spiels stellen.
+
+<Callout type="tip" title="Attributoptimierung">
+Priorisiere beim Aufstufen deiner Attribute Ausdauer und Stärke. Hohe Ausdauer ermöglicht es dir, brenzligen Situationen zu entkommen, während Stärke deine Inventargewichtslimits erhöht.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wird mein Fortschritt aus der piggy intercity fort Demo übernommen?",
+    answer: "Nein, Speicherdaten aus der Demo werden nicht in die Vollversion übertragen. Das Abschließen der Demo belohnt dich jedoch mit kostenlosen Kristallen, die du im Hauptspiel einlösen kannst."
+  },
+  {
+    question: "Können andere Spieler Ressourcen aus meiner Basis im Fort stehlen?",
+    answer: "Gegenstände, die in beanspruchten Kisten auf deinem Grundstück gelagert werden, sind sicher. Auf Ressourcen, die in offenen Handwerksstationen zurückgelassen werden, können jedoch andere Spieler zugreifen, also räume diese nach der Benutzung leer."
+  },
+  {
+    question: "Was passiert, wenn mein Charakter während einer Expedition stirbt?",
+    answer: "Du verlierst die Gegenstände in deinen Inventarslots, es sei denn, sie sind in deiner Basis gesichert. Du spawnst an deinem beanspruchten Grundstück innerhalb der Sicherheitszone des Forts wieder."
+  },
+  {
+    question: "Wie verbessere ich den Schaden meiner Waffe?",
+    answer: "Du kannst Waffenattribute an der Werkbank im Fort mit Altmetall und speziellen Werkzeugsätzen verbessern, die du im Sägewerk geplündert hast."
+  }
+]} />
+
+</Section>

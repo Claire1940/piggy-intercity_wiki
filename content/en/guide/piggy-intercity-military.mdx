@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Military: Fort Location, Gear & Quest Choices",
+  description: "Piggy Intercity Military guide covers the Fort location in Evalia, faction choices, weapons tier list, military gear, and survival quests in Roblox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Military+Faction+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary objective**: Locate the **piggy intercity military** fort in northern Evalia to access high-tier survival gear and faction quests.
+- **Weapon preference**: Collect **military weapons** like rifles and pistols to secure a high combat advantage against infected threats.
+- **Reputation impact**: Make careful **story choices** when interacting with military NPCs, as reputation permanently alters faction relationships.
+- **Base strategy**: Claim a **base plot** near defense checkpoints to ensure safer resource farming and easier retreat paths.
+</Callout>
+
+<Section icon={Map} title="Exploring the Piggy Intercity Military Fort and Outposts">
+
+Navigating the infected open world of Evalia requires players to identify major safe zones, looting areas, and faction strongholds. The military presence in the game represents one of the most organized but dangerous elements. The central hub for this faction is the Fort Outpost, situated in the northern sector of the map. This area serves as a primary source for high-tier tactical gear, ammunition, and specialized crafting blueprints.
+
+Due to the density of infected soldiers patrolling the perimeter, entering this zone unprepared is highly discouraged. The local AI pathing is aggressive, and infected forces here possess higher health pools than standard urban variants. Surviving this region requires a clear understanding of its distinct sub-locations, loot distribution points, and safe zones.
+
+| Location Name | Danger Level | Primary Loot Types | Key NPC Present |
+| --- | --- | --- | --- |
+| Fort Outpost | High | Rifles, Heavy Ammo, Armor | Sergeant Marcus |
+| Comm Tower | Medium | Electronics, Radio Parts | Specialist Hayes |
+| Supply Depot | High | Rations, Military Vests | Quartermaster |
+| R&D Labs | Very High | Medkits, Crystals, Keycards | Lead Scientist |
+
+To successfully run loot cycles through these areas, players should map out routes that allow quick entry and exit. The Supply Depot is excellent for gathering defensive gear, while the Comm Tower remains the safest point for picking up early-game electronic crafting components.
+
+<Callout type="warning" title="Infection Danger">
+Avoid patrolling the outer fences of the Fort Outpost during night cycles. Infected spawns double in density, and visibility drops, making long-range rifle combat highly ineffective.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Military Faction Quests and Dialogue Choices">
+
+The quest system in Piggy Intercity relies heavily on choice-driven RPG mechanics. When interacting with military personnel, players are not simply accepting linear tasks; they are deciding how their character fits into the broader social landscape of Evalia. Working for the military remnant will alienate independent civilian survivor camps, while helping civilians will lock you out of high-tier military supply lines.
+
+The main narrative thread begins with Sergeant Marcus at the Fort gatehouse. Progressing through this questline requires completing sequential tasks across different parts of the map.
+
+<Steps>
+  <Step num="1" title="Locate the Recruiter">
+    Travel to the northern gatehouse of the Fort Outpost. Keep your weapons holstered when approaching the gates to prevent the faction guards from identifying you as a hostile survivor.
+  </Step>
+  <Step num="2" title="Secure the Supplies">
+    Travel south to the Lumbermill. Search the locked crates inside the main warehouse for stolen military rations and return them to the Fort.
+  </Step>
+  <Step num="3" title="Resolve the Faction Choice">
+    Choose whether to deliver the recovered R&D research files directly to Sergeant Marcus or leak them to the civilian refuge camp in the southern valley.
+  </Step>
+  <Step num="4" title="Claim Faction Rewards">
+    Depending on your choice, speak with your chosen faction leader to collect your unique gear blueprints and establish your permanent reputation rank.
+  </Step>
+</Steps>
+
+Every dialogue choice shifts your standing with the two main groups. Below is a breakdown of how these choices impact your progression and final rewards.
+
+| Choice Selection | Military Reputation Change | Civilian Reputation Change | Unique Reward Unlocked |
+| --- | --- | --- | --- |
+| Support Military | Friendly (+50) | Hostile (-50) | Elite Rifle Blueprint |
+| Support Civilians | Hostile (-50) | Friendly (+50) | Advanced Medic Kit |
+| Remain Neutral | Neutral (0) | Neutral (0) | Extra Cash, Crystals |
+
+<Callout type="info" title="Reputation Lockout">
+Reaching a Hostile status with the military faction makes all guards at the Fort Outpost fire on sight. This permanently locks you out of the military shop terminal until a reputation reset item is purchased or earned.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Weapons and Survival Gear Tier List">
+
+Surviving encounters with high-tier infected requires efficient gear management. Unlike casual escape maps, the open-world RPG structure of the game prioritizes weapons durability, ammo availability, and percentage-based damage reduction. To maximize survival time during long exploration runs, players should aim to acquire tactical gear that balances combat power with weight efficiency.
+
+<CardGrid cols={3}>
+  <Card title="Combat Assault Build">
+    - **Primary focus**: High DPS and ranged capability
+    - Recommended weapon: Assault Rifle
+    - Recommended gear: Tactical Vest
+  </Card>
+  <Card title="Recon Scout Build">
+    - **Primary focus**: Mobility and resource gathering
+    - Recommended weapon: Service Pistol
+    - Recommended gear: Light Scout Backpack
+  </Card>
+  <Card title="Base Guardian Build">
+    - **Primary focus**: Structural defense and close combat
+    - Recommended weapon: Combat Shotgun
+    - Recommended gear: Heavy Armor Plate
+  </Card>
+</CardGrid>
+
+Weapons are ranked based on their resource requirements, base damage output, reload speed, and utility in both solo and cooperative play.
+
+| Item Name | Item Type | Base Damage | Ammo Type Required | Tier Rating |
+| --- | --- | --- | --- | --- |
+| Assault Rifle | Ranged Weapon | High | 5.56mm Rifle Ammo | S-Tier |
+| Tactical Vest | Body Armor | 35% Reduction | N/A | S-Tier |
+| Service Pistol | Ranged Weapon | Moderate | 9mm Pistol Ammo | A-Tier |
+| Combat Knife | Melee Weapon | Low | N/A | B-Tier |
+| Riot Shield | Defensive Gear | Block Damage | N/A | B-Tier |
+
+The Assault Rifle stands at the top of the combat meta due to its high headshot multiplier and long-range accuracy. However, players must build an efficient farming route for 5.56mm ammunition to keep the weapon viable. The Service Pistol remains a reliable fallback option for clearing basic trash mobs due to the abundance of 9mm ammo scattered throughout urban shopping areas.
+
+<Callout type="tip" title="Ammo Conservation">
+Use the Combat Knife or other high-speed melee options to finish off infected enemies once their health pool drops below 20%. This saves valuable firearm ammunition for sudden boss spawns or defense missions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Military Base Building and Defenses">
+
+Once you have gathered enough materials and secured your preferred faction alignment, establishing a personal base is the next phase of long-term progression. The game features dedicated plot grids where players can construct shelters, storage chests, and active defense networks to repel waves of infected.
+
+Using military-grade blueprints allows you to build structures with significantly higher durability ratings than basic wood or scrap metal walls.
+
+<Checklist
+  id="base-building-goals"
+  title="Military Base Checklist:"
+  items={[
+    "Claim a base plot close to a water source and the Fort Outpost",
+    "Construct a level 2 Crafting Bench to access metal components",
+    "Build concrete outer walls to withstand heavy infected raids",
+    "Install at least two elevated guard towers for clean line of sight",
+    "Place a secure weapon locker to organize spare ammunition"
+  ]}
+/>
+
+To build an optimal defensive setup, combine heavy wall structures with slow-effect traps. Placing spikes directly in front of your primary gates forces infected pathing to slow down, maximizing the time you have to target them with ranged weapons from safety.
+
+| Structure Name | Base Materials Required | Durability Rating | Best Tactical Placement |
+| --- | --- | --- | --- |
+| Concrete Wall | 10 Cement, 5 Rebar, 2 Wire | High (5/5) | Perimeter Boundaries |
+| Metal Barricade | 8 Iron Sheets, 4 Bolts | Moderate (4/5) | Inner Gate Entrances |
+| Spiked Wood Trap | 15 Wood Planks, 10 Nails | Low (2/5) | Chokepoints and Pathways |
+| Elevated Tower | 20 Wood, 10 Iron Sheets | High (5/5) | Corner Positions |
+
+Building too close to high-threat spawns like the Fort Outpost will result in more frequent raids on your base. Choose a plot that balances quick looting runs with manageable defense cycles.
+
+<Callout type="success" title="Base Synergy">
+Constructing a base near the border of the northern region allows you to quickly reset infected aggro by retreating into the neutral zone, saving both wall durability and ammo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Military Progression and Strategy FAQs">
+
+Understanding the nuances of faction mechanics, combat systems, and base building is critical to mastering the end-game progression.
+
+<FAQ items={[
+  {
+    question: "How do you access the piggy intercity military base safely?",
+    answer: "Approach the base from the eastern ridge to avoid the main road traps. Ensure your weapons are holstered to prevent the outpost guards from engaging you immediately."
+  },
+  {
+    question: "Can you change your faction choice after assisting the civilians?",
+    answer: "Yes, but you must complete a series of recovery quests for Sergeant Marcus or purchase a faction alignment reset token using crystals earned from demo completion."
+  },
+  {
+    question: "Where is the best spot to farm 5.56mm rifle ammunition?",
+    answer: "The Supply Depot inside the military fort has the highest spawn rate for rifle boxes. Alternatively, you can craft them at a level 2 workbench using gunpowder and lead copper."
+  },
+  {
+    question: "Do base defenses repair automatically after an infected raid?",
+    answer: "No, structures must be repaired manually using a hammer tool and the corresponding base materials like wood planks or iron sheets."
+  }
+]} />
+
+<Callout type="info" title="Community Resources">
+For real-time updates on patch notes, new weapon releases, and map expansions, consult the official Piggy Discord community or follow official development announcements.
+</Callout>
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Willow: Quest-Walkthrough & Entscheidungs-Guide",
+  description: "Meistere die Willow-Questreihe in Piggy Intercity. Erfahre mehr über Story-Entscheidungen, Fraktionszugehörigkeit in Evalia, Überlebenstipps und Belohnungen für den Charakterfortschritt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Willow+Quest+Guide",
+  date: "2026-06-19",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Fraktionsanführerin**: Willow bleibt die zentrale Autoritätsperson der Silver-Paw-Fraktion.
+- **Schlüsselmechanik**: Dialogentscheidungen mit Willow wirken sich direkt auf deinen Ruf und deinen Fraktionsstatus aus.
+- **Beste Strategie**: Schließe zuerst die Demo-Questreihe ab, um Kristalle für das vollständige Spiel freizuschalten.
+- **Wichtiger Tipp**: Sorge für einen stetigen Vorrat an Nahrung und Wasser, bevor du ihre mehrstufigen Quests startest.
+- **Beste Entscheidung**: Die Zusammenarbeit mit Willow bietet den schnellsten Weg zu hochklassiger Überlebensausrüstung.
+</Callout>
+
+<Section icon={Map} title="Willows Rolle in der offenen Welt von Evalia">
+
+Das Navigieren durch die infizierten Ruinen von Evalia erfordert starke Allianzen, und nur wenige Charaktere haben so viel Einfluss wie die Anführerin der Silver Paw im Handlungsstrang von **piggy intercity willow**. Als Open-World-Multiplayer-RPG, das auf Entscheidungen basiert, fordert Piggy: Intercity die Spieler heraus, grundlegende Überlebenselemente wie Hunger und Durst zu managen, während sie wegweisende Entscheidungen für die Geschichte treffen. Willow fungiert sowohl als primäre Questgeberin als auch als Fraktionsanführerin und führt Spieler durch gefährliche Gebiete, um Vorräte zu sichern und Sicherheitszonen einzurichten.
+
+Die Interaktion mit Willow erfordert ein gutes Verständnis der Karte. Sie befindet sich normalerweise in der Nähe sicherer Fraktionslager, außerhalb der unmittelbaren Reichweite kriechender Infizierter. Um sie zu erreichen, musst du jedoch Gefahrenzonen durchqueren, in denen Kämpfe fast garantiert sind. Da sich das Spiel auf Konsequenzen anstelle einfacher Hol- und Bringdienste konzentriert, bestimmen deine ersten Dialogoptionen im Gespräch mit Willow den Ton für alle folgenden Missionen.
+
+| Ort | Fraktionspräsenz | Bedrohungsstufe | Primäre Ressourcen |
+|:---|:---|:---|:---|
+| Sicherheitszone Evalia | Hoch | Niedrig | Wasser, grundlegende medizinische Vorräte |
+| Außenposten-Ruinen | Mittel | Hoch | Altmetall, Munitionskomponenten |
+| Sägewerk | Niedrig | Mittel | Holzblöcke, Herstellungsmaterialien |
+| Fort-Grenze | Hoch | Hoch | Waffen, taktische Ausrüstung |
+
+<Callout type="tip" title="Überlebenstipp">
+Bevor du dich zu Willows Aufenthaltsort begibst, stelle sicher, dass deine Hunger- und Durstanzeigen vollständig gefüllt sind. Wenn du mitten im Dialog vor Hunger zusammenbrichst, wird der Questschritt möglicherweise nicht registriert, sodass du die Sequenz neu starten musst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung für Willows Quest">
+
+Um Willows primäre Questreihe abzuschließen und deine Fortschrittsbelohnungen zu maximieren, musst du eine bestimmte Abfolge von Aktionen befolgen. Diese Schritte erfordern eine Mischung aus Erkundung, Ressourcenmanagement und Kampfbereitschaft. Beachte, dass der Questfortschritt aus der Demoversion nicht auf die Vollversion übertragen wird. Das Abschließen ihrer Aufgaben in der Demo sichert dir jedoch wertvolle Kristallbelohnungen.
+
+<Steps>
+  <Step num="1" title="Finde das Silver-Paw-Hauptquartier">
+    Reise in den nördlichen Sektor der Evalia-Karte. Vermeide Hauptstraßen, wenn du keine Waffen hast, da dort viele Infizierte spawnen. Halte nach den befestigten Barrikaden Ausschau, die mit Fraktionsabzeichen markiert sind, um Willow zu finden.
+  </Step>
+  <Step num="2" title="Nimm die Ressourcenbeschaffung an">
+    Sprich mit Willow, um ihre erste Quest zu starten. Sie wird dich um Überlebensvorräte bitten, darunter sauberes Wasser, Dosenfutter und mechanische Komponenten. Diese Gegenstände sind in den Zonen Schule und Sägewerk verteilt.
+  </Step>
+  <Step num="3" title="Säubere den infizierten Sektor">
+    Willow wird dich damit beauftragen, ein nahegelegenes Versorgungslager zu sichern. Rüste eine zuverlässige Nahkampfwaffe oder eine Handfeuerwaffe aus. Erledige die Infizierten, die im unmittelbaren Umkreis umherstreifen, bevor du die Kiste plünderst.
+  </Step>
+  <Step num="4" title="Triff die Fraktionsentscheidung">
+    Kehre mit den Vorräten zu Willow zurück. Du wirst aufgefordert, eine Entscheidung darüber zu treffen, wie die Ressourcen verteilt werden sollen. Deine Wahl ändert deinen Ruf bei den Silver Paw und bestimmt die nächste Queststufe.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Achtung">
+Das Angreifen neutraler NPCs während Willows Questreihe verringert sofort deinen Ruf. Dies kann dazu führen, dass du von ihren fortgeschrittenen Rezepten für den Basisbau und den Gegenstands-Handelsmenüs ausgeschlossen wirst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dialogentscheidungen und Fraktionsruf">
+
+Jedes Gespräch mit Willow in Piggy: Intercity ist von Bedeutung. Im Gegensatz zu linearen Überlebensspielen prägen die von dir getroffenen Entscheidungen, wie NPCs in der offenen Welt mit dir interagieren. Wenn du dich auf Willows Seite schlägst, erhältst du Zugang zu fortgeschrittenen Basisbaumaterialien und Fraktions-Shops, während der Widerstand gegen sie deinen Charakter auf einen gesetzlosen Überlebenspfad führt.
+
+Nachfolgend findest du eine Übersicht darüber, wie sich verschiedene Ausrichtungsstrategien auf deinen gesamten Gameplay-Loop, den Zugang zu Ressourcen und den Basisbau auswirken.
+
+<CardGrid cols={3}>
+  <Card title="Silver-Paw-Loyalist">
+    - **Fraktionsvertrauen**: Hoch
+    - Zugang zu exklusiven Fraktions-Blaupausen
+    - Sicheres Geleit durch Silver-Paw-Gebiete
+  </Card>
+  <Card title="Neutraler Überlebender">
+    - **Fraktionsvertrauen**: Mittel
+    - Standard-Ladenpreise für Gegenstände
+    - Freiheit, mit rivalisierenden Überlebenden zu handeln
+  </Card>
+  <Card title="Gesetzloser Pfad">
+    - **Fraktionsvertrauen**: Feindselig
+    - Gezwungen, nach Baumaterialien zu suchen
+    - Kämpfe mit hohem Risiko in Sicherheitszonen
+  </Card>
+</CardGrid>
+
+Deine Entscheidungen beeinflussen auch die spezifischen Belohnungen, die du am Ende der Questreihe erhältst. Nutze die folgende Tabelle, um deine Dialogroute entsprechend deines bevorzugten Überlebensstils zu planen.
+
+| Dialogentscheidung | Rufänderung | Fraktionsstatus | Sofortige Belohnung |
+|:---|:---|:---|:---|
+| Vorräte an Willow liefern | +15 Silver Paw | Vertrauenswürdiger Verbündeter | Fortgeschrittene Handwerksrezepte |
+| Vorräte für sich behalten | -25 Silver Paw | Verdächtig | Viel rohes Altmetall |
+| Vorräte mit Überlebenden teilen | +10 Neutral | Neutral | Konsumierbare Lebensmittelpakete |
+| Willows Bedingungen ablehnen | -10 Silver Paw | Misstraut | Keine |
+
+<Callout type="info" title="Hinweis">
+Rufverluste sind nur schwer wieder auszugleichen. Wenn dein Status bei den Silver Paw auf feindselig sinkt, musst du mehrere schlecht bezahlte Aufgaben am Schwarzen Brett der Gemeinschaft erledigen, um wieder einen neutralen Ruf zu erlangen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimale Ausrüstung für den Quest-Abschluss">
+
+Das Überleben auf den von Willow vorgegebenen gefährlichen Routen erfordert die passende Ausrüstung. Wenn du ihre Missionen mit bloßen Fäusten oder minderwertigen Werkzeugen antrittst, wirst du schnell besiegt. Du musst Waffenauswahl, Schutzausrüstung und Hilfsmittel aufeinander abstimmen, um die infizierten Horden in Evalia zu überleben.
+
+Die Waffen in Piggy: Intercity teilen sich auf in Nahkampfoptionen für lautlose Kills und Fernkampfwaffen zur Massenkontrolle. Da Munition knapp ist, sollten Nahkampfwaffen deine erste Wahl sein, um gewöhnliche Infizierte zu erledigen.
+
+| Gegenstandskategorie | Empfohlener Gegenstand | Hauptrolle | Beschaffungsmethode |
+|:---|:---|:---|:---|
+| Nahkampfwaffe | Brecheisen aus Eisen | Hohe Haltbarkeit, leise Angriffe | Werkbank / Werkzeugläden |
+| Fernkampfwaffe | Handfeuerwaffe | Massenkontrolle, hoher Schaden | Fort-Waffenkammer / Fraktionshandel |
+| Verteidigung | Gepolsterte Weste | Reduziert erlittenen Schlagschaden | Handwerk / Fraktions-Shop |
+| Heilung | Medizinische Bandage | Regeneriert Gesundheit über Zeit | Plündern / Erste-Hilfe-Sets |
+| Hilfsmittel | Taschenlampe | Navigieren in dunklen Sektoren | Startinventar / Läden |
+
+<Callout type="success" title="Erfolgstipp">
+Trage immer ein Brecheisen bei dir. Es dient sowohl als zuverlässige Schlagwaffe als auch als Werkzeug, um verschlossene Kisten während der Versorgungsläufe aufzubrechen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritts-Meilensteine & Demo-Übertragungsregeln">
+
+Zu verstehen, wie die Demo mit dem Hauptspiel verknüpft ist, ist für die Optimierung entscheidend. Obwohl Spielstände, Basis-Layouts und Gegenstandsinventare nicht aus der Demoversion übernommen werden, belohnt das Abschließen der Demo-Questreihe die Spieler mit kostenlosen Kristallen in der Vollversion. Diese Kristalle können verwendet werden, um Charakterattribute, kosmetische Optionen und Werkzeuge für das frühe Spiel freizuschalten.
+
+Nutze die folgende Checkliste, um deinen Fortschritt bei den wichtigsten Meilensteinen der Questreihe zu verfolgen.
+
+<Checklist
+  id="willow-quest-milestones"
+  title="Checkliste für Willows Quest:"
+  items={[
+    "Finde Willow im Silver-Paw-Hauptquartier in Evalia",
+    "Schließe die erste Ressourcenbeschaffung ab, ohne zu sterben",
+    "Erreiche den Status 'Vertrauenswürdiger Verbündeter' bei den Silver Paw",
+    "Sichere das Versorgungslager im Schul-Sektor",
+    "Fordere deine kostenlose Kristallbelohnung an, indem du den Demo-Pfad abschließt"
+  ]}
+/>
+
+| Version | Speicherdaten-Status | Kristallbelohnungen | Spielbare Kartengröße |
+|:---|:---|:---|:---|
+| Demo-Version | Wird nicht ins Live-Spiel übernommen | Nach Abschluss verfügbar | Begrenzte Sektoren |
+| Vollversion | Dauerhafter Fortschritt | Nutze verdiente Kristalle hier | Gesamte Karte von Evalia |
+
+<Callout type="tip" title="Profi-Tipp">
+Nutze die Demoversion als risikofreie Testumgebung. Lerne die Kampf-Muster der Infizierten kennen und teste verschiedene Dialogoptionen, bevor du dich für einen dauerhaften Charakter-Build in der Vollversion von Piggy: Intercity entscheidest.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wo spawnt Willow in Piggy: Intercity?",
+    answer: "Willow spawnt im Hauptquartier der Silver Paw im nördlichen Bezirk von Evalia. Das Gebiet ist stark befestigt und dient als wichtige Sicherheitszone der Fraktion."
+  },
+  {
+    question: "Beeinflussen die Entscheidungen während der Willow-Questreihe in Piggy: Intercity das Ende?",
+    answer: "Ja. Die Dialogoptionen und Entscheidungen zur Ressourcenverteilung, die du triffst, verändern deinen Ruf bei den Silver Paw und bestimmen, welche Fraktionsquests später im Spiel freigeschaltet werden."
+  },
+  {
+    question: "Kann ich meine Waffen und Basisgegenstände aus der Demoversion übertragen?",
+    answer: "Nein. Die offizielle Spielseite bestätigt, dass Spielstände nicht in die Vollversion übernommen werden. Das Abschließen der Demo belohnt dich jedoch mit kostenlosen Kristallen im Hauptspiel."
+  },
+  {
+    question: "Was ist die beste Waffe für Willows Kampfeinsätze?",
+    answer: "Für das frühe Spiel wird das Eisen-Brecheisen aufgrund seiner hohen Haltbarkeit dringend empfohlen. Richte dir für schwierigere Sektoren eine Handfeuerwaffe als Fernkampfwaffe ein, aber spare deine Munition für größere Gruppen von Infizierten auf."
+  }
+]} />
+
+<Callout type="info" title="Community-Leitfaden">
+Dieser Guide wird von der Community gepflegt. Da Piggy: Intercity Updates von MiniToon erhält, können sich Questziele, Fraktionsstandorte und Gegenstandswerte ändern. Schaue regelmäßig vorbei, um die neuesten Strategie-Updates zu erhalten.
+</Callout>
+
+</Section>

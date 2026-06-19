@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Centro comercial de Piggy Intercity: Mapa de botín y guía de supervivencia",
+  description: "Domina la ubicación del centro comercial de Piggy Intercity en Evalia. Aprende rutas de supervivencia, decisiones de misiones de NPC, puntos de aparición de botín y consejos de construcción de bases.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Piggy+Intercity+Mall+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: El **centro comercial de Piggy Intercity** sirve como una zona de botín de alto nivel que contiene equipo esencial, comida de supervivencia y puntos de aparición de armas.
+- **Amenaza de alto riesgo**: Los enemigos infectados invaden los estrechos pasillos de las tiendas, lo que requiere equipo defensivo y una planificación cuidadosa de la ruta.
+- **Decisiones de NPC**: Las opciones de diálogo con los supervivientes en el centro comercial afectan permanentemente tu reputación con las facciones y las rutas de la historia.
+- **Recompensas de la demo**: Consigue bonificaciones de cristales al completar la demo antes de transferir tu progreso al juego principal de mundo abierto.
+- **Expansión de la base**: Reclama parcelas adyacentes al centro comercial para establecer zonas seguras y puestos de almacenamiento cerca de recursos valiosos.
+</Callout>
+
+Navegar por las ruinas de Evalia requiere estrategia, reflejos rápidos y un conocimiento profundo de los centros de botín de alto nivel. El **centro comercial de Piggy Intercity** se erige como uno de los puntos de interés más vitales del mundo abierto, sirviendo tanto de campo de batalla principal contra las amenazas infectadas como de tesoro de recursos de supervivencia. Para sobrevivir a esta enorme estructura, los jugadores deben dominar rutas de navegación seguras, gestionar las opciones de diálogo ramificadas con los NPC residentes y priorizar los objetos correctos para optimizar el inventario.
+
+Comprender la distribución de este punto de interés marca la diferencia entre asegurar equipo de élite y convertirse en víctima de la horda de infectados. Esta guía detalla todo lo necesario para conquistar el centro comercial, completar sus misiones residenciales y asegurar el perímetro de tu base.
+
+---
+
+<Section icon={Map} title="Navegando por la distribución del centro comercial de Piggy Intercity">
+
+La exploración en Evalia es peligrosa, pero las recompensas dentro del distrito comercial central justifican el riesgo. La estructura del centro comercial consta de tres plantas principales, una zona de mantenimiento en la azotea y un garaje subterráneo. Cada planta contiene distintas categorías de tiendas que otorgan tipos de objetos específicos, que van desde botiquines médicos hasta herramientas pesadas de cuerpo a cuerpo.
+
+Para navegar por la estructura de forma segura, evita las escaleras mecánicas del atrio principal cuando la presencia de infectados sea alta. Utiliza las salidas de incendios laterales y los huecos de los ascensores para moverte verticalmente sin llamar la atención.
+
+| Ubicación | Nivel de amenaza | Valor del botín | Propósito estratégico |
+| --- | --- | --- | --- |
+| Atrio de la planta baja | Alto | ★★★ | Tránsito rápido, comida de máquinas expendedoras, alta densidad de enemigos |
+| Tiendas de la segunda planta | Medio | ★★★★ | Aparición de herramientas, objetos de progresión de misión, ropa |
+| Aparcamiento subterráneo | Alto | ★★★★★ | Mejoras de armas, piezas de vehículos, chatarra de fabricación |
+| Acceso a la azotea | Bajo | ★★ | Zona de descanso segura, punto de ventaja para francotiradores, planificación de base |
+
+<Callout type="success" title="Consejo de supervivencia">
+Limpia siempre la azotea primero. Proporciona una ruta de escape inmediata y una vista despejada de las calles circundantes de Evalia, lo que te permite seguir los movimientos de los infectados antes de descender.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones del centro comercial y decisiones de la historia">
+
+A diferencia de los mapas de escape simples, este RPG de mundo abierto presenta narrativas ramificadas donde tus decisiones conllevan consecuencias permanentes. El centro comercial alberga a varios NPC neutrales que ofrecen misiones a cambio de suministros, reputación y dinero. La forma en que interactúes con estas facciones determinará si ciertos distritos de la ciudad seguirán siendo amistosos o se volverán hostiles.
+
+Al hablar con los supervivientes, presta mucha atención a las opciones de diálogo. Elegir acaparar suministros en lugar de compartirlos puede bloquear tu acceso a futuras oportunidades de comercio.
+
+<Steps>
+  <Step num="1" title="Localiza la oficina de seguridad del centro comercial">
+    Dirígete a la segunda planta y localiza la oficina de seguridad fortificada. Habla con el líder de la facción para desbloquear la misión de investigación principal.
+  </Step>
+  <Step num="2" title="Recupera las llaves de mantenimiento">
+    Desciende al aparcamiento subterráneo para encontrar las llaves de mantenimiento. Vigila las esquinas oscuras para evitar amenazas de infectados sigilosos.
+  </Step>
+  <Step num="3" title="Toma la decisión de alineación de facción">
+    Entrega las llaves de vuelta al líder o entrégaselas al superviviente rebelde que espera junto a la salida. Esta decisión alterará tu reputación local.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Decisiones permanentes">
+Las decisiones relativas a la alineación de facciones no se pueden revertir durante tu partida actual. Alinearse con el grupo rebelde hará que los guardias de seguridad sean hostiles en todo el perímetro del centro comercial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Prioridades de botín y clasificación de armas">
+
+Saquear de manera eficiente evita que tu inventario se llene de objetos de poco valor. Prioriza el armamento defensivo y los objetos de restauración que mantengan tus barras de hambre, sed y salud durante las exploraciones prolongadas.
+
+Las armas que se encuentran en las tiendas de deportes y ferreterías del centro comercial varían desde opciones cuerpo a cuerpo rápidas hasta herramientas defensivas pesadas.
+
+<CardGrid cols={3}>
+  <Card title="Objetos críticos de misión">
+    Los objetos resaltados en amarillo son necesarios para el progreso de la historia. Asegúralos siempre primero, ya que no consumen espacio de inventario estándar.
+  </Card>
+  <Card title="Consumibles de supervivencia">
+    Mantén un suministro constante de comida enlatada y agua purificada. Las máquinas expendedoras de la primera planta son fuentes fiables para obtenerlos.
+  </Card>
+  <Card title="Armamento de combate">
+    Se prefieren las armas cuerpo a cuerpo con alto retroceso para el control de multitudes en pasillos estrechos. Reserva las armas a distancia para los espacios abiertos.
+  </Card>
+</CardGrid>
+
+| Categoría de objeto | Clasificación | Uso principal | Ubicación de aparición |
+| --- | --- | --- | --- |
+| Armas cuerpo a cuerpo | S (Excelente) | Control de multitudes, bajo nivel de ruido, uso infinito | Tienda de deportes / Ferretería |
+| Suministros médicos | S (Excelente) | Restauración de salud, resistencia a la infección | Farmacia / Puestos de primeros auxilios |
+| Materiales de fabricación | A (Bueno) | Construcción de bases, refuerzo de barricadas | Casilleros de almacenamiento / Pasillos de servicio |
+| Consumibles estándar | B (Regular) | Recuperación de hambre y sed | Zona de restauración / Máquinas expendedoras |
+
+<Callout type="tip" title="Gestión del inventario">
+Almacena siempre los materiales de fabricación en tu base antes de iniciar una incursión en el centro comercial. Esto liberará el máximo de ranuras de inventario para armas de alto nivel y suministros de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de bases cerca de la zona del centro comercial">
+
+Establecer una base segura cerca del perímetro del centro comercial proporciona un punto de retirada seguro y un lugar para almacenar recursos. Busca parcelas reclamables ubicadas en los callejones o en las estructuras de aparcamiento cercanas. Instalar una mesa de trabajo te permite convertir los materiales básicos que encuentres en el centro comercial en barreras defensivas y cajas de almacenamiento.
+
+Barricar la entrada a tu parcela reclamada es vital para evitar que los infectados errantes destruyan tus reservas de recursos mientras estás fuera saqueando.
+
+<Checklist
+  id="mall-base-setup"
+  title="Pasos para configurar el refugio:"
+  items={[
+    "Localiza una parcela reclamable a menos de una manzana de la salida del centro comercial",
+    "Construye una mesa de trabajo básica usando madera y chatarra de metal",
+    "Construye barreras de madera de doble capa para bloquear los puntos de entrada",
+    "Coloca un cofre de almacenamiento mediano para guardar el exceso de piezas de armas",
+    "Instala un colector de agua para mantener los niveles de hidratación"
+  ]}
+/>
+
+| Material de construcción | Frecuencia de aparición | Uso principal | Estrategia de obtención |
+| --- | --- | --- | --- |
+| Tablones de madera | Común | Paredes básicas, soportes estructurales | Aserradero / Cajas del centro comercial |
+| Chatarra de metal | Poco común | Refuerzos, fabricación de herramientas | Garaje subterráneo / Restos de coches |
+| Componentes electrónicos | Raro | Trampas avanzadas, generadores de energía | Estantes de tiendas de tecnología |
+
+<Callout type="info" title="Mecánicas de parcelas">
+Las parcelas reclamadas requieren mantenimiento. Asegúrate de visitar tu base regularmente para reparar los daños estructurales causados por el desgaste ambiental o los ataques de infectados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progreso de la demo y transición a la versión completa">
+
+Los jugadores que realicen la transición desde la versión demo deben comprender las pautas de progresión. Aunque los archivos de guardado directo no se transfieren a la experiencia completa de mundo abierto, completar ciertos hitos en la demo proporciona ventajas significativas en el lanzamiento principal.
+
+Completar la historia de la demo desbloquea recompensas premium que facilitan el progreso al principio del juego en Evalia.
+
+| Característica del sistema | Versión demo | Versión completa | Estado de transferencia |
+| --- | --- | --- | --- |
+| Área de mapa jugable | Restringida (Sector de la demo) | Ampliada (Ciudad completa de Evalia) | No se transfiere |
+| Datos de guardado | Local (Temporal) | Guardado en la nube (Permanente) | Se restablece al lanzar |
+| Recompensas de cristales | No disponible | Se obtienen al completar la demo | Se transfieren a la versión completa |
+| Construcción de bases | Bloqueada | Desbloqueada | N/D |
+| Variedad de misiones | Limitada | Historias ramificadas completas | N/D |
+
+<Callout type="warning" title="Alerta de transición">
+Asegúrate de completar todos los logros de la demo antes de lanzar la versión completa. Las recompensas gratuitas de cristales solo se distribuyen a las cuentas con insignias verificadas de finalización de la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre supervivencia">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro el centro comercial de Piggy Intercity en el mapa?",
+    answer: "El centro comercial está ubicado en el sector central de Evalia. Sigue la autopista principal hacia el este desde la zona segura inicial hasta que veas la gran estructura de aparcamiento y los letreros de neón."
+  },
+  {
+    question: "¿Los objetos vuelven a aparecer dentro del centro comercial?",
+    answer: "Sí, los contenedores de botín y los objetos de los estantes vuelven a aparecer periódicamente. Salir del distrito y regresar después de un breve periodo restablece la aparición de objetos."
+  },
+  {
+    question: "¿Puedo construir una base directamente dentro del centro comercial?",
+    answer: "No, no puedes reclamar parcelas dentro de la estructura principal del centro comercial. Las bases deben construirse en parcelas designadas ubicadas en las calles y callejones circundantes."
+  },
+  {
+    question: "¿Qué pasa si mi reputación cae demasiado con la facción del centro comercial?",
+    answer: "Si tu reputación se vuelve hostil, los guardias de seguridad te atacarán en cuanto te vean y perderás el acceso a las tiendas de comercio especializadas del centro comercial."
+  }
+]} />
+
+</Section>

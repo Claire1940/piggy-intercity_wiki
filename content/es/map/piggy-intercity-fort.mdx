@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fuerte de Piggy Intercity: Configuración de Zona Segura y Guía de Rutas de Botín",
+  description: "Aprende cómo asegurar el fuerte de piggy intercity, reclamar parcelas de construcción, gestionar recursos de supervivencia y completar misiones de PNJ en el mundo abierto de Evalia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1b23/e85d98?text=Piggy+Intercity+Fort+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación Principal**: El **fuerte de piggy intercity** es el centro de supervivencia principal y la zona segura primaria en Evalia.
+- **Aviso de Guardado de Datos**: El progreso de la demo no se transfiere al juego final, pero completarla te otorgará cristales gratuitos en la versión completa.
+- **Mecánica Clave**: Concéntrate en reclamar una parcela para tu base temprano para asegurar el almacenamiento y desbloquear estaciones de fabricación.
+- **Advertencia de Diálogo**: Las decisiones con los PNJ tienen un peso permanente, afectando los descuentos de los comerciantes y la hostilidad de las facciones.
+- **Mejor Equipamiento**: Prioriza las armas cuerpo a cuerpo para una defensa silenciosa a corta distancia y ahorrar munición.
+</Callout>
+
+Sobrevivir en el mundo abierto infectado de Evalia requiere una estrategia sólida, y dominar el **fuerte de piggy intercity** es tu primer paso hacia la supervivencia a largo plazo. Como un juego de rol de mundo abierto multijugador y basado en elecciones desarrollado por MiniToon, Piggy: Intercity desafía a los jugadores a gestionar el inventario, construir bases seguras, completar misiones complejas y tomar decisiones que definen la historia. El Fuerte actúa como un centro principal para los jugadores que buscan refugio, oportunidades de comercio y progresión de misiones, convirtiéndolo en un punto de interés crítico en el mapa de Evalia.
+
+<Section icon={Map} title="Distribución del Mapa de Evalia y Ubicación del Fuerte">
+
+Navegar por Evalia puede ser un desafío debido a la densa niebla de la infección y las constantes amenazas. El Fuerte destaca como un recinto defensivo principal situado entre el peligroso sector de la Escuela y el aserradero de alto rendimiento (Lumbermill). Comprender la posición geográfica del Fuerte te ayuda a planificar rutas de recursos eficientes y evitar zonas de cuello de botella donde los enemigos infectados suelen aparecer.
+
+| Nombre del Área | Nivel de Amenaza | Recursos Principales | PNJ Clave |
+|---|---|---|---|
+| Fuerte | Bajo | Materiales de construcción, Cristales | Comerciantes, Guardias |
+| Escuela | Medio | Medicina, Libros, Comida | Sobrevivientes hostiles |
+| Aserradero | Alto | Tablones de madera, Chatarra | Entrenadores de fabricación |
+| Tiendas | Medio | Suministros, Consumibles | PNJ Comerciantes |
+
+Las regiones circundantes ofrecen varios niveles de riesgo y recompensa. Viajar desde el Fuerte hasta el Aserradero proporciona recursos estructurales, pero el camino está poblado por tipos de infectados ágiles. Por el contrario, dirigirse hacia la Escuela te permite asegurar suministros médicos a costa de enfrentarte a facciones de sobrevivientes hostiles armadas.
+
+<Callout type="success" title="Ventaja de la Zona Segura">
+El Fuerte es una de las pocas zonas donde los jugadores pueden interactuar con los comerciantes y descansar sin la amenaza constante de la infección. Utiliza esta área para organizar tu inventario antes de expediciones largas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Zona Segura para el Fuerte de Piggy Intercity">
+
+Establecer una base de operaciones en el **fuerte de piggy intercity** requiere comprender el sistema de reclamación de parcelas. La construcción de bases no es meramente cosmética; proporciona almacenamiento seguro, puntos de reaparición y mejoras de fabricación que son esenciales para la supervivencia a alto nivel. Cuando entres al Fuerte por primera vez, busca parcelas vacías marcadas por líneas fronterizas brillantes para establecer tu presencia.
+
+<CardGrid cols={3}>
+  <Card title="Almacenamiento Seguro">
+    - Evita la pérdida de objetos al morir
+    - Permite almacenar recursos
+    - Ranuras de cofre expandibles
+  </Card>
+  <Card title="Estaciones de Fabricación">
+    - Desbloquea la construcción de herramientas avanzadas
+    - Repara equipo defensivo dañado
+    - Refina madera y metal en bruto
+  </Card>
+  <Card title="Bonificaciones de Descanso">
+    - Acelera la regeneración de salud
+    - Restaura las reservas máximas de energía
+    - Reduce la acumulación de la tasa de infección
+  </Card>
+</CardGrid>
+
+La gestión eficiente de recursos es crucial al comenzar tu base. La siguiente tabla enumera los elementos prioritarios que necesitas recolectar para mejorar la configuración de tu Fuerte:
+
+| Tipo de Recurso | Método de Obtención | Utilidad de Fabricación | Límite de Acumulación |
+|---|---|---|---|
+| Tablones de madera | Talar árboles, Cajas del aserradero | Paredes básicas, Cofres de almacenamiento | 20 |
+| Chatarra de metal | Buscar en ruinas, Cajas de herramientas | Estructuras avanzadas, Armas | 15 |
+| Cristales | Recompensas de la demo, Misiones de alto nivel | Comercio premium, Mejoras especiales | 99 |
+| Comida y Agua | Buscar en estantes de tiendas, Comerciantes | Estadísticas de supervivencia consumibles | 10 |
+
+<Callout type="warning" title="Alerta del Sistema de Deterioro">
+Las estructuras de base no aseguradas fuera de los límites del Fuerte se deterioran el doble de rápido. Prioriza siempre reclamar una parcela dentro de la zona segura designada del Fuerte para maximizar la durabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Progresión Paso a Paso">
+
+Para establecer una fortaleza exitosa en el Fuerte, los jugadores deben seguir una ruta de progresión estructurada. Esto minimiza el riesgo de perder objetos valiosos al principio del juego y asegura que maximices las bonificaciones obtenidas de la versión demo de Piggy: Intercity.
+
+<Steps>
+  <Step num="1" title="Asegura Primero las Recompensas de la Demo">
+    Antes de sumergirte de lleno en el juego completo, completa la demo de Piggy: Intercity. Los datos de guardado no se transfieren, pero completar la demo te otorga cristales gratuitos en el juego final, los cuales son cruciales para las primeras compras.
+  </Step>
+  <Step num="2" title="Navega hacia el Centro del Fuerte">
+    Aparece en la versión completa y dirígete directamente hacia las coordenadas del Fuerte. Evita el combate con enemigos infectados a lo largo de la autopista principal para conservar tu energía inicial.
+  </Step>
+  <Step num="3" title="Reclama una Parcela y Construye un Cofre">
+    Localiza una parcela vacía dentro de las puertas del Fuerte. Usa tus materiales iniciales para fabricar un cofre de madera básico. Guarda tus objetos sobrantes aquí inmediatamente para protegerlos de encuentros inesperados de JcJ (PvP) o Jce (PvE).
+  </Step>
+  <Step num="4" title="Establece Relaciones Comerciales">
+    Habla con los comerciantes residentes dentro del Fuerte. Usa tus cristales para comprar un arma cuerpo a cuerpo confiable y medicina básica antes de intentar cualquier misión de exploración cercana.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Eficiencia de Cristales">
+Ahorra tus cristales de la demo para mejoras de mochilas de alto nivel en lugar de gastarlos en alimentos básicos. La comida se puede recolectar fácilmente y gratis cerca de las tiendas del Fuerte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Misiones de PNJ y Decisiones de la Historia">
+
+El **fuerte de piggy intercity** sirve como el centro principal de misiones en el juego. A diferencia de los RPG lineales tradicionales, Piggy: Intercity cuenta con un sistema de historia basado en decisiones. La forma en que interactúes con los personajes en el Fuerte puede alterar tu reputación, desbloquear nuevos descuentos comerciales o dejarte fuera de líneas de misiones específicas por completo.
+
+| Facción / PNJ | Actitud Inicial | Objetivos de Misión | Impacto de las Decisiones |
+|---|---|---|---|
+| Seguridad del Fuerte | Neutral | Defender puertas exteriores, Eliminar amenazas | Desbloquear privilegios de comercio seguro |
+| Comerciantes del Páramo | Amigable | Suministrar cajas de comida, Traer objetos | Mejores precios o embargo comercial |
+| Sobrevivientes Perdidos | Cauteloso | Escapar de la escuela local, Encontrar medicina | Ajustes en la reputación de facciones |
+
+Presta mucha atención a las opciones de diálogo al hablar con los líderes de las facciones. Decidir acumular suministros en lugar de compartirlos con los guardias del Fuerte puede reportar ganancias a corto plazo, pero puede llevar a un aumento de precios en las tiendas locales y a restricciones para acceder a ciertas áreas seguras.
+
+<Callout type="tip" title="Consecuencias del Diálogo">
+Si decides atacar a PNJ neutrales fuera del Fuerte, los guardias se volverán hostiles hacia ti cuando regreses. Mantén tu arma enfundada dentro de las zonas seguras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate y Preparación Defensiva">
+
+Aventurarse fuera del Fuerte requiere preparación. El sistema de combate en Piggy: Intercity depende en gran medida de la gestión de la energía, el tiempo de bloqueo y apuntar a la cabeza al usar armas a distancia. Las armas cuerpo a cuerpo no requieren munición pero te exponen al riesgo de recibir daño directo y aumentar tu indicador de infección.
+
+| Nombre del Arma | Clase de Arma | Rango Estimado | Velocidad de Ataque | Efectividad de Bloqueo |
+|---|---|---|---|---|
+| Llave de tubo | Cuerpo a cuerpo | Corto | Moderada | Alta |
+| Ballesta | A distancia | Largo | Lenta | Baja |
+| Cuchillo de combate | Cuerpo a cuerpo | Corto | Muy rápida | Media |
+| Pistola | A distancia | Medio | Rápida | Baja |
+
+Antes de dejar la protección de las murallas del Fuerte, asegúrate de haber marcado todos los preparativos esenciales para sobrevivir en las peligrosas rutas de infección.
+
+<Checklist
+  id="fort-defensive-checklist"
+  title="Lista de Verificación para la Expedición del Fuerte:"
+  items={[
+    "Guarda todos los materiales de construcción sobrantes en el cofre de tu base",
+    "Equipa al menos un arma cuerpo a cuerpo de alta durabilidad",
+    "Lleva dos botellas de agua limpia y dos alimentos enlatados",
+    "Verifica que tu nivel de infección esté por debajo del veinte por ciento",
+    "Equipa equipo defensivo para mitigar el daño por arañazos a corta distancia"
+  ]}
+/>
+
+<Callout type="warning" title="Escasez de Munición">
+La munición a distancia no se puede fabricar fácilmente. Reserva tus disparos de pistola para encuentros con jefes y usa armas cuerpo a cuerpo para eliminar a los infectados comunes que deambulan.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tu tiempo en el Fuerte, aquí tienes las respuestas a las preguntas más comunes que hacen los jugadores al explorar el juego.
+
+<Callout type="tip" title="Optimización de Atributos">
+Al subir de nivel tus atributos, prioriza la Energía y la Fuerza. Una energía alta te permite escapar de malos encuentros, mientras que la fuerza aumenta tus límites de peso de inventario.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Se transfiere mi progreso de la demo del fuerte de piggy intercity?",
+    answer: "No, los datos de guardado de la demo no se transfieren a la versión completa. Sin embargo, completar la demo te recompensa con cristales gratuitos que puedes canjear en el juego final."
+  },
+  {
+    question: "¿Pueden otros jugadores robar recursos de mi base dentro del Fuerte?",
+    answer: "Los objetos almacenados dentro de los cofres reclamados en tu parcela están seguros. Sin embargo, cualquier recurso que dejes en estaciones de fabricación abiertas puede ser accedido por otros jugadores, así que retíralos después de usarlos."
+  },
+  {
+    question: "¿Qué pasa si mi personaje muere durante una expedición?",
+    answer: "Perderás los objetos de tus ranuras de inventario a menos que estén asegurados en tu base. Reaparecerás de vuelta en tu parcela reclamada dentro de la zona segura del Fuerte."
+  },
+  {
+    question: "¿Cómo mejoro el daño de mi arma?",
+    answer: "Puedes mejorar los atributos de tus armas en el banco de trabajo dentro del Fuerte usando chatarra de metal y conjuntos de herramientas específicos recolectados en el Aserradero."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "História de Piggy Intercity: Escolhas de Missões e Guia de Lore",
+  description: "Descubra como a história de Piggy Intercity se desenrola em Evalia. Saiba mais sobre caminhos de missões, escolhas de personagens, efeitos de reputação e recompensas de cristais da demo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Piggy+Intercity+Story+Guide",
+  date: "2026-06-19",
+  author: "Equipe da Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Premissa da História**: Os jogadores navegam por Evalia, uma cidade pós-apocalíptica devastada por uma infecção misteriosa.
+- **Impacto das Escolhas**: A progressão da narrativa depende de seleções de diálogo que alteram os relacionamentos dos personagens.
+- **Transição da Demo**: O progresso da demo não é transferido, mas concluí-la concede cristais gratuitos na versão completa.
+- **Foco na Sobrevivência**: Equilibrar a fome e a sede é obrigatório ao concluir as missões da história.
+</Callout>
+
+<Section icon={Map} title="Decifrando a História de Piggy Intercity em Evalia">
+
+Desvendar a **história de Piggy Intercity** exige que os jogadores explorem as ruas em ruínas de Evalia, um ambiente urbano desolado dizimado por uma infecção rápida. Ao contrário dos cenários tradicionais de escape room encontrados nos capítulos anteriores de Piggy, esta versão funciona como um RPG de sobrevivência em mundo aberto e baseado em escolhas. Como sobrevivente, você deve navegar pelos escombros, localizar vestígios da civilização e montar as peças dos eventos que levaram ao colapso da cidade. A narrativa não entrega as respostas de bandeja; você deve interagir ativamente com sobreviventes, coletar cartas e tomar decisões que moldarão seu caminho pessoal pelas ruínas.
+
+Entender a diferença na entrega da história entre as versões do jogo ajuda a definir as expectativas corretas. O desenvolvedor, MiniToon, projetou os elementos sandbox para complementar os blocos narrativos.
+
+| Versão | Profundidade Narrativa | Progressão | Objetivo Principal |
+|---------|-----------------|-------------|-----------|
+| Versão Completa | Missões expansivas, facções e construção de base de forma persistente. | Salvamento permanente e nivelamento de atributos a longo prazo. | Desvendar os mistérios de Evalia e construir uma base de facção segura. |
+| Versão Demo | Prólogo introdutório curto com encontros limitados com NPCs. | Sem transferência de progresso; cenário independente. | Concluir os objetivos da demo para desbloquear cristais na versão completa. |
+
+<Callout type="warning" title="Aviso de Infecção">
+As taxas de infecção aumentam em zonas de perigo específicas em Evalia. Garanta equipamentos de defesa básicos antes de seguir pistas da história em territórios hostis, pois a morte fará com que você perca os itens coletados.
+</Callout>
+
+Para vivenciar a narrativa completa, os jogadores devem acessar a experiência ao vivo na [página oficial de jogo no Roblox](https://www.roblox.com/games/86852362398411/Piggy-Intercity). Mover-se por Evalia revela notas ocultas de lore, pistas de narrativa ambiental e pistas sobre a origem do surto.
+
+</Section>
+
+<Section icon={Sparkles} title="Escolhas Interativas e Reputação de Facção">
+
+A espinha dorsal da narrativa é seu sistema de escolhas interativas. Cada conversa que você tem com NPCs traz consequências potenciais que ditam como as facções reagem à sua presença. Uma única opção de diálogo pode alternar um grupo de neutro para hostil, bloqueando completamente você de suas missões exclusivas enquanto abre rotas de sobrevivência alternativas. Esse peso moral força os jogadores a ponderar ganhos de curto prazo, como roubar suprimentos, contra alianças de facções de longo prazo. Explorar esses caminhos ramificados é fundamental para entender a lore geral e encontrar documentos secretos espalhados por Evalia.
+
+<CardGrid cols={3}>
+  <Card title="Afiliação de Facção">
+    Decide quais NPCs confiam em você e bloqueia/desbloqueia histórias secundárias específicas. O alinhamento molda os capítulos finais da narrativa.
+  </Card>
+  <Card title="Estados de Hostilidade">
+    Atacar NPCs neutros altera permanentemente a atitude deles em relação ao seu personagem, transformando zonas seguras em setores de combate perigosos.
+  </Card>
+  <Card title="Alocação de Recursos">
+    Decide se deve acumular suprimentos ou compartilhá-los com sobreviventes famintos. A generosidade gera reputação, enquanto o acúmulo garante a sobrevivência pessoal.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Preservação de Reputação">
+Leia todos os diálogos por completo. Apressar-se nas conversas pode desencadear escolhas agressivas acidentais, bloqueando permanentemente missões úteis de NPCs.
+</Callout>
+
+Suas escolhas também afetam quais melhorias de base ficam disponíveis. Certas facções oferecem receitas de fabricação avançadas ou mercadores especializados se sua reputação for alta o suficiente. Equilibrar as prioridades de sobrevivência com os relacionamentos dos personagens forma o núcleo estratégico do RPG.
+
+</Section>
+
+<Section icon={Target} title="Marcos Narrativos e Guia de Progressão">
+
+Navegar pelas ruas destruídas de Evalia pode parecer avassalador para novos jogadores. Para se manter no caminho certo e evitar que seu personagem morra de fome ou infecção enquanto investiga a trama, você deve estabelecer um ciclo confiável. Ao seguir uma abordagem estruturada, você pode descobrir sistematicamente centros de missões, coletar recursos essenciais e garantir marcos de progressão baseados em diálogos. Use as etapas abaixo para organizar sua jornada pelas fases iniciais da trama.
+
+<Steps>
+  <Step num="1" title="Localizar NPCs-Chave">
+    Encontre os dadores de missões iniciais em setores seguros. Eles fornecem o contexto inicial do surto e entregam as tarefas introdutórias.
+  </Step>
+  <Step num="2" title="Buscar Itens de Missão">
+    Colete cartões de acesso, ferramentas ou suprimentos. Mantenha-os seguros em seu inventário, pois são necessários para abrir caminhos bloqueados da história.
+  </Step>
+  <Step num="3" title="Resolver Escolhas Morais">
+    Decida o destino dos personagens. Pondere a recompensa de ajudá-los contra o custo de recursos para fazer isso.
+  </Step>
+  <Step num="4" title="Estabelecer uma Base Segura">
+    Reivindique um lote para garantir um local de renascimento (respawn) e armazenamento. Uma base segura permite acumular recursos para missões difíceis de fim de jogo.
+  </Step>
+</Steps>
+
+| Fase da Missão | Objetivos Principais | Itens Críticos Necessários | Recompensa / Resultado |
+|-------------|------------------|-----------------------|------------------|
+| Prólogo | Localizar o primeiro sobrevivente, eliminar ameaças infectadas | Pistola, suprimentos básicos de comida | Desbloqueia o mapa-múndi de Evalia |
+| Capítulo 1 | Proteger o posto avançado local, negociar com NPCs hostis | Cartão de acesso, materiais de fabricação | Abre o sistema de construção de base |
+| Líder de Facção | Concluir solicitações especializadas de NPCs, tomar a escolha moral final | Armamento de alto nível, armadura defensiva | Decide o alinhamento da facção |
+
+<Callout type="info" title="Dica de Progressão">
+Mantenha itens críticos de missão em espaços separados do inventário. Perder itens da história devido à superlotação do inventário pode atrasar a conclusão da sua missão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Restrições da Demo e Recompensas de Cristais Gratuitos">
+
+Antes de mergulhar de cabeça no lançamento completo, os jogadores costumam testar suas habilidades de sobrevivência na demo independente. No entanto, entender os limites entre essas duas versões é crucial para a sua progressão. A [página oficial da demo](https://www.roblox.com/games/94110244708490/Piggy-Intercity) afirma que os dados salvos não serão transferidos para a versão completa do jogo. Isso significa que quaisquer bases construídas, atributos nivelados ou armas coletadas na demo são temporários. Apesar dessa limitação, concluir a demo continua sendo altamente benéfico porque recompensa os jogadores com cristais gratuitos na versão completa, dando ao seu personagem permanente uma boa vantagem inicial.
+
+<Checklist
+  id="demo-milestones"
+  title="Requisitos para Conclusão da Demo:"
+  items={[
+    "Localizar o abrigo central na zona da demo",
+    "Ajudar o guarda ferido do posto avançado com suprimentos médicos",
+    "Eliminar as ondas de rastejadores que atacam a barreira",
+    "Proteger o veículo de fuga final para ativar a marcação de recompensa"
+  ]}
+/>
+
+| Moeda / Recompensa | Local de Origem | Utilidade na Versão Completa | Regra de Transferência |
+|-------------------|-----------------|----------------------|-----------------|
+| Cristais Gratuitos | Conclusão da Demo | Usado para desbloqueios cosméticos e equipamentos de início de jogo | Transferido automaticamente para contas vinculadas do Roblox |
+| Atributos de Nível | Jogo Principal | Melhora a estamina física, vida e estatísticas de combate | Não é transferido da versão demo |
+| Materiais de Base | Coleta de Recursos | Necessário para construir paredes, mesas de fabricação | Reinicia completamente ao transitar para o jogo completo |
+
+<Callout type="warning" title="Aviso de Reset de Dados">
+Não gaste horas construindo bases extensas ou subindo o nível de personagens na demo. Esses sistemas são destinados a testes, e o progresso será apagado ao sair.
+</Callout>
+
+Depois de garantir sua recompensa de cristais na demo, mude permanentemente para a versão completa para iniciar a progressão contínua da sua história.
+
+</Section>
+
+<Section icon={Swords} title="Gerenciamento de Itens e Lista de Níveis (Tier List) para Sobrevivência">
+
+Sobreviver tempo suficiente para descobrir os segredos narrativos de Evalia exige um gerenciamento rígido do inventário. Armas, suprimentos de cura e itens de missão disputam espaços limitados em sua mochila. Priorizar quais itens manter e quais descartar pode fazer a diferença entre retornar com sucesso à sua base ou morrer em uma zona perigosa. Entender o valor de cada classe de item ajuda a otimizar suas incursões e garante que você sempre tenha espaço para gatilhos essenciais de missões.
+
+| Classe do Item | Tier | Exemplos Principais | Função Principal na Narrativa e Gameplay |
+|------------|------|--------------|-----------------------------------|
+| Crítico para Missão | S | Cartões de segurança, cartas da história | Avança diretamente as missões principais e abre regiões bloqueadas |
+| Essenciais para Sobrevivência | S | Água engarrafada, comida embalada | Evita a fome do personagem e penalidades (debuffs) durante a exploração |
+| Equipamento Defensivo | A | Armadura de sucata, coletes reforçados | Reduz o dano físico de inimigos infectados em zonas de história |
+| Armas de Combate | A | Pistolas, bastões, caixas de munição | Essencial para limpar bloqueios de estrada hostis e inimigos chefes |
+| Ferramentas de Utilidade | B | Chave inglesa, componentes de fabricação | Permite reparos em elementos da base e arrombamento de contêineres |
+
+<Callout type="success" title="Gerenciamento de Inventário">
+Agrupe itens comuns como comida e água para economizar espaço. Dedique pelo menos três espaços do inventário exclusivamente para itens de missão relacionados à história.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes (FAQ) e Canais da Comunidade">
+
+Para se manter informado sobre os próximos capítulos, expansões de construção de base e atualizações da narrativa, os jogadores devem monitorar os canais oficiais. Participar da [comunidade oficial de Piggy Intercity no Roblox](https://www.roblox.com/communities/12874996/Piggy-Intercity) é uma excelente maneira de se conectar com outros jogadores e acompanhar o progresso do desenvolvimento. Para dúvidas imediatas sobre as regras do jogo, bloqueios de progressão ou escolhas, consulte o FAQ compilado abaixo.
+
+<Callout type="info" title="Rastreador de Atualizações">
+Novos capítulos da história e elementos de base expandidos são introduzidos regularmente por meio das atualizações oficiais da comunidade de Piggy. Verifique o Discord oficial para anúncios.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como a história de Piggy Intercity muda com base nas escolhas de diálogo?",
+    answer: "As escolhas de diálogo alteram sua reputação com facções locais e NPCs específicos. Certas respostas podem tornar personagens neutros em hostis, bloqueando missões específicas enquanto abrem caminhos narrativos alternativos."
+  },
+  {
+    question: "Minhas decisões da história são transferidas da demo para a versão completa?",
+    answer: "Não, o progresso da história, atributos de nível e estruturas de base não são transferidos da demo. No entanto, concluir a demo concede a você cristais gratuitos como recompensa de bônus na versão completa."
+  },
+  {
+    question: "Posso desbloquear finais diferentes na versão completa de Piggy Intercity?",
+    answer: "Sim, a versão completa apresenta mecânicas baseadas em escolhas. Seus relacionamentos com personagens importantes e seu alinhamento com diferentes facções determinam a direção da narrativa."
+  }
+]} />
+
+</Section>
