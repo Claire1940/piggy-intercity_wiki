@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, UserCheck, Compass } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Zizzy: Guía de Misiones y Consecuencias de Decisiones",
+  description: "Navega por Evalia, completa misiones de supervivencia y domina las elecciones de facciones de PNJ con Zizzy en el RPG de mundo abierto de Roblox, Piggy Intercity.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Piggy+Intercity+Zizzy+Guide",
+  date: "2026-06-19",
+  author: "Equipo de la Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Encuentra a Zizzy en Evalia** para desbloquear misiones clave de facción y rutas de progresión.
+- **Navega por rutas de viaje peligrosas** para localizar el campamento principal de la Zona Segura.
+- **Toma decisiones narrativas cuidadosas** que alterarán permanentemente tu reputación como superviviente.
+- **Completa la demo de antemano** para asegurar cristales de bonificación para el lanzamiento completo.
+</Callout>
+
+<Section icon={UserCheck} title="El Rol de Zizzy en Piggy Intercity">
+
+En el RPG de supervivencia de mundo abierto *Piggy: Intercity*, los jugadores navegan por la ciudad en ruinas de Evalia, donde encontrarse con PNJ clave como la icónica **piggy intercity zizzy** determina tu alineación de facción y la progresión de tus misiones. A diferencia de los capítulos lineales tradicionales de la serie original de Piggy, Intercity introduce rutas de historia dinámicas, reputaciones de facción y una compleja construcción de bases. Zizzy sirve como un pilar central de la red de supervivientes, ofreciendo entrenamiento de defensa, suministros críticos y guiando a los jugadores a través del hostil entorno infectado.
+
+Comprender los antecedentes y la alineación de Zizzy ayuda a los jugadores a optimizar su ruta de progresión. Como maestra esgrimista y superviviente experimentada, ofrece tutoriales de combate únicos y abre el acceso a equipamiento especializado. Interactuar con ella requiere equilibrar estadísticas de supervivencia como el hambre y la sed mientras se contienen las amenazas de infectados en las ruinas circundantes.
+
+<Table>
+| Atributo | Detalles | Impacto |
+| :--- | :--- | :--- |
+| Rol de Zizzy | Líder de Facción | Desbloquea misiones de combate avanzado |
+| Afiliación | Coalición de Supervivientes | Establece los parámetros de reputación de facción |
+| Ubicación Principal | Campamento de la Zona Segura | Sirve como centro principal para el juego temprano |
+| Equipamiento Clave | Florete de Esgrima | Influye en el entrenamiento de combate cuerpo a cuerpo |
+| Estilo de Diálogo | Basado en Decisiones | Las elecciones afectan la reputación permanente |
+</Table>
+
+<Callout type="info" title="Aviso sobre Reputación de Facción">
+Construir relaciones positivas con los líderes supervivientes desbloquea mercaderes especializados, áreas de descanso seguras y recetas únicas de fabricación de planos.
+</Callout>
+
+</Section>
+
+<Section icon={Compass} title="Cómo Encontrar a Zizzy en el Mapa de Evalia">
+
+Localizar PNJ clave en el vasto e infectado mundo abierto de Evalia requiere una planificación cuidadosa. El mapa está dividido en zonas distintas, que van desde refugios civiles de baja amenaza hasta distritos industriales de alto riesgo repletos de hostiles infectados. Para llegar de forma segura a Zizzy en el Campamento de la Zona Segura, los jugadores deben planificar sus rutas, gestionar la resistencia y llevar armamento defensivo.
+
+Evitar áreas de alta amenaza como las Calles del Centro durante los ciclos nocturnos es fundamental. La infección se propaga rápidamente y la visibilidad disminuye, lo que hace del sigilo una prioridad. Utilizar puntos de referencia como la Antigua Escuela o el Aserradero puede ayudarte a orientar tu navegación sin depender de archivos de mapas de terceros.
+
+<CardGrid cols={3}>
+  <Card title="Entrada de la Zona Segura">
+    - **Nivel de Amenaza**: Muy bajo
+    - Estructura de puesto de control vigilada
+    - Centros de comercio y áreas de descanso
+  </Card>
+  <Card title="Ruta del Aserradero">
+    - **Nivel de Amenaza**: Medio
+    - Abundantes materiales de madera
+    - Patrullas moderadas de infectados
+  </Card>
+  <Card title="Calles del Centro">
+    - **Nivel de Amenaza**: Alto
+    - Botín militar de alto nivel
+    - Gran concentración de infectados
+  </Card>
+</CardGrid>
+
+<Table>
+| Punto de Referencia | Calificación de Peligro | Botín Clave | Utilidad |
+| :--- | :--- | :--- | :--- |
+| Campamento de la Zona Segura | Bajo | Agua purificada, Pan | Recogida de misiones, comercio |
+| Antigua Escuela | Medio | Chatarra, Vendajes | Componentes de fabricación para el juego medio |
+| Aserradero | Medio | Tablones de madera, Clavos | Recursos para la construcción de bases |
+| Centro de la Ciudad | Alto | Munición, Suministros médicos | Obtención de objetos de alto nivel |
+</Table>
+
+<Callout type="warning" title="Peligro de Infección">
+Vigila siempre tu medidor de infección. Entrar en zonas de alta amenaza sin el equipo defensivo o las medicinas adecuadas agotará rápidamente tus estadísticas de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de las Misiones de Zizzy en Piggy Intercity">
+
+Emprender misiones para los líderes de las facciones de supervivientes requiere una combinación de recolección de recursos, combate táctico y toma de decisiones. La línea de misiones que comienza en el Campamento de la Zona Segura introduce a los jugadores en el ciclo central de supervivencia: buscar objetos, reforzar defensas y tomar decisiones morales que tienen consecuencias a largo plazo en las relaciones con las facciones.
+
+Completar estas tareas recompensa a los jugadores con experiencia, puntos de atributo de personaje y materiales de fabricación necesarios para establecer una base personal. Los pasos a continuación detallan la ruta de progresión óptima para completar la línea de misiones introductoria.
+
+<Steps>
+  <Step num="1" title="Localiza a Zizzy en el Campamento de la Zona Segura">
+    Entra en el campamento vallado en el sector occidental de Evalia. Habla con Zizzy para iniciar la secuencia de diálogo y aceptar la misión introductoria.
+  </Step>
+  <Step num="2" title="Reúne Suministros de Supervivencia">
+    Viaja a las afueras cercanas para encontrar comida, agua y artículos médicos. Devuélvelos al almacén del campamento para asegurar el perímetro.
+  </Step>
+  <Step num="3" title="Despeja el Perímetro de la Zona Segura">
+    Derrota a tres hostiles infectados que patrullan el límite del campamento. Utiliza el bloqueo cuerpo a cuerpo y los ataques rápidos para conservar la resistencia.
+  </Step>
+  <Step num="4" title="Toma la Decisión Final de Alianza">
+    Elige si alinearte completamente con la Coalición de Supervivientes, permanecer neutral o explorar caminos de supervivencia independientes.
+  </Step>
+</Steps>
+
+<Table>
+| Indicación de Diálogo | Resultado Opción A | Resultado Opción B | Impacto |
+| :--- | :--- | :--- | :--- |
+| Prueba de Confianza | Compartir suministros (Rep +10) | Acumular recursos (Rep -10) | Cambio en la reputación de facción |
+| Alineación con la Coalición | Unirse a supervivientes (Desbloqueo de Florete) | Mantenerse independiente (Descuento en tienda) | Accesibilidad al equipamiento |
+| Estrategia de Defensa | Fortificar muros (Más misiones) | Retirarse al interior (Objetos inmediatos) | Siguiente objetivo de misión |
+</Table>
+
+<Callout type="success" title="Consejo para Completar Misiones">
+Terminar la línea de misiones introductoria otorga acceso inmediato al sistema de Reclamación de Base, lo que te permite establecer un puesto avanzado seguro como hogar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipo de Supervivencia y Armas para Misiones de Facción">
+
+El combate en *Piggy: Intercity* requiere precisión. Depender únicamente de las armas de fuego es arriesgado debido a la escasez de munición y al ruido, que atrae a las hordas de infectados cercanas. Domina las técnicas de combate cuerpo a cuerpo, como el bloqueo temporizado, la gestión de la resistencia y el ataque a los puntos débiles, para conservar recursos valiosos durante las expediciones largas.
+
+El entrenamiento de Zizzy enfatiza el uso de armas cuerpo a cuerpo rápidas y de alta movilidad como el Florete de Esgrima. Comparar las clases de armas ayuda a los jugadores a elegir el mejor equipamiento para su nivel de progresión actual y los materiales de chatarra disponibles.
+
+<Checklist
+  id="survival-readiness"
+  title="Lista de Verificación de Preparación para la Misión:"
+  items={[
+    "Llena al máximo las barras de hambre y sed",
+    "Equipa un arma cuerpo a cuerpo de alta durabilidad",
+    "Lleva al menos tres vendajes médicos",
+    "Reclama una parcela de base cercana para asegurar la reaparición",
+    "Libera espacio en el inventario para el botín de la misión entrante"
+  ]}
+/>
+
+<Table>
+| Arma | Categoría | Velocidad de Ataque | Coste de Recursos | Efecto Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| Florete de Esgrima | Cuerpo a cuerpo | Rápida | Recompensa de Facción | Aturde a los infectados con un tiro a la cabeza |
+| Bate de Madera | Cuerpo a cuerpo | Media | 10 Tablones de madera | Alta capacidad de empuje |
+| Hoja de Chatarra | Cuerpo a cuerpo | Lenta | 15 Chatarra | Daño por sangrado a lo largo del tiempo |
+| Pistola de Caza | A distancia | Muy rápida | 50 Cristales | Alto daño, alto nivel de ruido |
+</Table>
+
+<Callout type="tip" title="Táctica de Combate">
+Bloquea justo antes de que un enemigo infectado ataque para desviar su golpe, dejándolo vulnerable a un contraataque sin agotar tu resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Bases y Progresión Cerca de Centros de Facción">
+
+Reclamar una parcela personal cerca de las bases principales de las facciones, como el Campamento de la Zona Segura, proporciona a los jugadores una ventaja táctica. Una base bien ubicada permite una gestión rápida del inventario, reapariciones seguras y acceso inmediato a quienes otorgan las misiones. Reunir materiales de construcción como tablones de madera y chatarra es esencial para mejorar tu refugio.
+
+El sistema de progresión también conecta la experiencia de la demo con el lanzamiento completo. Aunque los datos de guardado no se transfieren entre versiones, completar los hitos de la demo otorga valiosos cristales que se pueden gastar en equipamiento de alto nivel y mejoras de la base en el juego completo.
+
+<Table>
+| Estructura de la Base | Materiales Necesarios | Tiempo de Construcción | Beneficio Funcional |
+| :--- | :--- | :--- | :--- |
+| Refugio Básico | 15 Madera, 5 Clavos | 2 Minutos | Restaura resistencia y salud |
+| Mesa de Fabricación | 10 Tablones, 5 Chatarra | Inmediato | Desbloquea recetas de equipo de Nivel 2 |
+| Caja de Almacenamiento | 8 Tablones de madera | Inmediato | Añade 12 ranuras de inventario adicionales |
+| Valla de Espino | 12 Chatarra, 4 Cables | 3 Minutos | Daña y ralentiza a los infectados |
+</Table>
+
+<Callout type="info" title="Política de Datos de Guardado">
+Los datos de guardado de la versión demo no se transfieren al juego final. Completa la demo para obtener las recompensas de cristales y luego pasa a la página del lanzamiento principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Logros de Misión de Zizzy y Preguntas Frecuentes">
+
+Aumentar tu reputación con Zizzy y la Coalición de Supervivientes desbloquea logros únicos e inventarios de tiendas exclusivos. Un progreso constante asegura que tu personaje esté bien equipado para enfrentarse a las zonas de alta amenaza en lo profundo de las ruinas infectadas de Evalia.
+
+Mantén tu inventario organizado, vigila tus medidores de supervivencia y elige con cuidado tus opciones de diálogo para maximizar tu eficiencia en este RPG de mundo abierto.
+
+<Callout type="success" title="Logro Desbloqueado">
+Alcanzar la reputación máxima con la facción de supervivientes otorga el título de 'Defensor de la Coalición' y desbloquea los planos avanzados de la mesa de fabricación.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo misiones con piggy intercity zizzy?",
+    answer: "Localiza a Zizzy en el Campamento de la Zona Segura en el sector occidental de Evalia y completa la indicación de diálogo introductoria para desbloquear la línea de misiones."
+  },
+  {
+    question: "¿Se transfiere mi progreso de misión de la demo al juego completo?",
+    answer: "No, el progreso de las misiones y los datos de guardado no se transfieren. Sin embargo, completar la demo te recompensa con cristales gratuitos en la versión completa."
+  },
+  {
+    question: "¿Cuál es la mejor arma para las pruebas de combate de Zizzy?",
+    answer: "Se recomienda encarecidamente el Florete de Esgrima debido a su alta velocidad de ataque y su capacidad para aturdir a los enemigos infectados durante los desvíos."
+  },
+  {
+    question: "¿Puedo cambiar mis decisiones después de alinearme con una facción?",
+    answer: "Las decisiones importantes de alineación con una facción son permanentes para esa partida. Elige tus opciones con cuidado para evitar perder reputación."
+  }
+]} />
+
+</Section>

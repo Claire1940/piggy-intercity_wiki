@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Autos: Fahrzeug-Standorte & Reparaturanleitung",
+  description: "Finde heraus, wie du Piggy Intercity Autos findest, reparierst und fährst. Erfahre mehr über Fahrzeug-Spawnpunkte, Kraftstoffmechaniken und Überlebensstrategien in Evalia.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e1b1e/fff?text=Piggy+Intercity+Cars",
+  date: "2026-06-21",
+  author: "Piggy Intercity Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Piggy Intercity Autos**: Essenzielle Fahrzeuge, die eine schnelle Fortbewegung in der infizierten offenen Welt von Evalia ermöglichen.
+- **Schlüsselmechanik**: Fahrzeuge erfordern aktive Wartung, einschließlich der Suche nach Kraftstoff, Batterien und Motorteilen, um betriebsbereit zu bleiben.
+- **Beste Strategie**: Parke dein Fahrzeug immer in Sicherheitszonen oder in der Nähe deines beanspruchten Basis-Grundstücks, um zu verhindern, dass infizierte Horden dich einkesseln.
+- **Wichtiger Tipp**: Das Abschließen der Demo belohnt dich mit kostenlosen Kristallen in der Vollversion, mit denen du Starter-Werkzeuge und Überlebensausrüstung kaufen kannst.
+- **Beste Wahl**: Priorisiere Fahrzeuge mit hoher Haltbarkeit für Langstrecken-Quests und den Transport von Ressourcen.
+</Callout>
+
+<Section icon={Map} title="Piggy Intercity Autos: Fahrzeug-Standorte in Evalia">
+
+Sich zu Fuß durch die riesige, infizierte offene Welt von Evalia zu bewegen, ist ein gefährliches Unterfangen. Die Infizierten durchstreifen die Straßen, Ressourcen sind verstreut und deine Überlebenswerte wie Hunger und Durst sinken beim Laufen ständig. Die Sicherung eines der begehrten **Piggy Intercity Autos** verändert die Überlebensdynamik grundlegend und gibt dir die Geschwindigkeit und den Schutz, die du brauchst, um Bedrohungen zu entkommen und lebenswichtige Vorräte zu transportieren.
+
+Fahrzeuge spawnen nicht zufällig an jeder Ecke der Karte. Stattdessen sind sie an bestimmte Schlüsselorte und Aktivitätszentren in ganz Evalia gebunden. Zu wissen, wo man suchen muss, spart wertvolles Tageslicht und verhindert, dass man ziellos in Zonen mit hoher Bedrohung umherwandert.
+
+| Standort | Gefahrenstufe | Spawn-Rate | Nahegelegener POI |
+| :--- | :--- | :--- | :--- |
+| **Fort-Außenbezirke** | Niedrig | Hoch | Sicherheitszone Fort, Starter-Quests |
+| **Sägewerk** | Mittel | Mittel | Ressourcen für den Basisbau, Holzgeschäfte |
+| **Schulparkplatz** | Hoch | Mittel | Hochwertiger Loot, Infizierte Horden |
+| **Verlassener Highway** | Hoch | Niedrig | Seltene Waffen, Tankstellen |
+
+Während die Fort-Außenbezirke den sichersten Ausgangspunkt für die Suche nach einem Fahrzeug bieten, sind die Spawn-Raten in Multiplayer-Sitzungen unter den Spielern stark umkämpft. Wenn du nach einem zuverlässigen Truck oder SUV suchst, bringt der Weg zum Sägewerk oder zum Schulparkplatz bessere Ergebnisse, obwohl du dich vor dem Betreten dieser Gebiete auf Kämpfe vorbereiten musst.
+
+<Callout type="warning" title="Gefahrenzonen">
+Fahrzeuge, die in Zonen mit hoher Gefahr wie dem Schulparkplatz geparkt sind, sind oft von schlafenden oder umherwandernden Infizierten umgeben. Ein Fahrzeug überstürzt zu starten, ohne die unmittelbare Umgebung zu säubern, kann dazu führen, dass man in einem umzingelten Auto gefangen ist.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Wie man Fahrzeuge repariert und fährt">
+
+Ein Auto zu finden, ist erst der erste Schritt. In der postapokalyptischen Einöde von Evalia ist fast jedes Fahrzeug, auf das du stößt, fahruntüchtig, es fehlen wichtige Motorkomponenten oder es ist komplett ohne Kraftstoff. Um diese Fahrzeuge betriebsbereit zu machen, musst du die umliegenden Gebiete nach bestimmten Reparaturwerkzeugen und mechanischen Teilen absuchen.
+
+Das Verständnis der Funktion jedes Fahrzeugteils verhindert, dass du unnötiges Gewicht in deinem Inventar mit dir herumträgst. Konzentriere dich darauf, nur das zu sammeln, was für dein unmittelbares Fahrzeugziel erforderlich ist.
+
+| Benötigter Gegenstand | Hauptfunktion | Häufige Fundorte |
+| :--- | :--- | :--- |
+| **Autobatterie** | Versorgt die Elektrik und Zündung mit Strom | Garagen, Tankstellen, Werkzeugkästen |
+| **Motorteile** | Stellt den Zustand und die Leistung des Motors wieder her | Industriegebiete, Sägewerk, Motorhauben |
+| **Benzinkanister** | Liefert Kraftstoff, um das Fahrzeug am Laufen zu halten | Tankstellen, Schuppen, Highway-Wracks |
+| **Metallschrott** | Repariert physische Schäden an der Karosserie | Baustellen, Metallhaufen |
+| **Schraubenschlüssel** | Essenzielles Werkzeug zum Einbauen von Teilen | Werkzeugkästen, Werkbänke, Regale |
+
+Sobald du die notwendigen Vorräte gesammelt hast, musst du die Reparaturen systematisch durchführen. Ein überstürztes Vorgehen oder Reparaturversuche während eines Angriffs unterbrechen deinen Fortschritt und verschwenden wertvolle Zeit.
+
+<Steps>
+  <Step num="1" title="Sichere die Umgebung">
+    Säubere die Umgebung von infizierten Feinden, bevor du mit dem Fahrzeug interagierst. Der Lärm der Reparaturen kann umherwandernde Bedrohungen aus den angrenzenden Straßen anlocken.
+  </Step>
+  <Step num="2" title="Rüste deinen Schraubenschlüssel aus">
+    Stelle sicher, dass der Schraubenschlüssel in deinem aktiven Hotbar-Slot ausgerüstet ist. Ohne einen Schraubenschlüssel kannst du nicht mit dem Motorraum interagieren, um geborgene Komponenten einzubauen.
+  </Step>
+  <Step num="3" title="Batterie und Motorteile einbauen">
+    Tritt an die Motorhaube des Autos heran, öffne das Interaktionsmenü und platziere die Autobatterie und die Motorteile in die jeweiligen Slots.
+  </Step>
+  <Step num="4" title="Kraftstoff in den Tank füllen">
+    Gehe zum Tankdeckel am Heck des Fahrzeugs und benutze deinen Benzinkanister, um den Tank zu füllen. Behalte deine Tankanzeige im Auge, da das Fahren mit der Zeit Kraftstoff verbraucht.
+  </Step>
+  <Step num="5" title="Den Motor starten">
+    Setze dich auf den Fahrersitz und starte das Fahrzeug. Lass deine Scheinwerfer nachts ausgeschaltet, es sei denn, es ist absolut notwendig, da Licht nahegelegene Infizierte anzieht.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Wartungstipp">
+Trage immer einen Ersatz-Benzinkanister und mindestens eine Einheit Motorteile im Kofferraum deines Fahrzeugs bei dir. Wenn dir mitten in einer Zone mit hoher Bedrohung der Kraftstoff ausgeht, ist das eine der häufigsten Arten, wie Spieler ihren Fortschritt verlieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Die besten Fahrzeuge für Überleben & Basisbau">
+
+Nicht all Fahrzeuge in Piggy: Intercity erfüllen denselben Zweck. Einige sind auf reine Geschwindigkeit ausgelegt, sodass du schnell neue Orte auskundschaften kannst, während andere über enorme Ladekapazitäten verfügen, um Materialien für den Basisbau zu deinem beanspruchten Grundstück zu transportieren. Die Wahl des richtigen Fahrzeugs hängt ganz von deinen unmittelbaren Überlebenszielen ab.
+
+Die folgenden Daten beschreiben die Leistungswerte der wichtigsten Fahrzeugklassen im Spiel und helfen dir bei der Entscheidung, welches Auto du bei deiner Erkundung priorisieren solltest.
+
+| Fahrzeugtyp | Geschwindigkeitsbewertung | Laderaum-Slots | Kraftstoffeffizienz | Haltbarkeit |
+| :--- | :--- | :--- | :--- | :--- |
+| **Limousine** | Hervorragend | 4 Slots | Gut | Niedrig |
+| **Pickup-Truck** | Gut | 8 Slots | Mäßig | Hoch |
+| **SUV** | Gut | 6 Slots | Mäßig | Hervorragend |
+| **Lieferwagen** | Schlecht | 12 Slots | Schlecht | Mittel |
+
+Um deine Effizienz in Evalia zu maximieren, solltest du deine Transportstrategie basierend auf deinen aktuellen Zielen in spezialisierte Rollen aufteilen.
+
+<CardGrid cols={3}>
+  <Card title="Erkundung & Quests">
+    - **Beste Wahl**: Limousine
+    - Hohe Höchstgeschwindigkeit, um schnellen infizierten Varianten zu entkommen.
+    - Hervorragende Kraftstoffeffizienz für Langstreckenreisen.
+    - Begrenzte Lagerkapazität erfordert striktes Inventarmanagement.
+  </Card>
+  <Card title="Basisbau">
+    - **Beste Wahl**: Pickup-Truck
+    - Ausgewogene Werte mit starkem Fokus auf Ladekapazität.
+    - Perfekt für den Transport von Holz, Metall und Werkbänken.
+    - Mäßige Haltbarkeit ermöglicht das Überstehen kleinerer Kollisionen.
+  </Card>
+  <Card title="Kampf & Verteidigung">
+    - **Beste Wahl**: SUV
+    - Höchste Haltbarkeitsbewertung, um schweren Stößen standzuhalten.
+    - Kann durch kleine Gruppen von Infizierten pflügen, ohne abzuwürgen.
+    - Perfekt für Multiplayer-Squads, die zusammen reisen.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Lagerungsstrategie">
+Fahrzeuge fungieren als mobile Lagereinheiten. Gegenstände, die im Kofferraum eines Autos gelagert werden, bleiben sicher, selbst wenn du das Fahrzeug verlässt, um ein Gebäude zu erkunden. Nutze diese Mechanik, um wertvolle Questgegenstände und Waffen zu horten, ohne dein persönliches Inventar zu überladen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Autos nutzen, um Quests schneller abzuschließen">
+
+Die multiplayer- und entscheidungsorientierte Open-World-RPG-Struktur von Piggy: Intercity bedeutet, dass deine Zeit äußerst wertvoll ist. Quests erfordern oft, dass du zwischen weit entfernten NPCs hin- und herreist, seltene Gegenstände sammelst und narrative Entscheidungen triffst, die deine Beziehungen und deinen Ruf in Evalia dauerhaft beeinflussen. All dies zu Fuß zu tun, schränkt deinen täglichen Fortschritt drastisch ein.
+
+Durch die Nutzung von Fahrzeugen kannst du mehrstufige Quests in einem Bruchteil der Zeit abschließen. Dies ist besonders wichtig, wenn du versuchst, die Demoversion des Spiels abzuschließen. Obwohl die Speicherdaten der Demo nicht in die Vollversion übernommen werden, belohnt dich das Abschließen der Demo mit kostenlosen Kristallen in der Vollversion – was dir einen massiven Vorsprung verschafft.
+
+<Checklist
+  id="vehicle-prep-checklist"
+  title="Fahrzeug-Checkliste vor der Quest:"
+  items={[
+    "Überprüfe vor dem Verlassen einer Sicherheitszone, ob der Kraftstoffstand über 75 Prozent liegt.",
+    "Stelle sicher, dass der Zustand des Fahrzeugmotors vollständig repariert ist, um plötzliches Abwürgen zu verhindern.",
+    "Räume mindestens die Hälfte der Kofferraum-Slots frei, um Platz für questspezifische Gegenstände zu schaffen.",
+    "Rüste eine Nah- oder Fernkampfwaffe in deiner Hotbar aus, um dich beim Verlassen des Autos schnell verteidigen zu können.",
+    "Bestätige dein Ziel auf der Karte, um die sicherste Fahrtroute zu planen."
+  ]}
+/>
+
+Darüber hinaus ermöglicht dir ein Fahrzeug die Flucht aus Hochrisikogebieten, wenn eine Dialogentscheidung schiefgeht oder du versehentlich eine neutrale NPC-Fraktion verärgerst. In Evalia haben deine Entscheidungen Konsequenzen, und ein schnelles Fluchtfahrzeug in der Nähe geparkt zu haben, ist die ultimative Absicherung.
+
+<Callout type="info" title="Demo-Belohnungen">
+Denk daran, dass das Abschließen der Demoversion kostenlose Kristalle in der Vollversion von Piggy: Intercity gewährt. Nutze ein schnelles Fahrzeug wie die Limousine, um die Demo-Quests im Speedrun zu absolvieren, dir deine Kristall-Belohnungen zu sichern und mit deiner Bonuswährung in die Vollversion zu starten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo ist der beste Ort, um Piggy Intercity Autos zu finden?",
+    answer: "Die zuverlässigsten Spawnpunkte befinden sich in den Außenbezirken der Fort-Sicherheitszone und rund um den Parkplatz des Sägewerks. Diese Gebiete bieten ein ausgewogenes Verhältnis zwischen bewältigbaren Bedrohungen und anständigen Fahrzeug-Spawn-Raten."
+  },
+  {
+    question: "Despawnen Fahrzeuge, wenn ich sie unbeaufsichtigt lasse?",
+    answer: "Fahrzeuge despawnen nicht sofort, aber andere Spieler auf Multiplayer-Servern können dein Auto stehlen oder zerlegen, wenn es unverschlossen außerhalb eines beanspruchten Basis-Grundstücks oder einer Sicherheitszone abgestellt wird."
+  },
+  {
+    question: "Wird mein Fahrzeugfortschritt von der Demo in die Vollversion übernommen?",
+    answer: "Nein. Die offizielle Demo-Seite besagt, dass Speicherdaten nicht in die Vollversion übernommen werden. Das Abschließen der Demo belohnt dich jedoch mit kostenlosen Kristallen in der Vollversion, mit denen du Überlebensausrüstung erwerben kannst."
+  },
+  {
+    question: "Wie repariere ich Motorschäden an einem Auto?",
+    answer: "Du musst einen Schraubenschlüssel ausrüsten und Motorteile oder Metallschrott an der Motorhaube des Fahrzeugs verwenden. Regelmäßige Wartung verhindert, dass das Auto während der Fahrt liegen bleibt."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Überlebens-Tipp">
+Wenn du dein Fahrzeug parkst, richte es immer in Richtung einer offenen Ausfahrtstraße aus. Wenn du schnell vor einer unerwarteten Horde von Infizierten fliehen musst, verschwendest du keine wertvollen Sekunden damit, das Fahrzeug zu wenden.
+</Callout>
+
+</Section>

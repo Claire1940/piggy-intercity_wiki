@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Bitsy: Überlebenshandbuch & Standorte",
+  description: "Finde den Charakter Piggy Intercity Bitsy, schließe Story-Quests in Evalia ab, meistere den Basisbau und überlebe die infizierte offene Welt mit unserem Handbuch.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Survival+Guide",
+  date: "2026-06-21",
+  author: "piggy intercity Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptziel**: Das Aufspüren des schwer fassbaren Charakters **piggy intercity bitsy** erfordert die Erkundung bestimmter Sektoren mit hoher Bedrohung in Evalia.
+- **Überlebensmechanik**: Behalte deine Hunger-, Durst- und Infektionsanzeigen genau im Auge, während du durch Gefahrenzonen reist.
+- **Quest-Fortschritt**: Dialogentscheidungen verändern die Beziehungen zu NPCs dauerhaft und schalten einzigartige verzweigte Pfade und Belohnungen frei.
+- **Basisbau**: Beanspruche frühzeitig ein Grundstück, um einen sicheren Respawn-Punkt zu errichten, seltene Materialien zu lagern und fortschrittliche Überlebenswerkzeuge herzustellen.
+- **Demo-Belohnungen**: Schließe die eigenständige Demo ab, um dir kostenlose Kristalle zu sichern, die direkt in die Vollversion von 2026 übernommen werden.
+</Callout>
+
+<Section icon={Map} title="Piggy Intercity Bitsy: Navigieren auf der Karte von Evalia">
+
+Das Erkunden der weiten, ruinierten Landschaft von Evalia in diesem Open-World-Überlebens-RPG erfordert ein scharfes Auge fürs Detail, insbesondere bei der Jagd nach seltenen Geheimnissen wie dem Charakter **piggy intercity bitsy**. Evalia ist eine Welt, die von einer hochansteckenden Infektion verwüstet wurde und in verschiedene Sektoren unterteilt ist, die von relativ sicheren Evakuierungszonen bis hin zu hochgefährlichen städtischen Ruinen reichen. Um die Reise zu überleben und wichtige NPCs zu finden, musst du dir die Layouts der Hauptknotenpunkte einprägen, verstehen, wo Ressourcen spawnen, und lernen, wie du dich um Horden von infizierten Feinden herummanövrierst.
+
+Sicherheitszonen bieten eine vorübergehende Atempause, in der du Gegenstände handeln, mit freundlichen Überlebenden interagieren und deinen nächsten Schritt planen kannst. Im Gegensatz dazu wimmelt es auf Gefahrenrouten und in verlassenen Gebäuden wie der Schule oder dem Sägewerk nur so von feindlichen Kreaturen, aber sie bieten auch die Beute der höchsten Stufe. Wenn du nach charakterspezifischen Abzeichen oder einzigartigen kosmetischen Gegenständen suchst, die mit Charakteren wie Bitsy in Verbindung stehen, ist Vorbereitung der Schlüssel. Packe immer ausreichend Nahrung, sauberes Wasser und eine zuverlässige Nahkampfwaffe ein, bevor du dein Basisgrundstück verlässt.
+
+<Table>
+| Ort | Typ | Gefahrenstufe | Hauptzweck | Wichtige Beute |
+| Safe Zone | Basis-Knotenpunkt | Niedrig | Basisbau, Handel und Ausruhen | Einfacher Schrott, sauberes Wasser |
+| Lumbermill | Ressourcenzone | Mittel | Holzernte und frühe Quest-Schritte | Bauholz, einfache Werkzeuge |
+| School | Beutezone | Hoch | Waffenteile und Beschaffung medizinischer Vorräte | Bandagen, Metallrohre |
+| Danger Routes | Kampfzone | Sehr hoch | Begegnungen mit Elite-Infizierten und seltene Abzeichen | Fortschrittliche Waffenkomponenten |
+</Table>
+
+<Callout type="warning" title="Warnung vor der Gefahrenzone">
+Das Betreten von städtischen Gebieten mit hoher Bedrohung ohne Schusswaffe oder eine Nahkampfwaffe mit hoher Haltbarkeit führt schnell zur Infektion. Sichere dir vor der Erkundung immer einen nahegelegenen Respawn-Punkt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story-Quests und moralische Entscheidungen in Evalia">
+
+Im Gegensatz zu traditionellen Überlebensspielen ist der Fortschritt in dieser Welt stark von Entscheidungen geprägt. Jeder wichtige NPC, den du triffst, bietet Quests an, die deinen Ruf bei den überlebenden Fraktionen von Evalia beeinflussen. Das Durchhasten von Dialogen kann unbeabsichtigte Folgen haben, wie z. B. dass neutrale Händler feindselig werden oder du dich dauerhaft aus bestimmten Questreihen ausschließt. Achte genau auf den Kontext jedes Gesprächs, da deine Entscheidungen moralisches Gewicht haben und die Spielwelt verändern.
+
+Um erfolgreich in der Hauptgeschichte voranzukommen und die Geheimnisse rund um die Infektion aufzudecken, solltest du einem strukturierten Pfad folgen. Dies beinhaltet das Sammeln von Informationen von lokalen Überlebenden, das Durchführen von Versorgungsflügen und das Lösen von Konflikten zwischen rivalisierenden Gruppen. 
+
+<Steps>
+  <Step num="1" title="Initiiere NPC-Kontakte">
+    Finde Schlüsselcharaktere in Sicherheitszonen oder versteckten Außenposten. Sprich mit ihnen, um storybasierte Missionen freizuschalten und Hinweise auf die umliegende Region zu sammeln.
+  </Step>
+  <Step num="2" title="Bewerte deine Entscheidungen">
+    Wenn dir verzweigte Dialogoptionen präsentiert werden, bedenke die langfristigen Auswirkungen auf deinen Ruf. Einem Überlebenden zu helfen, könnte eine andere Fraktion verärgern.
+  </Step>
+  <Step num="3" title="Sammle Quest-Gegenstände">
+    Reise zu markierten Orten auf deiner Karte, um wichtige Vorräte, Dokumente oder Überlebensausrüstung zu bergen. Sei bereit, dich durch infizierte Horden zu kämpfen, um sie zu erreichen.
+  </Step>
+  <Step num="4" title="Fordere Quest-Belohnungen ein">
+    Kehre zum Questgeber zurück, um deine Ziele abzugeben. Sammle Rufpunkte, Währung und seltene Materialien, um deine Überlebensbemühungen zu finanzieren.
+  </Step>
+</Steps>
+
+<Table>
+| Questgeber | Entscheidungsauswahl | Fraktionsruf | Sofortige Belohnung | Langfristige Konsequenz |
+| Friendly Survivor | Medizin teilen | Positiv | Einfaches Medizinkit | Schaltet erweiterte Handelsoptionen frei |
+| Hostile Scavenger | Forderungen ablehnen | Negativ | Waffenmaterialien | Häufigere zufällige Begegnungen in Ruinen |
+| Neutral Merchant | Fairer Handel | Neutral | Vergünstigte Überlebensausrüstung | Zugang zu exklusiven Waffenbauplänen |
+</Table>
+
+<Callout type="tip" title="Ruf-Management">
+Es wird dringend empfohlen, im frühen Spielverlauf einen positiv gestimmten Ruf bei den Händlern aufrechtzuerhalten, da dies die Kosten für lebenswichtige Nahrungsmittel und Wasservorräte erheblich senkt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Überlebensausrüstung und Waffen-Tier-Liste">
+
+Sich gegen infizierte Bedrohungen zu verteidigen, erfordert ein solides Verständnis des verfügbaren Arsenals. Waffen sind in Nahkampf- und Fernkampfkategorien unterteilt, die jeweils eine bestimmte Rolle im Kampf spielen. Nahkampfwaffen sind leise, was sie ideal für die heimliche Erkundung macht, während Schusswaffen massiven Schaden anrichten, allerdings auf Kosten des Anlockens von Feinden in der Nähe durch lauten Lärm. Die Verwaltung deines Inventarplatzes, um sowohl eine Hauptwaffe als auch nützliche Werkzeuge zu tragen, ist für das langfristige Überleben entscheidend.
+
+Um dir bei der Priorisierung deiner Ausrüstungs-Upgrades zu helfen, haben wir die effektivsten Gegenstände und Waffen basierend auf ihrem Schadensausstoß, ihrer Haltbarkeit und ihrem praktischen Nutzen in Situationen mit hoher Gefahr kategorisiert.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Quest-kritische & Überlebenswichtige Dinge">
+    - **Stahl-Baseballschläger**: Hohe Haltbarkeit und schnelle Schwunggeschwindigkeit.
+    - **Pistole**: Zuverlässige Fernkampfverteidigung für Notsituationen.
+    - **Medizinische Kernvorräte**: Stoppt das Fortschreiten der Infektion sofort.
+  </Card>
+  <Card title="A-Tier: Kampf- & Erkundungsausrüstung">
+    - **Brecheisen**: Ausgewogener Nahkampfschaden und nützlich zum Aufbrechen von Barrieren.
+    - **Schrotflinte**: Verheerender Schaden auf kurze Distanz, aber extrem laut.
+    - **Fortschrittliche Taschenlampe**: Unverzichtbar für das Navigieren in pechschwarzen Innenräumen.
+  </Card>
+  <Card title="B-Tier: Wirtschafts- & Hilfsgegenstände">
+    - **Holzbrett**: Günstig herzustellen, bricht aber im Kampf leicht.
+    - **Metallschrott**: Kernkomponente für den Basisbau und grundlegende Reparaturen.
+    - **Flaschenwasser**: Erhält den Hydrationsgrad auf langen Reisen aufrecht.
+  </Card>
+</CardGrid>
+
+<Table>
+| Waffenname | Tier | Schadensart | Reichweite | Angriffsgeschwindigkeit | Haltbarkeit |
+| Steel Bat | S | Stumpfer Nahkampf | Kurz | Schnell | Hoch |
+| Crowbar | A | Stumpfer Nahkampf | Kurz | Moderat | Sehr hoch |
+| Pistol | S | Ballistischer Fernkampf | Lang | Langsam | N/A (Verbraucht Munition) |
+| Wooden Plank | B | Stumpfer Nahkampf | Kurz | Langsam | Niedrig |
+</Table>
+
+<Callout type="success" title="Kampfstrategie">
+Ziele auf den Kopf, wenn du Nahkampfwaffen benutzt. Kopfschüsse verursachen doppelten Schaden und können infizierte Feinde betäuben, sodass du bei intensiven Gefechten Ausdauer sparen kannst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Basisbau und Übergang der Demo-Belohnungen">
+
+Die Errichtung einer eigenen Basis ist dein ultimatives Ziel für das langfristige Überleben in Evalia. Durch das Beanspruchen eines leeren Grundstücks erhältst du Zugang zu einem anpassbaren Baubereich, in dem du Verteidigungsmauern, Lagerkisten und Werkbänke errichten kannst. Deine Basis dient als sicherer Respawn-Punkt und stellt sicher, dass du deinen hart erarbeiteten Fortschritt nicht verlierst, wenn du den Infizierten zum Opfer fällst. Das Aufrüsten deiner Werkbank schaltet fortschrittliche Rezepte frei, darunter Rüstungen hoher Stufen und Spezialmunition.
+
+Darüber hinaus sollten Spieler, die von der eigenständigen Demoversion zur Vollversion wechseln, das Belohnungssystem beachten. Während deine allgemeinen Speicherdaten nicht übernommen werden, um Ungleichgewichte im Fortschritt zu vermeiden, wirst du für das Abschließen der Demo-Ziele mit kostenlosen Kristallen in der Vollversion belohnt, was dir einen erheblichen Vorsprung verschafft.
+
+<Table>
+| Funktionskategorie | Demo-Version | Vollversion | Übernahmestatus |
+| Save Progression | Auf Demo-Bereich beschränkt | Voller Open-World-Zugriff | Wird nicht übernommen |
+| Crystal Currency | Über Meilensteine verdienbar | Vollständig integriert | Wird als Belohnung übernommen |
+| Base Building | Deaktiviert | Vollständig aktiviert mit Speichergrundstücken | N/A |
+| Quest Database | Nur Prolog | Verzweigte Handlung | N/A |
+</Table>
+
+<Checklist
+  id="base-building-goals"
+  title="Basis-Checkliste für das frühe Spiel:"
+  items={[
+    "Finde und beanspruche ein leeres Baugrundstück in der Nähe einer Sicherheitszone",
+    "Sammle 50 Bauholz und 20 Metallschrott für einfache Mauern",
+    "Baue eine einfache Holzkiste, um überschüssige Beute zu lagern",
+    "Baue eine Werkbank der Stufe eins, um fortschrittliche Werkzeugrezepte freizuschalten",
+    "Stelle einen Schlafsack auf, um deinen dauerhaften Respawn-Punkt festzulegen"
+  ]}
+/>
+
+<Callout type="info" title="Verfahren zur Beanspruchung von Demo-Kristallen">
+Um deine Kristalle für den Abschluss der Demo zu erhalten, stelle sicher, dass du mit demselben Roblox-Konto angemeldet bist, das du zum Abschließen der Demo verwendet hast. Die Belohnungen werden deinem Inventar beim Starten des vollständigen Spiels automatisch gutgeschrieben.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+Um dir zu helfen, die offene Welt von Evalia zu meistern und jedes verborgene Geheimnis aufzudecken, haben wir Antworten auf die am häufigsten von der Community gestellten Fragen zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Wie finde ich den Charakter oder Skin 'piggy intercity bitsy'?",
+    answer: "Der Charakter 'piggy intercity bitsy' kann gefunden werden, indem du bestimmte Erkundungserfolge in städtischen Ruinen mit hoher Bedrohung abschließt. Stelle sicher, dass du das entsprechende Abzeichen in deinem Questlog freigeschaltet hast, um auf den kosmetischen Skin zuzugreifen."
+  },
+  {
+    question: "Wird mein Fortschritt aus der Demo in das vollständige Spiel übernommen?",
+    answer: "Nein, Speicherdaten aus der Demo werden nicht in die Vollversion übernommen. Durch das Abschließen der Demo erhältst du jedoch kostenlose Kristalle, die deinem Konto im Hauptspiel automatisch gutgeschrieben werden."
+  },
+  {
+    question: "Wie verwalte ich Hunger und Durst am besten?",
+    answer: "Errichte ein Basisgrundstück in der Nähe von Sicherheitszonen, in denen regelmäßig sauberes Wasser spawnt. Vermeide es, rohe Lebensmittel zu essen, die du in Gefahrenzonen findest, da dies deine Infektionsanzeige erhöhen kann. Stelle so schnell wie möglich einen Wasserreiniger her."
+  },
+  {
+    question: "Kann ich meine Story-Entscheidungen später im Spiel ändern?",
+    answer: "Die Story-Entscheidungen in Piggy Intercity sind für diesen spezifischen Spieldurchgang dauerhaft. Um andere Story-Zweige und Fraktionsergebnisse zu erleben, musst du einen neuen Spielstand starten."
+  }
+]} />
+
+<Callout type="success" title="Letzter Überlebens-Tipp">
+Schließe dich immer mit anderen Überlebenden zusammen, wenn du Sektoren mit hoher Bedrohung betrittst. Das gemeinsame Spielen macht das Sammeln von Ressourcen schneller und erhöht deine Chancen, Begegnungen mit Elite-Infizierten zu überleben, erheblich.
+</Callout>
+
+</Section>

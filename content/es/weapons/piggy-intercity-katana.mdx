@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Katana de Piggy Intercity: Guía de Ubicación, Estadísticas y Combate Cuerpo a Cuerpo",
+  description: "Domina el combate cuerpo a cuerpo con la katana de Piggy Intercity. Aprende cómo adquirir esta arma de alto nivel, analiza sus estadísticas y sobrevive a los infectados en Evalia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Katana+Melee+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Piggy Intercity",
+  keywords: "piggy intercity, katana, combate cuerpo a cuerpo, guía de supervivencia, armas de evalia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Arma Principal**: La **katana de piggy intercity** es una opción de combate cuerpo a cuerpo de primer nivel que equilibra velocidad, alcance y un alto daño.
+- **Mecánica Clave**: Perfeccionar el sistema de bloqueo minimiza el drenaje de resistencia y evita la acumulación de infección durante el combate a corta distancia.
+- **Ruta de Adquisición**: Concéntrate en reunir recursos en zonas seguras antes de aventurarte en los sectores militares e industriales de alto riesgo en Evalia.
+- **Estrategia Principal**: Usa el alcance superior de la katana para ejecutar ataques de "golpear y correr", evitando intercambios directos con hordas de infectados agresivos.
+</Callout>
+
+<Section icon={Swords} title="Meta del Combate Cuerpo a Cuerpo y el Rol de la Katana">
+
+En el entorno RPG de supervivencia de mundo abierto de Evalia, las armas cuerpo a cuerpo sirven como tu primera línea de defensa. Utilizar la **katana de piggy intercity** permite a los jugadores conservar munición preciosa mientras mantienen una presencia altamente letal contra las amenazas infectadas. A diferencia de las armas de fuego, que atraen a las hordas cercanas debido al ruido, las armas cuerpo a cuerpo silenciosas permiten una exploración sigilosa y una recolección de recursos eficiente.
+
+El combate cuerpo a cuerpo en este RPG basado en decisiones depende en gran medida del espaciado, el tiempo y la gestión de la resistencia. Lanzarse contra un grupo de infectados con un arma de bajo nivel a menudo conduce a una derrota rápida. La katana cambia esta dinámica al ofrecer un arco de ataque amplio, lo que te permite dañar a múltiples enemigos simultáneamente mientras los mantienes a una distancia segura.
+
+Para maximizar la efectividad de tu configuración de combate cuerpo a cuerpo, debes comprender cómo interactúan el peso del arma, la velocidad de ataque y los tiempos de recuperación del balanceo. La katana se encuentra en una posición muy favorable dentro del meta actual, ofreciendo el alcance de las armas pesadas de dos manos sin los retrasos de recuperación que te dejan vulnerable a los contraataques.
+
+<Callout type="tip" title="Consejo de Gestión de Resistencia">
+Monitorea siempre tu barra de resistencia durante los enfrentamientos prolongados. Realizar ataques pesados o balanceos consecutivos con la katana agotará tu resistencia, ralentizando tu velocidad de movimiento y desactivando tu capacidad para bloquear los ataques entrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Adquirir la Katana de Piggy Intercity">
+
+Adquirir la **katana de piggy intercity** requiere una preparación cuidadosa, ya que el arma aparece en zonas de alto riesgo o debe comprarse a comerciantes especializados utilizando recursos valiosos. Aventurarse en estas áreas sin preparación probablemente resultará en la pérdida de tu equipo de supervivencia ganado con tanto esfuerzo.
+
+Antes de intentar localizar la katana, asegúrate de que tu personaje esté bien abastecido de comida, agua y artículos defensivos. El viaje a través de Evalia es traicionero, y las ubicaciones que albergan esta hoja de élite están fuertemente custodiadas por variantes de infectados avanzados.
+
+<Steps>
+  <Step num="1" title="Preparar Suministros de Supervivencia">
+    Abastécete de suministros básicos de supervivencia, como agua limpia y comida enlatada. Asegúrate de que tu inventario tenga al menos tres espacios libres para acomodar la katana y cualquier material de artesanía auxiliar que encuentres en el camino.
+  </Step>
+  <Step num="2" title="Navegar al Puesto Avanzado Militar">
+    Viaja a los sectores del norte de Evalia, apuntando específicamente al Puesto Avanzado Militar fuertemente fortificado. Esta zona cuenta con cajas de armas de alto nivel donde la katana tiene una tasa de aparición designada.
+  </Step>
+  <Step num="3" title="Reunir Moneda de Cambio">
+    Si el saqueo no tiene éxito, localiza al Comerciante de la Zona Segura. Puedes comprar la katana directamente usando cristales obtenidos al completar la versión demo o intercambiando chatarra industrial de alto valor encontrada en el Aserradero.
+  </Step>
+  <Step num="4" title="Asegurar y Equipar el Arma">
+    Una vez adquirida, equipa inmediatamente la katana en tu ranura principal de combate cuerpo a cuerpo. Organiza tu barra de acceso rápido para permitir un cambio rápido entre la katana y las herramientas defensivas u objetos de curación.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Peligro de Infección">
+El Puesto Avanzado Militar cuenta con zonas de infección de alta densidad. No intentes registrar las cajas de armas a menos que tengas un arma de fuego confiable o un grupo de jugadores para desviar la atención de los contenedores de botín.
+</Callout>
+
+A continuación se muestra un desglose de los principales métodos de adquisición, detallando los costos de recursos y las calificaciones de seguridad de cada ubicación.
+
+| Ubicación | Método | Costo de Recursos | Nivel de Seguridad | Nivel Recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| Puesto Avanzado Militar | Saqueo de Cajas | Ninguno (Riesgo Alto) | Muy Bajo | Nivel 15+ |
+| Comerciante Zona Segura | Compra Directa | 150 Cristales / Chatarra | Alto | Nivel 1+ |
+| Oficina del Aserradero | Caja Fuerte Oculta | 1x Llave Oxidada | Medio | Nivel 10+ |
+| Sector Industrial | Botín de Jefe | Victoria en Combate | Bajo | Nivel 20+ |
+
+</Section>
+
+<Section icon={Target} title="Estadísticas de la Katana y Comparación de Armas">
+
+Para apreciar realmente el poder de la **katana de piggy intercity**, es esencial comparar sus métricas de rendimiento con otras armas cuerpo a cuerpo comunes que se encuentran en Evalia. La siguiente tabla describe las estadísticas clave, incluyendo el daño base, la velocidad de ataque, el alcance y la eficiencia de bloqueo.
+
+| Arma | Daño Base | Velocidad de Ataque | Alcance (Studs) | Eficiencia de Bloqueo | Peso |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Katana** | **45** | **Rápida** | **7.5** | **80%** | **Medio** |
+| Cuchillo de Combate | 20 | Muy Rápida | 4.0 | 30% | Muy Ligero |
+| Bate de Béisbol | 30 | Media | 6.0 | 50% | Ligero |
+| Hacha de Bombero | 55 | Lenta | 6.5 | 60% | Pesado |
+| Palanca | 25 | Media | 5.5 | 40% | Ligero |
+
+Como demuestran los datos, la katana ofrece un equilibrio excepcional entre alcance y daño. Si bien el Hacha de Bombero inflige un mayor daño por golpe, su lenta velocidad de ataque la hace punitiva si fallas. La katana permite una recuperación rápida, lo que te permite pasar suavemente de un ataque ofensivo a un bloqueo defensivo.
+
+<CardGrid cols={3}>
+  <Card title="El Atacante Ágil">
+    - **Alta Movilidad**
+    - Se enfoca en un juego de pies rápido y ataques veloces
+    - Ideal para jugadores solitarios que destacan esquivando
+  </Card>
+  <Card title="La Vanguardia Defensiva">
+    - **Máxima Calificación de Bloqueo**
+    - Utiliza el 80% de eficiencia de bloqueo de la katana
+    - Perfecto para atraer la atención de los enemigos en grupos multijugador
+  </Card>
+  <Card title="El Superviviente Equilibrado">
+    - **Estilo de Juego Versátil**
+    - Combina sigilo, combate cuerpo a cuerpo y apoyo ocasional a distancia
+    - Recomendado para la exploración general en Evalia
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ventaja de Sinergia de Combate">
+Combinar la rápida velocidad de ataque de la katana con mejoras de atributos en Agilidad aumenta tu DPS (Daño Por Segundo) de forma exponencial, convirtiéndola en el arma cuerpo a cuerpo más eficiente para limpiar hordas de infectados estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Supervivencia y Consejos de Combate con la Katana">
+
+Usar la **katana de piggy intercity** de manera efectiva requiere más que solo presionar botones. Para sobrevivir a los duros entornos de Evalia, debes integrar maniobras de combate avanzadas en tu estilo de juego. 
+
+Una de las mecánicas más críticas es el sistema de bloqueo. Al mantener la postura defensiva justo antes de que un infectado ataque, activas un bloqueo perfecto. Esto reduce el daño recibido a cero y aturde brevemente al atacante, abriéndolo a un contraataque devastador.
+
+Además, el espaciado es tu mayor activo. Debido a que la katana tiene un alcance de 7.5 studs, puedes golpear a la mayoría de los infectados comunes sin entrar en su rango de ataque. Practica retroceder mientras atacas para mantener a los enemigos en la punta de tu hoja.
+
+<Checklist
+  id="katana-combat-prep"
+  title="Lista de Preparación Previa al Combate:"
+  items={[
+    "Verificar que la reserva de resistencia esté cargada antes de enfrentarse a múltiples infectados",
+    "Equipar equipo defensivo para complementar las capacidades de bloqueo de la katana",
+    "Limpiar ranuras de inventario de uso rápido para acceso inmediato a vendajes",
+    "Identificar zonas seguras cercanas o rutas de escape en caso de que se active una horda",
+    "Asegurarse de que los medidores de hambre y sed estén por encima del 50% para evitar penalizaciones de resistencia"
+  ]}
+/>
+
+Al enfrentarte a diferentes tipos de infectados, tu enfoque táctico debe adaptarse. La siguiente tabla detalla enfrentamientos específicos y recomendaciones tácticas al empuñar la katana.
+
+| Tipo de Enemigo | Nivel de Amenaza | Enfrentamiento con Katana | Recomendación Táctica |
+| :--- | :--- | :--- | :--- |
+| Infectado Estándar | Bajo | Excelente | Retrocede y ataca para limpiar grupos fácilmente |
+| Corredor (Runner) | Medio | Bueno | Espera el ataque de salto, bloquea y luego contraataca |
+| Bruto (Brute) | Alto | Riesgoso | Evita intercambiar golpes; usa solo tácticas de golpear y correr |
+| Escupidor (Spitter) | Medio | Moderado | Cierra la distancia rápidamente usando cobertura, luego ataca |
+
+<Callout type="info" title="Nota de Conciencia Ambiental">
+El combate cuerpo a cuerpo en pasillos estrechos puede ser peligroso. El amplio arco de ataque horizontal de la katana puede golpear las paredes, causando una ligera penalización por deflexión. Opta por ataques verticales por encima de la cabeza cuando luches en espacios confinados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tu experiencia de supervivencia, hemos recopilado las preguntas más comunes sobre las mecánicas de la katana, su durabilidad y su papel en la progresión general del juego.
+
+<FAQ items={[
+  {
+    question: "¿Se puede mejorar o personalizar la katana de piggy intercity?",
+    answer: "Sí, los jugadores pueden mejorar la katana en cualquier Mesa de Trabajo activa dentro de una parcela de base reclamada. Las mejoras requieren materiales específicos como acero industrial y chatarra refinada, que aumentan el daño base y la eficiencia de bloqueo."
+  },
+  {
+    question: "¿Pierde la katana durabilidad con el tiempo?",
+    answer: "Las armas cuerpo a cuerpo en Piggy: Intercity cuentan con un sistema de durabilidad. Golpear superficies duras o bloquear ataques pesados de Brutos reducirá la durabilidad. Puedes reparar el arma usando componentes metálicos en un yunque de base."
+  },
+  {
+    question: "¿Es la katana viable para las peleas contra jefes finales en Evalia?",
+    answer: "Si bien las armas de fuego son más seguras para las peleas contra jefes, la katana sigue siendo muy viable como arma secundaria para eliminar a los infectados menores que aparecen durante las fases del jefe sin desperdiciar munición."
+  },
+  {
+    question: "¿Completar la versión demo desbloquea aspectos especiales para la katana?",
+    answer: "Completar la demo recompensa a los jugadores con cristales gratuitos en la versión completa. Estos cristales se pueden gastar en la tienda de cosméticos para desbloquear diseños exclusivos de armas, incluyendo modelos únicos para la katana."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final de Supervivencia">
+No dependas únicamente de una sola arma. Mantén un equipo equilibrado que incluya la katana para el combate silencioso a corta distancia y un arma de fuego confiable para manejar objetivos de alta amenaza desde lejos.
+</Callout>
+
+</Section>

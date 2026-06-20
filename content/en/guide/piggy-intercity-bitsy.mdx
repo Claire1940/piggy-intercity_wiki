@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Bitsy: Survival Guide & Locations",
+  description: "Find the Piggy Intercity Bitsy character, complete story quests in Evalia, master base building, and survive the infected open world with our guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Survival+Guide",
+  date: "2026-06-21",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Locating the elusive **piggy intercity bitsy** requires exploring specific high-threat sectors within Evalia.
+- **Survival Mechanic**: Keep a close eye on your hunger, thirst, and infection meters while traveling through danger zones.
+- **Quest Progression**: Dialogue choices permanently alter NPC relationships, unlocking unique branching pathways and rewards.
+- **Base Building**: Claim a plot early to establish a safe respawn point, store rare materials, and craft advanced survival tools.
+- **Demo Rewards**: Complete the standalone demo to secure free crystals, which carry over directly to the full 2026 release.
+</Callout>
+
+<Section icon={Map} title="Piggy Intercity Bitsy: Navigating the Map of Evalia">
+
+Exploring the vast, ruined landscape of Evalia in this open-world survival RPG requires a keen eye for detail, especially when hunting down rare secrets like the **piggy intercity bitsy** character. Evalia is a world devastated by a highly contagious infection, split into distinct sectors ranging from relatively safe extraction zones to high-threat urban ruins. To survive the journey and locate key NPCs, you must memorize the layouts of major hubs, understand where resources spawn, and learn how to navigate around hordes of infected enemies.
+
+Safe zones provide a temporary respite where you can trade items, interact with friendly survivors, and plan your next move. In contrast, danger routes and abandoned structures like the School or the Lumbermill are crawling with hostile entities but offer the highest-tier loot. When searching for character-specific badges or unique cosmetics associated with characters like Bitsy, preparation is key. Always pack sufficient food, clean water, and a reliable melee weapon before leaving your base plot.
+
+<Table>
+| Location | Type | Danger Level | Primary Purpose | Key Loot |
+| Safe Zone | Base Hub | Low | Base building, trading, and resting | Basic scrap, clean water |
+| Lumbermill | Resource Zone | Medium | Wood harvesting and early quest steps | Timber, basic tools |
+| School | Loot Zone | High | Weapon parts and medical supply runs | Bandages, metal pipes |
+| Danger Routes | Combat Zone | Very High | Elite infected encounters and rare badges | Advanced weapon components |
+</Table>
+
+<Callout type="warning" title="Danger Zone Warning">
+Venturing into high-threat urban areas without a firearm or a high-durability melee weapon will quickly lead to infection. Always secure a nearby respawn point before exploring.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Quests and Moral Choices in Evalia">
+
+Unlike traditional survival games, progression in this world is heavily choice-driven. Every major NPC you meet offers quests that shape your standing within the surviving factions of Evalia. Rushing through dialogue can result in unintended consequences, such as turning neutral merchants hostile or permanently locking yourself out of certain questlines. Pay close attention to the context of each conversation, as your decisions carry moral weight and alter the game world.
+
+To successfully progress through the main storyline and uncover the mysteries surrounding the infection, you should follow a structured path. This involves gathering intelligence from local survivors, completing supply runs, and resolving conflicts between rival groups. 
+
+<Steps>
+  <Step num="1" title="Initiate NPC Contacts">
+    Locate key characters in safe zones or hidden outposts. Speak with them to unlock story-driven missions and gather clues about the surrounding region.
+  </Step>
+  <Step num="2" title="Evaluate Your Choices">
+    When presented with branching dialogue options, consider the long-term impact on your reputation. Helping one survivor might alienate another faction.
+  </Step>
+  <Step num="3" title="Gather Quest Items">
+    Travel to marked locations on your map to retrieve critical supplies, documents, or survival gear. Be prepared to fight through infected hordes to reach them.
+  </Step>
+  <Step num="4" title="Claim Quest Rewards">
+    Return to the quest giver to turn in your objectives. Accumulate reputation points, currency, and rare materials to fund your survival endeavors.
+  </Step>
+</Steps>
+
+<Table>
+| Quest Giver | Choice Selection | Faction Reputation | Immediate Reward | Long-Term Consequence |
+| Friendly Survivor | Share Medicine | Positive | Basic medical kit | Unlocks advanced trading options |
+| Hostile Scavenger | Refuse Demands | Negative | Weapon materials | Increased random encounters in ruins |
+| Neutral Merchant | Fair Trade | Neutral | Discounted survival gear | Access to exclusive weapon blueprints |
+</Table>
+
+<Callout type="tip" title="Reputation Management">
+Maintaining a positive reputation with merchants is highly recommended in the early game, as it significantly lowers the cost of essential food and water supplies.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Survival Gear and Weapons Tier List">
+
+Defending yourself against infected threats requires a solid understanding of the available arsenal. Weapons are divided into melee and ranged categories, each serving a specific role in combat. Melee weapons are silent, making them ideal for stealthy exploration, whereas ranged firearms deal massive damage at the cost of attracting nearby enemies with loud noise. Managing your inventory space to carry both a primary weapon and utility tools is crucial for long-term survival.
+
+To help you prioritize your gear upgrades, we have categorized the most effective items and weapons based on their damage output, durability, and practical utility in high-danger scenarios.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Quest-Critical & Survival Essentials">
+    - **Steel Bat**: High durability and fast swing speed.
+    - **Pistol**: Reliable ranged defense for emergency situations.
+    - **Core Medical Supplies**: Instantly halts infection progression.
+  </Card>
+  <Card title="A-Tier: Combat & Exploration Gear">
+    - **Crowbar**: Balanced melee damage and useful for breaking barriers.
+    - **Shotgun**: Devastating close-range damage but extremely loud.
+    - **Advanced Flashlight**: Essential for navigating pitch-black interiors.
+  </Card>
+  <Card title="B-Tier: Economy & Utility Items">
+    - **Wooden Plank**: Cheap to craft but breaks easily in combat.
+    - **Scrap Metal**: Core component for base building and basic repairs.
+    - **Bottled Water**: Maintains hydration levels during long journeys.
+  </Card>
+</CardGrid>
+
+<Table>
+| Weapon Name | Tier | Damage Type | Range | Attack Speed | Durability |
+| Steel Bat | S | Blunt Melee | Short | Fast | High |
+| Crowbar | A | Blunt Melee | Short | Moderate | Very High |
+| Pistol | S | Ballistic Ranged | Long | Slow | N/A (Uses Ammo) |
+| Wooden Plank | B | Blunt Melee | Short | Slow | Low |
+</Table>
+
+<Callout type="success" title="Combat Strategy">
+Aim for the head when using melee weapons. Headshots deal double damage and can stun infected enemies, allowing you to conserve stamina during intense skirmishes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Base Building and Demo Rewards Transition">
+
+Establishing a personal base is your ultimate goal for long-term survival in Evalia. By claiming an empty plot, you gain access to a customizable building area where you can construct defensive walls, storage crates, and crafting tables. Your base serves as a secure respawn point, ensuring that you do not lose your hard-earned progression when falling victim to the infected. Upgrading your crafting table unlocks advanced recipes, including high-tier armor and specialized ammunition.
+
+Additionally, players transitioning from the standalone demo version to the full experience should take note of the reward systems. While your general save data does not carry over to prevent progression imbalances, completing the demo objectives rewards you with free crystals in the full version, giving you a significant head start.
+
+<Table>
+| Feature Category | Demo Version | Full Version | Carryover Status |
+| Save Progression | Restricted to demo area | Full open-world access | Does Not Carry Over |
+| Crystal Currency | Earnable via milestones | Fully integrated | Carries Over as Reward |
+| Base Building | Disabled | Fully enabled with save plots | N/A |
+| Quest Database | Prologue only | Branching storyline | N/A |
+</Table>
+
+<Checklist
+  id="base-building-goals"
+  title="Early Game Base Checklist:"
+  items={[
+    "Locate and claim an empty building plot near a safe zone",
+    "Gather 50 timber and 20 scrap metal for basic walls",
+    "Construct a basic wooden storage crate to store excess loot",
+    "Build a tier-one crafting table to unlock advanced tool recipes",
+    "Set up a sleeping sleeping bag to set your permanent respawn point"
+  ]}
+/>
+
+<Callout type="info" title="Demo Crystals Claim Process">
+To claim your demo completion crystals, ensure you are logged into the same Roblox account used to complete the demo. The rewards will automatically credit to your inventory upon launching the full game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you master the open world of Evalia and uncover every hidden secret, we have compiled answers to the most common questions asked by the community.
+
+<FAQ items={[
+  {
+    question: "How do I find the piggy intercity bitsy character or skin?",
+    answer: "The piggy intercity bitsy character can be located by completing specific exploration achievements in high-threat urban ruins. Ensure you have unlocked the corresponding badge in your quest log to access the cosmetic skin."
+  },
+  {
+    question: "Does my progress in the demo carry over to the full game?",
+    answer: "No, save data from the demo does not carry over to the full version. However, completing the demo rewards you with free crystals that are automatically credited to your account in the main game."
+  },
+  {
+    question: "What is the best way to manage hunger and thirst?",
+    answer: "Establish a base plot near safe zones where clean water spawns regularly. Avoid eating raw food found in danger zones, as it can increase your infection meter. Craft a water purifier as soon as possible."
+  },
+  {
+    question: "Can I change my story choices later in the game?",
+    answer: "Story choices in Piggy Intercity are permanent for that specific playthrough. To experience different story branches and faction outcomes, you will need to start a new game save."
+  }
+]} />
+
+<Callout type="success" title="Final Survival Tip">
+Always team up with other survivors when entering high-threat sectors. Cooperative play makes resource gathering faster and significantly increases your chances of surviving elite infected encounters.
+</Callout>
+
+</Section>

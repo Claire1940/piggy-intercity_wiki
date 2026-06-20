@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Piggy Intercity Bitsy: Guía de supervivencia y ubicaciones",
+  description: "Encuentra al personaje de Piggy Intercity Bitsy, completa misiones de historia en Evalia, domina la construcción de bases y sobrevive al mundo abierto infectado con nuestra guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Survival+Guide",
+  date: "2026-06-21",
+  author: "Equipo de la Wiki de Piggy Intercity"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Localizar al escurridizo **piggy intercity bitsy** requiere explorar sectores específicos de alta amenaza dentro de Evalia.
+- **Mecánica de supervivencia**: Vigila de cerca tus medidores de hambre, sed e infección mientras viajas por zonas de peligro.
+- **Progresión de misiones**: Las decisiones en los diálogos alteran permanentemente las relaciones con los PNJ, desbloqueando rutas ramificadas y recompensas únicas.
+- **Construcción de bases**: Reclama un terreno pronto para establecer un punto de reaparición seguro, almacenar materiales raros y fabricar herramientas de supervivencia avanzadas.
+- **Recompensas de la demo**: Completa la demo independiente para conseguir cristales gratuitos, que se transferirán directamente al lanzamiento completo de 2026.
+</Callout>
+
+<Section icon={Map} title="Piggy Intercity Bitsy: Navegando por el mapa de Evalia">
+
+Explorar el vasto y ruinoso paisaje de Evalia en este RPG de supervivencia de mundo abierto requiere un buen ojo para los detalles, especialmente cuando se buscan secretos raros como el personaje de **piggy intercity bitsy**. Evalia es un mundo devastado por una infección altamente contagiosa, dividido en distintos sectores que van desde zonas de extracción relativamente seguras hasta ruinas urbanas de alta amenaza. Para sobrevivir al viaje y localizar a los PNJ clave, debes memorizar la distribución de los refugios principales, comprender dónde aparecen los recursos y aprender a navegar alrededor de las hordas de enemigos infectados.
+
+Las zonas seguras ofrecen un respiro temporal donde puedes comerciar con objetos, interactuar con supervivientes amistosos y planificar tu próximo movimiento. Por el contrario, las rutas de peligro y las estructuras abandonadas como la Escuela o el Aserradero están plagadas de entidades hostiles, pero ofrecen el botín de mayor nivel. Al buscar insignias específicas de personajes o cosméticos únicos asociados con personajes como Bitsy, la preparación es clave. Lleva siempre suficiente comida, agua limpia y un arma cuerpo a cuerpo fiable antes de salir de tu terreno de base.
+
+<Table>
+| Ubicación | Tipo | Nivel de peligro | Propósito principal | Botín clave |
+| :--- | :--- | :--- | :--- | :--- |
+| Zona segura | Refugio base | Bajo | Construcción de bases, comercio y descanso | Chatarra básica, agua limpia |
+| Aserradero | Zona de recursos | Medio | Recolección de madera y primeros pasos de misiones | Madera, herramientas básicas |
+| Escuela | Zona de botín | Alto | Búsqueda de piezas de armas y suministros médicos | Vendas, tuberías de metal |
+| Rutas de peligro | Zona de combate | Muy alto | Encuentros con infectados de élite e insignias raras | Componentes de armas avanzados |
+
+</Table>
+
+<Callout type="warning" title="Advertencia de zona de peligro">
+Adentrarse en zonas urbanas de alta amenaza sin un arma de fuego o un arma cuerpo a cuerpo de alta durabilidad provocará rápidamente la infección. Asegura siempre un punto de reaparición cercano antes de explorar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones de historia y decisiones morales en Evalia">
+
+A diferencia de los juegos de supervivencia tradicionales, la progresión en este mundo se basa en gran medida en las decisiones. Cada PNJ importante que encuentres te ofrecerá misiones que darán forma a tu reputación dentro de las facciones de supervivientes de Evalia. Apresurarse en los diálogos puede tener consecuencias imprevistas, como volver hostiles a los comerciantes neutrales o bloquear permanentemente ciertas líneas de misiones. Presta mucha atención al contexto de cada conversación, ya que tus decisiones conllevan un peso moral y alteran el mundo del juego.
+
+Para avanzar con éxito en la historia principal y descubrir los misterios que rodean a la infección, debes seguir un camino estructurado. Esto implica recopilar información de los supervivientes locales, realizar entregas de suministros y resolver conflictos entre grupos rivales.
+
+<Steps>
+  <Step num="1" title="Iniciar contacto con PNJ">
+    Localiza personajes clave en zonas seguras o puestos ocultos. Habla con ellos para desbloquear misiones de historia y recopilar pistas sobre la región circundante.
+  </Step>
+  <Step num="2" title="Evaluar tus opciones">
+    Cuando se te presenten opciones de diálogo ramificadas, considera el impacto a largo plazo en tu reputación. Ayudar a un superviviente podría alejar a otra facción.
+  </Step>
+  <Step num="3" title="Reunir objetos de misión">
+    Viaja a las ubicaciones marcadas en tu mapa para recuperar suministros críticos, documentos o equipo de supervivencia. Prepárate para luchar a través de hordas de infectados para alcanzarlos.
+  </Step>
+  <Step num="4" title="Reclamar recompensas de misión">
+    Regresa con el dador de la misión para entregar tus objetivos. Acumula puntos de reputación, dinero y materiales raros para financiar tus esfuerzos de supervivencia.
+  </Step>
+</Steps>
+
+<Table>
+| Dador de misión | Selección de opción | Reputación de facción | Recompensa inmediata | Consecuencia a largo plazo |
+| :--- | :--- | :--- | :--- | :--- |
+| Superviviente amistoso | Compartir medicina | Positiva | Kit médico básico | Desbloquea opciones de comercio avanzadas |
+| Carroñero hostil | Rechazar exigencias | Negativa | Materiales de armas | Mayor número de encuentros aleatorios en las ruinas |
+| Comerciante neutral | Comercio justo | Neutral | Equipo de supervivencia con descuento | Acceso a planos de armas exclusivos |
+
+</Table>
+
+<Callout type="tip" title="Gestión de reputación">
+Se recomienda encarecidamente mantener una reputación positiva con los comerciantes al principio del juego, ya que reduce significativamente el coste de los suministros esenciales de comida y agua.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de niveles de armas y equipo de supervivencia">
+
+Defenderte de las amenazas infectadas requiere una comprensión sólida del arsenal disponible. Las armas se dividen en categorías de cuerpo a cuerpo y a distancia, y cada una cumple una función específica en el combate. Las armas cuerpo a cuerpo son silenciosas, lo que las hace ideales para la exploración sigilosa, mientras que las armas de fuego a distancia infligen un daño masivo a costa de atraer a los enemigos cercanos con un ruido fuerte. Gestionar el espacio de tu inventario para llevar tanto un arma principal como herramientas de utilidad es crucial para la supervivencia a largo plazo.
+
+Para ayudarte a priorizar las mejoras de tu equipo, hemos categorizado los objetos y armas más efectivos según su daño, durabilidad y utilidad práctica en escenarios de alto peligro.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Esenciales de supervivencia y misiones críticas">
+    - **Bate de acero**: Alta durabilidad y velocidad de ataque rápida.
+    - **Pistola**: Defensa a distancia fiable para situaciones de emergencia.
+    - **Suministros médicos esenciales**: Detienen instantáneamente el progreso de la infección.
+  </Card>
+  <Card title="Nivel A: Equipo de combate y exploración">
+    - **Palanca**: Daño cuerpo a cuerpo equilibrado y útil para romper barreras.
+    - **Escopeta**: Daño devastador a corta distancia pero extremadamente ruidosa.
+    - **Linterna avanzada**: Esencial para navegar por interiores completamente oscuros.
+  </Card>
+  <Card title="Nivel B: Objetos de utilidad y economía">
+    - **Tablón de madera**: Barato de fabricar pero se rompe fácilmente en combate.
+    - **Chatarra**: Componente principal para la construcción de bases y reparaciones básicas.
+    - **Agua embotellada**: Mantiene los niveles de hidratación durante viajes largos.
+  </Card>
+</CardGrid>
+
+<Table>
+| Nombre del arma | Nivel | Tipo de daño | Alcance | Velocidad de ataque | Durabilidad |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Bate de acero | S | Cuerpo a cuerpo contundente | Corto | Rápida | Alta |
+| Palanca | A | Cuerpo a cuerpo contundente | Corto | Moderada | Muy alta |
+| Pistola | S | A distancia balística | Largo | Lenta | N/A (Usa munición) |
+| Tablón de madera | B | Cuerpo a cuerpo contundente | Corto | Lenta | Baja |
+
+</Table>
+
+<Callout type="success" title="Estrategia de combate">
+Apunta a la cabeza cuando uses armas cuerpo a cuerpo. Los tiros a la cabeza infligen el doble de daño y pueden aturdir a los enemigos infectados, lo que te permite conservar resistencia durante los enfrentamientos intensos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de bases y transición de recompensas de la demo">
+
+Establecer una base personal es tu objetivo final para la supervivencia a largo plazo en Evalia. Al reclamar un terreno vacío, obtienes acceso a un área de construcción personalizable donde puedes construir muros defensivos, cajas de almacenamiento y mesas de trabajo. Tu base sirve como un punto de reaparición seguro, lo que garantiza que no pierdas tu progreso acumulado con tanto esfuerzo al ser víctima de los infectados. Mejorar tu mesa de trabajo desbloquea recetas avanzadas, incluyendo armaduras de alto nivel y munición especializada.
+
+Además, los jugadores que pasen de la versión de demostración independiente a la experiencia completa deben tomar nota de los sistemas de recompensa. Aunque tus datos de guardado generales no se transfieren para evitar desequilibrios en la progresión, completar los objetivos de la demo te otorga cristales gratuitos en la versión completa, lo que te dará una ventaja significativa.
+
+<Table>
+| Categoría de característica | Versión demo | Versión completa | Estado de transferencia |
+| :--- | :--- | :--- | :--- |
+| Progreso de guardado | Restringido al área de la demo | Acceso completo al mundo abierto | No se transfiere |
+| Moneda de cristal | Obtenible mediante hitos | Totalmente integrada | Se transfiere como recompensa |
+| Construcción de bases | Desactivada | Totalmente habilitada con terrenos de guardado | N/A |
+| Base de datos de misiones | Solo prólogo | Historia ramificada | N/A |
+
+</Table>
+
+<Checklist
+  id="base-building-goals"
+  title="Lista de verificación de la base al principio del juego:"
+  items={[
+    "Localiza y reclama un terreno de construcción vacío cerca de una zona segura",
+    "Reúne 50 de madera y 20 de chatarra para muros básicos",
+    "Construye una caja de almacenamiento de madera básica para guardar el exceso de botín",
+    "Construye una mesa de trabajo de nivel uno para desbloquear recetas de herramientas avanzadas",
+    "Coloca un saco de dormir para establecer tu punto de reaparición permanente"
+  ]}
+/>
+
+<Callout type="info" title="Proceso para reclamar los cristales de la demo">
+Para reclamar tus cristales por completar la demo, asegúrate de haber iniciado sesión en la misma cuenta de Roblox utilizada para completarla. Las recompensas se acreditarán automáticamente en tu inventario al iniciar el juego completo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+Para ayudarte a dominar el mundo abierto de Evalia y descubrir cada secreto oculto, hemos recopilado respuestas a las preguntas más comunes de la comunidad.
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro al personaje o aspecto de piggy intercity bitsy?",
+    answer: "El personaje de piggy intercity bitsy se puede localizar al completar logros de exploración específicos en ruinas urbanas de alta amenaza. Asegúrate de haber desbloqueado la insignia correspondiente en tu registro de misiones para acceder al aspecto cosmético."
+  },
+  {
+    question: "¿Se transfiere mi progreso de la demo al juego completo?",
+    answer: "No, los datos de guardado de la demo no se transfieren a la versión completa. Sin embargo, completar la demo te recompensa con cristales gratuitos que se acreditarán automáticamente en tu cuenta en el juego principal."
+  },
+  {
+    question: "¿Cuál es la mejor manera de gestionar el hambre y la sed?",
+    answer: "Establece un terreno de base cerca de zonas seguras donde el agua limpia aparezca regularmente. Evita comer alimentos crudos que encuentres en las zonas de peligro, ya que pueden aumentar tu medidor de infección. Fabrica un purificador de agua lo antes posible."
+  },
+  {
+    question: "¿Puedo cambiar mis decisiones de la historia más adelante en el juego?",
+    answer: "Las decisiones de la historia en Piggy Intercity son permanentes para esa partida específica. Para experimentar diferentes ramas de la historia y resultados de facciones, necesitarás iniciar una nueva partida guardada."
+  }
+]} />
+
+<Callout type="success" title="Consejo de supervivencia final">
+Forma equipo siempre con otros supervivientes al entrar en sectores de alta amenaza. El juego cooperativo hace que la recolección de recursos sea más rápida y aumenta significativamente tus posibilidades de sobrevivir a los encuentros con infectados de élite.
+</Callout>
+
+</Section>
