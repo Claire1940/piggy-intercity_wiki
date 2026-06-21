@@ -1,0 +1,1050 @@
+{
+  "de": {
+    "demo": [
+      {
+        "slug": "piggy-intercity-demo-ending",
+        "file": "piggy-intercity-demo-ending"
+      },
+      {
+        "slug": "piggy-intercity-demo-gun",
+        "file": "piggy-intercity-demo-gun"
+      },
+      {
+        "slug": "piggy-intercity-demo-quests",
+        "file": "piggy-intercity-demo-quests"
+      },
+      {
+        "slug": "piggy-intercity-demo-release-date",
+        "file": "piggy-intercity-demo-release-date"
+      },
+      {
+        "slug": "piggy-intercity-demo-save",
+        "file": "piggy-intercity-demo-save"
+      },
+      {
+        "slug": "piggy-intercity-demo-v2",
+        "file": "piggy-intercity-demo-v2"
+      },
+      {
+        "slug": "piggy-intercity-demo",
+        "file": "piggy-intercity-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "piggy-intercity-base-building",
+        "file": "piggy-intercity-base-building"
+      },
+      {
+        "slug": "piggy-intercity-beginner-guide",
+        "file": "piggy-intercity-beginner-guide"
+      },
+      {
+        "slug": "piggy-intercity-bitsy",
+        "file": "piggy-intercity-bitsy"
+      },
+      {
+        "slug": "piggy-intercity-cars",
+        "file": "piggy-intercity-cars"
+      },
+      {
+        "slug": "piggy-intercity-codes",
+        "file": "piggy-intercity-codes"
+      },
+      {
+        "slug": "piggy-intercity-factions",
+        "file": "piggy-intercity-factions"
+      },
+      {
+        "slug": "piggy-intercity-guide",
+        "file": "piggy-intercity-guide"
+      },
+      {
+        "slug": "piggy-intercity-how-to-change-clothes",
+        "file": "piggy-intercity-how-to-change-clothes"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-crystal",
+        "file": "piggy-intercity-how-to-get-crystal"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-dirt",
+        "file": "piggy-intercity-how-to-get-dirt"
+      },
+      {
+        "slug": "piggy-intercity-how-to-play",
+        "file": "piggy-intercity-how-to-play"
+      },
+      {
+        "slug": "piggy-intercity-how-to-save",
+        "file": "piggy-intercity-how-to-save"
+      },
+      {
+        "slug": "piggy-intercity-infected",
+        "file": "piggy-intercity-infected"
+      },
+      {
+        "slug": "piggy-intercity-katie",
+        "file": "piggy-intercity-katie"
+      },
+      {
+        "slug": "piggy-intercity-kitty",
+        "file": "piggy-intercity-kitty"
+      },
+      {
+        "slug": "piggy-intercity-military",
+        "file": "piggy-intercity-military"
+      },
+      {
+        "slug": "piggy-intercity-secret-character",
+        "file": "piggy-intercity-secret-character"
+      },
+      {
+        "slug": "piggy-intercity-story",
+        "file": "piggy-intercity-story"
+      },
+      {
+        "slug": "piggy-intercity-tips",
+        "file": "piggy-intercity-tips"
+      }
+    ],
+    "map": [
+      {
+        "slug": "piggy-intercity-abandoned-house",
+        "file": "piggy-intercity-abandoned-house"
+      },
+      {
+        "slug": "piggy-intercity-all-areas",
+        "file": "piggy-intercity-all-areas"
+      },
+      {
+        "slug": "piggy-intercity-box-locations",
+        "file": "piggy-intercity-box-locations"
+      },
+      {
+        "slug": "piggy-intercity-capitol",
+        "file": "piggy-intercity-capitol"
+      },
+      {
+        "slug": "piggy-intercity-chest-locations",
+        "file": "piggy-intercity-chest-locations"
+      },
+      {
+        "slug": "piggy-intercity-fort",
+        "file": "piggy-intercity-fort"
+      },
+      {
+        "slug": "piggy-intercity-inner-city",
+        "file": "piggy-intercity-inner-city"
+      },
+      {
+        "slug": "piggy-intercity-locations",
+        "file": "piggy-intercity-locations"
+      },
+      {
+        "slug": "piggy-intercity-mall",
+        "file": "piggy-intercity-mall"
+      },
+      {
+        "slug": "piggy-intercity-map",
+        "file": "piggy-intercity-map"
+      },
+      {
+        "slug": "piggy-intercity-watch-tower",
+        "file": "piggy-intercity-watch-tower"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "piggy-intercity-all-quests",
+        "file": "piggy-intercity-all-quests"
+      },
+      {
+        "slug": "piggy-intercity-axelle-package",
+        "file": "piggy-intercity-axelle-package"
+      },
+      {
+        "slug": "piggy-intercity-badges",
+        "file": "piggy-intercity-badges"
+      },
+      {
+        "slug": "piggy-intercity-bandits-route",
+        "file": "piggy-intercity-bandits-route"
+      },
+      {
+        "slug": "piggy-intercity-characters",
+        "file": "piggy-intercity-characters"
+      },
+      {
+        "slug": "piggy-intercity-endings",
+        "file": "piggy-intercity-endings"
+      },
+      {
+        "slug": "piggy-intercity-mayor-bailey",
+        "file": "piggy-intercity-mayor-bailey"
+      },
+      {
+        "slug": "piggy-intercity-quests",
+        "file": "piggy-intercity-quests"
+      },
+      {
+        "slug": "piggy-intercity-school-choice",
+        "file": "piggy-intercity-school-choice"
+      },
+      {
+        "slug": "piggy-intercity-side-quests",
+        "file": "piggy-intercity-side-quests"
+      },
+      {
+        "slug": "piggy-intercity-willow",
+        "file": "piggy-intercity-willow"
+      },
+      {
+        "slug": "piggy-intercity-zizzy",
+        "file": "piggy-intercity-zizzy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "piggy-intercity-cancelled",
+        "file": "piggy-intercity-cancelled"
+      },
+      {
+        "slug": "piggy-intercity-countdown",
+        "file": "piggy-intercity-countdown"
+      },
+      {
+        "slug": "piggy-intercity-czech-time",
+        "file": "piggy-intercity-czech-time"
+      },
+      {
+        "slug": "piggy-intercity-delayed",
+        "file": "piggy-intercity-delayed"
+      },
+      {
+        "slug": "piggy-intercity-indonesia-time",
+        "file": "piggy-intercity-indonesia-time"
+      },
+      {
+        "slug": "piggy-intercity-release-date",
+        "file": "piggy-intercity-release-date"
+      },
+      {
+        "slug": "piggy-intercity-release-time",
+        "file": "piggy-intercity-release-time"
+      },
+      {
+        "slug": "piggy-intercity-update",
+        "file": "piggy-intercity-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "piggy-intercity-all-weapons",
+        "file": "piggy-intercity-all-weapons"
+      },
+      {
+        "slug": "piggy-intercity-armor",
+        "file": "piggy-intercity-armor"
+      },
+      {
+        "slug": "piggy-intercity-guns",
+        "file": "piggy-intercity-guns"
+      },
+      {
+        "slug": "piggy-intercity-katana",
+        "file": "piggy-intercity-katana"
+      },
+      {
+        "slug": "piggy-intercity-weapons",
+        "file": "piggy-intercity-weapons"
+      }
+    ]
+  },
+  "en": {
+    "demo": [
+      {
+        "slug": "piggy-intercity-demo-ending",
+        "file": "piggy-intercity-demo-ending"
+      },
+      {
+        "slug": "piggy-intercity-demo-gun",
+        "file": "piggy-intercity-demo-gun"
+      },
+      {
+        "slug": "piggy-intercity-demo-quests",
+        "file": "piggy-intercity-demo-quests"
+      },
+      {
+        "slug": "piggy-intercity-demo-release-date",
+        "file": "piggy-intercity-demo-release-date"
+      },
+      {
+        "slug": "piggy-intercity-demo-save",
+        "file": "piggy-intercity-demo-save"
+      },
+      {
+        "slug": "piggy-intercity-demo-v2",
+        "file": "piggy-intercity-demo-v2"
+      },
+      {
+        "slug": "piggy-intercity-demo",
+        "file": "piggy-intercity-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "piggy-intercity-base-building",
+        "file": "piggy-intercity-base-building"
+      },
+      {
+        "slug": "piggy-intercity-beginner-guide",
+        "file": "piggy-intercity-beginner-guide"
+      },
+      {
+        "slug": "piggy-intercity-bitsy",
+        "file": "piggy-intercity-bitsy"
+      },
+      {
+        "slug": "piggy-intercity-cars",
+        "file": "piggy-intercity-cars"
+      },
+      {
+        "slug": "piggy-intercity-codes",
+        "file": "piggy-intercity-codes"
+      },
+      {
+        "slug": "piggy-intercity-factions",
+        "file": "piggy-intercity-factions"
+      },
+      {
+        "slug": "piggy-intercity-guide",
+        "file": "piggy-intercity-guide"
+      },
+      {
+        "slug": "piggy-intercity-how-to-change-clothes",
+        "file": "piggy-intercity-how-to-change-clothes"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-crystal",
+        "file": "piggy-intercity-how-to-get-crystal"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-dirt",
+        "file": "piggy-intercity-how-to-get-dirt"
+      },
+      {
+        "slug": "piggy-intercity-how-to-play",
+        "file": "piggy-intercity-how-to-play"
+      },
+      {
+        "slug": "piggy-intercity-how-to-save",
+        "file": "piggy-intercity-how-to-save"
+      },
+      {
+        "slug": "piggy-intercity-infected",
+        "file": "piggy-intercity-infected"
+      },
+      {
+        "slug": "piggy-intercity-katie",
+        "file": "piggy-intercity-katie"
+      },
+      {
+        "slug": "piggy-intercity-kitty",
+        "file": "piggy-intercity-kitty"
+      },
+      {
+        "slug": "piggy-intercity-military",
+        "file": "piggy-intercity-military"
+      },
+      {
+        "slug": "piggy-intercity-secret-character",
+        "file": "piggy-intercity-secret-character"
+      },
+      {
+        "slug": "piggy-intercity-story",
+        "file": "piggy-intercity-story"
+      },
+      {
+        "slug": "piggy-intercity-tips",
+        "file": "piggy-intercity-tips"
+      }
+    ],
+    "map": [
+      {
+        "slug": "piggy-intercity-abandoned-house",
+        "file": "piggy-intercity-abandoned-house"
+      },
+      {
+        "slug": "piggy-intercity-all-areas",
+        "file": "piggy-intercity-all-areas"
+      },
+      {
+        "slug": "piggy-intercity-box-locations",
+        "file": "piggy-intercity-box-locations"
+      },
+      {
+        "slug": "piggy-intercity-capitol",
+        "file": "piggy-intercity-capitol"
+      },
+      {
+        "slug": "piggy-intercity-chest-locations",
+        "file": "piggy-intercity-chest-locations"
+      },
+      {
+        "slug": "piggy-intercity-fort",
+        "file": "piggy-intercity-fort"
+      },
+      {
+        "slug": "piggy-intercity-inner-city",
+        "file": "piggy-intercity-inner-city"
+      },
+      {
+        "slug": "piggy-intercity-locations",
+        "file": "piggy-intercity-locations"
+      },
+      {
+        "slug": "piggy-intercity-mall",
+        "file": "piggy-intercity-mall"
+      },
+      {
+        "slug": "piggy-intercity-map",
+        "file": "piggy-intercity-map"
+      },
+      {
+        "slug": "piggy-intercity-watch-tower",
+        "file": "piggy-intercity-watch-tower"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "piggy-intercity-all-quests",
+        "file": "piggy-intercity-all-quests"
+      },
+      {
+        "slug": "piggy-intercity-axelle-package",
+        "file": "piggy-intercity-axelle-package"
+      },
+      {
+        "slug": "piggy-intercity-badges",
+        "file": "piggy-intercity-badges"
+      },
+      {
+        "slug": "piggy-intercity-bandits-route",
+        "file": "piggy-intercity-bandits-route"
+      },
+      {
+        "slug": "piggy-intercity-characters",
+        "file": "piggy-intercity-characters"
+      },
+      {
+        "slug": "piggy-intercity-endings",
+        "file": "piggy-intercity-endings"
+      },
+      {
+        "slug": "piggy-intercity-mayor-bailey",
+        "file": "piggy-intercity-mayor-bailey"
+      },
+      {
+        "slug": "piggy-intercity-quests",
+        "file": "piggy-intercity-quests"
+      },
+      {
+        "slug": "piggy-intercity-school-choice",
+        "file": "piggy-intercity-school-choice"
+      },
+      {
+        "slug": "piggy-intercity-side-quests",
+        "file": "piggy-intercity-side-quests"
+      },
+      {
+        "slug": "piggy-intercity-willow",
+        "file": "piggy-intercity-willow"
+      },
+      {
+        "slug": "piggy-intercity-zizzy",
+        "file": "piggy-intercity-zizzy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "piggy-intercity-cancelled",
+        "file": "piggy-intercity-cancelled"
+      },
+      {
+        "slug": "piggy-intercity-countdown",
+        "file": "piggy-intercity-countdown"
+      },
+      {
+        "slug": "piggy-intercity-czech-time",
+        "file": "piggy-intercity-czech-time"
+      },
+      {
+        "slug": "piggy-intercity-delayed",
+        "file": "piggy-intercity-delayed"
+      },
+      {
+        "slug": "piggy-intercity-indonesia-time",
+        "file": "piggy-intercity-indonesia-time"
+      },
+      {
+        "slug": "piggy-intercity-release-date",
+        "file": "piggy-intercity-release-date"
+      },
+      {
+        "slug": "piggy-intercity-release-time",
+        "file": "piggy-intercity-release-time"
+      },
+      {
+        "slug": "piggy-intercity-update",
+        "file": "piggy-intercity-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "piggy-intercity-all-weapons",
+        "file": "piggy-intercity-all-weapons"
+      },
+      {
+        "slug": "piggy-intercity-armor",
+        "file": "piggy-intercity-armor"
+      },
+      {
+        "slug": "piggy-intercity-guns",
+        "file": "piggy-intercity-guns"
+      },
+      {
+        "slug": "piggy-intercity-katana",
+        "file": "piggy-intercity-katana"
+      },
+      {
+        "slug": "piggy-intercity-weapons",
+        "file": "piggy-intercity-weapons"
+      }
+    ]
+  },
+  "es": {
+    "demo": [
+      {
+        "slug": "piggy-intercity-demo-ending",
+        "file": "piggy-intercity-demo-ending"
+      },
+      {
+        "slug": "piggy-intercity-demo-gun",
+        "file": "piggy-intercity-demo-gun"
+      },
+      {
+        "slug": "piggy-intercity-demo-quests",
+        "file": "piggy-intercity-demo-quests"
+      },
+      {
+        "slug": "piggy-intercity-demo-release-date",
+        "file": "piggy-intercity-demo-release-date"
+      },
+      {
+        "slug": "piggy-intercity-demo-save",
+        "file": "piggy-intercity-demo-save"
+      },
+      {
+        "slug": "piggy-intercity-demo-v2",
+        "file": "piggy-intercity-demo-v2"
+      },
+      {
+        "slug": "piggy-intercity-demo",
+        "file": "piggy-intercity-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "piggy-intercity-base-building",
+        "file": "piggy-intercity-base-building"
+      },
+      {
+        "slug": "piggy-intercity-beginner-guide",
+        "file": "piggy-intercity-beginner-guide"
+      },
+      {
+        "slug": "piggy-intercity-bitsy",
+        "file": "piggy-intercity-bitsy"
+      },
+      {
+        "slug": "piggy-intercity-cars",
+        "file": "piggy-intercity-cars"
+      },
+      {
+        "slug": "piggy-intercity-codes",
+        "file": "piggy-intercity-codes"
+      },
+      {
+        "slug": "piggy-intercity-factions",
+        "file": "piggy-intercity-factions"
+      },
+      {
+        "slug": "piggy-intercity-guide",
+        "file": "piggy-intercity-guide"
+      },
+      {
+        "slug": "piggy-intercity-how-to-change-clothes",
+        "file": "piggy-intercity-how-to-change-clothes"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-crystal",
+        "file": "piggy-intercity-how-to-get-crystal"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-dirt",
+        "file": "piggy-intercity-how-to-get-dirt"
+      },
+      {
+        "slug": "piggy-intercity-how-to-play",
+        "file": "piggy-intercity-how-to-play"
+      },
+      {
+        "slug": "piggy-intercity-how-to-save",
+        "file": "piggy-intercity-how-to-save"
+      },
+      {
+        "slug": "piggy-intercity-infected",
+        "file": "piggy-intercity-infected"
+      },
+      {
+        "slug": "piggy-intercity-katie",
+        "file": "piggy-intercity-katie"
+      },
+      {
+        "slug": "piggy-intercity-kitty",
+        "file": "piggy-intercity-kitty"
+      },
+      {
+        "slug": "piggy-intercity-military",
+        "file": "piggy-intercity-military"
+      },
+      {
+        "slug": "piggy-intercity-secret-character",
+        "file": "piggy-intercity-secret-character"
+      },
+      {
+        "slug": "piggy-intercity-story",
+        "file": "piggy-intercity-story"
+      },
+      {
+        "slug": "piggy-intercity-tips",
+        "file": "piggy-intercity-tips"
+      }
+    ],
+    "map": [
+      {
+        "slug": "piggy-intercity-abandoned-house",
+        "file": "piggy-intercity-abandoned-house"
+      },
+      {
+        "slug": "piggy-intercity-all-areas",
+        "file": "piggy-intercity-all-areas"
+      },
+      {
+        "slug": "piggy-intercity-box-locations",
+        "file": "piggy-intercity-box-locations"
+      },
+      {
+        "slug": "piggy-intercity-capitol",
+        "file": "piggy-intercity-capitol"
+      },
+      {
+        "slug": "piggy-intercity-chest-locations",
+        "file": "piggy-intercity-chest-locations"
+      },
+      {
+        "slug": "piggy-intercity-fort",
+        "file": "piggy-intercity-fort"
+      },
+      {
+        "slug": "piggy-intercity-inner-city",
+        "file": "piggy-intercity-inner-city"
+      },
+      {
+        "slug": "piggy-intercity-locations",
+        "file": "piggy-intercity-locations"
+      },
+      {
+        "slug": "piggy-intercity-mall",
+        "file": "piggy-intercity-mall"
+      },
+      {
+        "slug": "piggy-intercity-map",
+        "file": "piggy-intercity-map"
+      },
+      {
+        "slug": "piggy-intercity-watch-tower",
+        "file": "piggy-intercity-watch-tower"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "piggy-intercity-all-quests",
+        "file": "piggy-intercity-all-quests"
+      },
+      {
+        "slug": "piggy-intercity-axelle-package",
+        "file": "piggy-intercity-axelle-package"
+      },
+      {
+        "slug": "piggy-intercity-badges",
+        "file": "piggy-intercity-badges"
+      },
+      {
+        "slug": "piggy-intercity-bandits-route",
+        "file": "piggy-intercity-bandits-route"
+      },
+      {
+        "slug": "piggy-intercity-characters",
+        "file": "piggy-intercity-characters"
+      },
+      {
+        "slug": "piggy-intercity-endings",
+        "file": "piggy-intercity-endings"
+      },
+      {
+        "slug": "piggy-intercity-mayor-bailey",
+        "file": "piggy-intercity-mayor-bailey"
+      },
+      {
+        "slug": "piggy-intercity-quests",
+        "file": "piggy-intercity-quests"
+      },
+      {
+        "slug": "piggy-intercity-school-choice",
+        "file": "piggy-intercity-school-choice"
+      },
+      {
+        "slug": "piggy-intercity-side-quests",
+        "file": "piggy-intercity-side-quests"
+      },
+      {
+        "slug": "piggy-intercity-willow",
+        "file": "piggy-intercity-willow"
+      },
+      {
+        "slug": "piggy-intercity-zizzy",
+        "file": "piggy-intercity-zizzy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "piggy-intercity-cancelled",
+        "file": "piggy-intercity-cancelled"
+      },
+      {
+        "slug": "piggy-intercity-countdown",
+        "file": "piggy-intercity-countdown"
+      },
+      {
+        "slug": "piggy-intercity-czech-time",
+        "file": "piggy-intercity-czech-time"
+      },
+      {
+        "slug": "piggy-intercity-delayed",
+        "file": "piggy-intercity-delayed"
+      },
+      {
+        "slug": "piggy-intercity-indonesia-time",
+        "file": "piggy-intercity-indonesia-time"
+      },
+      {
+        "slug": "piggy-intercity-release-date",
+        "file": "piggy-intercity-release-date"
+      },
+      {
+        "slug": "piggy-intercity-release-time",
+        "file": "piggy-intercity-release-time"
+      },
+      {
+        "slug": "piggy-intercity-update",
+        "file": "piggy-intercity-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "piggy-intercity-all-weapons",
+        "file": "piggy-intercity-all-weapons"
+      },
+      {
+        "slug": "piggy-intercity-armor",
+        "file": "piggy-intercity-armor"
+      },
+      {
+        "slug": "piggy-intercity-guns",
+        "file": "piggy-intercity-guns"
+      },
+      {
+        "slug": "piggy-intercity-katana",
+        "file": "piggy-intercity-katana"
+      },
+      {
+        "slug": "piggy-intercity-weapons",
+        "file": "piggy-intercity-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "demo": [
+      {
+        "slug": "piggy-intercity-demo-ending",
+        "file": "piggy-intercity-demo-ending"
+      },
+      {
+        "slug": "piggy-intercity-demo-gun",
+        "file": "piggy-intercity-demo-gun"
+      },
+      {
+        "slug": "piggy-intercity-demo-quests",
+        "file": "piggy-intercity-demo-quests"
+      },
+      {
+        "slug": "piggy-intercity-demo-release-date",
+        "file": "piggy-intercity-demo-release-date"
+      },
+      {
+        "slug": "piggy-intercity-demo-save",
+        "file": "piggy-intercity-demo-save"
+      },
+      {
+        "slug": "piggy-intercity-demo-v2",
+        "file": "piggy-intercity-demo-v2"
+      },
+      {
+        "slug": "piggy-intercity-demo",
+        "file": "piggy-intercity-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "piggy-intercity-base-building",
+        "file": "piggy-intercity-base-building"
+      },
+      {
+        "slug": "piggy-intercity-beginner-guide",
+        "file": "piggy-intercity-beginner-guide"
+      },
+      {
+        "slug": "piggy-intercity-bitsy",
+        "file": "piggy-intercity-bitsy"
+      },
+      {
+        "slug": "piggy-intercity-cars",
+        "file": "piggy-intercity-cars"
+      },
+      {
+        "slug": "piggy-intercity-codes",
+        "file": "piggy-intercity-codes"
+      },
+      {
+        "slug": "piggy-intercity-factions",
+        "file": "piggy-intercity-factions"
+      },
+      {
+        "slug": "piggy-intercity-guide",
+        "file": "piggy-intercity-guide"
+      },
+      {
+        "slug": "piggy-intercity-how-to-change-clothes",
+        "file": "piggy-intercity-how-to-change-clothes"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-crystal",
+        "file": "piggy-intercity-how-to-get-crystal"
+      },
+      {
+        "slug": "piggy-intercity-how-to-get-dirt",
+        "file": "piggy-intercity-how-to-get-dirt"
+      },
+      {
+        "slug": "piggy-intercity-how-to-play",
+        "file": "piggy-intercity-how-to-play"
+      },
+      {
+        "slug": "piggy-intercity-how-to-save",
+        "file": "piggy-intercity-how-to-save"
+      },
+      {
+        "slug": "piggy-intercity-infected",
+        "file": "piggy-intercity-infected"
+      },
+      {
+        "slug": "piggy-intercity-katie",
+        "file": "piggy-intercity-katie"
+      },
+      {
+        "slug": "piggy-intercity-kitty",
+        "file": "piggy-intercity-kitty"
+      },
+      {
+        "slug": "piggy-intercity-military",
+        "file": "piggy-intercity-military"
+      },
+      {
+        "slug": "piggy-intercity-secret-character",
+        "file": "piggy-intercity-secret-character"
+      },
+      {
+        "slug": "piggy-intercity-story",
+        "file": "piggy-intercity-story"
+      },
+      {
+        "slug": "piggy-intercity-tips",
+        "file": "piggy-intercity-tips"
+      }
+    ],
+    "map": [
+      {
+        "slug": "piggy-intercity-abandoned-house",
+        "file": "piggy-intercity-abandoned-house"
+      },
+      {
+        "slug": "piggy-intercity-all-areas",
+        "file": "piggy-intercity-all-areas"
+      },
+      {
+        "slug": "piggy-intercity-box-locations",
+        "file": "piggy-intercity-box-locations"
+      },
+      {
+        "slug": "piggy-intercity-capitol",
+        "file": "piggy-intercity-capitol"
+      },
+      {
+        "slug": "piggy-intercity-chest-locations",
+        "file": "piggy-intercity-chest-locations"
+      },
+      {
+        "slug": "piggy-intercity-fort",
+        "file": "piggy-intercity-fort"
+      },
+      {
+        "slug": "piggy-intercity-inner-city",
+        "file": "piggy-intercity-inner-city"
+      },
+      {
+        "slug": "piggy-intercity-locations",
+        "file": "piggy-intercity-locations"
+      },
+      {
+        "slug": "piggy-intercity-mall",
+        "file": "piggy-intercity-mall"
+      },
+      {
+        "slug": "piggy-intercity-map",
+        "file": "piggy-intercity-map"
+      },
+      {
+        "slug": "piggy-intercity-watch-tower",
+        "file": "piggy-intercity-watch-tower"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "piggy-intercity-all-quests",
+        "file": "piggy-intercity-all-quests"
+      },
+      {
+        "slug": "piggy-intercity-axelle-package",
+        "file": "piggy-intercity-axelle-package"
+      },
+      {
+        "slug": "piggy-intercity-badges",
+        "file": "piggy-intercity-badges"
+      },
+      {
+        "slug": "piggy-intercity-bandits-route",
+        "file": "piggy-intercity-bandits-route"
+      },
+      {
+        "slug": "piggy-intercity-characters",
+        "file": "piggy-intercity-characters"
+      },
+      {
+        "slug": "piggy-intercity-endings",
+        "file": "piggy-intercity-endings"
+      },
+      {
+        "slug": "piggy-intercity-mayor-bailey",
+        "file": "piggy-intercity-mayor-bailey"
+      },
+      {
+        "slug": "piggy-intercity-quests",
+        "file": "piggy-intercity-quests"
+      },
+      {
+        "slug": "piggy-intercity-school-choice",
+        "file": "piggy-intercity-school-choice"
+      },
+      {
+        "slug": "piggy-intercity-side-quests",
+        "file": "piggy-intercity-side-quests"
+      },
+      {
+        "slug": "piggy-intercity-willow",
+        "file": "piggy-intercity-willow"
+      },
+      {
+        "slug": "piggy-intercity-zizzy",
+        "file": "piggy-intercity-zizzy"
+      }
+    ],
+    "release": [
+      {
+        "slug": "piggy-intercity-cancelled",
+        "file": "piggy-intercity-cancelled"
+      },
+      {
+        "slug": "piggy-intercity-countdown",
+        "file": "piggy-intercity-countdown"
+      },
+      {
+        "slug": "piggy-intercity-czech-time",
+        "file": "piggy-intercity-czech-time"
+      },
+      {
+        "slug": "piggy-intercity-delayed",
+        "file": "piggy-intercity-delayed"
+      },
+      {
+        "slug": "piggy-intercity-indonesia-time",
+        "file": "piggy-intercity-indonesia-time"
+      },
+      {
+        "slug": "piggy-intercity-release-date",
+        "file": "piggy-intercity-release-date"
+      },
+      {
+        "slug": "piggy-intercity-release-time",
+        "file": "piggy-intercity-release-time"
+      },
+      {
+        "slug": "piggy-intercity-update",
+        "file": "piggy-intercity-update"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "piggy-intercity-all-weapons",
+        "file": "piggy-intercity-all-weapons"
+      },
+      {
+        "slug": "piggy-intercity-armor",
+        "file": "piggy-intercity-armor"
+      },
+      {
+        "slug": "piggy-intercity-guns",
+        "file": "piggy-intercity-guns"
+      },
+      {
+        "slug": "piggy-intercity-katana",
+        "file": "piggy-intercity-katana"
+      },
+      {
+        "slug": "piggy-intercity-weapons",
+        "file": "piggy-intercity-weapons"
+      }
+    ]
+  }
+}
