@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Piggy Intercity: Beginner Survival Guide & Tips",
+  description: "Master Piggy Intercity with our survival guide, covering Evalia exploration, quest mechanics, character choices, and base building essentials for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e85d98/fff?text=Piggy+Intercity+Guide",
+  date: "2026-06-24",
+  author: "piggy intercity Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Piggy Intercity** is a choice-driven open-world RPG where survival in Evalia requires strategic exploration.
+- **Demo completion** is essential for players to earn free crystals for use in the full version.
+- **Character choices** impact relationships and story outcomes, making every dialogue interaction meaningful.
+- **Base building** and resource management are core mechanics for long-term survival and progression.
+- **Official Roblox pages** should be used exclusively to ensure you are playing the correct live version.
+</Callout>
+
+<Section icon={Map} title="Getting Started in Evalia">
+
+Navigating the infected world of Evalia requires a clear understanding of the game's structure. As a choice-driven RPG, your initial decisions set the foundation for your survival journey. 
+
+**Video Highlights:**
+- Official gameplay overview of the open-world mechanics
+- Navigating key danger zones in Evalia
+- Understanding the importance of NPC dialogue choices
+
+<YouTubeEmbed videoId="nzvMQLvB4Ac" title="Piggy Intercity Official Overview Trailer" />
+
+Players should prioritize identifying safe zones versus high-threat infection areas. The following table highlights the differences between the demo and the full version to help you manage your expectations and progression.
+
+| Feature | Demo Version | Full Version |
+| :--- | :--- | :--- |
+| Progression | Limited | Persistent/Full |
+| Content | Basics only | Quests, Items, Bases |
+| Save Data | None | Supported |
+| Rewards | Crystal Unlock | Full Experience |
+
+<Callout type="tip" title="Pro Tip">
+Always verify you are accessing the [Official Piggy: Intercity Roblox Page](https://www.roblox.com/games/86852362398411/Piggy-Intercity) to avoid fan-made versions that lack the latest stability and features.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Survival Progression">
+
+Survival in Piggy Intercity is not just about combat; it is about managing your resources and completing objective-based quests. Follow these steps to optimize your first hour in the game.
+
+<Steps>
+  <Step num="1" title="Initial Spawn">
+    Enter the game and immediately survey your surroundings for basic resources and nearby safe zones.
+  </Step>
+  <Step num="2" title="NPC Interaction">
+    Locate NPCs to initiate your first quest. Read dialogue options carefully, as these choices influence your reputation.
+  </Step>
+  <Step num="3" title="Resource Gathering">
+    Focus on collecting items necessary for base building and survival, such as food, water, and craftable tools.
+  </Step>
+  <Step num="4" title="Base Setup">
+    Claim your plot early to establish a secure area for crafting and storage, which is vital for long-term play.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important">
+Avoid rushing through dialogue sequences. In Piggy Intercity, your choices have permanent consequences on how NPCs interact with you and how the world responds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Items and Gear Strategy">
+
+Effective management of your inventory is the difference between thriving and failing. We categorize items based on their utility for quest progression and combat survival.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier Essentials">
+    - Quest-critical items
+    - Core survival supplies
+    - Reliable defensive gear
+  </Card>
+  <Card title="A-Tier Utility">
+    - Combat weapons
+    - Exploration tools
+    - Base-building resources
+  </Card>
+  <Card title="B-Tier Support">
+    - Shopping supplies
+    - Currency/Crystals
+    - Cosmetic enhancements
+  </Card>
+</CardGrid>
+
+The following table categorizes gear based on their primary function within your survival loadout.
+
+| Category | Priority | Best Usage |
+| :--- | :--- | :--- |
+| Survival | High | Maintaining hunger/thirst |
+| Quest Items | High | Advancing story missions |
+| Combat Gear | Medium | Clearing infected routes |
+| Base Materials | Medium | Constructing defenses |
+
+</Section>
+
+<Section icon={Trophy} title="Milestones and Goals">
+
+To master Piggy Intercity, you should track your progress through specific milestones. Use this checklist to ensure you are not missing out on key game systems.
+
+<Checklist
+  id="survival-milestones"
+  title="Survival Checklist:"
+  items={[
+    "Complete the demo to unlock free crystals",
+    "Establish a functional base with a crafting table",
+    "Interact with key NPCs to unlock early quest lines",
+    "Acquire a reliable primary weapon for exploration",
+    "Explore three distinct regions of Evalia"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+Focusing on base building early allows you to store excess resources, preventing inventory clutter during long exploration runs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does my demo progress save to the full version?",
+    answer: "No, save data from the Piggy Intercity demo does not transfer. However, completing the demo grants you free crystals in the full game."
+  },
+  {
+    question: "How do I make the best choices in Piggy Intercity?",
+    answer: "Pay close attention to NPC dialogue and the context of the situation. Your choices affect your reputation and the world state, so think before you click."
+  },
+  {
+    question: "What is the primary way to get more items?",
+    answer: "You can obtain items by scavenging in the open world, completing quests, or visiting designated shopping areas within Evalia."
+  },
+  {
+    question: "Is base building necessary for survival?",
+    answer: "Yes, base building is a core system that provides a safe area for storage, crafting, and long-term progression in the full version of Piggy Intercity."
+  }
+]} />
+
+</Section>
